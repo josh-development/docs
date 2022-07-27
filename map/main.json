@@ -1,0 +1,2560 @@
+{
+  "id": 0,
+  "name": "@joshdb/map",
+  "classes": [
+    {
+      "id": 1,
+      "name": "MapProvider",
+      "comment": {
+        "description": "A provider that uses the Node.js native [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) class.",
+        "blockTags": [
+          {
+            "name": "since",
+            "text": "2.0.0"
+          }
+        ],
+        "modifierTags": []
+      },
+      "source": {
+        "line": 30,
+        "file": "MapProvider.ts",
+        "path": "src/lib"
+      },
+      "external": false,
+      "abstract": false,
+      "extendsType": {
+        "kind": "reference",
+        "id": null,
+        "name": "JoshProvider",
+        "packageName": "@joshdb/provider",
+        "typeArguments": [
+          {
+            "kind": "reference",
+            "id": 4,
+            "name": "StoredValue",
+            "packageName": null,
+            "typeArguments": []
+          }
+        ]
+      },
+      "implementsType": [],
+      "construct": {
+        "id": 2,
+        "name": "constructor",
+        "comment": {
+          "description": null,
+          "blockTags": [],
+          "modifierTags": []
+        },
+        "source": {
+          "line": 1225,
+          "file": "index.d.ts",
+          "path": "node_modules/@joshdb/provider/dist"
+        },
+        "parameters": [
+          {
+            "id": 5,
+            "name": "options",
+            "type": {
+              "kind": "reference",
+              "id": null,
+              "name": "JoshProvider.Options",
+              "packageName": "@joshdb/provider",
+              "typeArguments": []
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "id": 9,
+          "name": "autoKeyCount",
+          "comment": {
+            "description": "A simple cache for the autoKey method.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              }
+            ],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 45,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "private",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "intrinsic",
+            "type": "number"
+          }
+        },
+        {
+          "id": 8,
+          "name": "cache",
+          "comment": {
+            "description": "The [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) cache to store data.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              }
+            ],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 39,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "private",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": null,
+            "name": "Map",
+            "packageName": "typescript",
+            "typeArguments": [
+              {
+                "kind": "intrinsic",
+                "type": "string"
+              },
+              {
+                "kind": "reference",
+                "id": 4,
+                "name": "StoredValue",
+                "packageName": null,
+                "typeArguments": []
+              }
+            ]
+          }
+        },
+        {
+          "id": 122,
+          "name": "migrations",
+          "comment": {
+            "description": "Data migrations for this provider.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              }
+            ],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1219,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "array",
+            "type": {
+              "kind": "reference",
+              "id": null,
+              "name": "JoshProvider.Migration",
+              "packageName": "@joshdb/provider",
+              "typeArguments": []
+            }
+          }
+        },
+        {
+          "id": 120,
+          "name": "name",
+          "comment": {
+            "description": "The name for this provider.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              }
+            ],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1209,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": true,
+          "type": {
+            "kind": "intrinsic",
+            "type": "string"
+          }
+        },
+        {
+          "id": 121,
+          "name": "options",
+          "comment": {
+            "description": "The options for this provider.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              }
+            ],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1214,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": null,
+            "name": "JoshProvider.Options",
+            "packageName": "@joshdb/provider",
+            "typeArguments": []
+          }
+        },
+        {
+          "id": 7,
+          "name": "version",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 31,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": null,
+            "name": "JoshProvider.Semver",
+            "packageName": "@joshdb/provider",
+            "typeArguments": []
+          }
+        }
+      ],
+      "methods": [
+        {
+          "id": 12,
+          "name": "autoKey",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 47,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 13,
+              "name": "autoKey",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 14,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.AutoKey",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.AutoKey",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "clear",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 54,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 16,
+              "name": "clear",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 17,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Clear",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.Clear",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "dec",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 61,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 19,
+              "name": "dec",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 20,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Dec",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.Dec",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "delete",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 80,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 22,
+              "name": "delete",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 23,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Delete",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.Delete",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "deleteMany",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 89,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 25,
+              "name": "deleteMany",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 26,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.DeleteMany",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.DeleteMany",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "name": "each",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 97,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 28,
+              "name": "each",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 29,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Each",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Each",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": "ensure",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 105,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 31,
+              "name": "ensure",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 32,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Ensure",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.Ensure",
+                "packageName": "@joshdb/provider",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 4,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "name": "entries",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 116,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 34,
+              "name": "entries",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 35,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Entries",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.Entries",
+                "packageName": "@joshdb/provider",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 4,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 126,
+          "name": "error",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1558,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist"
+          },
+          "accessibility": "protected",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 127,
+              "name": "error",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 128,
+                  "name": "options",
+                  "type": {
+                    "kind": "union",
+                    "types": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "string"
+                      },
+                      {
+                        "kind": "reference",
+                        "id": null,
+                        "name": "JoshProviderErrorOptions",
+                        "packageName": "@joshdb/provider",
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 129,
+                  "name": "metadata",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Record",
+                    "packageName": "typescript",
+                    "typeArguments": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "string"
+                      },
+                      {
+                        "kind": "intrinsic",
+                        "type": "unknown"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "JoshProviderError",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "name": "every",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 122,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 37,
+              "name": "every",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 38,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Every.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Every.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 39,
+              "name": "every",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 40,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Every.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Every.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "fetchVersion",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 655,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "protected",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 11,
+              "name": "fetchVersion",
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "JoshProvider.Semver",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "name": "filter",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 166,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 42,
+              "name": "filter",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 43,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Filter.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Filter.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 44,
+              "name": "filter",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 45,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Filter.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Filter.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 46,
+          "name": "find",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 201,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 47,
+              "name": "find",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 48,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Find.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Find.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 49,
+              "name": "find",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 50,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Find.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Find.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 51,
+          "name": "get",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 256,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 52,
+              "name": "get",
+              "typeParameters": [
+                {
+                  "id": 53,
+                  "name": "Value",
+                  "type": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 4,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 54,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Get",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 53,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.Get",
+                "packageName": "@joshdb/provider",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 53,
+                    "name": "Value",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 55,
+          "name": "getMany",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 270,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 56,
+              "name": "getMany",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 57,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.GetMany",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.GetMany",
+                "packageName": "@joshdb/provider",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 4,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 58,
+          "name": "has",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 278,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 59,
+              "name": "has",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 60,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Has",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.Has",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 61,
+          "name": "inc",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 286,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 62,
+              "name": "inc",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 63,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Inc",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.Inc",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 123,
+          "name": "init",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1242,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 124,
+              "name": "init",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 125,
+                  "name": "context",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "JoshProvider.Context",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "JoshProvider.Context",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 64,
+          "name": "keys",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 305,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 65,
+              "name": "keys",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 66,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Keys",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.Keys",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 67,
+          "name": "map",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 311,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 68,
+              "name": "map",
+              "typeParameters": [
+                {
+                  "id": 69,
+                  "name": "Value",
+                  "type": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 4,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 70,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Map.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 69,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Map.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 69,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 71,
+              "name": "map",
+              "typeParameters": [
+                {
+                  "id": 72,
+                  "name": "Value",
+                  "type": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 4,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 73,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Map.ByPath",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 72,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Map.ByPath",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 72,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 74,
+          "name": "math",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 335,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 75,
+              "name": "math",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 76,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Math",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.Math",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 77,
+          "name": "partition",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 386,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 78,
+              "name": "partition",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 79,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Partition.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Partition.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 80,
+              "name": "partition",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 81,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Partition.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Partition.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 82,
+          "name": "push",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 427,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 83,
+              "name": "push",
+              "typeParameters": [
+                {
+                  "id": 84,
+                  "name": "Value",
+                  "type": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 4,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 85,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Push",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 84,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.Push",
+                "packageName": "@joshdb/provider",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 84,
+                    "name": "Value",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 86,
+          "name": "random",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 447,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 87,
+              "name": "random",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 88,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Random",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.Random",
+                "packageName": "@joshdb/provider",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 4,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 89,
+          "name": "randomKey",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 480,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 90,
+              "name": "randomKey",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 91,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.RandomKey",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.RandomKey",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 92,
+          "name": "remove",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 509,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 93,
+              "name": "remove",
+              "typeParameters": [
+                {
+                  "id": 94,
+                  "name": "Value",
+                  "type": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 4,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 95,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Remove.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 94,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Remove.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 94,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 96,
+              "name": "remove",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 97,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Remove.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Remove.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 130,
+          "name": "resolveIdentifier",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1565,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist"
+          },
+          "accessibility": "protected",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 131,
+              "name": "resolveIdentifier",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 132,
+                  "name": "identifier",
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                },
+                {
+                  "id": 133,
+                  "name": "metadata",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Record",
+                    "packageName": "typescript",
+                    "typeArguments": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "string"
+                      },
+                      {
+                        "kind": "intrinsic",
+                        "type": "unknown"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134,
+          "name": "resolveVersion",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1571,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist"
+          },
+          "accessibility": "protected",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 135,
+              "name": "resolveVersion",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 136,
+                  "name": "version",
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "JoshProvider.Semver",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 98,
+          "name": "set",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 557,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 99,
+              "name": "set",
+              "typeParameters": [
+                {
+                  "id": 100,
+                  "name": "Value",
+                  "type": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 4,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 101,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Set",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 100,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.Set",
+                "packageName": "@joshdb/provider",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 100,
+                    "name": "Value",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "name": "setMany",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 570,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 103,
+              "name": "setMany",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 104,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.SetMany",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.SetMany",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 105,
+          "name": "size",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 581,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 106,
+              "name": "size",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 107,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Size",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.Size",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 108,
+          "name": "some",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 587,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 109,
+              "name": "some",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 110,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Some.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Some.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 111,
+              "name": "some",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 112,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Some.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Some.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 113,
+          "name": "update",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 634,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 114,
+              "name": "update",
+              "typeParameters": [
+                {
+                  "id": 115,
+                  "name": "Value",
+                  "type": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 4,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 116,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Update",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 115,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Update",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 115,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 117,
+          "name": "values",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 649,
+            "file": "MapProvider.ts",
+            "path": "src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 118,
+              "name": "values",
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 119,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Values",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.Values",
+                "packageName": "@joshdb/provider",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 4,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "constants": [],
+  "enums": [],
+  "functions": [],
+  "interfaces": [],
+  "namespaces": [],
+  "typeAliases": []
+}
