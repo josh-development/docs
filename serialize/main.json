@@ -291,7 +291,7 @@
         "blockTags": [
           {
             "name": "since",
-            "text": "2.0.0"
+            "text": "1.0.0"
           }
         ],
         "modifierTags": []
@@ -311,7 +311,7 @@
             "blockTags": [
               {
                 "name": "since",
-                "text": "2.0.0"
+                "text": "1.0.0"
               }
             ],
             "modifierTags": []
@@ -338,7 +338,7 @@
             "blockTags": [
               {
                 "name": "since",
-                "text": "2.0.0"
+                "text": "1.0.0"
               }
             ],
             "modifierTags": []
@@ -410,7 +410,7 @@
                           "fileName": "lib/types/SerializeJSON.ts",
                           "line": 26,
                           "character": 24,
-                          "url": "https://github.com/josh-development/utilities/blob/97ac98a/packages/serialize/src/lib/types/SerializeJSON.ts#L26"
+                          "url": "https://github.com/josh-development/utilities/blob/c393f0f/packages/serialize/src/lib/types/SerializeJSON.ts#L26"
                         }
                       ],
                       "type": {
@@ -429,7 +429,7 @@
                           "fileName": "lib/types/SerializeJSON.ts",
                           "line": 26,
                           "character": 8,
-                          "url": "https://github.com/josh-development/utilities/blob/97ac98a/packages/serialize/src/lib/types/SerializeJSON.ts#L26"
+                          "url": "https://github.com/josh-development/utilities/blob/c393f0f/packages/serialize/src/lib/types/SerializeJSON.ts#L26"
                         }
                       ],
                       "type": {
@@ -452,7 +452,7 @@
                       "fileName": "lib/types/SerializeJSON.ts",
                       "line": 26,
                       "character": 6,
-                      "url": "https://github.com/josh-development/utilities/blob/97ac98a/packages/serialize/src/lib/types/SerializeJSON.ts#L26"
+                      "url": "https://github.com/josh-development/utilities/blob/c393f0f/packages/serialize/src/lib/types/SerializeJSON.ts#L26"
                     }
                   ]
                 }
