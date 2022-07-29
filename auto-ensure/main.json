@@ -11,7 +11,7 @@
         "modifierTags": []
       },
       "source": {
-        "line": 4,
+        "line": 5,
         "file": "AutoEnsureMiddleware.ts",
         "path": "packages/auto-ensure/src/lib"
       },
@@ -417,7 +417,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 6,
+            "line": 7,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib"
           },
@@ -1273,7 +1273,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 16,
+            "line": 29,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib"
           },
@@ -1354,7 +1354,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 29,
+            "line": 43,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib"
           },
@@ -1474,7 +1474,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 45,
+            "line": 60,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib"
           },
@@ -1873,7 +1873,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 65,
+            "line": 104,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib"
           },
@@ -2091,7 +2091,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 55,
+            "line": 82,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib"
           },
@@ -2286,7 +2286,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 74,
+            "line": 125,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib"
           },
@@ -2454,7 +2454,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 88,
+            "line": 151,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib"
           },
@@ -2535,7 +2535,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 98,
+            "line": 173,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib"
           },
@@ -2842,7 +2842,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 108,
+            "line": 197,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib"
           },
@@ -3013,7 +3013,7 @@
         "modifierTags": []
       },
       "source": {
-        "line": 4,
+        "line": 5,
         "file": "AutoEnsureMiddleware.ts",
         "path": "packages/auto-ensure/src/lib"
       },
@@ -3032,7 +3032,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 119,
+            "line": 220,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib"
           },
@@ -3052,7 +3052,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 124,
+                "line": 225,
                 "file": "AutoEnsureMiddleware.ts",
                 "path": "packages/auto-ensure/src/lib"
               },
@@ -3079,7 +3079,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 130,
+                "line": 231,
                 "file": "AutoEnsureMiddleware.ts",
                 "path": "packages/auto-ensure/src/lib"
               },
