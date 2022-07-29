@@ -3042,22 +3042,51 @@
               "id": 152,
               "name": "defaultValue",
               "comment": {
-                "description": null,
-                "blockTags": [],
+                "description": "The default value to set if the key does not exist.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  }
+                ],
                 "modifierTags": []
               },
               "source": {
-                "line": 120,
+                "line": 124,
                 "file": "AutoEnsureMiddleware.ts",
                 "path": "packages/auto-ensure/src/lib"
               },
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 153,
+                "id": 154,
                 "name": "StoredValue",
                 "packageName": null,
                 "typeArguments": []
+              }
+            },
+            {
+              "id": 153,
+              "name": "ensureProperties",
+              "comment": {
+                "description": "Whether to merge the \ndefaultValue\n with existing values.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  }
+                ],
+                "modifierTags": []
+              },
+              "source": {
+                "line": 130,
+                "file": "AutoEnsureMiddleware.ts",
+                "path": "packages/auto-ensure/src/lib"
+              },
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "boolean"
               }
             }
           ]
