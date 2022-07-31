@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "2.2.1",
+  "typeDocJsonParserVersion": "2.3.1",
   "id": 0,
   "name": "@joshdb/provider",
   "version": null,
@@ -208,6 +208,20 @@
             {
               "id": 95,
               "name": "autoKey",
+              "comment": {
+                "description": "A method which generates a unique automatic key. This key must be unique and cannot overlap other keys.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -260,6 +274,20 @@
             {
               "id": 98,
               "name": "clear",
+              "comment": {
+                "description": "A method which clears all entries.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -312,6 +340,20 @@
             {
               "id": 101,
               "name": "dec",
+              "comment": {
+                "description": "Decrements an entry or a path in an entry by one.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The key and/or path does not exist - \n`CommonIdentifiers.MissingData`\n\n- The data is not an integer - `CommonIdentifiers.InvalidDataType``",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -364,6 +406,20 @@
             {
               "id": 104,
               "name": "delete",
+              "comment": {
+                "description": "Deletes either the entry itself or a path in an entry.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -416,6 +472,20 @@
             {
               "id": 107,
               "name": "deleteMany",
+              "comment": {
+                "description": "Deletes multiple entries and/or a path in an entry.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -468,6 +538,20 @@
             {
               "id": 110,
               "name": "each",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), except this supports asynchronous functions.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -536,6 +620,20 @@
             {
               "id": 113,
               "name": "ensure",
+              "comment": {
+                "description": "A method which ensures an entry exists.\n\nIf the key exists, it returns the value.\nIf the key does not exist, it creates it and returns the default value.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -604,6 +702,20 @@
             {
               "id": 116,
               "name": "entries",
+              "comment": {
+                "description": "A method which mimics the functionality of [Map#entries()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/entries), except returns a record of key-value pairs.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -672,6 +784,20 @@
             {
               "id": 81,
               "name": "error",
+              "comment": {
+                "description": "Creates an Josh provider error.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The error."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -745,6 +871,20 @@
             {
               "id": 119,
               "name": "every",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#each(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)], except this supports asynchronous functions.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 120,
@@ -801,6 +941,20 @@
             {
               "id": 122,
               "name": "every",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#each(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)], except this uses a path and a value to validate.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The data at the path is not a primitive type - \n`CommonIdentifiers.InvalidDataType`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 123,
@@ -841,6 +995,11 @@
             {
               "id": 125,
               "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 126,
@@ -916,6 +1075,11 @@
             {
               "id": 92,
               "name": "fetchVersion",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -968,6 +1132,20 @@
             {
               "id": 129,
               "name": "filter",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter), except this supports asynchronous functions.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1017,6 +1195,20 @@
             {
               "id": 131,
               "name": "filter",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter), except this uses a path and a value to validate.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The data at the path is not a primitive type - \n`CommonIdentifiers.InvalidDataType`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1066,6 +1258,11 @@
             {
               "id": 133,
               "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1134,6 +1331,20 @@
             {
               "id": 136,
               "name": "find",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find), except this supports asynchronous functions.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1183,6 +1394,20 @@
             {
               "id": 138,
               "name": "find",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find), except this uses a path and value to validate.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The data at the path is not a primitive type - \n`CommonIdentifiers.InvalidDataType`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1232,6 +1457,11 @@
             {
               "id": 140,
               "name": "find",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1300,6 +1530,20 @@
             {
               "id": 143,
               "name": "get",
+              "comment": {
+                "description": "A method which mimics the functionality of [Map#get()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/get), except this has support for a path.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 144,
@@ -1381,6 +1625,20 @@
             {
               "id": 147,
               "name": "getMany",
+              "comment": {
+                "description": "A method to get multiple entries.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1449,6 +1707,20 @@
             {
               "id": 150,
               "name": "has",
+              "comment": {
+                "description": "A method which mimics the functionality of [Map#has()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/has), except this has support for a path.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1501,6 +1773,20 @@
             {
               "id": 153,
               "name": "inc",
+              "comment": {
+                "description": "Increments an entry or a path in an entry by one.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The entry or path in an entry does not exist - \n`CommonIdentifiers.MissingData`\n\n- The data is not an integer - `CommonIdentifiers.InvalidDataType``",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1553,6 +1839,24 @@
             {
               "id": 78,
               "name": "init",
+              "comment": {
+                "description": "Initialize the provider.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The provider's context."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```typescript\npublic async init(context: JoshProvider.Context): Promise<JoshProvider.Context> {\n  // Initialize provider...\n  context = await super.init(context);\n  // Initialize provider...\n  return context;\n}\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1605,6 +1909,20 @@
             {
               "id": 156,
               "name": "keys",
+              "comment": {
+                "description": "A method which mimics the functionality of [Map#keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/keys), except returns an array.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1657,6 +1975,20 @@
             {
               "id": 159,
               "name": "map",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), except supports asynchronous functions.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 160,
@@ -1733,6 +2065,20 @@
             {
               "id": 162,
               "name": "map",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), except maps over a path.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The data at the path is not found - \n`CommonIdentifiers.MissingData`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 163,
@@ -1795,6 +2141,11 @@
             {
               "id": 165,
               "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 166,
@@ -1890,6 +2241,20 @@
             {
               "id": 169,
               "name": "math",
+              "comment": {
+                "description": "A method which executes a math operation a value with an operand either on the entry or a path in the entry.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The key and/or path does not exist - \n`CommonIdentifiers.MissingData`\n\n- The data is not an integer - \n`CommonIdentifiers.InvalidDataType`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1942,6 +2307,20 @@
             {
               "id": 172,
               "name": "partition",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter), except returns both truthy and falsy entries and supports asynchronous functions.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1991,6 +2370,20 @@
             {
               "id": 174,
               "name": "partition",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter), except returns both truthy and falsy entries and validates using a path and value.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The data at the path is not found - \n`CommonIdentifiers.MissingData`\n\n- The data at the path is not a primitive type - \n`CommonIdentifiers.InvalidDataType`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2040,6 +2433,11 @@
             {
               "id": 176,
               "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2108,6 +2506,20 @@
             {
               "id": 179,
               "name": "push",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push), except this supports a path.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The key and/or path does not exist - \n`CommonIdentifiers.MissingData`\n\n- The data at the path is not an array - \n`CommonIdentifiers.InvalidDataType`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 180,
@@ -2183,6 +2595,20 @@
             {
               "id": 183,
               "name": "random",
+              "comment": {
+                "description": "A method which gets random value(s).\nWhether duplicates are allowed or not are controlled by \n`Payloads.Random#duplicates`\n option.\nThe amount of values returned is controlled by \n`Payloads.Random#count`\n option.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2251,6 +2677,20 @@
             {
               "id": 186,
               "name": "randomKey",
+              "comment": {
+                "description": "A method which gets random key(s).\nWhether duplicates are allowed or not are controlled by \n`Payloads.RandomKey#duplicates`\n option.\nThe amount of keys returned is controlled by \n`Payloads.RandomKey#count`\n option.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2303,6 +2743,20 @@
             {
               "id": 189,
               "name": "remove",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter), except it removes the values filtered and uses a path and value to validate",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 190,
@@ -2359,6 +2813,20 @@
             {
               "id": 192,
               "name": "remove",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter), except it removes the values filtered and uses a path and value to validate\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The key and/or path does not exist - \n`CommonIdentifiers.MissingData`\n\n- The data at the path is not an array - \n`CommonIdentifiers.InvalidDataType`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 193,
@@ -2399,6 +2867,11 @@
             {
               "id": 195,
               "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 196,
@@ -2474,6 +2947,16 @@
             {
               "id": 85,
               "name": "resolveIdentifier",
+              "comment": {
+                "description": "Resolves an identifier.",
+                "blockTags": [
+                  {
+                    "name": "returns",
+                    "text": "The resolved identifier message."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2532,6 +3015,16 @@
             {
               "id": 89,
               "name": "resolveVersion",
+              "comment": {
+                "description": "Resolves a version.",
+                "blockTags": [
+                  {
+                    "name": "returns",
+                    "text": "The resolved version."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2573,6 +3066,20 @@
             {
               "id": 199,
               "name": "set",
+              "comment": {
+                "description": "A method which mimics the functionality of [Map#set()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/set), except this supports a path.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 200,
@@ -2654,6 +3161,20 @@
             {
               "id": 203,
               "name": "setMany",
+              "comment": {
+                "description": "A method which sets multiple entries and/or paths in entries.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2706,6 +3227,20 @@
             {
               "id": 206,
               "name": "size",
+              "comment": {
+                "description": "A method which mimics the functionality of [Map#size()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/size)",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2758,6 +3293,20 @@
             {
               "id": 209,
               "name": "some",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#some()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some), except this supports asynchronous functions.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 210,
@@ -2814,6 +3363,20 @@
             {
               "id": 212,
               "name": "some",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#some()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some), except this uses a path and value to validate.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The path does not exist on an entry - \n`CommonIdentifiers.MissingData`\n\n- The data at the path is not a primitive type - \n`CommonIdentifiers.InvalidDataType`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 213,
@@ -2854,6 +3417,11 @@
             {
               "id": 215,
               "name": "some",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 216,
@@ -2929,6 +3497,20 @@
             {
               "id": 219,
               "name": "update",
+              "comment": {
+                "description": "A method which gets the stored value at a key and passes it to an asynchronous function and sets the data returned.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The key does not exist - \n`CommonIdentifiers.MissingData`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 220,
@@ -3018,6 +3600,20 @@
             {
               "id": 223,
               "name": "values",
+              "comment": {
+                "description": "A method which mimics the functionality of [Map#values()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/values), except this returns an array.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -3361,7 +3957,7 @@
                   "fileName": "packages/provider/src/lib/structures/JoshProviderError.ts",
                   "line": 36,
                   "character": 31,
-                  "url": "https://github.com/josh-development/utilities/blob/6baf23c/packages/provider/src/lib/structures/JoshProviderError.ts#L36"
+                  "url": "https://github.com/josh-development/utilities/blob/b3adc55/packages/provider/src/lib/structures/JoshProviderError.ts#L36"
                 }
               ],
               "signatures": [
@@ -3547,6 +4143,11 @@
             {
               "id": 250,
               "name": "captureStackTrace",
+              "comment": {
+                "description": "Create .stack property on a target object",
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4299,6 +4900,20 @@
         {
           "id": 6,
           "name": "isEveryByHookPayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Every.ByHook`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 7,
@@ -4369,6 +4984,20 @@
         {
           "id": 10,
           "name": "isEveryByValuePayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Every.ByValue`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 11,
@@ -4431,6 +5060,20 @@
         {
           "id": 14,
           "name": "isFilterByHookPayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Filter.ByHook`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 15,
@@ -4501,6 +5144,20 @@
         {
           "id": 18,
           "name": "isFilterByValuePayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Filter.ByValue`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 19,
@@ -4571,6 +5228,20 @@
         {
           "id": 22,
           "name": "isFindByHookPayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Find.ByHook`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 23,
@@ -4641,6 +5312,20 @@
         {
           "id": 26,
           "name": "isFindByValuePayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Find.ByValue`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 27,
@@ -4711,6 +5396,20 @@
         {
           "id": 30,
           "name": "isMapByHookPayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Map.ByHook`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 31,
@@ -4801,6 +5500,20 @@
         {
           "id": 35,
           "name": "isMapByPathPayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Map.ByPath`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 36,
@@ -4884,6 +5597,20 @@
         {
           "id": 40,
           "name": "isPartitionByHookPayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Partition.ByHook`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 41,
@@ -4954,6 +5681,20 @@
         {
           "id": 44,
           "name": "isPartitionByValuePayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Partition.ByValue`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 45,
@@ -5024,6 +5765,11 @@
         {
           "id": 64,
           "name": "isPayloadWithData",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 65,
@@ -5086,6 +5832,20 @@
         {
           "id": 48,
           "name": "isRemoveByHookPayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Remove.ByHook`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 49,
@@ -5156,6 +5916,20 @@
         {
           "id": 52,
           "name": "isRemoveByValuePayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Remove.ByValue`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 53,
@@ -5218,6 +5992,20 @@
         {
           "id": 56,
           "name": "isSomeByHookPayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`SomeByHookPayload`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 57,
@@ -5288,6 +6076,20 @@
         {
           "id": 60,
           "name": "isSomeByValuePayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`SomeByValuePayload`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 61,
@@ -5350,6 +6152,11 @@
         {
           "id": 2,
           "name": "resolveCommonIdentifier",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
           "typeParameters": [],
           "parameters": [
             {
@@ -5415,6 +6222,11 @@
         {
           "id": 719,
           "name": "runProviderTest",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 720,
@@ -5902,7 +6714,7 @@
                   "fileName": "packages/provider/src/tests/runProviderTest.ts",
                   "line": 1908,
                   "character": 12,
-                  "url": "https://github.com/josh-development/utilities/blob/6baf23c/packages/provider/src/tests/runProviderTest.ts#L1908"
+                  "url": "https://github.com/josh-development/utilities/blob/b3adc55/packages/provider/src/tests/runProviderTest.ts#L1908"
                 }
               ],
               "signatures": [
@@ -7063,7 +7875,7 @@
                   "fileName": "packages/provider/src/lib/types/Payload.ts",
                   "line": 153,
                   "character": 41,
-                  "url": "https://github.com/josh-development/utilities/blob/6baf23c/packages/provider/src/lib/types/Payload.ts#L153"
+                  "url": "https://github.com/josh-development/utilities/blob/b3adc55/packages/provider/src/lib/types/Payload.ts#L153"
                 }
               ],
               "signatures": [
@@ -7149,7 +7961,7 @@
                   "fileName": "packages/provider/src/lib/types/Payload.ts",
                   "line": 155,
                   "character": 48,
-                  "url": "https://github.com/josh-development/utilities/blob/6baf23c/packages/provider/src/lib/types/Payload.ts#L155"
+                  "url": "https://github.com/josh-development/utilities/blob/b3adc55/packages/provider/src/lib/types/Payload.ts#L155"
                 }
               ],
               "signatures": [
