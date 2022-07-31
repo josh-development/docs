@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "2.2.1",
+  "typeDocJsonParserVersion": "2.3.1",
   "id": 0,
   "name": "@joshdb/json",
   "version": null,
@@ -240,6 +240,11 @@
             {
               "id": 31,
               "name": "attempt",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 32,
@@ -321,6 +326,11 @@
             {
               "id": 23,
               "name": "copy",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -367,6 +377,11 @@
             {
               "id": 29,
               "name": "delete",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -404,6 +419,11 @@
             {
               "id": 9,
               "name": "fetch",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -452,6 +472,11 @@
             {
               "id": 16,
               "name": "read",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 17,
@@ -513,6 +538,11 @@
             {
               "id": 26,
               "name": "rename",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -559,6 +589,11 @@
             {
               "id": 11,
               "name": "save",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -616,6 +651,11 @@
             {
               "id": 19,
               "name": "write",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 20,
@@ -908,6 +948,11 @@
             {
               "id": 191,
               "name": "cleanupEmptyChunks",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -945,6 +990,11 @@
             {
               "id": 150,
               "name": "clear",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -982,6 +1032,11 @@
             {
               "id": 152,
               "name": "delete",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1028,6 +1083,11 @@
             {
               "id": 155,
               "name": "deleteMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1077,6 +1137,11 @@
             {
               "id": 158,
               "name": "entries",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -1129,6 +1194,11 @@
             {
               "id": 184,
               "name": "fetchIndex",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -1169,6 +1239,11 @@
             {
               "id": 165,
               "name": "get",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1227,6 +1302,11 @@
             {
               "id": 193,
               "name": "getChunkFile",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1276,6 +1356,11 @@
             {
               "id": 168,
               "name": "getMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1349,6 +1434,11 @@
             {
               "id": 160,
               "name": "has",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1395,6 +1485,11 @@
             {
               "id": 146,
               "name": "init",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -1443,6 +1538,11 @@
             {
               "id": 163,
               "name": "keys",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -1483,6 +1583,11 @@
             {
               "id": 188,
               "name": "locateChunkId",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1538,6 +1643,11 @@
             {
               "id": 171,
               "name": "set",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 172,
@@ -1608,6 +1718,11 @@
             {
               "id": 176,
               "name": "setMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1677,6 +1792,11 @@
             {
               "id": 180,
               "name": "size",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -1714,6 +1834,11 @@
             {
               "id": 148,
               "name": "synchronize",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -1751,6 +1876,11 @@
             {
               "id": 186,
               "name": "useQueue",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -1791,6 +1921,11 @@
             {
               "id": 182,
               "name": "values",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -2070,6 +2205,11 @@
             {
               "id": 75,
               "name": "attempt",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 76,
@@ -2151,6 +2291,11 @@
             {
               "id": 67,
               "name": "copy",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2197,6 +2342,11 @@
             {
               "id": 73,
               "name": "delete",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -2234,6 +2384,11 @@
             {
               "id": 53,
               "name": "fetch",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -2274,6 +2429,11 @@
             {
               "id": 60,
               "name": "read",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 61,
@@ -2332,6 +2492,11 @@
             {
               "id": 70,
               "name": "rename",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2378,6 +2543,11 @@
             {
               "id": 55,
               "name": "save",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2427,6 +2597,11 @@
             {
               "id": 63,
               "name": "write",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 64,
@@ -2681,6 +2856,11 @@
             {
               "id": 120,
               "name": "attempt",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 121,
@@ -2762,6 +2942,11 @@
             {
               "id": 112,
               "name": "copy",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2808,6 +2993,11 @@
             {
               "id": 118,
               "name": "delete",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -2845,6 +3035,11 @@
             {
               "id": 105,
               "name": "read",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 106,
@@ -2906,6 +3101,11 @@
             {
               "id": 115,
               "name": "rename",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2952,6 +3152,11 @@
             {
               "id": 108,
               "name": "write",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 109,
@@ -3195,6 +3400,11 @@
             {
               "id": 233,
               "name": "attempt",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 234,
@@ -3276,6 +3486,11 @@
             {
               "id": 225,
               "name": "copy",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -3322,6 +3537,11 @@
             {
               "id": 231,
               "name": "delete",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -3359,6 +3579,11 @@
             {
               "id": 218,
               "name": "read",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 219,
@@ -3420,6 +3645,11 @@
             {
               "id": 228,
               "name": "rename",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -3466,6 +3696,11 @@
             {
               "id": 221,
               "name": "write",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 222,
@@ -3781,6 +4016,11 @@
             {
               "id": 287,
               "name": "autoKey",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -3833,6 +4073,11 @@
             {
               "id": 290,
               "name": "clear",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -3885,6 +4130,11 @@
             {
               "id": 293,
               "name": "dec",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -3937,6 +4187,11 @@
             {
               "id": 296,
               "name": "delete",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -3989,6 +4244,11 @@
             {
               "id": 299,
               "name": "deleteMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4041,6 +4301,11 @@
             {
               "id": 302,
               "name": "each",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4109,6 +4374,11 @@
             {
               "id": 305,
               "name": "ensure",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4177,6 +4447,11 @@
             {
               "id": 308,
               "name": "entries",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4245,6 +4520,20 @@
             {
               "id": 397,
               "name": "error",
+              "comment": {
+                "description": "Creates an Josh provider error.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The error."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4318,6 +4607,11 @@
             {
               "id": 311,
               "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4367,6 +4661,11 @@
             {
               "id": 313,
               "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4419,6 +4718,11 @@
             {
               "id": 274,
               "name": "fetchVersion",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4471,6 +4775,11 @@
             {
               "id": 316,
               "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4520,6 +4829,11 @@
             {
               "id": 318,
               "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4588,6 +4902,11 @@
             {
               "id": 321,
               "name": "find",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4637,6 +4956,11 @@
             {
               "id": 323,
               "name": "find",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4705,6 +5029,11 @@
             {
               "id": 326,
               "name": "get",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 327,
@@ -4786,6 +5115,11 @@
             {
               "id": 330,
               "name": "getMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4854,6 +5188,11 @@
             {
               "id": 333,
               "name": "has",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4906,6 +5245,11 @@
             {
               "id": 336,
               "name": "inc",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4958,6 +5302,11 @@
             {
               "id": 267,
               "name": "init",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5010,6 +5359,11 @@
             {
               "id": 277,
               "name": "isLegacyIndexData",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5045,7 +5399,7 @@
                             "fileName": "src/lib/JSONProvider.ts",
                             "line": 701,
                             "character": 54,
-                            "url": "https://github.com/josh-development/providers/blob/0a7ba6d/packages/json/src/lib/JSONProvider.ts#L701"
+                            "url": "https://github.com/josh-development/providers/blob/f95c410/packages/json/src/lib/JSONProvider.ts#L701"
                           }
                         ],
                         "type": {
@@ -5070,7 +5424,7 @@
                                       "fileName": "src/lib/JSONProvider.ts",
                                       "line": 701,
                                       "character": 63,
-                                      "url": "https://github.com/josh-development/providers/blob/0a7ba6d/packages/json/src/lib/JSONProvider.ts#L701"
+                                      "url": "https://github.com/josh-development/providers/blob/f95c410/packages/json/src/lib/JSONProvider.ts#L701"
                                     }
                                   ],
                                   "type": {
@@ -5089,7 +5443,7 @@
                                       "fileName": "src/lib/JSONProvider.ts",
                                       "line": 701,
                                       "character": 76,
-                                      "url": "https://github.com/josh-development/providers/blob/0a7ba6d/packages/json/src/lib/JSONProvider.ts#L701"
+                                      "url": "https://github.com/josh-development/providers/blob/f95c410/packages/json/src/lib/JSONProvider.ts#L701"
                                     }
                                   ],
                                   "type": {
@@ -5112,7 +5466,7 @@
                                   "fileName": "src/lib/JSONProvider.ts",
                                   "line": 701,
                                   "character": 61,
-                                  "url": "https://github.com/josh-development/providers/blob/0a7ba6d/packages/json/src/lib/JSONProvider.ts#L701"
+                                  "url": "https://github.com/josh-development/providers/blob/f95c410/packages/json/src/lib/JSONProvider.ts#L701"
                                 }
                               ]
                             }
@@ -5133,7 +5487,7 @@
                         "fileName": "src/lib/JSONProvider.ts",
                         "line": 701,
                         "character": 52,
-                        "url": "https://github.com/josh-development/providers/blob/0a7ba6d/packages/json/src/lib/JSONProvider.ts#L701"
+                        "url": "https://github.com/josh-development/providers/blob/f95c410/packages/json/src/lib/JSONProvider.ts#L701"
                       }
                     ]
                   }
@@ -5162,6 +5516,11 @@
             {
               "id": 339,
               "name": "keys",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5214,6 +5573,11 @@
             {
               "id": 342,
               "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 343,
@@ -5290,6 +5654,11 @@
             {
               "id": 345,
               "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 346,
@@ -5371,6 +5740,11 @@
             {
               "id": 349,
               "name": "math",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5423,6 +5797,11 @@
             {
               "id": 352,
               "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5472,6 +5851,11 @@
             {
               "id": 354,
               "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5540,6 +5924,11 @@
             {
               "id": 357,
               "name": "push",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 358,
@@ -5621,6 +6010,11 @@
             {
               "id": 361,
               "name": "random",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5689,6 +6083,11 @@
             {
               "id": 364,
               "name": "randomKey",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5741,6 +6140,11 @@
             {
               "id": 367,
               "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 368,
@@ -5803,6 +6207,11 @@
             {
               "id": 370,
               "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5855,6 +6264,11 @@
             {
               "id": 270,
               "name": "resolveIdentifier",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5913,6 +6327,16 @@
             {
               "id": 401,
               "name": "resolveVersion",
+              "comment": {
+                "description": "Resolves a version.",
+                "blockTags": [
+                  {
+                    "name": "returns",
+                    "text": "The resolved version."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5954,6 +6378,11 @@
             {
               "id": 373,
               "name": "set",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 374,
@@ -6035,6 +6464,11 @@
             {
               "id": 377,
               "name": "setMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -6087,6 +6521,11 @@
             {
               "id": 380,
               "name": "size",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -6139,6 +6578,11 @@
             {
               "id": 383,
               "name": "some",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -6188,6 +6632,11 @@
             {
               "id": 385,
               "name": "some",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -6240,6 +6689,11 @@
             {
               "id": 388,
               "name": "update",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 389,
@@ -6335,6 +6789,11 @@
             {
               "id": 392,
               "name": "values",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -7265,7 +7724,7 @@
                   "fileName": "src/lib/File.ts",
                   "line": 83,
                   "character": 28,
-                  "url": "https://github.com/josh-development/providers/blob/0a7ba6d/packages/json/src/lib/File.ts#L83"
+                  "url": "https://github.com/josh-development/providers/blob/f95c410/packages/json/src/lib/File.ts#L83"
                 }
               ],
               "signatures": [
@@ -7629,7 +8088,7 @@
                   "fileName": "src/lib/ChunkHandler.ts",
                   "line": 379,
                   "character": 64,
-                  "url": "https://github.com/josh-development/providers/blob/0a7ba6d/packages/json/src/lib/ChunkHandler.ts#L379"
+                  "url": "https://github.com/josh-development/providers/blob/f95c410/packages/json/src/lib/ChunkHandler.ts#L379"
                 }
               ],
               "signatures": [
