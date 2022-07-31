@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "2.2.1",
+  "typeDocJsonParserVersion": "2.3.1",
   "id": 0,
   "name": "@joshdb/core",
   "version": null,
@@ -290,6 +290,24 @@
             {
               "id": 29,
               "name": "autoKey",
+              "comment": {
+                "description": "Generate an automatic key. Generally an integer incremented by \n`1`\n, but depends on provider.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The newly generated automatic key."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nconst key = await josh.autoKey();\n\nawait josh.set(key, 'value');\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -327,6 +345,24 @@
             {
               "id": 31,
               "name": "clear",
+              "comment": {
+                "description": "Clears all stored values from the provider.\n\nNOTE: This deletes **all** data and cannot be reversed.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The \nJosh\n instance."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value');\n\nawait josh.clear();\n\nawait josh.get('key'); // null\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -375,6 +411,20 @@
             {
               "id": 173,
               "name": "convertBulkData",
+              "comment": {
+                "description": "Convert bulk data.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The bulk data."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 174,
@@ -503,6 +553,16 @@
             {
               "id": 183,
               "name": "convertLegacyExportJSON",
+              "comment": {
+                "description": "Convert a legacy export json object to a new export json object.",
+                "blockTags": [
+                  {
+                    "name": "returns",
+                    "text": ""
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 184,
@@ -570,6 +630,32 @@
             {
               "id": 33,
               "name": "dec",
+              "comment": {
+                "description": "Decrement an integer by \n`1`\n.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The \nJosh\n instance."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 1);\n\nawait josh.inc('key');\n\nawait josh.get('key'); // 0\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 1, 'path');\n\nawait josh.inc('key', 'path');\n\nawait josh.get('key', 'path); // 0\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 1, 'path');\n\nawait josh.inc('key', ['path']);\n\nawait josh.get('key', 'path'); // 0\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -638,6 +724,32 @@
             {
               "id": 37,
               "name": "delete",
+              "comment": {
+                "description": "Deletes a key or path in a key value.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The \nJosh\n instance."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value');\n\nawait josh.delete('key');\n\nawait josh.get('key'); // null\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', { path: 'value' });\n\nawait josh.delete('key'`, 'path');\n\nawait josh.get('key'); // {}\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', { path: 'value' });\n\nawait josh.delete('key', ['path']);\n\nawait josh.get('key'); // {}\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -706,6 +818,16 @@
             {
               "id": 41,
               "name": "deleteMany",
+              "comment": {
+                "description": "Deletes many keys.",
+                "blockTags": [
+                  {
+                    "name": "returns",
+                    "text": "The \nJosh\n instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -766,6 +888,16 @@
             {
               "id": 44,
               "name": "each",
+              "comment": {
+                "description": "Loop over every key-value pair in this \nJosh\n and execute \n`hook`\n on it.",
+                "blockTags": [
+                  {
+                    "name": "returns",
+                    "text": "The \nJosh\n instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -838,6 +970,28 @@
             {
               "id": 47,
               "name": "ensure",
+              "comment": {
+                "description": "Ensure a key exists and set a default value if it doesn't.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The value gotten from the key."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.ensure('key', 'defaultValue'); // 'defaultValue'\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value');\n\nawait josh.ensure('key', 'defaultValue'); // 'value'\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -898,6 +1052,28 @@
             {
               "id": 51,
               "name": "entries",
+              "comment": {
+                "description": "Get all stored values.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The bulk data."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value');\n\nawait josh.entries(); // { key: 'value' }\nawait josh.entries(Bulk.OneDimensionalArray); // ['value']\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', { path: 'value' });\n\nawait josh.entries(); // { key: { path: 'value' } }\nawait josh.entries(Bulk.TwoDimensionalArray); // [['key', { path: 'value' }]]\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 52,
@@ -999,6 +1175,20 @@
             {
               "id": 179,
               "name": "error",
+              "comment": {
+                "description": "Resolves an identifier or options to an error.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The resolved error."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1072,6 +1262,32 @@
             {
               "id": 55,
               "name": "every",
+              "comment": {
+                "description": "Checks every stored value at a path against the given value. Identical behavior to [Array#every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every).",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "A boolean of whether every value matched."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.every('path', 'value'); // true\nawait josh.every(['path'], 'value'); // true\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', { path: 'value' });\nawait josh.set('key2', { path: 'value2' });\n\nawait josh.every('path', 'value'); // false\nawait josh.every(['path'], 'value'); // false\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', { path: 'value' });\nawait josh.set('key2', { path: 'value' });\n\nawait josh.every('path', 'value'); // true\nawait josh.evert(['path'], 'value') // true\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1113,6 +1329,32 @@
             {
               "id": 58,
               "name": "every",
+              "comment": {
+                "description": "Checks every stored value with a function. Identical Behavior to [Array#every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every).",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "A boolean of whether every hook function returns true."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.every((value) => value === 'value'); // true\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value');\nawait josh.set('key2', 'value2');\n\nawait josh.every((value) => value === 'value'); // false\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value');\nawait josh.set('key2', 'value');\n\nawait josh.every((value) => value === 'value'); // true\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1174,6 +1416,20 @@
             {
               "id": 171,
               "name": "export",
+              "comment": {
+                "description": "Exports all data from the provider.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The exported data json object."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -1222,6 +1478,24 @@
             {
               "id": 61,
               "name": "filter",
+              "comment": {
+                "description": "Filter stored values using a path and value.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The bulk data."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', { path: 'value' });\n\nawait josh.filter('path', 'value'); // { key: { path: 'value' } }\nawait josh.filter(['path'], 'value', Bulk.OneDimensionalArray); // [{ path: 'value' }]\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 62,
@@ -1320,6 +1594,24 @@
             {
               "id": 66,
               "name": "filter",
+              "comment": {
+                "description": "Filter stored data using a hook function.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The bulk data."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value');\n\nawait josh.filter((value) => value === 'value'); // { key: { path: 'value' } }\nawait josh.filter((value) => value === 'value', undefined, Bulk.TwoDimensionalArray); // [['key', 'value']]\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 67,
@@ -1446,6 +1738,28 @@
             {
               "id": 72,
               "name": "find",
+              "comment": {
+                "description": "Find a stored value using a path and value.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The found key/value pair or a null/null pair."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.find('path', 'value'); // null\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', { path: 'value' });\n\nawait josh.find('path', 'value'); // { path: 'value' }\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1517,6 +1831,28 @@
             {
               "id": 75,
               "name": "find",
+              "comment": {
+                "description": "Find a stored value using a hook function.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The found key/value pair or null/null pair."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.find((value) => value === 'value'); // null\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value');\n\nawait josh.find((value) => value === 'value'); // 'value'\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1608,6 +1944,24 @@
             {
               "id": 78,
               "name": "get",
+              "comment": {
+                "description": "Get a value using a key.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The value gotten or null."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value');\n\nawait josh.get('key'); // 'value'\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1647,6 +2001,28 @@
             {
               "id": 80,
               "name": "get",
+              "comment": {
+                "description": "Get a value using a key and/or path.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The value gotten or null."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value');\n\nawait josh.get('key'); // 'value'\n\nawait josh.set('key', { path: 'value' });\n\nawait josh.get('key'); // { path: 'value' }\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', { path: 'value' });\n\nawait josh.get('key', 'path'); // 'value'\nawait josh.get('key', ['path']); // 'value'\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 81,
@@ -1729,6 +2105,24 @@
             {
               "id": 85,
               "name": "getMany",
+              "comment": {
+                "description": "Get stored values at multiple keys.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The bulk data."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value');\n\nawait this.getMany(['key']); // { key: 'value' }\nawait this.getMany(['key'], Bulk.OneDimensionalArray); // ['value']\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 86,
@@ -1853,6 +2247,28 @@
             {
               "id": 90,
               "name": "has",
+              "comment": {
+                "description": "Check if a key and/or path exists.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "Whether the value exists."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.has('key'); // false\n\nawait josh.set('key', 'value');\n\nawait josh.has('key'); // true\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.has('key', 'path'); // false\nawait josh.has('key', ['path']); // false\n\nawait josh.set('key', { path: 'value' });\n\nawait josh.has('key', 'path'); // true\nawait josh.has('key', ['path']); // true\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1910,6 +2326,11 @@
             {
               "id": 168,
               "name": "import",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1978,6 +2399,32 @@
             {
               "id": 94,
               "name": "inc",
+              "comment": {
+                "description": "Increment an integer by \n`1`\n.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The \nJosh\n instance."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 0);\n\nawait josh.inc('key');\n\nawait josh.get('key'); // 1\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 0, 'path');\n\nawait josh.inc('key', 'path');\n\nawait josh.get('key', 'path'); // 1\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 0, 'path');\n\nawait josh.inc('key', ['path']);\n\nawait josh.get('key', 'path); // 1\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2046,6 +2493,24 @@
             {
               "id": 17,
               "name": "init",
+              "comment": {
+                "description": "The initialization method for Josh.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The \nJosh\n instance."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.init();\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -2094,6 +2559,16 @@
             {
               "id": 187,
               "name": "isLegacyExportJSON",
+              "comment": {
+                "description": "Check if a json object is a legacy export json object.",
+                "blockTags": [
+                  {
+                    "name": "returns",
+                    "text": "Whether the json object is a legacy export json object."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 188,
@@ -2186,6 +2661,24 @@
             {
               "id": 98,
               "name": "keys",
+              "comment": {
+                "description": "Returns all stored value keys.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The array of stored value keys."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value');\n\nawait josh.keys(); // ['key']\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -2226,6 +2719,32 @@
             {
               "id": 100,
               "name": "map",
+              "comment": {
+                "description": "Map stored values by path or hook function.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The mapped values."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', { path: 'value' });\n\nawait josh.map('path'); // ['value']\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', { path: 'value' });\n\nawait josh.map(['path']); // 'value'\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value');\n\nawait josh.map((value) => value.toUpperCase()); // ['VALUE']\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 101,
@@ -2321,6 +2840,36 @@
             {
               "id": 104,
               "name": "math",
+              "comment": {
+                "description": "Executes math operations on a value with an operand at a specified key and/or path.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The \nJosh\n instance."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 0);\n\nawait josh.math('key', MathOperator.Addition, 1);\n\nawait josh.get('key'); // 1\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 1);\n\nawait josh.math('key', MathOperator.Subtraction, 1);\n\nawait josh.get('key'); // 0\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 1);\n\nawait josh.math('key', MathOperator.Multiplication, 2);\n\nawait josh.get('key'); // 2\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 2);\n\nawait josh.math('key' MathOperator.Division, 2);\n\nawait josh.get('key'); 1\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2408,6 +2957,24 @@
             {
               "id": 110,
               "name": "partition",
+              "comment": {
+                "description": "Filter stored values and get both truthy and falsy results.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "A partition of filtered bulk data. First bulk data is the truthy filter and the second bulk data is the falsy filter."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', true);\nawait josh.set('key2', false);\n\nawait josh.partition((value) => value); // [{ key: true }, { key2: false }]\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 111,
@@ -2545,6 +3112,24 @@
             {
               "id": 115,
               "name": "partition",
+              "comment": {
+                "description": "Filter stored values and get both truthy and falsy results.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "A partition of filtered bulk data. First bulk data is the truthy filter and the second bulk data is the falsy filter."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', { path: true });\nawait josh.set('key2', { path: false });\n\nawait josh.partition('path'); // [{ key: true }, { key2: false }]\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 116,
@@ -2692,6 +3277,28 @@
             {
               "id": 121,
               "name": "push",
+              "comment": {
+                "description": "Push a value to an array.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The \nJosh\n instance."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', []);\n\nawait josh.push('key', 'value');\n\nawait josh.get('key'); // ['value']\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', { path: [] });\n\nawait josh.push('key', 'value', 'path');\nawait josh.push('key', 'value', ['path']);\n\nawait josh.get('key', 'path'); // ['value']\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 122,
@@ -2784,6 +3391,24 @@
             {
               "id": 127,
               "name": "random",
+              "comment": {
+                "description": "Gets random value(s).",
+                "blockTags": [
+                  {
+                    "name": "returns",
+                    "text": "The random value(s) or null."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.random(); // null\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value');\n\nawait josh.random(); // ['value']\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2848,6 +3473,28 @@
             {
               "id": 130,
               "name": "randomKey",
+              "comment": {
+                "description": "Get a random key.\n\nNOTE: \n`options.duplicates`\n only makes checks on primitive value types.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The random key or \n`null`\n."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.randomKey(); // null\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value');\n\nawait josh.randomKey(); // ['key']\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2909,6 +3556,24 @@
             {
               "id": 133,
               "name": "remove",
+              "comment": {
+                "description": "Removes an element from an array at a key and/or path that matches the given value.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The \nJosh\n instance."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', ['value']);\n\nawait josh.remove('key', 'value');\n\nawait josh.get('key'); // []\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2969,6 +3634,24 @@
             {
               "id": 137,
               "name": "remove",
+              "comment": {
+                "description": "Removes an element from an array at a key and/or path that are validated by a hook function.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The \nJosh\n instance."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', ['value']);\n\nawait josh.remove('key', (value) => value === 'value');\n\nawait josh.get('key'); // []\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 138,
@@ -3073,6 +3756,16 @@
             {
               "id": 191,
               "name": "resolveIdentifier",
+              "comment": {
+                "description": "Resolve an identifier.",
+                "blockTags": [
+                  {
+                    "name": "returns",
+                    "text": "The resolved identifier."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -3131,6 +3824,16 @@
             {
               "id": 195,
               "name": "resolveKeyPath",
+              "comment": {
+                "description": "Resolves a key and/or path for universal use.",
+                "blockTags": [
+                  {
+                    "name": "returns",
+                    "text": "The resolved key and path."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -3184,6 +3887,16 @@
             {
               "id": 198,
               "name": "resolvePath",
+              "comment": {
+                "description": "Resolves a path for universal use.",
+                "blockTags": [
+                  {
+                    "name": "returns",
+                    "text": "The resolved path."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -3228,6 +3941,32 @@
             {
               "id": 143,
               "name": "set",
+              "comment": {
+                "description": "Sets a value using a key and/or path.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The \nJosh\n instance."
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The \nJosh\n instance."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', { path: 'value' });\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value', 'path');\nawait josh.set('key', 'value', ['path']);\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 144,
@@ -3320,6 +4059,11 @@
             {
               "id": 149,
               "name": "setMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -3400,6 +4144,24 @@
             {
               "id": 153,
               "name": "size",
+              "comment": {
+                "description": "Get the amount of key/values",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The number amount."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.size(); // 0\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -3437,6 +4199,24 @@
             {
               "id": 155,
               "name": "some",
+              "comment": {
+                "description": "Verify if a path's value matches a value.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.some('path', 'value'); // false\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value', 'path');\n\nawait josh.some('path', 'value'); // true\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -3478,6 +4258,24 @@
             {
               "id": 158,
               "name": "some",
+              "comment": {
+                "description": "Verify if a stored value matches with a hook function,",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.some((value) => value === 'value'); // false\n```"
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value', 'path');\n\nawait josh.some('path', 'value'); // true\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -3539,6 +4337,20 @@
             {
               "id": 161,
               "name": "update",
+              "comment": {
+                "description": "Update a stored value using a hook function.",
+                "blockTags": [
+                  {
+                    "name": "returns",
+                    "text": "The updated value or null."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value');\n\nawait josh.update('key', (value) => value.toUpperCase()); // 'VALUE'\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 162,
@@ -3635,6 +4447,24 @@
             {
               "id": 19,
               "name": "use",
+              "comment": {
+                "description": "Adds a middleware by providing options and a hook.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The \nJosh\n instance."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\njosh.use({ name: 'my-middleware' }, (payload) => payload);\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 20,
@@ -3677,7 +4507,7 @@
                           "fileName": "src/lib/structures/Josh.ts",
                           "line": 133,
                           "character": 74,
-                          "url": "https://github.com/josh-development/core/blob/1bf9fc7/src/lib/structures/Josh.ts#L133"
+                          "url": "https://github.com/josh-development/core/blob/c1e9536/src/lib/structures/Josh.ts#L133"
                         }
                       ],
                       "signatures": [
@@ -3739,6 +4569,24 @@
             {
               "id": 26,
               "name": "use",
+              "comment": {
+                "description": "Adds a middleware by providing a Middleware instance.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The \nJosh\n instance."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\njosh.use(new MyMiddleware());\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -3806,6 +4654,24 @@
             {
               "id": 166,
               "name": "values",
+              "comment": {
+                "description": "Get all stored values.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "An array of stored values."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```javascript\nawait josh.set('key', 'value');\nawait josh.set('anotherKey', 'anotherValue');\n\nawait josh.values(); // ['value', 'anotherValue']\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -3849,6 +4715,20 @@
             {
               "id": 4,
               "name": "multi",
+              "comment": {
+                "description": "A static method to create multiple instances of \nJosh\n.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The created instances."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 5,
@@ -4279,6 +5159,11 @@
             {
               "id": 266,
               "name": "captureStackTrace",
+              "comment": {
+                "description": "Create .stack property on a target object",
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5103,7 +5988,7 @@
                             "fileName": "src/lib/structures/Josh.ts",
                             "line": 1923,
                             "character": 12,
-                            "url": "https://github.com/josh-development/core/blob/1bf9fc7/src/lib/structures/Josh.ts#L1923"
+                            "url": "https://github.com/josh-development/core/blob/c1e9536/src/lib/structures/Josh.ts#L1923"
                           }
                         ],
                         "type": {
@@ -5122,7 +6007,7 @@
                             "fileName": "src/lib/structures/Josh.ts",
                             "line": 1923,
                             "character": 25,
-                            "url": "https://github.com/josh-development/core/blob/1bf9fc7/src/lib/structures/Josh.ts#L1923"
+                            "url": "https://github.com/josh-development/core/blob/c1e9536/src/lib/structures/Josh.ts#L1923"
                           }
                         ],
                         "type": {
@@ -5146,7 +6031,7 @@
                         "fileName": "src/lib/structures/Josh.ts",
                         "line": 1923,
                         "character": 10,
-                        "url": "https://github.com/josh-development/core/blob/1bf9fc7/src/lib/structures/Josh.ts#L1923"
+                        "url": "https://github.com/josh-development/core/blob/c1e9536/src/lib/structures/Josh.ts#L1923"
                       }
                     ]
                   }
