@@ -113,7 +113,7 @@
             "blockTags": [
               {
                 "name": "since",
-                "text": "2.0.0"
+                "text": "1.0.0"
               }
             ],
             "modifierTags": []
@@ -178,7 +178,7 @@
             "blockTags": [
               {
                 "name": "since",
-                "text": "2.0.0"
+                "text": "1.0.0"
               }
             ],
             "modifierTags": []
@@ -206,7 +206,7 @@
             "blockTags": [
               {
                 "name": "since",
-                "text": "2.0.0"
+                "text": "1.0.0"
               }
             ],
             "modifierTags": []
@@ -234,7 +234,7 @@
             "blockTags": [
               {
                 "name": "since",
-                "text": "2.0.0"
+                "text": "1.0.0"
               }
             ],
             "modifierTags": []
@@ -273,7 +273,7 @@
             "blockTags": [
               {
                 "name": "since",
-                "text": "2.0.0"
+                "text": "1.0.0"
               }
             ],
             "modifierTags": []
@@ -344,7 +344,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -396,7 +396,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -500,7 +500,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -552,7 +552,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -612,7 +612,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -680,7 +680,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -748,7 +748,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -823,7 +823,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -864,7 +864,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -912,7 +912,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -980,7 +980,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1029,7 +1029,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1078,7 +1078,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1146,7 +1146,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1195,7 +1195,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1244,7 +1244,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1453,7 +1453,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1565,7 +1565,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1625,7 +1625,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1705,7 +1705,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1768,7 +1768,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1837,7 +1837,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1964,7 +1964,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2013,7 +2013,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2062,7 +2062,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2205,7 +2205,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2265,7 +2265,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2618,7 +2618,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2685,7 +2685,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2733,7 +2733,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2781,7 +2781,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2976,7 +2976,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/middleware",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
