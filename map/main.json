@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "2.2.1",
+  "typeDocJsonParserVersion": "2.3.1",
   "id": 0,
   "name": "@joshdb/map",
   "version": null,
@@ -280,6 +280,11 @@
             {
               "id": 16,
               "name": "autoKey",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -324,6 +329,11 @@
             {
               "id": 19,
               "name": "clear",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -368,6 +378,11 @@
             {
               "id": 22,
               "name": "dec",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -412,6 +427,11 @@
             {
               "id": 25,
               "name": "delete",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -456,6 +476,11 @@
             {
               "id": 28,
               "name": "deleteMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -500,6 +525,11 @@
             {
               "id": 31,
               "name": "each",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -568,6 +598,11 @@
             {
               "id": 34,
               "name": "ensure",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -628,6 +663,11 @@
             {
               "id": 37,
               "name": "entries",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -688,6 +728,20 @@
             {
               "id": 127,
               "name": "error",
+              "comment": {
+                "description": "Creates an Josh provider error.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The error."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -761,6 +815,11 @@
             {
               "id": 40,
               "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -810,6 +869,11 @@
             {
               "id": 42,
               "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -862,6 +926,11 @@
             {
               "id": 14,
               "name": "fetchVersion",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -894,6 +963,11 @@
             {
               "id": 45,
               "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -943,6 +1017,11 @@
             {
               "id": 47,
               "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1011,6 +1090,11 @@
             {
               "id": 50,
               "name": "find",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1060,6 +1144,11 @@
             {
               "id": 52,
               "name": "find",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1128,6 +1217,11 @@
             {
               "id": 55,
               "name": "get",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 56,
@@ -1201,6 +1295,11 @@
             {
               "id": 59,
               "name": "getMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1261,6 +1360,11 @@
             {
               "id": 62,
               "name": "has",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1305,6 +1409,11 @@
             {
               "id": 65,
               "name": "inc",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1349,6 +1458,11 @@
             {
               "id": 11,
               "name": "init",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1401,6 +1515,11 @@
             {
               "id": 68,
               "name": "keys",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1445,6 +1564,11 @@
             {
               "id": 71,
               "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 72,
@@ -1521,6 +1645,11 @@
             {
               "id": 74,
               "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 75,
@@ -1602,6 +1731,11 @@
             {
               "id": 78,
               "name": "math",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1646,6 +1780,11 @@
             {
               "id": 81,
               "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1695,6 +1834,11 @@
             {
               "id": 83,
               "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1763,6 +1907,11 @@
             {
               "id": 86,
               "name": "push",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 87,
@@ -1836,6 +1985,11 @@
             {
               "id": 90,
               "name": "random",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1896,6 +2050,11 @@
             {
               "id": 93,
               "name": "randomKey",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1940,6 +2099,11 @@
             {
               "id": 96,
               "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 97,
@@ -2002,6 +2166,11 @@
             {
               "id": 99,
               "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2054,6 +2223,16 @@
             {
               "id": 131,
               "name": "resolveIdentifier",
+              "comment": {
+                "description": "Resolves an identifier.",
+                "blockTags": [
+                  {
+                    "name": "returns",
+                    "text": "The resolved identifier message."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2112,6 +2291,16 @@
             {
               "id": 135,
               "name": "resolveVersion",
+              "comment": {
+                "description": "Resolves a version.",
+                "blockTags": [
+                  {
+                    "name": "returns",
+                    "text": "The resolved version."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2153,6 +2342,11 @@
             {
               "id": 102,
               "name": "set",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 103,
@@ -2226,6 +2420,11 @@
             {
               "id": 106,
               "name": "setMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2270,6 +2469,11 @@
             {
               "id": 109,
               "name": "size",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2314,6 +2518,11 @@
             {
               "id": 112,
               "name": "some",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2363,6 +2572,11 @@
             {
               "id": 114,
               "name": "some",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2415,6 +2629,11 @@
             {
               "id": 117,
               "name": "update",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 118,
@@ -2510,6 +2729,11 @@
             {
               "id": 121,
               "name": "values",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
