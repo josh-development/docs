@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "2.2.1",
+  "typeDocJsonParserVersion": "2.3.1",
   "id": 0,
   "name": "@joshdb/redis",
   "version": null,
@@ -11540,6 +11540,11 @@
             {
               "id": 265,
               "name": "_iterate",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -11568,7 +11573,7 @@
                               "fileName": "packages/redis/src/lib/RedisProvider.ts",
                               "line": 718,
                               "character": 14,
-                              "url": "https://github.com/josh-development/providers/blob/0a7ba6d/packages/redis/src/lib/RedisProvider.ts#L718"
+                              "url": "https://github.com/josh-development/providers/blob/f95c410/packages/redis/src/lib/RedisProvider.ts#L718"
                             }
                           ],
                           "type": {
@@ -11587,7 +11592,7 @@
                               "fileName": "packages/redis/src/lib/RedisProvider.ts",
                               "line": 718,
                               "character": 19,
-                              "url": "https://github.com/josh-development/providers/blob/0a7ba6d/packages/redis/src/lib/RedisProvider.ts#L718"
+                              "url": "https://github.com/josh-development/providers/blob/f95c410/packages/redis/src/lib/RedisProvider.ts#L718"
                             }
                           ],
                           "type": {
@@ -11611,7 +11616,7 @@
                           "fileName": "packages/redis/src/lib/RedisProvider.ts",
                           "line": 718,
                           "character": 12,
-                          "url": "https://github.com/josh-development/providers/blob/0a7ba6d/packages/redis/src/lib/RedisProvider.ts#L718"
+                          "url": "https://github.com/josh-development/providers/blob/f95c410/packages/redis/src/lib/RedisProvider.ts#L718"
                         }
                       ]
                     }
@@ -11649,6 +11654,11 @@
             {
               "id": 524,
               "name": "autoKey",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -11693,6 +11703,11 @@
             {
               "id": 527,
               "name": "clear",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -11745,6 +11760,11 @@
             {
               "id": 261,
               "name": "close",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -11782,6 +11802,11 @@
             {
               "id": 530,
               "name": "dec",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -11834,6 +11859,11 @@
             {
               "id": 533,
               "name": "delete",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -11886,6 +11916,11 @@
             {
               "id": 536,
               "name": "deleteMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -11938,6 +11973,11 @@
             {
               "id": 270,
               "name": "deserialize",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -11994,6 +12034,11 @@
             {
               "id": 539,
               "name": "each",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -12062,6 +12107,11 @@
             {
               "id": 542,
               "name": "ensure",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -12130,6 +12180,11 @@
             {
               "id": 545,
               "name": "entries",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -12198,6 +12253,20 @@
             {
               "id": 633,
               "name": "error",
+              "comment": {
+                "description": "Creates an Josh provider error.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The error."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -12271,6 +12340,11 @@
             {
               "id": 548,
               "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -12320,6 +12394,11 @@
             {
               "id": 550,
               "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -12372,6 +12451,11 @@
             {
               "id": 263,
               "name": "fetchVersion",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -12412,6 +12496,11 @@
             {
               "id": 553,
               "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -12461,6 +12550,11 @@
             {
               "id": 555,
               "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -12529,6 +12623,11 @@
             {
               "id": 558,
               "name": "find",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -12578,6 +12677,11 @@
             {
               "id": 560,
               "name": "find",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -12646,6 +12750,11 @@
             {
               "id": 563,
               "name": "get",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 564,
@@ -12727,6 +12836,11 @@
             {
               "id": 567,
               "name": "getMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -12795,6 +12909,11 @@
             {
               "id": 570,
               "name": "has",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -12847,6 +12966,11 @@
             {
               "id": 573,
               "name": "inc",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -12899,6 +13023,11 @@
             {
               "id": 258,
               "name": "init",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -12951,6 +13080,11 @@
             {
               "id": 576,
               "name": "keys",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -13003,6 +13137,11 @@
             {
               "id": 579,
               "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 580,
@@ -13079,6 +13218,11 @@
             {
               "id": 582,
               "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 583,
@@ -13160,6 +13304,11 @@
             {
               "id": 586,
               "name": "math",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -13212,6 +13361,11 @@
             {
               "id": 589,
               "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -13261,6 +13415,11 @@
             {
               "id": 591,
               "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -13329,6 +13488,11 @@
             {
               "id": 594,
               "name": "push",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 595,
@@ -13410,6 +13574,11 @@
             {
               "id": 598,
               "name": "random",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -13478,6 +13647,11 @@
             {
               "id": 601,
               "name": "randomKey",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -13530,6 +13704,11 @@
             {
               "id": 604,
               "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 605,
@@ -13592,6 +13771,11 @@
             {
               "id": 607,
               "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -13644,6 +13828,16 @@
             {
               "id": 637,
               "name": "resolveIdentifier",
+              "comment": {
+                "description": "Resolves an identifier.",
+                "blockTags": [
+                  {
+                    "name": "returns",
+                    "text": "The resolved identifier message."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -13702,6 +13896,16 @@
             {
               "id": 641,
               "name": "resolveVersion",
+              "comment": {
+                "description": "Resolves a version.",
+                "blockTags": [
+                  {
+                    "name": "returns",
+                    "text": "The resolved version."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -13743,6 +13947,11 @@
             {
               "id": 273,
               "name": "serialize",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 274,
@@ -13806,6 +14015,11 @@
             {
               "id": 610,
               "name": "set",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 611,
@@ -13887,6 +14101,11 @@
             {
               "id": 614,
               "name": "setMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -13939,6 +14158,11 @@
             {
               "id": 617,
               "name": "size",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -13991,6 +14215,11 @@
             {
               "id": 620,
               "name": "some",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -14040,6 +14269,11 @@
             {
               "id": 622,
               "name": "some",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -14092,6 +14326,11 @@
             {
               "id": 625,
               "name": "update",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 626,
@@ -14187,6 +14426,11 @@
             {
               "id": 629,
               "name": "values",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
