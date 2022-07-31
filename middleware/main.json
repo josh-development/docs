@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "2.2.1",
+  "typeDocJsonParserVersion": "2.3.1",
   "id": 0,
   "name": "@joshdb/middleware",
   "version": null,
@@ -208,6 +208,20 @@
             {
               "id": 35,
               "name": "autoKey",
+              "comment": {
+                "description": "A method which generates a unique automatic key. This key must be unique and cannot overlap other keys.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -226,7 +240,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -260,6 +274,20 @@
             {
               "id": 38,
               "name": "clear",
+              "comment": {
+                "description": "A method which clears all entries.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -278,7 +306,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -312,6 +340,20 @@
             {
               "id": 41,
               "name": "dec",
+              "comment": {
+                "description": "Decrements an entry or a path in an entry by one.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The key and/or path does not exist - \n`CommonIdentifiers.MissingData`\n\n- The data is not an integer - `CommonIdentifiers.InvalidDataType``",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -330,7 +372,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -364,6 +406,20 @@
             {
               "id": 44,
               "name": "delete",
+              "comment": {
+                "description": "Deletes either the entry itself or a path in an entry.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -382,7 +438,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -416,6 +472,20 @@
             {
               "id": 47,
               "name": "deleteMany",
+              "comment": {
+                "description": "Deletes multiple entries and/or a path in an entry.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -434,7 +504,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -468,6 +538,20 @@
             {
               "id": 50,
               "name": "each",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), except this supports asynchronous functions.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -494,7 +578,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -536,6 +620,20 @@
             {
               "id": 53,
               "name": "ensure",
+              "comment": {
+                "description": "A method which ensures an entry exists.\n\nIf the key exists, it returns the value.\nIf the key does not exist, it creates it and returns the default value.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -562,7 +660,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -604,6 +702,20 @@
             {
               "id": 56,
               "name": "entries",
+              "comment": {
+                "description": "A method which mimics the functionality of [Map#entries()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/entries), except returns a record of key-value pairs.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -630,7 +742,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -672,6 +784,20 @@
             {
               "id": 21,
               "name": "error",
+              "comment": {
+                "description": "Creates an Josh provider error.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The error."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -745,6 +871,20 @@
             {
               "id": 59,
               "name": "every",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#each(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)], except this supports asynchronous functions.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 60,
@@ -778,7 +918,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -801,6 +941,20 @@
             {
               "id": 62,
               "name": "every",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#each(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)], except this uses a path and a value to validate.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The data at the path is not a primitive type - \n`CommonIdentifiers.InvalidDataType`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 63,
@@ -826,7 +980,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -841,6 +995,11 @@
             {
               "id": 65,
               "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 66,
@@ -874,7 +1033,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -916,6 +1075,11 @@
             {
               "id": 32,
               "name": "fetchVersion",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -934,7 +1098,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -968,6 +1132,20 @@
             {
               "id": 69,
               "name": "filter",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter), except this supports asynchronous functions.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -994,7 +1172,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1017,6 +1195,20 @@
             {
               "id": 71,
               "name": "filter",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter), except this uses a path and a value to validate.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The data at the path is not a primitive type - \n`CommonIdentifiers.InvalidDataType`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1043,7 +1235,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1066,6 +1258,11 @@
             {
               "id": 73,
               "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1092,7 +1289,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1134,6 +1331,20 @@
             {
               "id": 76,
               "name": "find",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find), except this supports asynchronous functions.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1160,7 +1371,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1183,6 +1394,20 @@
             {
               "id": 78,
               "name": "find",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find), except this uses a path and value to validate.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The data at the path is not a primitive type - \n`CommonIdentifiers.InvalidDataType`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1209,7 +1434,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1232,6 +1457,11 @@
             {
               "id": 80,
               "name": "find",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1258,7 +1488,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1300,6 +1530,20 @@
             {
               "id": 83,
               "name": "get",
+              "comment": {
+                "description": "A method which mimics the functionality of [Map#get()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/get), except this has support for a path.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 84,
@@ -1339,7 +1583,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1381,6 +1625,20 @@
             {
               "id": 87,
               "name": "getMany",
+              "comment": {
+                "description": "A method to get multiple entries.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1407,7 +1665,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1449,6 +1707,20 @@
             {
               "id": 90,
               "name": "has",
+              "comment": {
+                "description": "A method which mimics the functionality of [Map#has()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/has), except this has support for a path.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1467,7 +1739,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1501,6 +1773,20 @@
             {
               "id": 93,
               "name": "inc",
+              "comment": {
+                "description": "Increments an entry or a path in an entry by one.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The entry or path in an entry does not exist - \n`CommonIdentifiers.MissingData`\n\n- The data is not an integer - `CommonIdentifiers.InvalidDataType``",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1519,7 +1805,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1553,6 +1839,24 @@
             {
               "id": 18,
               "name": "init",
+              "comment": {
+                "description": "Initialize the provider.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The provider's context."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```typescript\npublic async init(context: JoshProvider.Context): Promise<JoshProvider.Context> {\n  // Initialize provider...\n  context = await super.init(context);\n  // Initialize provider...\n  return context;\n}\n```"
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1605,6 +1909,20 @@
             {
               "id": 96,
               "name": "keys",
+              "comment": {
+                "description": "A method which mimics the functionality of [Map#keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/keys), except returns an array.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1623,7 +1941,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1657,6 +1975,20 @@
             {
               "id": 99,
               "name": "map",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), except supports asynchronous functions.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 100,
@@ -1703,7 +2035,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1733,6 +2065,20 @@
             {
               "id": 102,
               "name": "map",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), except maps over a path.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The data at the path is not found - \n`CommonIdentifiers.MissingData`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 103,
@@ -1772,7 +2118,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1795,6 +2141,11 @@
             {
               "id": 105,
               "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 106,
@@ -1841,7 +2192,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1890,6 +2241,20 @@
             {
               "id": 109,
               "name": "math",
+              "comment": {
+                "description": "A method which executes a math operation a value with an operand either on the entry or a path in the entry.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The key and/or path does not exist - \n`CommonIdentifiers.MissingData`\n\n- The data is not an integer - \n`CommonIdentifiers.InvalidDataType`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1908,7 +2273,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1942,6 +2307,20 @@
             {
               "id": 112,
               "name": "partition",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter), except returns both truthy and falsy entries and supports asynchronous functions.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -1968,7 +2347,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -1991,6 +2370,20 @@
             {
               "id": 114,
               "name": "partition",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter), except returns both truthy and falsy entries and validates using a path and value.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The data at the path is not found - \n`CommonIdentifiers.MissingData`\n\n- The data at the path is not a primitive type - \n`CommonIdentifiers.InvalidDataType`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2017,7 +2410,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2040,6 +2433,11 @@
             {
               "id": 116,
               "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2066,7 +2464,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2108,6 +2506,20 @@
             {
               "id": 119,
               "name": "push",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push), except this supports a path.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The key and/or path does not exist - \n`CommonIdentifiers.MissingData`\n\n- The data at the path is not an array - \n`CommonIdentifiers.InvalidDataType`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 120,
@@ -2141,7 +2553,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2183,6 +2595,20 @@
             {
               "id": 123,
               "name": "random",
+              "comment": {
+                "description": "A method which gets random value(s).\nWhether duplicates are allowed or not are controlled by \n`Payloads.Random#duplicates`\n option.\nThe amount of values returned is controlled by \n`Payloads.Random#count`\n option.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2209,7 +2635,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2251,6 +2677,20 @@
             {
               "id": 126,
               "name": "randomKey",
+              "comment": {
+                "description": "A method which gets random key(s).\nWhether duplicates are allowed or not are controlled by \n`Payloads.RandomKey#duplicates`\n option.\nThe amount of keys returned is controlled by \n`Payloads.RandomKey#count`\n option.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2269,7 +2709,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2303,6 +2743,20 @@
             {
               "id": 129,
               "name": "remove",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter), except it removes the values filtered and uses a path and value to validate",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 130,
@@ -2336,7 +2790,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2359,6 +2813,20 @@
             {
               "id": 132,
               "name": "remove",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter), except it removes the values filtered and uses a path and value to validate\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The key and/or path does not exist - \n`CommonIdentifiers.MissingData`\n\n- The data at the path is not an array - \n`CommonIdentifiers.InvalidDataType`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 133,
@@ -2384,7 +2852,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2399,6 +2867,11 @@
             {
               "id": 135,
               "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 136,
@@ -2432,7 +2905,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2474,6 +2947,16 @@
             {
               "id": 25,
               "name": "resolveIdentifier",
+              "comment": {
+                "description": "Resolves an identifier.",
+                "blockTags": [
+                  {
+                    "name": "returns",
+                    "text": "The resolved identifier message."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2532,6 +3015,16 @@
             {
               "id": 29,
               "name": "resolveVersion",
+              "comment": {
+                "description": "Resolves a version.",
+                "blockTags": [
+                  {
+                    "name": "returns",
+                    "text": "The resolved version."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2573,6 +3066,20 @@
             {
               "id": 139,
               "name": "set",
+              "comment": {
+                "description": "A method which mimics the functionality of [Map#set()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/set), except this supports a path.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 140,
@@ -2612,7 +3119,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2654,6 +3161,20 @@
             {
               "id": 143,
               "name": "setMany",
+              "comment": {
+                "description": "A method which sets multiple entries and/or paths in entries.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2672,7 +3193,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2706,6 +3227,20 @@
             {
               "id": 146,
               "name": "size",
+              "comment": {
+                "description": "A method which mimics the functionality of [Map#size()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/size)",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -2724,7 +3259,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2758,6 +3293,20 @@
             {
               "id": 149,
               "name": "some",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#some()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some), except this supports asynchronous functions.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 150,
@@ -2791,7 +3340,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2814,6 +3363,20 @@
             {
               "id": 152,
               "name": "some",
+              "comment": {
+                "description": "A method which mimics the functionality of [Array#some()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some), except this uses a path and value to validate.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The path does not exist on an entry - \n`CommonIdentifiers.MissingData`\n\n- The data at the path is not a primitive type - \n`CommonIdentifiers.InvalidDataType`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 153,
@@ -2839,7 +3402,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2854,6 +3417,11 @@
             {
               "id": 155,
               "name": "some",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 156,
@@ -2887,7 +3455,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -2929,6 +3497,20 @@
             {
               "id": 159,
               "name": "update",
+              "comment": {
+                "description": "A method which gets the stored value at a key and passes it to an asynchronous function and sets the data returned.\n\nAn error should be set to the payload and immediately return, if any of the following occurs:\n- The key does not exist - \n`CommonIdentifiers.MissingData`",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 160,
@@ -2969,7 +3551,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -3018,6 +3600,20 @@
             {
               "id": 163,
               "name": "values",
+              "comment": {
+                "description": "A method which mimics the functionality of [Map#values()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/values), except this returns an array.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The payload (modified), originally sent by this provider's Josh instance."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -3044,7 +3640,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Awaitable",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -3562,6 +4158,11 @@
             {
               "id": 190,
               "name": "captureStackTrace",
+              "comment": {
+                "description": "Create .stack property on a target object",
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -3887,6 +4488,11 @@
             {
               "id": 766,
               "name": "autoKey",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -3939,6 +4545,11 @@
             {
               "id": 769,
               "name": "clear",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -3991,6 +4602,11 @@
             {
               "id": 772,
               "name": "dec",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4043,6 +4659,11 @@
             {
               "id": 775,
               "name": "delete",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4095,6 +4716,11 @@
             {
               "id": 778,
               "name": "deleteMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4147,6 +4773,11 @@
             {
               "id": 781,
               "name": "each",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4215,6 +4846,11 @@
             {
               "id": 784,
               "name": "ensure",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4283,6 +4919,11 @@
             {
               "id": 787,
               "name": "entries",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4351,6 +4992,11 @@
             {
               "id": 790,
               "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 791,
@@ -4407,6 +5053,11 @@
             {
               "id": 793,
               "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4440,6 +5091,11 @@
             {
               "id": 795,
               "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 796,
@@ -4515,6 +5171,11 @@
             {
               "id": 799,
               "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4564,6 +5225,11 @@
             {
               "id": 801,
               "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4613,6 +5279,11 @@
             {
               "id": 803,
               "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4681,6 +5352,11 @@
             {
               "id": 806,
               "name": "find",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4730,6 +5406,11 @@
             {
               "id": 808,
               "name": "find",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4779,6 +5460,11 @@
             {
               "id": 810,
               "name": "find",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4847,6 +5533,11 @@
             {
               "id": 813,
               "name": "get",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 814,
@@ -4922,6 +5613,11 @@
             {
               "id": 817,
               "name": "getMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -4990,6 +5686,11 @@
             {
               "id": 820,
               "name": "has",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5042,6 +5743,11 @@
             {
               "id": 823,
               "name": "inc",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5094,6 +5800,20 @@
             {
               "id": 755,
               "name": "init",
+              "comment": {
+                "description": "Initiates this class with it's store.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "Returns the current Middleware class."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5169,6 +5889,11 @@
             {
               "id": 826,
               "name": "keys",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5221,6 +5946,11 @@
             {
               "id": 829,
               "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 830,
@@ -5297,6 +6027,11 @@
             {
               "id": 832,
               "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 833,
@@ -5353,6 +6088,11 @@
             {
               "id": 835,
               "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 836,
@@ -5448,6 +6188,11 @@
             {
               "id": 839,
               "name": "math",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5500,6 +6245,11 @@
             {
               "id": 842,
               "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5549,6 +6299,11 @@
             {
               "id": 844,
               "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5598,6 +6353,11 @@
             {
               "id": 846,
               "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5666,6 +6426,11 @@
             {
               "id": 849,
               "name": "push",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 850,
@@ -5741,6 +6506,11 @@
             {
               "id": 853,
               "name": "random",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5809,6 +6579,11 @@
             {
               "id": 856,
               "name": "randomKey",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5861,6 +6636,11 @@
             {
               "id": 859,
               "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 860,
@@ -5917,6 +6697,11 @@
             {
               "id": 862,
               "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -5950,6 +6735,11 @@
             {
               "id": 864,
               "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 865,
@@ -6025,6 +6815,11 @@
             {
               "id": 758,
               "name": "run",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 759,
@@ -6079,6 +6874,11 @@
             {
               "id": 868,
               "name": "set",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 869,
@@ -6154,6 +6954,11 @@
             {
               "id": 872,
               "name": "setMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -6206,6 +7011,11 @@
             {
               "id": 875,
               "name": "size",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -6258,6 +7068,11 @@
             {
               "id": 878,
               "name": "some",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 879,
@@ -6314,6 +7129,11 @@
             {
               "id": 881,
               "name": "some",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 882,
@@ -6354,6 +7174,11 @@
             {
               "id": 884,
               "name": "some",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 885,
@@ -6429,6 +7254,20 @@
             {
               "id": 762,
               "name": "toJSON",
+              "comment": {
+                "description": "Adds the options of this class to an object.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The options for this middleware as an object."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -6461,6 +7300,11 @@
             {
               "id": 888,
               "name": "update",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [
                 {
                   "id": 889,
@@ -6556,6 +7400,11 @@
             {
               "id": 892,
               "name": "values",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -6830,6 +7679,11 @@
             {
               "id": 962,
               "name": "[iterator]",
+              "comment": {
+                "description": "Returns an iterable of entries in the map.",
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -6894,6 +7748,20 @@
             {
               "id": 919,
               "name": "array",
+              "comment": {
+                "description": "Gets an array of middlewares.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The array of middlewares."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -6944,6 +7812,11 @@
             {
               "id": 931,
               "name": "clear",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -6973,6 +7846,11 @@
             {
               "id": 933,
               "name": "delete",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -7011,6 +7889,11 @@
             {
               "id": 956,
               "name": "entries",
+              "comment": {
+                "description": "Returns an iterable of key, value pairs for every entry in the map.",
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -7075,6 +7958,20 @@
             {
               "id": 927,
               "name": "filterByCondition",
+              "comment": {
+                "description": "Filter middlewares by their conditions.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": ""
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -7148,6 +8045,11 @@
             {
               "id": 936,
               "name": "forEach",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -7305,6 +8207,11 @@
             {
               "id": 945,
               "name": "get",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -7370,6 +8277,20 @@
             {
               "id": 924,
               "name": "getPostMiddlewares",
+              "comment": {
+                "description": "Get post provider middlewares by method.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The middlewares after filtered."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -7432,6 +8353,20 @@
             {
               "id": 921,
               "name": "getPreMiddlewares",
+              "comment": {
+                "description": "Get pre provider middlewares by method.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The middlewares after filtered."
+                  }
+                ],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -7494,6 +8429,11 @@
             {
               "id": 948,
               "name": "has",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -7532,6 +8472,11 @@
             {
               "id": 958,
               "name": "keys",
+              "comment": {
+                "description": "Returns an iterable of keys in the map",
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -7569,6 +8514,11 @@
             {
               "id": 951,
               "name": "set",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [
                 {
@@ -7644,6 +8594,11 @@
             {
               "id": 960,
               "name": "values",
+              "comment": {
+                "description": "Returns an iterable of values in the map",
+                "blockTags": [],
+                "modifierTags": []
+              },
               "typeParameters": [],
               "parameters": [],
               "returnType": {
@@ -8449,6 +9404,20 @@
         {
           "id": 736,
           "name": "ApplyMiddlewareOptions",
+          "comment": {
+            "description": "Decorator function that applies given options to \nMiddleware\n class.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              },
+              {
+                "name": "example",
+                "text": "```typescript\nimport { ApplyMiddlewareOptions, Middleware } from '@joshdb/core';\n\n@ApplyMiddlewareOptions({\n  name: 'name',\n  // More options...\n})\nexport class CoreMiddleware extends Middleware {}\n```"
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [],
           "parameters": [
             {
@@ -8503,6 +9472,11 @@
         {
           "id": 739,
           "name": "PostProvider",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
           "typeParameters": [],
           "parameters": [],
           "returnType": {
@@ -8533,6 +9507,11 @@
         {
           "id": 741,
           "name": "PreProvider",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
           "typeParameters": [],
           "parameters": [],
           "returnType": {
@@ -8563,6 +9542,20 @@
         {
           "id": 664,
           "name": "isEveryByHookPayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Every.ByHook`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 665,
@@ -8633,6 +9626,20 @@
         {
           "id": 668,
           "name": "isEveryByValuePayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Every.ByValue`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 669,
@@ -8695,6 +9702,20 @@
         {
           "id": 672,
           "name": "isFilterByHookPayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Filter.ByHook`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 673,
@@ -8765,6 +9786,20 @@
         {
           "id": 676,
           "name": "isFilterByValuePayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Filter.ByValue`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 677,
@@ -8835,6 +9870,20 @@
         {
           "id": 680,
           "name": "isFindByHookPayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Find.ByHook`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 681,
@@ -8905,6 +9954,20 @@
         {
           "id": 684,
           "name": "isFindByValuePayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Find.ByValue`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 685,
@@ -8975,6 +10038,20 @@
         {
           "id": 688,
           "name": "isMapByHookPayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Map.ByHook`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 689,
@@ -9065,6 +10142,20 @@
         {
           "id": 693,
           "name": "isMapByPathPayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Map.ByPath`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 694,
@@ -9148,6 +10239,20 @@
         {
           "id": 698,
           "name": "isPartitionByHookPayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Partition.ByHook`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 699,
@@ -9218,6 +10323,20 @@
         {
           "id": 702,
           "name": "isPartitionByValuePayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Partition.ByValue`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 703,
@@ -9288,6 +10407,11 @@
         {
           "id": 706,
           "name": "isPayloadWithData",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 707,
@@ -9350,6 +10474,20 @@
         {
           "id": 710,
           "name": "isRemoveByHookPayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Remove.ByHook`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 711,
@@ -9420,6 +10558,20 @@
         {
           "id": 714,
           "name": "isRemoveByValuePayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`Payloads.Remove.ByValue`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 715,
@@ -9482,6 +10634,20 @@
         {
           "id": 718,
           "name": "isSomeByHookPayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`SomeByHookPayload`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 719,
@@ -9552,6 +10718,20 @@
         {
           "id": 722,
           "name": "isSomeByValuePayload",
+          "comment": {
+            "description": "Validates whether the given payload is \n`SomeByValuePayload`",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              },
+              {
+                "name": "returns",
+                "text": "Validation boolean."
+              }
+            ],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 723,
@@ -9614,6 +10794,11 @@
         {
           "id": 726,
           "name": "resolveCommonIdentifier",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
           "typeParameters": [],
           "parameters": [
             {
@@ -9679,6 +10864,11 @@
         {
           "id": 730,
           "name": "runProviderTest",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
           "typeParameters": [
             {
               "id": 731,
@@ -9687,7 +10877,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Constructor",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": [
                   {
                     "kind": "reference",
@@ -10254,7 +11444,7 @@
                     ],
                     "name": "Awaitable",
                     "qualifiedName": "Awaitable",
-                    "package": "@joshdb/provider"
+                    "package": "@sapphire/utilities"
                   }
                 }
               ]
@@ -11724,7 +12914,7 @@
                     ],
                     "name": "Awaitable",
                     "qualifiedName": "Awaitable",
-                    "package": "@joshdb/provider"
+                    "package": "@sapphire/utilities"
                   }
                 }
               ]
@@ -11832,7 +13022,7 @@
                     ],
                     "name": "Awaitable",
                     "qualifiedName": "Awaitable",
-                    "package": "@joshdb/provider"
+                    "package": "@sapphire/utilities"
                   }
                 }
               ]
@@ -13273,7 +14463,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Primitive",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": []
               }
             }
@@ -13551,7 +14741,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Primitive",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": []
               }
             }
@@ -13844,7 +15034,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Primitive",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": []
               }
             }
@@ -15405,7 +16595,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Primitive",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": []
               }
             }
@@ -16212,7 +17402,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Primitive",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": []
               }
             }
@@ -16961,7 +18151,7 @@
                 "kind": "reference",
                 "id": null,
                 "name": "Primitive",
-                "packageName": "@joshdb/provider",
+                "packageName": "@sapphire/utilities",
                 "typeArguments": []
               }
             }
@@ -17709,7 +18899,7 @@
                     "kind": "reference",
                     "id": null,
                     "name": "Primitive",
-                    "packageName": "@joshdb/provider",
+                    "packageName": "@sapphire/utilities",
                     "typeArguments": []
                   }
                 }
@@ -18179,7 +19369,7 @@
                     "kind": "reference",
                     "id": null,
                     "name": "Primitive",
-                    "packageName": "@joshdb/provider",
+                    "packageName": "@sapphire/utilities",
                     "typeArguments": []
                   }
                 }
@@ -18679,7 +19869,7 @@
                     "kind": "reference",
                     "id": null,
                     "name": "Primitive",
-                    "packageName": "@joshdb/provider",
+                    "packageName": "@sapphire/utilities",
                     "typeArguments": []
                   }
                 }
@@ -19561,7 +20751,7 @@
                     "kind": "reference",
                     "id": null,
                     "name": "Primitive",
-                    "packageName": "@joshdb/provider",
+                    "packageName": "@sapphire/utilities",
                     "typeArguments": []
                   }
                 }
@@ -20120,7 +21310,7 @@
                     "kind": "reference",
                     "id": null,
                     "name": "Primitive",
-                    "packageName": "@joshdb/provider",
+                    "packageName": "@sapphire/utilities",
                     "typeArguments": []
                   }
                 }
@@ -20560,7 +21750,7 @@
                     "kind": "reference",
                     "id": null,
                     "name": "Primitive",
-                    "packageName": "@joshdb/provider",
+                    "packageName": "@sapphire/utilities",
                     "typeArguments": []
                   }
                 }
