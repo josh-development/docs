@@ -3957,7 +3957,7 @@
                   "fileName": "packages/provider/src/lib/structures/JoshProviderError.ts",
                   "line": 36,
                   "character": 31,
-                  "url": "https://github.com/josh-development/utilities/blob/b3adc55/packages/provider/src/lib/structures/JoshProviderError.ts#L36"
+                  "url": "https://github.com/josh-development/utilities/blob/5743fb9/packages/provider/src/lib/structures/JoshProviderError.ts#L36"
                 }
               ],
               "signatures": [
@@ -6681,7 +6681,7 @@
         "modifierTags": []
       },
       "source": {
-        "line": 1893,
+        "line": 1933,
         "file": "runProviderTest.ts",
         "path": "packages/provider/src/tests"
       },
@@ -6696,7 +6696,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1908,
+            "line": 1948,
             "file": "runProviderTest.ts",
             "path": "packages/provider/src/tests"
           },
@@ -6712,9 +6712,9 @@
               "sources": [
                 {
                   "fileName": "packages/provider/src/tests/runProviderTest.ts",
-                  "line": 1908,
+                  "line": 1948,
                   "character": 12,
-                  "url": "https://github.com/josh-development/utilities/blob/b3adc55/packages/provider/src/tests/runProviderTest.ts#L1908"
+                  "url": "https://github.com/josh-development/utilities/blob/5743fb9/packages/provider/src/tests/runProviderTest.ts#L1948"
                 }
               ],
               "signatures": [
@@ -6764,7 +6764,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1898,
+            "line": 1938,
             "file": "runProviderTest.ts",
             "path": "packages/provider/src/tests"
           },
@@ -6786,7 +6786,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1900,
+            "line": 1940,
             "file": "runProviderTest.ts",
             "path": "packages/provider/src/tests"
           },
@@ -6813,7 +6813,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1906,
+            "line": 1946,
             "file": "runProviderTest.ts",
             "path": "packages/provider/src/tests"
           },
@@ -7875,7 +7875,7 @@
                   "fileName": "packages/provider/src/lib/types/Payload.ts",
                   "line": 153,
                   "character": 41,
-                  "url": "https://github.com/josh-development/utilities/blob/b3adc55/packages/provider/src/lib/types/Payload.ts#L153"
+                  "url": "https://github.com/josh-development/utilities/blob/5743fb9/packages/provider/src/lib/types/Payload.ts#L153"
                 }
               ],
               "signatures": [
@@ -7961,7 +7961,7 @@
                   "fileName": "packages/provider/src/lib/types/Payload.ts",
                   "line": 155,
                   "character": 48,
-                  "url": "https://github.com/josh-development/utilities/blob/b3adc55/packages/provider/src/lib/types/Payload.ts#L155"
+                  "url": "https://github.com/josh-development/utilities/blob/5743fb9/packages/provider/src/lib/types/Payload.ts#L155"
                 }
               ],
               "signatures": [
