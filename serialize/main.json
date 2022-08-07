@@ -1,8 +1,8 @@
 {
-  "typeDocJsonParserVersion": "2.3.1",
+  "typeDocJsonParserVersion": "2.3.2",
   "id": 0,
   "name": "@joshdb/serialize",
-  "version": null,
+  "version": "1.0.0",
   "classes": [],
   "constants": [],
   "enums": [
@@ -422,7 +422,7 @@
                           "fileName": "lib/types/SerializeJSON.ts",
                           "line": 26,
                           "character": 24,
-                          "url": "https://github.com/josh-development/utilities/blob/5743fb9/packages/serialize/src/lib/types/SerializeJSON.ts#L26"
+                          "url": "https://github.com/josh-development/utilities/blob/4394a71/packages/serialize/src/lib/types/SerializeJSON.ts#L26"
                         }
                       ],
                       "type": {
@@ -441,7 +441,7 @@
                           "fileName": "lib/types/SerializeJSON.ts",
                           "line": 26,
                           "character": 8,
-                          "url": "https://github.com/josh-development/utilities/blob/5743fb9/packages/serialize/src/lib/types/SerializeJSON.ts#L26"
+                          "url": "https://github.com/josh-development/utilities/blob/4394a71/packages/serialize/src/lib/types/SerializeJSON.ts#L26"
                         }
                       ],
                       "type": {
@@ -464,7 +464,7 @@
                       "fileName": "lib/types/SerializeJSON.ts",
                       "line": 26,
                       "character": 6,
-                      "url": "https://github.com/josh-development/utilities/blob/5743fb9/packages/serialize/src/lib/types/SerializeJSON.ts#L26"
+                      "url": "https://github.com/josh-development/utilities/blob/4394a71/packages/serialize/src/lib/types/SerializeJSON.ts#L26"
                     }
                   ]
                 }
