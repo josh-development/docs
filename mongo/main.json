@@ -1,8 +1,8 @@
 {
-  "typeDocJsonParserVersion": "2.3.1",
+  "typeDocJsonParserVersion": "2.3.2",
   "id": 0,
   "name": "@joshdb/mongo",
-  "version": null,
+  "version": "2.0.0",
   "classes": [
     {
       "id": 2,
@@ -402,7 +402,7 @@
                           "fileName": "src/lib/MongoProvider.ts",
                           "line": 793,
                           "character": 30,
-                          "url": "https://github.com/josh-development/providers/blob/6eaf372/packages/mongo/src/lib/MongoProvider.ts#L793"
+                          "url": "https://github.com/josh-development/providers/blob/152adc9/packages/mongo/src/lib/MongoProvider.ts#L793"
                         }
                       ],
                       "indexSignature": {
@@ -540,7 +540,7 @@
                           "fileName": "src/lib/MongoProvider.ts",
                           "line": 797,
                           "character": 83,
-                          "url": "https://github.com/josh-development/providers/blob/6eaf372/packages/mongo/src/lib/MongoProvider.ts#L797"
+                          "url": "https://github.com/josh-development/providers/blob/152adc9/packages/mongo/src/lib/MongoProvider.ts#L797"
                         }
                       ],
                       "indexSignature": {
