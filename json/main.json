@@ -170,7 +170,7 @@
           }
         },
         {
-          "id": 38,
+          "id": 18,
           "name": "exists",
           "comment": {
             "description": null,
@@ -178,7 +178,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 59,
+            "line": 25,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -193,7 +193,7 @@
           }
         },
         {
-          "id": 36,
+          "id": 16,
           "name": "retryOptions",
           "comment": {
             "description": null,
@@ -201,7 +201,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 55,
+            "line": 21,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -221,7 +221,7 @@
       ],
       "methods": [
         {
-          "id": 30,
+          "id": 34,
           "name": "attempt",
           "comment": {
             "description": null,
@@ -229,7 +229,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 45,
+            "line": 53,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -238,7 +238,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 31,
+              "id": 35,
               "name": "attempt",
               "comment": {
                 "description": null,
@@ -247,7 +247,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 32,
+                  "id": 36,
                   "name": "T",
                   "type": null,
                   "default": {
@@ -258,7 +258,7 @@
               ],
               "parameters": [
                 {
-                  "id": 33,
+                  "id": 37,
                   "name": "callback",
                   "type": {
                     "kind": "reference",
@@ -268,7 +268,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 32,
+                        "id": 36,
                         "name": "T",
                         "packageName": null,
                         "typeArguments": []
@@ -277,7 +277,7 @@
                   }
                 },
                 {
-                  "id": 34,
+                  "id": 38,
                   "name": "retry",
                   "type": {
                     "kind": "reference",
@@ -296,7 +296,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 32,
+                    "id": 36,
                     "name": "T",
                     "packageName": null,
                     "typeArguments": []
@@ -307,7 +307,7 @@
           ]
         },
         {
-          "id": 22,
+          "id": 26,
           "name": "copy",
           "comment": {
             "description": null,
@@ -315,7 +315,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 33,
+            "line": 41,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -324,7 +324,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 23,
+              "id": 27,
               "name": "copy",
               "comment": {
                 "description": null,
@@ -334,7 +334,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 24,
+                  "id": 28,
                   "name": "to",
                   "type": {
                     "kind": "intrinsic",
@@ -358,7 +358,7 @@
           ]
         },
         {
-          "id": 28,
+          "id": 32,
           "name": "delete",
           "comment": {
             "description": null,
@@ -366,7 +366,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 41,
+            "line": 49,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -375,7 +375,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 29,
+              "id": 33,
               "name": "delete",
               "comment": {
                 "description": null,
@@ -453,7 +453,7 @@
           ]
         },
         {
-          "id": 15,
+          "id": 19,
           "name": "read",
           "comment": {
             "description": null,
@@ -461,7 +461,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 21,
+            "line": 29,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -470,7 +470,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 16,
+              "id": 20,
               "name": "read",
               "comment": {
                 "description": null,
@@ -479,7 +479,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 17,
+                  "id": 21,
                   "name": "Data",
                   "type": null,
                   "default": {
@@ -508,7 +508,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 17,
+                    "id": 21,
                     "name": "Data",
                     "packageName": null,
                     "typeArguments": []
@@ -519,7 +519,7 @@
           ]
         },
         {
-          "id": 25,
+          "id": 29,
           "name": "rename",
           "comment": {
             "description": null,
@@ -527,7 +527,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 37,
+            "line": 45,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -536,7 +536,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 26,
+              "id": 30,
               "name": "rename",
               "comment": {
                 "description": null,
@@ -546,7 +546,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 27,
+                  "id": 31,
                   "name": "to",
                   "type": {
                     "kind": "intrinsic",
@@ -632,7 +632,7 @@
           ]
         },
         {
-          "id": 18,
+          "id": 22,
           "name": "write",
           "comment": {
             "description": null,
@@ -640,7 +640,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 29,
+            "line": 37,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -649,7 +649,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 19,
+              "id": 23,
               "name": "write",
               "comment": {
                 "description": null,
@@ -658,7 +658,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 20,
+                  "id": 24,
                   "name": "Data",
                   "type": null,
                   "default": {
@@ -680,11 +680,11 @@
               ],
               "parameters": [
                 {
-                  "id": 21,
+                  "id": 25,
                   "name": "data",
                   "type": {
                     "kind": "reference",
-                    "id": 20,
+                    "id": 24,
                     "name": "Data",
                     "packageName": null,
                     "typeArguments": []
@@ -2135,7 +2135,7 @@
           }
         },
         {
-          "id": 82,
+          "id": 62,
           "name": "exists",
           "comment": {
             "description": null,
@@ -2143,7 +2143,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 59,
+            "line": 25,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -2158,7 +2158,7 @@
           }
         },
         {
-          "id": 80,
+          "id": 60,
           "name": "retryOptions",
           "comment": {
             "description": null,
@@ -2166,7 +2166,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 55,
+            "line": 21,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -2186,7 +2186,7 @@
       ],
       "methods": [
         {
-          "id": 74,
+          "id": 78,
           "name": "attempt",
           "comment": {
             "description": null,
@@ -2194,7 +2194,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 45,
+            "line": 53,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -2203,7 +2203,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 75,
+              "id": 79,
               "name": "attempt",
               "comment": {
                 "description": null,
@@ -2212,7 +2212,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 76,
+                  "id": 80,
                   "name": "T",
                   "type": null,
                   "default": {
@@ -2223,7 +2223,7 @@
               ],
               "parameters": [
                 {
-                  "id": 77,
+                  "id": 81,
                   "name": "callback",
                   "type": {
                     "kind": "reference",
@@ -2233,7 +2233,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 32,
+                        "id": 36,
                         "name": "T",
                         "packageName": null,
                         "typeArguments": []
@@ -2242,7 +2242,7 @@
                   }
                 },
                 {
-                  "id": 78,
+                  "id": 82,
                   "name": "retry",
                   "type": {
                     "kind": "reference",
@@ -2261,7 +2261,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 32,
+                    "id": 36,
                     "name": "T",
                     "packageName": null,
                     "typeArguments": []
@@ -2272,7 +2272,7 @@
           ]
         },
         {
-          "id": 66,
+          "id": 70,
           "name": "copy",
           "comment": {
             "description": null,
@@ -2280,7 +2280,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 33,
+            "line": 41,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -2289,7 +2289,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 67,
+              "id": 71,
               "name": "copy",
               "comment": {
                 "description": null,
@@ -2299,7 +2299,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 68,
+                  "id": 72,
                   "name": "to",
                   "type": {
                     "kind": "intrinsic",
@@ -2323,7 +2323,7 @@
           ]
         },
         {
-          "id": 72,
+          "id": 76,
           "name": "delete",
           "comment": {
             "description": null,
@@ -2331,7 +2331,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 41,
+            "line": 49,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -2340,7 +2340,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 73,
+              "id": 77,
               "name": "delete",
               "comment": {
                 "description": null,
@@ -2410,7 +2410,7 @@
           ]
         },
         {
-          "id": 59,
+          "id": 63,
           "name": "read",
           "comment": {
             "description": null,
@@ -2418,7 +2418,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 21,
+            "line": 29,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -2427,7 +2427,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 60,
+              "id": 64,
               "name": "read",
               "comment": {
                 "description": null,
@@ -2436,7 +2436,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 61,
+                  "id": 65,
                   "name": "Data",
                   "type": null,
                   "default": {
@@ -2462,7 +2462,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 17,
+                    "id": 21,
                     "name": "Data",
                     "packageName": null,
                     "typeArguments": []
@@ -2473,7 +2473,7 @@
           ]
         },
         {
-          "id": 69,
+          "id": 73,
           "name": "rename",
           "comment": {
             "description": null,
@@ -2481,7 +2481,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 37,
+            "line": 45,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -2490,7 +2490,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 70,
+              "id": 74,
               "name": "rename",
               "comment": {
                 "description": null,
@@ -2500,7 +2500,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 71,
+                  "id": 75,
                   "name": "to",
                   "type": {
                     "kind": "intrinsic",
@@ -2578,7 +2578,7 @@
           ]
         },
         {
-          "id": 62,
+          "id": 66,
           "name": "write",
           "comment": {
             "description": null,
@@ -2586,7 +2586,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 29,
+            "line": 37,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -2595,7 +2595,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 63,
+              "id": 67,
               "name": "write",
               "comment": {
                 "description": null,
@@ -2604,7 +2604,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 64,
+                  "id": 68,
                   "name": "Data",
                   "type": null,
                   "default": {
@@ -2623,11 +2623,11 @@
               ],
               "parameters": [
                 {
-                  "id": 65,
+                  "id": 69,
                   "name": "data",
                   "type": {
                     "kind": "reference",
-                    "id": 20,
+                    "id": 24,
                     "name": "Data",
                     "packageName": null,
                     "typeArguments": []
@@ -2786,7 +2786,7 @@
           }
         },
         {
-          "id": 127,
+          "id": 107,
           "name": "exists",
           "comment": {
             "description": null,
@@ -2794,7 +2794,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 59,
+            "line": 25,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -2809,7 +2809,7 @@
           }
         },
         {
-          "id": 125,
+          "id": 105,
           "name": "retryOptions",
           "comment": {
             "description": null,
@@ -2817,7 +2817,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 55,
+            "line": 21,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -2837,7 +2837,7 @@
       ],
       "methods": [
         {
-          "id": 119,
+          "id": 123,
           "name": "attempt",
           "comment": {
             "description": null,
@@ -2845,7 +2845,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 45,
+            "line": 53,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -2854,7 +2854,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 120,
+              "id": 124,
               "name": "attempt",
               "comment": {
                 "description": null,
@@ -2863,7 +2863,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 121,
+                  "id": 125,
                   "name": "T",
                   "type": null,
                   "default": {
@@ -2874,7 +2874,7 @@
               ],
               "parameters": [
                 {
-                  "id": 122,
+                  "id": 126,
                   "name": "callback",
                   "type": {
                     "kind": "reference",
@@ -2884,7 +2884,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 32,
+                        "id": 36,
                         "name": "T",
                         "packageName": null,
                         "typeArguments": []
@@ -2893,7 +2893,7 @@
                   }
                 },
                 {
-                  "id": 123,
+                  "id": 127,
                   "name": "retry",
                   "type": {
                     "kind": "reference",
@@ -2912,7 +2912,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 32,
+                    "id": 36,
                     "name": "T",
                     "packageName": null,
                     "typeArguments": []
@@ -2923,7 +2923,7 @@
           ]
         },
         {
-          "id": 111,
+          "id": 115,
           "name": "copy",
           "comment": {
             "description": null,
@@ -2931,7 +2931,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 33,
+            "line": 41,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -2940,7 +2940,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 112,
+              "id": 116,
               "name": "copy",
               "comment": {
                 "description": null,
@@ -2950,7 +2950,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 113,
+                  "id": 117,
                   "name": "to",
                   "type": {
                     "kind": "intrinsic",
@@ -2974,7 +2974,7 @@
           ]
         },
         {
-          "id": 117,
+          "id": 121,
           "name": "delete",
           "comment": {
             "description": null,
@@ -2982,7 +2982,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 41,
+            "line": 49,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -2991,7 +2991,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 118,
+              "id": 122,
               "name": "delete",
               "comment": {
                 "description": null,
@@ -3016,7 +3016,7 @@
           ]
         },
         {
-          "id": 104,
+          "id": 108,
           "name": "read",
           "comment": {
             "description": null,
@@ -3024,7 +3024,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 21,
+            "line": 29,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -3033,7 +3033,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 105,
+              "id": 109,
               "name": "read",
               "comment": {
                 "description": null,
@@ -3042,7 +3042,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 106,
+                  "id": 110,
                   "name": "Data",
                   "type": null,
                   "default": {
@@ -3071,7 +3071,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 17,
+                    "id": 21,
                     "name": "Data",
                     "packageName": null,
                     "typeArguments": []
@@ -3082,7 +3082,7 @@
           ]
         },
         {
-          "id": 114,
+          "id": 118,
           "name": "rename",
           "comment": {
             "description": null,
@@ -3090,7 +3090,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 37,
+            "line": 45,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -3099,7 +3099,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 115,
+              "id": 119,
               "name": "rename",
               "comment": {
                 "description": null,
@@ -3109,7 +3109,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 116,
+                  "id": 120,
                   "name": "to",
                   "type": {
                     "kind": "intrinsic",
@@ -3133,7 +3133,7 @@
           ]
         },
         {
-          "id": 107,
+          "id": 111,
           "name": "write",
           "comment": {
             "description": null,
@@ -3141,7 +3141,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 29,
+            "line": 37,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -3150,7 +3150,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 108,
+              "id": 112,
               "name": "write",
               "comment": {
                 "description": null,
@@ -3159,7 +3159,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 109,
+                  "id": 113,
                   "name": "Data",
                   "type": null,
                   "default": {
@@ -3181,11 +3181,11 @@
               ],
               "parameters": [
                 {
-                  "id": 110,
+                  "id": 114,
                   "name": "data",
                   "type": {
                     "kind": "reference",
-                    "id": 20,
+                    "id": 24,
                     "name": "Data",
                     "packageName": null,
                     "typeArguments": []
@@ -3330,7 +3330,7 @@
           }
         },
         {
-          "id": 240,
+          "id": 220,
           "name": "exists",
           "comment": {
             "description": null,
@@ -3338,7 +3338,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 59,
+            "line": 25,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -3353,7 +3353,7 @@
           }
         },
         {
-          "id": 238,
+          "id": 218,
           "name": "retryOptions",
           "comment": {
             "description": null,
@@ -3361,7 +3361,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 55,
+            "line": 21,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -3381,7 +3381,7 @@
       ],
       "methods": [
         {
-          "id": 232,
+          "id": 236,
           "name": "attempt",
           "comment": {
             "description": null,
@@ -3389,7 +3389,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 45,
+            "line": 53,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -3398,7 +3398,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 233,
+              "id": 237,
               "name": "attempt",
               "comment": {
                 "description": null,
@@ -3407,7 +3407,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 234,
+                  "id": 238,
                   "name": "T",
                   "type": null,
                   "default": {
@@ -3418,7 +3418,7 @@
               ],
               "parameters": [
                 {
-                  "id": 235,
+                  "id": 239,
                   "name": "callback",
                   "type": {
                     "kind": "reference",
@@ -3428,7 +3428,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 32,
+                        "id": 36,
                         "name": "T",
                         "packageName": null,
                         "typeArguments": []
@@ -3437,7 +3437,7 @@
                   }
                 },
                 {
-                  "id": 236,
+                  "id": 240,
                   "name": "retry",
                   "type": {
                     "kind": "reference",
@@ -3456,7 +3456,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 32,
+                    "id": 36,
                     "name": "T",
                     "packageName": null,
                     "typeArguments": []
@@ -3467,7 +3467,7 @@
           ]
         },
         {
-          "id": 224,
+          "id": 228,
           "name": "copy",
           "comment": {
             "description": null,
@@ -3475,7 +3475,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 33,
+            "line": 41,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -3484,7 +3484,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 225,
+              "id": 229,
               "name": "copy",
               "comment": {
                 "description": null,
@@ -3494,7 +3494,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 226,
+                  "id": 230,
                   "name": "to",
                   "type": {
                     "kind": "intrinsic",
@@ -3518,7 +3518,7 @@
           ]
         },
         {
-          "id": 230,
+          "id": 234,
           "name": "delete",
           "comment": {
             "description": null,
@@ -3526,7 +3526,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 41,
+            "line": 49,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -3535,7 +3535,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 231,
+              "id": 235,
               "name": "delete",
               "comment": {
                 "description": null,
@@ -3560,7 +3560,7 @@
           ]
         },
         {
-          "id": 217,
+          "id": 221,
           "name": "read",
           "comment": {
             "description": null,
@@ -3568,7 +3568,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 21,
+            "line": 29,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -3577,7 +3577,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 218,
+              "id": 222,
               "name": "read",
               "comment": {
                 "description": null,
@@ -3586,7 +3586,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 219,
+                  "id": 223,
                   "name": "Data",
                   "type": null,
                   "default": {
@@ -3615,7 +3615,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 17,
+                    "id": 21,
                     "name": "Data",
                     "packageName": null,
                     "typeArguments": []
@@ -3626,7 +3626,7 @@
           ]
         },
         {
-          "id": 227,
+          "id": 231,
           "name": "rename",
           "comment": {
             "description": null,
@@ -3634,7 +3634,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 37,
+            "line": 45,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -3643,7 +3643,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 228,
+              "id": 232,
               "name": "rename",
               "comment": {
                 "description": null,
@@ -3653,7 +3653,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 229,
+                  "id": 233,
                   "name": "to",
                   "type": {
                     "kind": "intrinsic",
@@ -3677,7 +3677,7 @@
           ]
         },
         {
-          "id": 220,
+          "id": 224,
           "name": "write",
           "comment": {
             "description": null,
@@ -3685,7 +3685,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 29,
+            "line": 37,
             "file": "File.ts",
             "path": "src/lib"
           },
@@ -3694,7 +3694,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 221,
+              "id": 225,
               "name": "write",
               "comment": {
                 "description": null,
@@ -3703,7 +3703,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 222,
+                  "id": 226,
                   "name": "Data",
                   "type": null,
                   "default": {
@@ -3725,11 +3725,11 @@
               ],
               "parameters": [
                 {
-                  "id": 223,
+                  "id": 227,
                   "name": "data",
                   "type": {
                     "kind": "reference",
-                    "id": 20,
+                    "id": 24,
                     "name": "Data",
                     "packageName": null,
                     "typeArguments": []
@@ -3793,7 +3793,7 @@
           "modifierTags": []
         },
         "source": {
-          "line": 40,
+          "line": 36,
           "file": "JSONProvider.ts",
           "path": "src/lib"
         },
@@ -3813,7 +3813,7 @@
       },
       "properties": [
         {
-          "id": 265,
+          "id": 263,
           "name": "_handler",
           "comment": {
             "description": null,
@@ -3821,7 +3821,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 38,
+            "line": 34,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -3935,7 +3935,7 @@
           }
         },
         {
-          "id": 285,
+          "id": 267,
           "name": "handler",
           "comment": {
             "description": null,
@@ -3943,7 +3943,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 707,
+            "line": 44,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -3969,7 +3969,7 @@
           }
         },
         {
-          "id": 264,
+          "id": 265,
           "name": "version",
           "comment": {
             "description": null,
@@ -3977,7 +3977,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 34,
+            "line": 40,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -4005,7 +4005,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 64,
+            "line": 70,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -4062,7 +4062,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 77,
+            "line": 83,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -4119,7 +4119,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 83,
+            "line": 89,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -4176,7 +4176,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 102,
+            "line": 108,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -4233,7 +4233,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 116,
+            "line": 122,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -4290,7 +4290,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 124,
+            "line": 130,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -4363,7 +4363,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 132,
+            "line": 138,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -4436,7 +4436,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 143,
+            "line": 149,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -4596,7 +4596,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 149,
+            "line": 155,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -4699,7 +4699,7 @@
           ]
         },
         {
-          "id": 273,
+          "id": 275,
           "name": "fetchVersion",
           "comment": {
             "description": null,
@@ -4707,7 +4707,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 688,
+            "line": 694,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -4716,7 +4716,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 274,
+              "id": 276,
               "name": "fetchVersion",
               "comment": {
                 "description": null,
@@ -4726,7 +4726,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 275,
+                  "id": 277,
                   "name": "context",
                   "type": {
                     "kind": "reference",
@@ -4764,7 +4764,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 193,
+            "line": 199,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -4891,7 +4891,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 228,
+            "line": 234,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -5018,7 +5018,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 281,
+            "line": 287,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -5104,7 +5104,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 295,
+            "line": 301,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -5177,7 +5177,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 303,
+            "line": 309,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -5234,7 +5234,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 309,
+            "line": 315,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -5283,7 +5283,7 @@
           ]
         },
         {
-          "id": 266,
+          "id": 268,
           "name": "init",
           "comment": {
             "description": null,
@@ -5291,7 +5291,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 44,
+            "line": 50,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -5300,7 +5300,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 267,
+              "id": 269,
               "name": "init",
               "comment": {
                 "description": null,
@@ -5310,7 +5310,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 268,
+                  "id": 270,
                   "name": "context",
                   "type": {
                     "kind": "reference",
@@ -5340,7 +5340,7 @@
           ]
         },
         {
-          "id": 276,
+          "id": 278,
           "name": "isLegacyIndexData",
           "comment": {
             "description": null,
@@ -5348,7 +5348,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 701,
+            "line": 707,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -5357,7 +5357,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 277,
+              "id": 279,
               "name": "isLegacyIndexData",
               "comment": {
                 "description": null,
@@ -5367,7 +5367,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 278,
+                  "id": 280,
                   "name": "data",
                   "type": {
                     "kind": "intrinsic",
@@ -5382,14 +5382,14 @@
                 "type": {
                   "kind": "reflection",
                   "reflection": {
-                    "id": 279,
+                    "id": 281,
                     "name": "__type",
                     "kind": 65536,
                     "kindString": "Type literal",
                     "flags": {},
                     "children": [
                       {
-                        "id": 280,
+                        "id": 282,
                         "name": "files",
                         "kind": 1024,
                         "kindString": "Property",
@@ -5397,9 +5397,9 @@
                         "sources": [
                           {
                             "fileName": "src/lib/JSONProvider.ts",
-                            "line": 701,
+                            "line": 707,
                             "character": 54,
-                            "url": "https://github.com/josh-development/providers/blob/d269c60/packages/json/src/lib/JSONProvider.ts#L701"
+                            "url": "https://github.com/josh-development/providers/blob/8aac59b/packages/json/src/lib/JSONProvider.ts#L707"
                           }
                         ],
                         "type": {
@@ -5407,14 +5407,14 @@
                           "elementType": {
                             "type": "reflection",
                             "declaration": {
-                              "id": 281,
+                              "id": 283,
                               "name": "__type",
                               "kind": 65536,
                               "kindString": "Type literal",
                               "flags": {},
                               "children": [
                                 {
-                                  "id": 282,
+                                  "id": 284,
                                   "name": "key",
                                   "kind": 1024,
                                   "kindString": "Property",
@@ -5422,9 +5422,9 @@
                                   "sources": [
                                     {
                                       "fileName": "src/lib/JSONProvider.ts",
-                                      "line": 701,
+                                      "line": 707,
                                       "character": 63,
-                                      "url": "https://github.com/josh-development/providers/blob/d269c60/packages/json/src/lib/JSONProvider.ts#L701"
+                                      "url": "https://github.com/josh-development/providers/blob/8aac59b/packages/json/src/lib/JSONProvider.ts#L707"
                                     }
                                   ],
                                   "type": {
@@ -5433,7 +5433,7 @@
                                   }
                                 },
                                 {
-                                  "id": 283,
+                                  "id": 285,
                                   "name": "location",
                                   "kind": 1024,
                                   "kindString": "Property",
@@ -5441,9 +5441,9 @@
                                   "sources": [
                                     {
                                       "fileName": "src/lib/JSONProvider.ts",
-                                      "line": 701,
+                                      "line": 707,
                                       "character": 76,
-                                      "url": "https://github.com/josh-development/providers/blob/d269c60/packages/json/src/lib/JSONProvider.ts#L701"
+                                      "url": "https://github.com/josh-development/providers/blob/8aac59b/packages/json/src/lib/JSONProvider.ts#L707"
                                     }
                                   ],
                                   "type": {
@@ -5456,17 +5456,17 @@
                                 {
                                   "title": "Properties",
                                   "children": [
-                                    282,
-                                    283
+                                    284,
+                                    285
                                   ]
                                 }
                               ],
                               "sources": [
                                 {
                                   "fileName": "src/lib/JSONProvider.ts",
-                                  "line": 701,
+                                  "line": 707,
                                   "character": 61,
-                                  "url": "https://github.com/josh-development/providers/blob/d269c60/packages/json/src/lib/JSONProvider.ts#L701"
+                                  "url": "https://github.com/josh-development/providers/blob/8aac59b/packages/json/src/lib/JSONProvider.ts#L707"
                                 }
                               ]
                             }
@@ -5478,16 +5478,16 @@
                       {
                         "title": "Properties",
                         "children": [
-                          280
+                          282
                         ]
                       }
                     ],
                     "sources": [
                       {
                         "fileName": "src/lib/JSONProvider.ts",
-                        "line": 701,
+                        "line": 707,
                         "character": 52,
-                        "url": "https://github.com/josh-development/providers/blob/d269c60/packages/json/src/lib/JSONProvider.ts#L701"
+                        "url": "https://github.com/josh-development/providers/blob/8aac59b/packages/json/src/lib/JSONProvider.ts#L707"
                       }
                     ]
                   }
@@ -5505,7 +5505,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 328,
+            "line": 334,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -5562,7 +5562,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 334,
+            "line": 340,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -5729,7 +5729,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 358,
+            "line": 364,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -5786,7 +5786,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 409,
+            "line": 415,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -5913,7 +5913,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 448,
+            "line": 454,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -5999,7 +5999,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 468,
+            "line": 474,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -6072,7 +6072,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 496,
+            "line": 502,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -6129,7 +6129,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 520,
+            "line": 526,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -6245,7 +6245,7 @@
           ]
         },
         {
-          "id": 269,
+          "id": 271,
           "name": "resolveIdentifier",
           "comment": {
             "description": null,
@@ -6253,7 +6253,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 675,
+            "line": 681,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -6262,7 +6262,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 270,
+              "id": 272,
               "name": "resolveIdentifier",
               "comment": {
                 "description": null,
@@ -6272,7 +6272,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 271,
+                  "id": 273,
                   "name": "identifier",
                   "type": {
                     "kind": "intrinsic",
@@ -6280,7 +6280,7 @@
                   }
                 },
                 {
-                  "id": 272,
+                  "id": 274,
                   "name": "metadata",
                   "type": {
                     "kind": "reference",
@@ -6367,7 +6367,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 568,
+            "line": 574,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -6453,7 +6453,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 581,
+            "line": 587,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -6510,7 +6510,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 601,
+            "line": 607,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -6567,7 +6567,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 607,
+            "line": 613,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -6678,7 +6678,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 654,
+            "line": 660,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -6778,7 +6778,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 669,
+            "line": 675,
             "file": "JSONProvider.ts",
             "path": "src/lib"
           },
@@ -7724,7 +7724,7 @@
                   "fileName": "src/lib/File.ts",
                   "line": 83,
                   "character": 28,
-                  "url": "https://github.com/josh-development/providers/blob/d269c60/packages/json/src/lib/File.ts#L83"
+                  "url": "https://github.com/josh-development/providers/blob/8aac59b/packages/json/src/lib/File.ts#L83"
                 }
               ],
               "signatures": [
@@ -8088,7 +8088,7 @@
                   "fileName": "src/lib/ChunkHandler.ts",
                   "line": 379,
                   "character": 64,
-                  "url": "https://github.com/josh-development/providers/blob/d269c60/packages/json/src/lib/ChunkHandler.ts#L379"
+                  "url": "https://github.com/josh-development/providers/blob/8aac59b/packages/json/src/lib/ChunkHandler.ts#L379"
                 }
               ],
               "signatures": [
