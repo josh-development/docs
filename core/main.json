@@ -243,7 +243,7 @@
           }
         },
         {
-          "id": 201,
+          "id": 17,
           "name": "providerFailedError",
           "comment": {
             "description": null,
@@ -251,7 +251,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1924,
+            "line": 100,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -271,7 +271,7 @@
       ],
       "methods": [
         {
-          "id": 28,
+          "id": 30,
           "name": "autoKey",
           "comment": {
             "description": null,
@@ -279,7 +279,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 180,
+            "line": 184,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -288,7 +288,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 29,
+              "id": 31,
               "name": "autoKey",
               "comment": {
                 "description": "Generate an automatic key. Generally an integer incremented by \n`1`\n, but depends on provider.",
@@ -326,7 +326,7 @@
           ]
         },
         {
-          "id": 30,
+          "id": 32,
           "name": "clear",
           "comment": {
             "description": null,
@@ -334,7 +334,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 222,
+            "line": 226,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -343,7 +343,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 31,
+              "id": 33,
               "name": "clear",
               "comment": {
                 "description": "Clears all stored values from the provider.\n\nNOTE: This deletes **all** data and cannot be reversed.",
@@ -392,7 +392,7 @@
           ]
         },
         {
-          "id": 172,
+          "id": 174,
           "name": "convertBulkData",
           "comment": {
             "description": null,
@@ -400,7 +400,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1808,
+            "line": 1812,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -409,7 +409,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 173,
+              "id": 175,
               "name": "convertBulkData",
               "comment": {
                 "description": "Convert bulk data.",
@@ -427,7 +427,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 174,
+                  "id": 176,
                   "name": "Value",
                   "type": null,
                   "default": {
@@ -439,7 +439,7 @@
                   }
                 },
                 {
-                  "id": 175,
+                  "id": 177,
                   "name": "K",
                   "type": {
                     "kind": "typeOperator",
@@ -452,7 +452,7 @@
                       "typeArguments": [
                         {
                           "kind": "reference",
-                          "id": 174,
+                          "id": 176,
                           "name": "Value",
                           "packageName": null,
                           "typeArguments": []
@@ -471,7 +471,7 @@
               ],
               "parameters": [
                 {
-                  "id": 176,
+                  "id": 178,
                   "name": "data",
                   "type": {
                     "kind": "reference",
@@ -485,7 +485,7 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 174,
+                        "id": 176,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -494,11 +494,11 @@
                   }
                 },
                 {
-                  "id": 177,
+                  "id": 179,
                   "name": "returnBulkType",
                   "type": {
                     "kind": "reference",
-                    "id": 175,
+                    "id": 177,
                     "name": "K",
                     "packageName": null,
                     "typeArguments": []
@@ -515,7 +515,7 @@
                   "typeArguments": [
                     {
                       "kind": "reference",
-                      "id": 174,
+                      "id": 176,
                       "name": "Value",
                       "packageName": null,
                       "typeArguments": []
@@ -524,7 +524,7 @@
                 },
                 "indexType": {
                   "kind": "reference",
-                  "id": 175,
+                  "id": 177,
                   "name": "K",
                   "packageName": null,
                   "typeArguments": []
@@ -534,7 +534,7 @@
           ]
         },
         {
-          "id": 182,
+          "id": 184,
           "name": "convertLegacyExportJSON",
           "comment": {
             "description": null,
@@ -542,7 +542,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1850,
+            "line": 1854,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -551,7 +551,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 183,
+              "id": 185,
               "name": "convertLegacyExportJSON",
               "comment": {
                 "description": "Convert a legacy export json object to a new export json object.",
@@ -565,7 +565,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 184,
+                  "id": 186,
                   "name": "StoredValue",
                   "type": null,
                   "default": null
@@ -573,7 +573,7 @@
               ],
               "parameters": [
                 {
-                  "id": 185,
+                  "id": 187,
                   "name": "json",
                   "type": {
                     "kind": "reference",
@@ -583,7 +583,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 184,
+                        "id": 186,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -600,7 +600,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 184,
+                    "id": 186,
                     "name": "StoredValue",
                     "packageName": null,
                     "typeArguments": []
@@ -611,7 +611,7 @@
           ]
         },
         {
-          "id": 32,
+          "id": 34,
           "name": "dec",
           "comment": {
             "description": null,
@@ -619,7 +619,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 280,
+            "line": 284,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -628,7 +628,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 33,
+              "id": 35,
               "name": "dec",
               "comment": {
                 "description": "Decrement an integer by \n`1`\n.",
@@ -659,7 +659,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 34,
+                  "id": 36,
                   "name": "key",
                   "type": {
                     "kind": "intrinsic",
@@ -667,7 +667,7 @@
                   }
                 },
                 {
-                  "id": 35,
+                  "id": 37,
                   "name": "path",
                   "type": {
                     "kind": "reference",
@@ -705,7 +705,7 @@
           ]
         },
         {
-          "id": 36,
+          "id": 38,
           "name": "delete",
           "comment": {
             "description": null,
@@ -713,7 +713,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 340,
+            "line": 344,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -722,7 +722,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 37,
+              "id": 39,
               "name": "delete",
               "comment": {
                 "description": "Deletes a key or path in a key value.",
@@ -753,7 +753,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 38,
+                  "id": 40,
                   "name": "key",
                   "type": {
                     "kind": "intrinsic",
@@ -761,7 +761,7 @@
                   }
                 },
                 {
-                  "id": 39,
+                  "id": 41,
                   "name": "path",
                   "type": {
                     "kind": "reference",
@@ -799,7 +799,7 @@
           ]
         },
         {
-          "id": 40,
+          "id": 42,
           "name": "deleteMany",
           "comment": {
             "description": null,
@@ -807,7 +807,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 371,
+            "line": 375,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -816,7 +816,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 41,
+              "id": 43,
               "name": "deleteMany",
               "comment": {
                 "description": "Deletes many keys.",
@@ -831,7 +831,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 42,
+                  "id": 44,
                   "name": "keys",
                   "type": {
                     "kind": "array",
@@ -869,7 +869,7 @@
           ]
         },
         {
-          "id": 43,
+          "id": 45,
           "name": "each",
           "comment": {
             "description": null,
@@ -877,7 +877,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 400,
+            "line": 404,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -886,7 +886,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 44,
+              "id": 46,
               "name": "each",
               "comment": {
                 "description": "Loop over every key-value pair in this \nJosh\n and execute \n`hook`\n on it.",
@@ -901,7 +901,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 45,
+                  "id": 47,
                   "name": "hook",
                   "type": {
                     "kind": "reference",
@@ -951,7 +951,7 @@
           ]
         },
         {
-          "id": 46,
+          "id": 48,
           "name": "ensure",
           "comment": {
             "description": null,
@@ -959,7 +959,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 443,
+            "line": 447,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -968,7 +968,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 47,
+              "id": 49,
               "name": "ensure",
               "comment": {
                 "description": "Ensure a key exists and set a default value if it doesn't.",
@@ -995,7 +995,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 48,
+                  "id": 50,
                   "name": "key",
                   "type": {
                     "kind": "intrinsic",
@@ -1003,7 +1003,7 @@
                   }
                 },
                 {
-                  "id": 49,
+                  "id": 51,
                   "name": "defaultValue",
                   "type": {
                     "kind": "reference",
@@ -1033,7 +1033,7 @@
           ]
         },
         {
-          "id": 50,
+          "id": 52,
           "name": "entries",
           "comment": {
             "description": null,
@@ -1041,7 +1041,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 491,
+            "line": 495,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -1050,7 +1050,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 51,
+              "id": 53,
               "name": "entries",
               "comment": {
                 "description": "Get all stored values.",
@@ -1076,7 +1076,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 52,
+                  "id": 54,
                   "name": "BulkType",
                   "type": {
                     "kind": "typeOperator",
@@ -1108,11 +1108,11 @@
               ],
               "parameters": [
                 {
-                  "id": 53,
+                  "id": 55,
                   "name": "returnBulkType",
                   "type": {
                     "kind": "reference",
-                    "id": 52,
+                    "id": 54,
                     "name": "BulkType",
                     "packageName": null,
                     "typeArguments": []
@@ -1144,7 +1144,7 @@
                     },
                     "indexType": {
                       "kind": "reference",
-                      "id": 52,
+                      "id": 54,
                       "name": "BulkType",
                       "packageName": null,
                       "typeArguments": []
@@ -1156,7 +1156,7 @@
           ]
         },
         {
-          "id": 178,
+          "id": 180,
           "name": "error",
           "comment": {
             "description": null,
@@ -1164,7 +1164,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1837,
+            "line": 1841,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -1173,7 +1173,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 179,
+              "id": 181,
               "name": "error",
               "comment": {
                 "description": "Resolves an identifier or options to an error.",
@@ -1192,7 +1192,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 180,
+                  "id": 182,
                   "name": "options",
                   "type": {
                     "kind": "union",
@@ -1212,7 +1212,7 @@
                   }
                 },
                 {
-                  "id": 181,
+                  "id": 183,
                   "name": "metadata",
                   "type": {
                     "kind": "reference",
@@ -1243,7 +1243,7 @@
           ]
         },
         {
-          "id": 54,
+          "id": 56,
           "name": "every",
           "comment": {
             "description": null,
@@ -1251,7 +1251,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 550,
+            "line": 554,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -1260,7 +1260,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 55,
+              "id": 57,
               "name": "every",
               "comment": {
                 "description": "Checks every stored value at a path against the given value. Identical behavior to [Array#every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every).",
@@ -1291,7 +1291,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 56,
+                  "id": 58,
                   "name": "path",
                   "type": {
                     "kind": "reference",
@@ -1302,7 +1302,7 @@
                   }
                 },
                 {
-                  "id": 57,
+                  "id": 59,
                   "name": "value",
                   "type": {
                     "kind": "reference",
@@ -1327,7 +1327,7 @@
               }
             },
             {
-              "id": 58,
+              "id": 60,
               "name": "every",
               "comment": {
                 "description": "Checks every stored value with a function. Identical Behavior to [Array#every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every).",
@@ -1358,7 +1358,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 59,
+                  "id": 61,
                   "name": "hook",
                   "type": {
                     "kind": "reference",
@@ -1397,7 +1397,7 @@
           ]
         },
         {
-          "id": 170,
+          "id": 172,
           "name": "export",
           "comment": {
             "description": null,
@@ -1405,7 +1405,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1791,
+            "line": 1795,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -1414,7 +1414,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 171,
+              "id": 173,
               "name": "export",
               "comment": {
                 "description": "Exports all data from the provider.",
@@ -1459,7 +1459,7 @@
           ]
         },
         {
-          "id": 60,
+          "id": 62,
           "name": "filter",
           "comment": {
             "description": null,
@@ -1467,7 +1467,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 637,
+            "line": 641,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -1476,7 +1476,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 61,
+              "id": 63,
               "name": "filter",
               "comment": {
                 "description": "Filter stored values using a path and value.",
@@ -1498,7 +1498,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 62,
+                  "id": 64,
                   "name": "BulkType",
                   "type": {
                     "kind": "typeOperator",
@@ -1524,7 +1524,7 @@
               ],
               "parameters": [
                 {
-                  "id": 63,
+                  "id": 65,
                   "name": "path",
                   "type": {
                     "kind": "reference",
@@ -1535,7 +1535,7 @@
                   }
                 },
                 {
-                  "id": 64,
+                  "id": 66,
                   "name": "value",
                   "type": {
                     "kind": "reference",
@@ -1546,11 +1546,11 @@
                   }
                 },
                 {
-                  "id": 65,
+                  "id": 67,
                   "name": "returnBulkType",
                   "type": {
                     "kind": "reference",
-                    "id": 62,
+                    "id": 64,
                     "name": "BulkType",
                     "packageName": null,
                     "typeArguments": []
@@ -1582,7 +1582,7 @@
                     },
                     "indexType": {
                       "kind": "reference",
-                      "id": 62,
+                      "id": 64,
                       "name": "BulkType",
                       "packageName": null,
                       "typeArguments": []
@@ -1592,7 +1592,7 @@
               }
             },
             {
-              "id": 66,
+              "id": 68,
               "name": "filter",
               "comment": {
                 "description": "Filter stored data using a hook function.",
@@ -1614,7 +1614,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 67,
+                  "id": 69,
                   "name": "BulkType",
                   "type": {
                     "kind": "typeOperator",
@@ -1640,7 +1640,7 @@
               ],
               "parameters": [
                 {
-                  "id": 68,
+                  "id": 70,
                   "name": "hook",
                   "type": {
                     "kind": "reference",
@@ -1663,7 +1663,7 @@
                   }
                 },
                 {
-                  "id": 69,
+                  "id": 71,
                   "name": "_value",
                   "type": {
                     "kind": "intrinsic",
@@ -1671,11 +1671,11 @@
                   }
                 },
                 {
-                  "id": 70,
+                  "id": 72,
                   "name": "returnBulkType",
                   "type": {
                     "kind": "reference",
-                    "id": 67,
+                    "id": 69,
                     "name": "BulkType",
                     "packageName": null,
                     "typeArguments": []
@@ -1707,7 +1707,7 @@
                     },
                     "indexType": {
                       "kind": "reference",
-                      "id": 67,
+                      "id": 69,
                       "name": "BulkType",
                       "packageName": null,
                       "typeArguments": []
@@ -1719,7 +1719,7 @@
           ]
         },
         {
-          "id": 71,
+          "id": 73,
           "name": "find",
           "comment": {
             "description": null,
@@ -1727,7 +1727,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 729,
+            "line": 733,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -1736,7 +1736,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 72,
+              "id": 74,
               "name": "find",
               "comment": {
                 "description": "Find a stored value using a path and value.",
@@ -1763,7 +1763,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 73,
+                  "id": 75,
                   "name": "path",
                   "type": {
                     "kind": "reference",
@@ -1774,7 +1774,7 @@
                   }
                 },
                 {
-                  "id": 74,
+                  "id": 76,
                   "name": "value",
                   "type": {
                     "kind": "reference",
@@ -1829,7 +1829,7 @@
               }
             },
             {
-              "id": 75,
+              "id": 77,
               "name": "find",
               "comment": {
                 "description": "Find a stored value using a hook function.",
@@ -1856,7 +1856,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 76,
+                  "id": 78,
                   "name": "hook",
                   "type": {
                     "kind": "reference",
@@ -1925,7 +1925,7 @@
           ]
         },
         {
-          "id": 77,
+          "id": 79,
           "name": "get",
           "comment": {
             "description": null,
@@ -1933,7 +1933,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 804,
+            "line": 808,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -1942,7 +1942,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 78,
+              "id": 80,
               "name": "get",
               "comment": {
                 "description": "Get a value using a key.",
@@ -1965,7 +1965,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 79,
+                  "id": 81,
                   "name": "key",
                   "type": {
                     "kind": "intrinsic",
@@ -1999,7 +1999,7 @@
               }
             },
             {
-              "id": 80,
+              "id": 82,
               "name": "get",
               "comment": {
                 "description": "Get a value using a key and/or path.",
@@ -2025,7 +2025,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 81,
+                  "id": 83,
                   "name": "Value",
                   "type": null,
                   "default": {
@@ -2039,7 +2039,7 @@
               ],
               "parameters": [
                 {
-                  "id": 82,
+                  "id": 84,
                   "name": "key",
                   "type": {
                     "kind": "intrinsic",
@@ -2047,7 +2047,7 @@
                   }
                 },
                 {
-                  "id": 83,
+                  "id": 85,
                   "name": "path",
                   "type": {
                     "kind": "reference",
@@ -2073,7 +2073,7 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 81,
+                        "id": 83,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -2086,7 +2086,7 @@
           ]
         },
         {
-          "id": 84,
+          "id": 86,
           "name": "getMany",
           "comment": {
             "description": null,
@@ -2094,7 +2094,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 874,
+            "line": 878,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -2103,7 +2103,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 85,
+              "id": 87,
               "name": "getMany",
               "comment": {
                 "description": "Get stored values at multiple keys.",
@@ -2125,7 +2125,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 86,
+                  "id": 88,
                   "name": "BulkType",
                   "type": {
                     "kind": "typeOperator",
@@ -2160,7 +2160,7 @@
               ],
               "parameters": [
                 {
-                  "id": 87,
+                  "id": 89,
                   "name": "keys",
                   "type": {
                     "kind": "array",
@@ -2171,11 +2171,11 @@
                   }
                 },
                 {
-                  "id": 88,
+                  "id": 90,
                   "name": "returnBulkType",
                   "type": {
                     "kind": "reference",
-                    "id": 86,
+                    "id": 88,
                     "name": "BulkType",
                     "packageName": null,
                     "typeArguments": []
@@ -2216,7 +2216,7 @@
                     },
                     "indexType": {
                       "kind": "reference",
-                      "id": 86,
+                      "id": 88,
                       "name": "BulkType",
                       "packageName": null,
                       "typeArguments": []
@@ -2228,7 +2228,7 @@
           ]
         },
         {
-          "id": 89,
+          "id": 91,
           "name": "has",
           "comment": {
             "description": null,
@@ -2236,7 +2236,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 930,
+            "line": 934,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -2245,7 +2245,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 90,
+              "id": 92,
               "name": "has",
               "comment": {
                 "description": "Check if a key and/or path exists.",
@@ -2272,7 +2272,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 91,
+                  "id": 93,
                   "name": "key",
                   "type": {
                     "kind": "intrinsic",
@@ -2280,7 +2280,7 @@
                   }
                 },
                 {
-                  "id": 92,
+                  "id": 94,
                   "name": "path",
                   "type": {
                     "kind": "reference",
@@ -2307,7 +2307,7 @@
           ]
         },
         {
-          "id": 167,
+          "id": 169,
           "name": "import",
           "comment": {
             "description": null,
@@ -2315,7 +2315,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1767,
+            "line": 1771,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -2324,7 +2324,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 168,
+              "id": 170,
               "name": "import",
               "comment": {
                 "description": null,
@@ -2334,7 +2334,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 169,
+                  "id": 171,
                   "name": "options",
                   "type": {
                     "kind": "reference",
@@ -2380,7 +2380,7 @@
           ]
         },
         {
-          "id": 93,
+          "id": 95,
           "name": "inc",
           "comment": {
             "description": null,
@@ -2388,7 +2388,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 992,
+            "line": 996,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -2397,7 +2397,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 94,
+              "id": 96,
               "name": "inc",
               "comment": {
                 "description": "Increment an integer by \n`1`\n.",
@@ -2428,7 +2428,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 95,
+                  "id": 97,
                   "name": "key",
                   "type": {
                     "kind": "intrinsic",
@@ -2436,7 +2436,7 @@
                   }
                 },
                 {
-                  "id": 96,
+                  "id": 98,
                   "name": "path",
                   "type": {
                     "kind": "reference",
@@ -2474,7 +2474,7 @@
           ]
         },
         {
-          "id": 16,
+          "id": 18,
           "name": "init",
           "comment": {
             "description": null,
@@ -2482,7 +2482,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 110,
+            "line": 114,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -2491,7 +2491,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 17,
+              "id": 19,
               "name": "init",
               "comment": {
                 "description": "The initialization method for Josh.",
@@ -2540,7 +2540,7 @@
           ]
         },
         {
-          "id": 186,
+          "id": 188,
           "name": "isLegacyExportJSON",
           "comment": {
             "description": null,
@@ -2548,7 +2548,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1861,
+            "line": 1865,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -2557,7 +2557,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 187,
+              "id": 189,
               "name": "isLegacyExportJSON",
               "comment": {
                 "description": "Check if a json object is a legacy export json object.",
@@ -2571,7 +2571,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 188,
+                  "id": 190,
                   "name": "StoredValue",
                   "type": null,
                   "default": null
@@ -2579,7 +2579,7 @@
               ],
               "parameters": [
                 {
-                  "id": 189,
+                  "id": 191,
                   "name": "json",
                   "type": {
                     "kind": "union",
@@ -2592,7 +2592,7 @@
                         "typeArguments": [
                           {
                             "kind": "reference",
-                            "id": 188,
+                            "id": 190,
                             "name": "StoredValue",
                             "packageName": null,
                             "typeArguments": []
@@ -2607,7 +2607,7 @@
                         "typeArguments": [
                           {
                             "kind": "reference",
-                            "id": 188,
+                            "id": 190,
                             "name": "StoredValue",
                             "packageName": null,
                             "typeArguments": []
@@ -2630,7 +2630,7 @@
                   "typeArguments": [
                     {
                       "kind": "reference",
-                      "id": 188,
+                      "id": 190,
                       "name": "StoredValue",
                       "packageName": null,
                       "typeArguments": []
@@ -2642,7 +2642,7 @@
           ]
         },
         {
-          "id": 97,
+          "id": 99,
           "name": "keys",
           "comment": {
             "description": null,
@@ -2650,7 +2650,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1030,
+            "line": 1034,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -2659,7 +2659,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 98,
+              "id": 100,
               "name": "keys",
               "comment": {
                 "description": "Returns all stored value keys.",
@@ -2700,7 +2700,7 @@
           ]
         },
         {
-          "id": 99,
+          "id": 101,
           "name": "map",
           "comment": {
             "description": null,
@@ -2708,7 +2708,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1083,
+            "line": 1087,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -2717,7 +2717,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 100,
+              "id": 102,
               "name": "map",
               "comment": {
                 "description": "Map stored values by path or hook function.",
@@ -2747,7 +2747,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 101,
+                  "id": 103,
                   "name": "Value",
                   "type": null,
                   "default": {
@@ -2761,7 +2761,7 @@
               ],
               "parameters": [
                 {
-                  "id": 102,
+                  "id": 104,
                   "name": "pathOrHook",
                   "type": {
                     "kind": "union",
@@ -2788,7 +2788,7 @@
                           },
                           {
                             "kind": "reference",
-                            "id": 101,
+                            "id": 103,
                             "name": "Value",
                             "packageName": null,
                             "typeArguments": []
@@ -2809,7 +2809,7 @@
                     "kind": "array",
                     "type": {
                       "kind": "reference",
-                      "id": 101,
+                      "id": 103,
                       "name": "Value",
                       "packageName": null,
                       "typeArguments": []
@@ -2821,7 +2821,7 @@
           ]
         },
         {
-          "id": 103,
+          "id": 105,
           "name": "math",
           "comment": {
             "description": null,
@@ -2829,7 +2829,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1161,
+            "line": 1165,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -2838,7 +2838,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 104,
+              "id": 106,
               "name": "math",
               "comment": {
                 "description": "Executes math operations on a value with an operand at a specified key and/or path.",
@@ -2873,7 +2873,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 105,
+                  "id": 107,
                   "name": "key",
                   "type": {
                     "kind": "intrinsic",
@@ -2881,7 +2881,7 @@
                   }
                 },
                 {
-                  "id": 106,
+                  "id": 108,
                   "name": "operator",
                   "type": {
                     "kind": "reference",
@@ -2892,7 +2892,7 @@
                   }
                 },
                 {
-                  "id": 107,
+                  "id": 109,
                   "name": "operand",
                   "type": {
                     "kind": "intrinsic",
@@ -2900,7 +2900,7 @@
                   }
                 },
                 {
-                  "id": 108,
+                  "id": 110,
                   "name": "path",
                   "type": {
                     "kind": "reference",
@@ -2938,7 +2938,7 @@
           ]
         },
         {
-          "id": 109,
+          "id": 111,
           "name": "partition",
           "comment": {
             "description": null,
@@ -2946,7 +2946,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1203,
+            "line": 1207,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -2955,7 +2955,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 110,
+              "id": 112,
               "name": "partition",
               "comment": {
                 "description": "Filter stored values and get both truthy and falsy results.",
@@ -2977,7 +2977,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 111,
+                  "id": 113,
                   "name": "BulkType",
                   "type": {
                     "kind": "typeOperator",
@@ -3003,7 +3003,7 @@
               ],
               "parameters": [
                 {
-                  "id": 112,
+                  "id": 114,
                   "name": "hook",
                   "type": {
                     "kind": "reference",
@@ -3026,7 +3026,7 @@
                   }
                 },
                 {
-                  "id": 113,
+                  "id": 115,
                   "name": "_value",
                   "type": {
                     "kind": "intrinsic",
@@ -3034,11 +3034,11 @@
                   }
                 },
                 {
-                  "id": 114,
+                  "id": 116,
                   "name": "returnBulkType",
                   "type": {
                     "kind": "reference",
-                    "id": 111,
+                    "id": 113,
                     "name": "BulkType",
                     "packageName": null,
                     "typeArguments": []
@@ -3073,7 +3073,7 @@
                         },
                         "indexType": {
                           "kind": "reference",
-                          "id": 111,
+                          "id": 113,
                           "name": "BulkType",
                           "packageName": null,
                           "typeArguments": []
@@ -3098,7 +3098,7 @@
                         },
                         "indexType": {
                           "kind": "reference",
-                          "id": 111,
+                          "id": 113,
                           "name": "BulkType",
                           "packageName": null,
                           "typeArguments": []
@@ -3110,7 +3110,7 @@
               }
             },
             {
-              "id": 115,
+              "id": 117,
               "name": "partition",
               "comment": {
                 "description": "Filter stored values and get both truthy and falsy results.",
@@ -3132,7 +3132,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 116,
+                  "id": 118,
                   "name": "BulkType",
                   "type": {
                     "kind": "typeOperator",
@@ -3158,7 +3158,7 @@
               ],
               "parameters": [
                 {
-                  "id": 117,
+                  "id": 119,
                   "name": "path",
                   "type": {
                     "kind": "reference",
@@ -3169,7 +3169,7 @@
                   }
                 },
                 {
-                  "id": 118,
+                  "id": 120,
                   "name": "value",
                   "type": {
                     "kind": "reference",
@@ -3180,11 +3180,11 @@
                   }
                 },
                 {
-                  "id": 119,
+                  "id": 121,
                   "name": "returnBulkType",
                   "type": {
                     "kind": "reference",
-                    "id": 116,
+                    "id": 118,
                     "name": "BulkType",
                     "packageName": null,
                     "typeArguments": []
@@ -3219,7 +3219,7 @@
                         },
                         "indexType": {
                           "kind": "reference",
-                          "id": 116,
+                          "id": 118,
                           "name": "BulkType",
                           "packageName": null,
                           "typeArguments": []
@@ -3244,7 +3244,7 @@
                         },
                         "indexType": {
                           "kind": "reference",
-                          "id": 116,
+                          "id": 118,
                           "name": "BulkType",
                           "packageName": null,
                           "typeArguments": []
@@ -3258,7 +3258,7 @@
           ]
         },
         {
-          "id": 120,
+          "id": 122,
           "name": "push",
           "comment": {
             "description": null,
@@ -3266,7 +3266,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1307,
+            "line": 1311,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -3275,7 +3275,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 121,
+              "id": 123,
               "name": "push",
               "comment": {
                 "description": "Push a value to an array.",
@@ -3301,7 +3301,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 122,
+                  "id": 124,
                   "name": "Value",
                   "type": null,
                   "default": {
@@ -3315,7 +3315,7 @@
               ],
               "parameters": [
                 {
-                  "id": 123,
+                  "id": 125,
                   "name": "key",
                   "type": {
                     "kind": "intrinsic",
@@ -3323,18 +3323,18 @@
                   }
                 },
                 {
-                  "id": 124,
+                  "id": 126,
                   "name": "value",
                   "type": {
                     "kind": "reference",
-                    "id": 122,
+                    "id": 124,
                     "name": "Value",
                     "packageName": null,
                     "typeArguments": []
                   }
                 },
                 {
-                  "id": 125,
+                  "id": 127,
                   "name": "path",
                   "type": {
                     "kind": "reference",
@@ -3372,7 +3372,7 @@
           ]
         },
         {
-          "id": 126,
+          "id": 128,
           "name": "random",
           "comment": {
             "description": null,
@@ -3380,7 +3380,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1350,
+            "line": 1354,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -3389,7 +3389,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 127,
+              "id": 129,
               "name": "random",
               "comment": {
                 "description": "Gets random value(s).",
@@ -3412,7 +3412,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 128,
+                  "id": 130,
                   "name": "options",
                   "type": {
                     "kind": "reference",
@@ -3454,7 +3454,7 @@
           ]
         },
         {
-          "id": 129,
+          "id": 131,
           "name": "randomKey",
           "comment": {
             "description": null,
@@ -3462,7 +3462,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1396,
+            "line": 1400,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -3471,7 +3471,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 130,
+              "id": 132,
               "name": "randomKey",
               "comment": {
                 "description": "Get a random key.\n\nNOTE: \n`options.duplicates`\n only makes checks on primitive value types.",
@@ -3498,7 +3498,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 131,
+                  "id": 133,
                   "name": "options",
                   "type": {
                     "kind": "reference",
@@ -3537,7 +3537,7 @@
           ]
         },
         {
-          "id": 132,
+          "id": 134,
           "name": "remove",
           "comment": {
             "description": null,
@@ -3545,7 +3545,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1439,
+            "line": 1443,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -3554,7 +3554,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 133,
+              "id": 135,
               "name": "remove",
               "comment": {
                 "description": "Removes an element from an array at a key and/or path that matches the given value.",
@@ -3577,7 +3577,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 134,
+                  "id": 136,
                   "name": "key",
                   "type": {
                     "kind": "intrinsic",
@@ -3585,7 +3585,7 @@
                   }
                 },
                 {
-                  "id": 135,
+                  "id": 137,
                   "name": "value",
                   "type": {
                     "kind": "reference",
@@ -3596,7 +3596,7 @@
                   }
                 },
                 {
-                  "id": 136,
+                  "id": 138,
                   "name": "path",
                   "type": {
                     "kind": "reference",
@@ -3632,7 +3632,7 @@
               }
             },
             {
-              "id": 137,
+              "id": 139,
               "name": "remove",
               "comment": {
                 "description": "Removes an element from an array at a key and/or path that are validated by a hook function.",
@@ -3654,7 +3654,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 138,
+                  "id": 140,
                   "name": "Value",
                   "type": null,
                   "default": {
@@ -3668,7 +3668,7 @@
               ],
               "parameters": [
                 {
-                  "id": 139,
+                  "id": 141,
                   "name": "key",
                   "type": {
                     "kind": "intrinsic",
@@ -3676,7 +3676,7 @@
                   }
                 },
                 {
-                  "id": 140,
+                  "id": 142,
                   "name": "hook",
                   "type": {
                     "kind": "reference",
@@ -3686,7 +3686,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 138,
+                        "id": 140,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -3699,7 +3699,7 @@
                   }
                 },
                 {
-                  "id": 141,
+                  "id": 143,
                   "name": "path",
                   "type": {
                     "kind": "reference",
@@ -3737,7 +3737,7 @@
           ]
         },
         {
-          "id": 190,
+          "id": 192,
           "name": "resolveIdentifier",
           "comment": {
             "description": null,
@@ -3745,7 +3745,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1873,
+            "line": 1877,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -3754,7 +3754,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 191,
+              "id": 193,
               "name": "resolveIdentifier",
               "comment": {
                 "description": "Resolve an identifier.",
@@ -3769,7 +3769,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 192,
+                  "id": 194,
                   "name": "identifier",
                   "type": {
                     "kind": "intrinsic",
@@ -3777,7 +3777,7 @@
                   }
                 },
                 {
-                  "id": 193,
+                  "id": 195,
                   "name": "metadata",
                   "type": {
                     "kind": "reference",
@@ -3805,7 +3805,7 @@
           ]
         },
         {
-          "id": 194,
+          "id": 196,
           "name": "resolveKeyPath",
           "comment": {
             "description": null,
@@ -3813,7 +3813,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1907,
+            "line": 1911,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -3822,7 +3822,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 195,
+              "id": 197,
               "name": "resolveKeyPath",
               "comment": {
                 "description": "Resolves a key and/or path for universal use.",
@@ -3837,7 +3837,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 196,
+                  "id": 198,
                   "name": "keyPath",
                   "type": {
                     "kind": "reference",
@@ -3868,7 +3868,7 @@
           ]
         },
         {
-          "id": 197,
+          "id": 199,
           "name": "resolvePath",
           "comment": {
             "description": null,
@@ -3876,7 +3876,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1920,
+            "line": 1924,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -3885,7 +3885,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 198,
+              "id": 200,
               "name": "resolvePath",
               "comment": {
                 "description": "Resolves a path for universal use.",
@@ -3900,7 +3900,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 199,
+                  "id": 201,
                   "name": "path",
                   "type": {
                     "kind": "reference",
@@ -3922,7 +3922,7 @@
           ]
         },
         {
-          "id": 142,
+          "id": 144,
           "name": "set",
           "comment": {
             "description": null,
@@ -3930,7 +3930,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1516,
+            "line": 1520,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -3939,7 +3939,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 143,
+              "id": 145,
               "name": "set",
               "comment": {
                 "description": "Sets a value using a key and/or path.",
@@ -3969,7 +3969,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 144,
+                  "id": 146,
                   "name": "Value",
                   "type": null,
                   "default": {
@@ -3983,7 +3983,7 @@
               ],
               "parameters": [
                 {
-                  "id": 145,
+                  "id": 147,
                   "name": "key",
                   "type": {
                     "kind": "intrinsic",
@@ -3991,18 +3991,18 @@
                   }
                 },
                 {
-                  "id": 146,
+                  "id": 148,
                   "name": "value",
                   "type": {
                     "kind": "reference",
-                    "id": 144,
+                    "id": 146,
                     "name": "Value",
                     "packageName": null,
                     "typeArguments": []
                   }
                 },
                 {
-                  "id": 147,
+                  "id": 149,
                   "name": "path",
                   "type": {
                     "kind": "reference",
@@ -4040,7 +4040,7 @@
           ]
         },
         {
-          "id": 148,
+          "id": 150,
           "name": "setMany",
           "comment": {
             "description": null,
@@ -4048,7 +4048,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1542,
+            "line": 1546,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -4057,7 +4057,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 149,
+              "id": 151,
               "name": "setMany",
               "comment": {
                 "description": null,
@@ -4067,7 +4067,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 150,
+                  "id": 152,
                   "name": "entries",
                   "type": {
                     "kind": "array",
@@ -4090,7 +4090,7 @@
                   }
                 },
                 {
-                  "id": 151,
+                  "id": 153,
                   "name": "overwrite",
                   "type": {
                     "kind": "intrinsic",
@@ -4125,7 +4125,7 @@
           ]
         },
         {
-          "id": 152,
+          "id": 154,
           "name": "size",
           "comment": {
             "description": null,
@@ -4133,7 +4133,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1585,
+            "line": 1589,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -4142,7 +4142,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 153,
+              "id": 155,
               "name": "size",
               "comment": {
                 "description": "Get the amount of key/values",
@@ -4180,7 +4180,7 @@
           ]
         },
         {
-          "id": 154,
+          "id": 156,
           "name": "some",
           "comment": {
             "description": null,
@@ -4188,7 +4188,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1630,
+            "line": 1634,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -4197,7 +4197,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 155,
+              "id": 157,
               "name": "some",
               "comment": {
                 "description": "Verify if a path's value matches a value.",
@@ -4220,7 +4220,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 156,
+                  "id": 158,
                   "name": "path",
                   "type": {
                     "kind": "reference",
@@ -4231,7 +4231,7 @@
                   }
                 },
                 {
-                  "id": 157,
+                  "id": 159,
                   "name": "value",
                   "type": {
                     "kind": "reference",
@@ -4256,7 +4256,7 @@
               }
             },
             {
-              "id": 158,
+              "id": 160,
               "name": "some",
               "comment": {
                 "description": "Verify if a stored value matches with a hook function,",
@@ -4279,7 +4279,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 159,
+                  "id": 161,
                   "name": "hook",
                   "type": {
                     "kind": "reference",
@@ -4318,7 +4318,7 @@
           ]
         },
         {
-          "id": 160,
+          "id": 162,
           "name": "update",
           "comment": {
             "description": null,
@@ -4326,7 +4326,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1704,
+            "line": 1708,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -4335,7 +4335,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 161,
+              "id": 163,
               "name": "update",
               "comment": {
                 "description": "Update a stored value using a hook function.",
@@ -4353,7 +4353,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 162,
+                  "id": 164,
                   "name": "Value",
                   "type": null,
                   "default": {
@@ -4367,7 +4367,7 @@
               ],
               "parameters": [
                 {
-                  "id": 163,
+                  "id": 165,
                   "name": "key",
                   "type": {
                     "kind": "intrinsic",
@@ -4375,7 +4375,7 @@
                   }
                 },
                 {
-                  "id": 164,
+                  "id": 166,
                   "name": "hook",
                   "type": {
                     "kind": "reference",
@@ -4392,7 +4392,7 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 162,
+                        "id": 164,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -4428,7 +4428,7 @@
           ]
         },
         {
-          "id": 18,
+          "id": 20,
           "name": "use",
           "comment": {
             "description": null,
@@ -4436,7 +4436,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 133,
+            "line": 137,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -4445,7 +4445,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 19,
+              "id": 21,
               "name": "use",
               "comment": {
                 "description": "Adds a middleware by providing options and a hook.",
@@ -4467,7 +4467,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 20,
+                  "id": 22,
                   "name": "P",
                   "type": {
                     "kind": "reference",
@@ -4481,7 +4481,7 @@
               ],
               "parameters": [
                 {
-                  "id": 21,
+                  "id": 23,
                   "name": "options",
                   "type": {
                     "kind": "reference",
@@ -4492,12 +4492,12 @@
                   }
                 },
                 {
-                  "id": 22,
+                  "id": 24,
                   "name": "hook",
                   "type": {
                     "kind": "reflection",
                     "reflection": {
-                      "id": 23,
+                      "id": 25,
                       "name": "__type",
                       "kind": 65536,
                       "kindString": "Type literal",
@@ -4505,28 +4505,28 @@
                       "sources": [
                         {
                           "fileName": "src/lib/structures/Josh.ts",
-                          "line": 133,
+                          "line": 137,
                           "character": 74,
-                          "url": "https://github.com/josh-development/core/blob/78304fe/src/lib/structures/Josh.ts#L133"
+                          "url": "https://github.com/josh-development/core/blob/b43f22a/src/lib/structures/Josh.ts#L137"
                         }
                       ],
                       "signatures": [
                         {
-                          "id": 24,
+                          "id": 26,
                           "name": "__type",
                           "kind": 4096,
                           "kindString": "Call signature",
                           "flags": {},
                           "parameters": [
                             {
-                              "id": 25,
+                              "id": 27,
                               "name": "payload",
                               "kind": 32768,
                               "kindString": "Parameter",
                               "flags": {},
                               "type": {
                                 "type": "reference",
-                                "id": 20,
+                                "id": 22,
                                 "name": "P"
                               }
                             }
@@ -4536,7 +4536,7 @@
                             "typeArguments": [
                               {
                                 "type": "reference",
-                                "id": 20,
+                                "id": 22,
                                 "name": "P"
                               }
                             ],
@@ -4567,7 +4567,7 @@
               }
             },
             {
-              "id": 26,
+              "id": 28,
               "name": "use",
               "comment": {
                 "description": "Adds a middleware by providing a Middleware instance.",
@@ -4590,7 +4590,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 27,
+                  "id": 29,
                   "name": "instance",
                   "type": {
                     "kind": "reference",
@@ -4635,7 +4635,7 @@
           ]
         },
         {
-          "id": 165,
+          "id": 167,
           "name": "values",
           "comment": {
             "description": null,
@@ -4643,7 +4643,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1741,
+            "line": 1745,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -4652,7 +4652,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 166,
+              "id": 168,
               "name": "values",
               "comment": {
                 "description": "Get all stored values.",
@@ -5988,7 +5988,7 @@
                             "fileName": "src/lib/structures/Josh.ts",
                             "line": 2064,
                             "character": 12,
-                            "url": "https://github.com/josh-development/core/blob/78304fe/src/lib/structures/Josh.ts#L2064"
+                            "url": "https://github.com/josh-development/core/blob/b43f22a/src/lib/structures/Josh.ts#L2064"
                           }
                         ],
                         "type": {
@@ -6007,7 +6007,7 @@
                             "fileName": "src/lib/structures/Josh.ts",
                             "line": 2064,
                             "character": 25,
-                            "url": "https://github.com/josh-development/core/blob/78304fe/src/lib/structures/Josh.ts#L2064"
+                            "url": "https://github.com/josh-development/core/blob/b43f22a/src/lib/structures/Josh.ts#L2064"
                           }
                         ],
                         "type": {
@@ -6031,7 +6031,7 @@
                         "fileName": "src/lib/structures/Josh.ts",
                         "line": 2064,
                         "character": 10,
-                        "url": "https://github.com/josh-development/core/blob/78304fe/src/lib/structures/Josh.ts#L2064"
+                        "url": "https://github.com/josh-development/core/blob/b43f22a/src/lib/structures/Josh.ts#L2064"
                       }
                     ]
                   }
