@@ -69,7 +69,7 @@
       },
       "properties": [
         {
-          "id": 9,
+          "id": 7,
           "name": "autoKeyCount",
           "comment": {
             "description": "A simple cache for the autoKey method.",
@@ -82,7 +82,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 45,
+            "line": 41,
             "file": "MapProvider.ts",
             "path": "src/lib"
           },
@@ -97,7 +97,7 @@
           }
         },
         {
-          "id": 8,
+          "id": 6,
           "name": "cache",
           "comment": {
             "description": "The [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) cache to store data.",
@@ -110,7 +110,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 39,
+            "line": 35,
             "file": "MapProvider.ts",
             "path": "src/lib"
           },
@@ -233,7 +233,7 @@
           }
         },
         {
-          "id": 7,
+          "id": 9,
           "name": "version",
           "comment": {
             "description": null,
@@ -241,7 +241,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 31,
+            "line": 43,
             "file": "MapProvider.ts",
             "path": "src/lib"
           },
