@@ -4428,7 +4428,7 @@
           }
         },
         {
-          "id": 764,
+          "id": 755,
           "name": "provider",
           "comment": {
             "description": "The provider that is used with the current Josh.",
@@ -4441,7 +4441,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 238,
+            "line": 76,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4477,7 +4477,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 84,
+            "line": 94,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4534,7 +4534,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 88,
+            "line": 98,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4591,7 +4591,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 92,
+            "line": 102,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4648,7 +4648,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 96,
+            "line": 106,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4705,7 +4705,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 100,
+            "line": 110,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4762,7 +4762,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 104,
+            "line": 114,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4835,7 +4835,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 108,
+            "line": 118,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4908,7 +4908,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 112,
+            "line": 122,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4981,7 +4981,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 116,
+            "line": 126,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -5160,7 +5160,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 123,
+            "line": 133,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -5341,7 +5341,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 130,
+            "line": 140,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -5522,7 +5522,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 137,
+            "line": 147,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -5602,7 +5602,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 141,
+            "line": 151,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -5675,7 +5675,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 145,
+            "line": 155,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -5732,7 +5732,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 149,
+            "line": 159,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -5781,7 +5781,7 @@
           ]
         },
         {
-          "id": 754,
+          "id": 756,
           "name": "init",
           "comment": {
             "description": null,
@@ -5789,7 +5789,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 78,
+            "line": 88,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -5798,7 +5798,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 755,
+              "id": 757,
               "name": "init",
               "comment": {
                 "description": "Initiates this class with it's store.",
@@ -5817,7 +5817,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 756,
+                  "id": 758,
                   "name": "store",
                   "type": {
                     "kind": "reference",
@@ -5878,7 +5878,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 153,
+            "line": 163,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -5935,7 +5935,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 157,
+            "line": 167,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -6177,7 +6177,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 164,
+            "line": 174,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -6234,7 +6234,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 168,
+            "line": 178,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -6415,7 +6415,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 175,
+            "line": 185,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -6495,7 +6495,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 179,
+            "line": 189,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -6568,7 +6568,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 183,
+            "line": 193,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -6625,7 +6625,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 187,
+            "line": 197,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -6796,7 +6796,7 @@
           ]
         },
         {
-          "id": 757,
+          "id": 759,
           "name": "run",
           "comment": {
             "description": null,
@@ -6804,7 +6804,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 221,
+            "line": 231,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -6813,7 +6813,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 758,
+              "id": 760,
               "name": "run",
               "comment": {
                 "description": null,
@@ -6822,7 +6822,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 759,
+                  "id": 761,
                   "name": "P",
                   "type": {
                     "kind": "reference",
@@ -6836,11 +6836,11 @@
               ],
               "parameters": [
                 {
-                  "id": 760,
+                  "id": 762,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
-                    "id": 759,
+                    "id": 761,
                     "name": "P",
                     "packageName": null,
                     "typeArguments": []
@@ -6863,7 +6863,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 194,
+            "line": 204,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -6943,7 +6943,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 198,
+            "line": 208,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -7000,7 +7000,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 202,
+            "line": 212,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -7057,7 +7057,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 206,
+            "line": 216,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -7235,7 +7235,7 @@
           ]
         },
         {
-          "id": 761,
+          "id": 763,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -7243,7 +7243,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 230,
+            "line": 240,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -7252,7 +7252,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 762,
+              "id": 764,
               "name": "toJSON",
               "comment": {
                 "description": "Adds the options of this class to an object.",
@@ -7289,7 +7289,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 213,
+            "line": 223,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -7389,7 +7389,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 217,
+            "line": 227,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
