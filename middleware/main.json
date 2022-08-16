@@ -4237,7 +4237,7 @@
           "modifierTags": []
         },
         "source": {
-          "line": 60,
+          "line": 54,
           "file": "Middleware.ts",
           "path": "packages/middleware/src/lib"
         },
@@ -4264,7 +4264,7 @@
               "typeArguments": [
                 {
                   "kind": "reference",
-                  "id": 897,
+                  "id": 896,
                   "name": "Options",
                   "packageName": null,
                   "typeArguments": []
@@ -4276,7 +4276,7 @@
       },
       "properties": [
         {
-          "id": 752,
+          "id": 751,
           "name": "conditions",
           "comment": {
             "description": "The conditions this middleware to run.",
@@ -4289,7 +4289,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 56,
+            "line": 50,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4300,14 +4300,14 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 901,
+            "id": 899,
             "name": "Conditions",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 753,
+          "id": 752,
           "name": "context",
           "comment": {
             "description": null,
@@ -4315,7 +4315,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 58,
+            "line": 52,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4361,34 +4361,6 @@
           }
         },
         {
-          "id": 751,
-          "name": "position",
-          "comment": {
-            "description": "The position this middleware runs at.",
-            "blockTags": [
-              {
-                "name": "since",
-                "text": "1.0.0"
-              }
-            ],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 50,
-            "file": "Middleware.ts",
-            "path": "packages/middleware/src/lib"
-          },
-          "accessibility": "public",
-          "abstract": false,
-          "static": false,
-          "readonly": true,
-          "optional": true,
-          "type": {
-            "kind": "intrinsic",
-            "type": "number"
-          }
-        },
-        {
           "id": 749,
           "name": "store",
           "comment": {
@@ -4413,7 +4385,7 @@
           "optional": true,
           "type": {
             "kind": "reference",
-            "id": 911,
+            "id": 908,
             "name": "MiddlewareStore",
             "packageName": null,
             "typeArguments": [
@@ -4428,7 +4400,7 @@
           }
         },
         {
-          "id": 755,
+          "id": 754,
           "name": "provider",
           "comment": {
             "description": "The provider that is used with the current Josh.",
@@ -4441,7 +4413,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 76,
+            "line": 69,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4469,7 +4441,7 @@
       ],
       "methods": [
         {
-          "id": 765,
+          "id": 764,
           "name": "autoKey",
           "comment": {
             "description": null,
@@ -4477,7 +4449,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 94,
+            "line": 87,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4486,7 +4458,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 766,
+              "id": 765,
               "name": "autoKey",
               "comment": {
                 "description": null,
@@ -4496,7 +4468,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 767,
+                  "id": 766,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -4526,7 +4498,7 @@
           ]
         },
         {
-          "id": 768,
+          "id": 767,
           "name": "clear",
           "comment": {
             "description": null,
@@ -4534,7 +4506,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 98,
+            "line": 91,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4543,7 +4515,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 769,
+              "id": 768,
               "name": "clear",
               "comment": {
                 "description": null,
@@ -4553,7 +4525,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 770,
+                  "id": 769,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -4583,7 +4555,7 @@
           ]
         },
         {
-          "id": 771,
+          "id": 770,
           "name": "dec",
           "comment": {
             "description": null,
@@ -4591,7 +4563,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 102,
+            "line": 95,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4600,7 +4572,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 772,
+              "id": 771,
               "name": "dec",
               "comment": {
                 "description": null,
@@ -4610,7 +4582,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 773,
+                  "id": 772,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -4640,7 +4612,7 @@
           ]
         },
         {
-          "id": 774,
+          "id": 773,
           "name": "delete",
           "comment": {
             "description": null,
@@ -4648,7 +4620,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 106,
+            "line": 99,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4657,7 +4629,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 775,
+              "id": 774,
               "name": "delete",
               "comment": {
                 "description": null,
@@ -4667,7 +4639,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 776,
+                  "id": 775,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -4697,7 +4669,7 @@
           ]
         },
         {
-          "id": 777,
+          "id": 776,
           "name": "deleteMany",
           "comment": {
             "description": null,
@@ -4705,7 +4677,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 110,
+            "line": 103,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4714,7 +4686,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 778,
+              "id": 777,
               "name": "deleteMany",
               "comment": {
                 "description": null,
@@ -4724,7 +4696,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 779,
+                  "id": 778,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -4754,7 +4726,7 @@
           ]
         },
         {
-          "id": 780,
+          "id": 779,
           "name": "each",
           "comment": {
             "description": null,
@@ -4762,7 +4734,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 114,
+            "line": 107,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4771,7 +4743,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 781,
+              "id": 780,
               "name": "each",
               "comment": {
                 "description": null,
@@ -4781,7 +4753,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 782,
+                  "id": 781,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -4827,7 +4799,7 @@
           ]
         },
         {
-          "id": 783,
+          "id": 782,
           "name": "ensure",
           "comment": {
             "description": null,
@@ -4835,7 +4807,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 118,
+            "line": 111,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4844,7 +4816,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 784,
+              "id": 783,
               "name": "ensure",
               "comment": {
                 "description": null,
@@ -4854,7 +4826,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 785,
+                  "id": 784,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -4900,7 +4872,7 @@
           ]
         },
         {
-          "id": 786,
+          "id": 785,
           "name": "entries",
           "comment": {
             "description": null,
@@ -4908,7 +4880,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 122,
+            "line": 115,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -4917,7 +4889,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 787,
+              "id": 786,
               "name": "entries",
               "comment": {
                 "description": null,
@@ -4927,7 +4899,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 788,
+                  "id": 787,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -4973,8 +4945,187 @@
           ]
         },
         {
-          "id": 789,
+          "id": 788,
           "name": "every",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 119,
+            "file": "Middleware.ts",
+            "path": "packages/middleware/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 789,
+              "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 790,
+                  "name": "StoredValue",
+                  "type": null,
+                  "default": null
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 791,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": 365,
+                    "name": "Payloads.Every.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 790,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Awaitable",
+                "packageName": "@sapphire/utilities",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 365,
+                    "name": "Payloads.Every.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 790,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 792,
+              "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 793,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": 373,
+                    "name": "Payloads.Every.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Awaitable",
+                "packageName": "@sapphire/utilities",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 373,
+                    "name": "Payloads.Every.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            },
+            {
+              "id": 794,
+              "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 795,
+                  "name": "StoredValue",
+                  "type": null,
+                  "default": null
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 796,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": 354,
+                    "name": "Payloads.Every",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 795,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Awaitable",
+                "packageName": "@sapphire/utilities",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 354,
+                    "name": "Payloads.Every",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 795,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 797,
+          "name": "filter",
           "comment": {
             "description": null,
             "blockTags": [],
@@ -4990,69 +5141,8 @@
           "static": false,
           "signatures": [
             {
-              "id": 790,
-              "name": "every",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [
-                {
-                  "id": 791,
-                  "name": "StoredValue",
-                  "type": null,
-                  "default": null
-                }
-              ],
-              "parameters": [
-                {
-                  "id": 792,
-                  "name": "payload",
-                  "type": {
-                    "kind": "reference",
-                    "id": 365,
-                    "name": "Payloads.Every.ByHook",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 791,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": null,
-                "name": "Awaitable",
-                "packageName": "@sapphire/utilities",
-                "typeArguments": [
-                  {
-                    "kind": "reference",
-                    "id": 365,
-                    "name": "Payloads.Every.ByHook",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 791,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "id": 793,
-              "name": "every",
+              "id": 798,
+              "name": "filter",
               "comment": {
                 "description": null,
                 "blockTags": [],
@@ -5061,62 +5151,17 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 794,
+                  "id": 799,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
-                    "id": 373,
-                    "name": "Payloads.Every.ByValue",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": []
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": null,
-                "name": "Awaitable",
-                "packageName": "@sapphire/utilities",
-                "typeArguments": [
-                  {
-                    "kind": "reference",
-                    "id": 373,
-                    "name": "Payloads.Every.ByValue",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": []
-                  }
-                ]
-              }
-            },
-            {
-              "id": 795,
-              "name": "every",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [
-                {
-                  "id": 796,
-                  "name": "StoredValue",
-                  "type": null,
-                  "default": null
-                }
-              ],
-              "parameters": [
-                {
-                  "id": 797,
-                  "name": "payload",
-                  "type": {
-                    "kind": "reference",
-                    "id": 354,
-                    "name": "Payloads.Every",
+                    "id": 392,
+                    "name": "Payloads.Filter.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 796,
+                        "id": 746,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -5133,13 +5178,121 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 354,
-                    "name": "Payloads.Every",
+                    "id": 392,
+                    "name": "Payloads.Filter.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 796,
+                        "id": 746,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 800,
+              "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 801,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": 400,
+                    "name": "Payloads.Filter.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 746,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Awaitable",
+                "packageName": "@sapphire/utilities",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 400,
+                    "name": "Payloads.Filter.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 746,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 802,
+              "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 803,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": 381,
+                    "name": "Payloads.Filter",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 746,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Awaitable",
+                "packageName": "@sapphire/utilities",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 381,
+                    "name": "Payloads.Filter",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 746,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -5152,8 +5305,8 @@
           ]
         },
         {
-          "id": 798,
-          "name": "filter",
+          "id": 804,
+          "name": "find",
           "comment": {
             "description": null,
             "blockTags": [],
@@ -5169,8 +5322,8 @@
           "static": false,
           "signatures": [
             {
-              "id": 799,
-              "name": "filter",
+              "id": 805,
+              "name": "find",
               "comment": {
                 "description": null,
                 "blockTags": [],
@@ -5179,12 +5332,12 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 800,
+                  "id": 806,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
-                    "id": 392,
-                    "name": "Payloads.Filter.ByHook",
+                    "id": 420,
+                    "name": "Payloads.Find.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -5206,8 +5359,8 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 392,
-                    "name": "Payloads.Filter.ByHook",
+                    "id": 420,
+                    "name": "Payloads.Find.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -5223,8 +5376,8 @@
               }
             },
             {
-              "id": 801,
-              "name": "filter",
+              "id": 807,
+              "name": "find",
               "comment": {
                 "description": null,
                 "blockTags": [],
@@ -5233,12 +5386,12 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 802,
+                  "id": 808,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
-                    "id": 400,
-                    "name": "Payloads.Filter.ByValue",
+                    "id": 428,
+                    "name": "Payloads.Find.ByValue",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -5260,8 +5413,8 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 400,
-                    "name": "Payloads.Filter.ByValue",
+                    "id": 428,
+                    "name": "Payloads.Find.ByValue",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -5277,8 +5430,8 @@
               }
             },
             {
-              "id": 803,
-              "name": "filter",
+              "id": 809,
+              "name": "find",
               "comment": {
                 "description": null,
                 "blockTags": [],
@@ -5287,12 +5440,12 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 804,
+                  "id": 810,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
-                    "id": 381,
-                    "name": "Payloads.Filter",
+                    "id": 409,
+                    "name": "Payloads.Find",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -5314,8 +5467,8 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 381,
-                    "name": "Payloads.Filter",
+                    "id": 409,
+                    "name": "Payloads.Find",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -5333,8 +5486,8 @@
           ]
         },
         {
-          "id": 805,
-          "name": "find",
+          "id": 811,
+          "name": "get",
           "comment": {
             "description": null,
             "blockTags": [],
@@ -5350,188 +5503,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 806,
-              "name": "find",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [],
-              "parameters": [
-                {
-                  "id": 807,
-                  "name": "payload",
-                  "type": {
-                    "kind": "reference",
-                    "id": 420,
-                    "name": "Payloads.Find.ByHook",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 746,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": null,
-                "name": "Awaitable",
-                "packageName": "@sapphire/utilities",
-                "typeArguments": [
-                  {
-                    "kind": "reference",
-                    "id": 420,
-                    "name": "Payloads.Find.ByHook",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 746,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "id": 808,
-              "name": "find",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [],
-              "parameters": [
-                {
-                  "id": 809,
-                  "name": "payload",
-                  "type": {
-                    "kind": "reference",
-                    "id": 428,
-                    "name": "Payloads.Find.ByValue",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 746,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": null,
-                "name": "Awaitable",
-                "packageName": "@sapphire/utilities",
-                "typeArguments": [
-                  {
-                    "kind": "reference",
-                    "id": 428,
-                    "name": "Payloads.Find.ByValue",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 746,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "id": 810,
-              "name": "find",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [],
-              "parameters": [
-                {
-                  "id": 811,
-                  "name": "payload",
-                  "type": {
-                    "kind": "reference",
-                    "id": 409,
-                    "name": "Payloads.Find",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 746,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": null,
-                "name": "Awaitable",
-                "packageName": "@sapphire/utilities",
-                "typeArguments": [
-                  {
-                    "kind": "reference",
-                    "id": 409,
-                    "name": "Payloads.Find",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 746,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "id": 812,
-          "name": "get",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 147,
-            "file": "Middleware.ts",
-            "path": "packages/middleware/src/lib"
-          },
-          "accessibility": "public",
-          "abstract": false,
-          "static": false,
-          "signatures": [
-            {
-              "id": 813,
+              "id": 812,
               "name": "get",
               "comment": {
                 "description": null,
@@ -5540,7 +5512,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 814,
+                  "id": 813,
                   "name": "Value",
                   "type": null,
                   "default": null
@@ -5548,7 +5520,7 @@
               ],
               "parameters": [
                 {
-                  "id": 815,
+                  "id": 814,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -5558,7 +5530,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 814,
+                        "id": 813,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -5581,7 +5553,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 814,
+                        "id": 813,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -5594,7 +5566,7 @@
           ]
         },
         {
-          "id": 816,
+          "id": 815,
           "name": "getMany",
           "comment": {
             "description": null,
@@ -5602,7 +5574,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 151,
+            "line": 144,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -5611,7 +5583,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 817,
+              "id": 816,
               "name": "getMany",
               "comment": {
                 "description": null,
@@ -5621,7 +5593,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 818,
+                  "id": 817,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -5667,7 +5639,7 @@
           ]
         },
         {
-          "id": 819,
+          "id": 818,
           "name": "has",
           "comment": {
             "description": null,
@@ -5675,7 +5647,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 155,
+            "line": 148,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -5684,7 +5656,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 820,
+              "id": 819,
               "name": "has",
               "comment": {
                 "description": null,
@@ -5694,7 +5666,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 821,
+                  "id": 820,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -5724,7 +5696,7 @@
           ]
         },
         {
-          "id": 822,
+          "id": 821,
           "name": "inc",
           "comment": {
             "description": null,
@@ -5732,7 +5704,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 159,
+            "line": 152,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -5741,7 +5713,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 823,
+              "id": 822,
               "name": "inc",
               "comment": {
                 "description": null,
@@ -5751,7 +5723,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 824,
+                  "id": 823,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -5781,7 +5753,7 @@
           ]
         },
         {
-          "id": 756,
+          "id": 755,
           "name": "init",
           "comment": {
             "description": null,
@@ -5789,7 +5761,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 88,
+            "line": 81,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -5798,7 +5770,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 757,
+              "id": 756,
               "name": "init",
               "comment": {
                 "description": "Initiates this class with it's store.",
@@ -5817,11 +5789,11 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 758,
+                  "id": 757,
                   "name": "store",
                   "type": {
                     "kind": "reference",
-                    "id": 911,
+                    "id": 908,
                     "name": "MiddlewareStore",
                     "packageName": null,
                     "typeArguments": [
@@ -5870,7 +5842,7 @@
           ]
         },
         {
-          "id": 825,
+          "id": 824,
           "name": "keys",
           "comment": {
             "description": null,
@@ -5878,7 +5850,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 163,
+            "line": 156,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -5887,7 +5859,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 826,
+              "id": 825,
               "name": "keys",
               "comment": {
                 "description": null,
@@ -5897,7 +5869,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 827,
+                  "id": 826,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -5927,8 +5899,250 @@
           ]
         },
         {
-          "id": 828,
+          "id": 827,
           "name": "map",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 160,
+            "file": "Middleware.ts",
+            "path": "packages/middleware/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 828,
+              "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 829,
+                  "name": "Value",
+                  "type": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 746,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 830,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": 481,
+                    "name": "Payloads.Map.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 746,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 829,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Awaitable",
+                "packageName": "@sapphire/utilities",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 481,
+                    "name": "Payloads.Map.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 746,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 829,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 831,
+              "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 832,
+                  "name": "Value",
+                  "type": null,
+                  "default": null
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 833,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": 490,
+                    "name": "Payloads.Map.ByPath",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 832,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Awaitable",
+                "packageName": "@sapphire/utilities",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 490,
+                    "name": "Payloads.Map.ByPath",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 832,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 834,
+              "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 835,
+                  "name": "Value",
+                  "type": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 746,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 836,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": 470,
+                    "name": "Payloads.Map",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 746,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 835,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Awaitable",
+                "packageName": "@sapphire/utilities",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 470,
+                    "name": "Payloads.Map",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 746,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 835,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 837,
+          "name": "math",
           "comment": {
             "description": null,
             "blockTags": [],
@@ -5944,249 +6158,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 829,
-              "name": "map",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [
-                {
-                  "id": 830,
-                  "name": "Value",
-                  "type": null,
-                  "default": {
-                    "kind": "reference",
-                    "id": 746,
-                    "name": "StoredValue",
-                    "packageName": null,
-                    "typeArguments": []
-                  }
-                }
-              ],
-              "parameters": [
-                {
-                  "id": 831,
-                  "name": "payload",
-                  "type": {
-                    "kind": "reference",
-                    "id": 481,
-                    "name": "Payloads.Map.ByHook",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 746,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      },
-                      {
-                        "kind": "reference",
-                        "id": 830,
-                        "name": "Value",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": null,
-                "name": "Awaitable",
-                "packageName": "@sapphire/utilities",
-                "typeArguments": [
-                  {
-                    "kind": "reference",
-                    "id": 481,
-                    "name": "Payloads.Map.ByHook",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 746,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      },
-                      {
-                        "kind": "reference",
-                        "id": 830,
-                        "name": "Value",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "id": 832,
-              "name": "map",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [
-                {
-                  "id": 833,
-                  "name": "Value",
-                  "type": null,
-                  "default": null
-                }
-              ],
-              "parameters": [
-                {
-                  "id": 834,
-                  "name": "payload",
-                  "type": {
-                    "kind": "reference",
-                    "id": 490,
-                    "name": "Payloads.Map.ByPath",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 833,
-                        "name": "Value",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": null,
-                "name": "Awaitable",
-                "packageName": "@sapphire/utilities",
-                "typeArguments": [
-                  {
-                    "kind": "reference",
-                    "id": 490,
-                    "name": "Payloads.Map.ByPath",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 833,
-                        "name": "Value",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "id": 835,
-              "name": "map",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [
-                {
-                  "id": 836,
-                  "name": "Value",
-                  "type": null,
-                  "default": {
-                    "kind": "reference",
-                    "id": 746,
-                    "name": "StoredValue",
-                    "packageName": null,
-                    "typeArguments": []
-                  }
-                }
-              ],
-              "parameters": [
-                {
-                  "id": 837,
-                  "name": "payload",
-                  "type": {
-                    "kind": "reference",
-                    "id": 470,
-                    "name": "Payloads.Map",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 746,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      },
-                      {
-                        "kind": "reference",
-                        "id": 836,
-                        "name": "Value",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": null,
-                "name": "Awaitable",
-                "packageName": "@sapphire/utilities",
-                "typeArguments": [
-                  {
-                    "kind": "reference",
-                    "id": 470,
-                    "name": "Payloads.Map",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 746,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      },
-                      {
-                        "kind": "reference",
-                        "id": 836,
-                        "name": "Value",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "id": 838,
-          "name": "math",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 174,
-            "file": "Middleware.ts",
-            "path": "packages/middleware/src/lib"
-          },
-          "accessibility": "public",
-          "abstract": false,
-          "static": false,
-          "signatures": [
-            {
-              "id": 839,
+              "id": 838,
               "name": "math",
               "comment": {
                 "description": null,
@@ -6196,7 +6168,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 840,
+                  "id": 839,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -6226,8 +6198,189 @@
           ]
         },
         {
-          "id": 841,
+          "id": 840,
           "name": "partition",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 171,
+            "file": "Middleware.ts",
+            "path": "packages/middleware/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 841,
+              "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 842,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": 517,
+                    "name": "Payloads.Partition.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 746,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Awaitable",
+                "packageName": "@sapphire/utilities",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 517,
+                    "name": "Payloads.Partition.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 746,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 843,
+              "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 844,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": 525,
+                    "name": "Payloads.Partition.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 746,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Awaitable",
+                "packageName": "@sapphire/utilities",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 525,
+                    "name": "Payloads.Partition.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 746,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 845,
+              "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 846,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": 506,
+                    "name": "Payloads.Partition",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 746,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Awaitable",
+                "packageName": "@sapphire/utilities",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 506,
+                    "name": "Payloads.Partition",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 746,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 847,
+          "name": "push",
           "comment": {
             "description": null,
             "blockTags": [],
@@ -6243,188 +6396,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 842,
-              "name": "partition",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [],
-              "parameters": [
-                {
-                  "id": 843,
-                  "name": "payload",
-                  "type": {
-                    "kind": "reference",
-                    "id": 517,
-                    "name": "Payloads.Partition.ByHook",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 746,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": null,
-                "name": "Awaitable",
-                "packageName": "@sapphire/utilities",
-                "typeArguments": [
-                  {
-                    "kind": "reference",
-                    "id": 517,
-                    "name": "Payloads.Partition.ByHook",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 746,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "id": 844,
-              "name": "partition",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [],
-              "parameters": [
-                {
-                  "id": 845,
-                  "name": "payload",
-                  "type": {
-                    "kind": "reference",
-                    "id": 525,
-                    "name": "Payloads.Partition.ByValue",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 746,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": null,
-                "name": "Awaitable",
-                "packageName": "@sapphire/utilities",
-                "typeArguments": [
-                  {
-                    "kind": "reference",
-                    "id": 525,
-                    "name": "Payloads.Partition.ByValue",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 746,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "id": 846,
-              "name": "partition",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [],
-              "parameters": [
-                {
-                  "id": 847,
-                  "name": "payload",
-                  "type": {
-                    "kind": "reference",
-                    "id": 506,
-                    "name": "Payloads.Partition",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 746,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": null,
-                "name": "Awaitable",
-                "packageName": "@sapphire/utilities",
-                "typeArguments": [
-                  {
-                    "kind": "reference",
-                    "id": 506,
-                    "name": "Payloads.Partition",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 746,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "id": 848,
-          "name": "push",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 185,
-            "file": "Middleware.ts",
-            "path": "packages/middleware/src/lib"
-          },
-          "accessibility": "public",
-          "abstract": false,
-          "static": false,
-          "signatures": [
-            {
-              "id": 849,
+              "id": 848,
               "name": "push",
               "comment": {
                 "description": null,
@@ -6433,7 +6405,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 850,
+                  "id": 849,
                   "name": "Value",
                   "type": null,
                   "default": null
@@ -6441,7 +6413,7 @@
               ],
               "parameters": [
                 {
-                  "id": 851,
+                  "id": 850,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -6451,7 +6423,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 850,
+                        "id": 849,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -6474,7 +6446,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 850,
+                        "id": 849,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -6487,7 +6459,7 @@
           ]
         },
         {
-          "id": 852,
+          "id": 851,
           "name": "random",
           "comment": {
             "description": null,
@@ -6495,7 +6467,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 189,
+            "line": 182,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -6504,7 +6476,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 853,
+              "id": 852,
               "name": "random",
               "comment": {
                 "description": null,
@@ -6514,7 +6486,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 854,
+                  "id": 853,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -6560,7 +6532,7 @@
           ]
         },
         {
-          "id": 855,
+          "id": 854,
           "name": "randomKey",
           "comment": {
             "description": null,
@@ -6568,7 +6540,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 193,
+            "line": 186,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -6577,7 +6549,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 856,
+              "id": 855,
               "name": "randomKey",
               "comment": {
                 "description": null,
@@ -6587,7 +6559,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 857,
+                  "id": 856,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -6617,8 +6589,257 @@
           ]
         },
         {
-          "id": 858,
+          "id": 857,
           "name": "remove",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 190,
+            "file": "Middleware.ts",
+            "path": "packages/middleware/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 858,
+              "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 859,
+                  "name": "StoredValue",
+                  "type": null,
+                  "default": null
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 860,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": 572,
+                    "name": "Payloads.Remove.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 859,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Awaitable",
+                "packageName": "@sapphire/utilities",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 572,
+                    "name": "Payloads.Remove.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 859,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 861,
+              "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 862,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": 581,
+                    "name": "Payloads.Remove.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Awaitable",
+                "packageName": "@sapphire/utilities",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 581,
+                    "name": "Payloads.Remove.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            },
+            {
+              "id": 863,
+              "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 864,
+                  "name": "StoredValue",
+                  "type": null,
+                  "default": null
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 865,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": 561,
+                    "name": "Payloads.Remove",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 864,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Awaitable",
+                "packageName": "@sapphire/utilities",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 561,
+                    "name": "Payloads.Remove",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 864,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 758,
+          "name": "run",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 224,
+            "file": "Middleware.ts",
+            "path": "packages/middleware/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 759,
+              "name": "run",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 760,
+                  "name": "P",
+                  "type": {
+                    "kind": "reference",
+                    "id": 257,
+                    "name": "Payload",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  },
+                  "default": null
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 761,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": 760,
+                    "name": "P",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Awaitable",
+                "packageName": "@sapphire/utilities",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 760,
+                    "name": "P",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 866,
+          "name": "set",
           "comment": {
             "description": null,
             "blockTags": [],
@@ -6634,245 +6855,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 859,
-              "name": "remove",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [
-                {
-                  "id": 860,
-                  "name": "StoredValue",
-                  "type": null,
-                  "default": null
-                }
-              ],
-              "parameters": [
-                {
-                  "id": 861,
-                  "name": "payload",
-                  "type": {
-                    "kind": "reference",
-                    "id": 572,
-                    "name": "Payloads.Remove.ByHook",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 860,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": null,
-                "name": "Awaitable",
-                "packageName": "@sapphire/utilities",
-                "typeArguments": [
-                  {
-                    "kind": "reference",
-                    "id": 572,
-                    "name": "Payloads.Remove.ByHook",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 860,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "id": 862,
-              "name": "remove",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [],
-              "parameters": [
-                {
-                  "id": 863,
-                  "name": "payload",
-                  "type": {
-                    "kind": "reference",
-                    "id": 581,
-                    "name": "Payloads.Remove.ByValue",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": []
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": null,
-                "name": "Awaitable",
-                "packageName": "@sapphire/utilities",
-                "typeArguments": [
-                  {
-                    "kind": "reference",
-                    "id": 581,
-                    "name": "Payloads.Remove.ByValue",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": []
-                  }
-                ]
-              }
-            },
-            {
-              "id": 864,
-              "name": "remove",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [
-                {
-                  "id": 865,
-                  "name": "StoredValue",
-                  "type": null,
-                  "default": null
-                }
-              ],
-              "parameters": [
-                {
-                  "id": 866,
-                  "name": "payload",
-                  "type": {
-                    "kind": "reference",
-                    "id": 561,
-                    "name": "Payloads.Remove",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 865,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": null,
-                "name": "Awaitable",
-                "packageName": "@sapphire/utilities",
-                "typeArguments": [
-                  {
-                    "kind": "reference",
-                    "id": 561,
-                    "name": "Payloads.Remove",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 865,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "id": 759,
-          "name": "run",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 231,
-            "file": "Middleware.ts",
-            "path": "packages/middleware/src/lib"
-          },
-          "accessibility": "public",
-          "abstract": false,
-          "static": false,
-          "signatures": [
-            {
-              "id": 760,
-              "name": "run",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [
-                {
-                  "id": 761,
-                  "name": "P",
-                  "type": {
-                    "kind": "reference",
-                    "id": 257,
-                    "name": "Payload",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": []
-                  },
-                  "default": null
-                }
-              ],
-              "parameters": [
-                {
-                  "id": 762,
-                  "name": "payload",
-                  "type": {
-                    "kind": "reference",
-                    "id": 761,
-                    "name": "P",
-                    "packageName": null,
-                    "typeArguments": []
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "intrinsic",
-                "type": "unknown"
-              }
-            }
-          ]
-        },
-        {
-          "id": 867,
-          "name": "set",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 204,
-            "file": "Middleware.ts",
-            "path": "packages/middleware/src/lib"
-          },
-          "accessibility": "public",
-          "abstract": false,
-          "static": false,
-          "signatures": [
-            {
-              "id": 868,
+              "id": 867,
               "name": "set",
               "comment": {
                 "description": null,
@@ -6881,7 +6864,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 869,
+                  "id": 868,
                   "name": "Value",
                   "type": null,
                   "default": null
@@ -6889,7 +6872,7 @@
               ],
               "parameters": [
                 {
-                  "id": 870,
+                  "id": 869,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -6899,7 +6882,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 869,
+                        "id": 868,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -6922,7 +6905,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 869,
+                        "id": 868,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -6935,7 +6918,7 @@
           ]
         },
         {
-          "id": 871,
+          "id": 870,
           "name": "setMany",
           "comment": {
             "description": null,
@@ -6943,7 +6926,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 208,
+            "line": 201,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -6952,7 +6935,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 872,
+              "id": 871,
               "name": "setMany",
               "comment": {
                 "description": null,
@@ -6962,7 +6945,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 873,
+                  "id": 872,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -6992,7 +6975,7 @@
           ]
         },
         {
-          "id": 874,
+          "id": 873,
           "name": "size",
           "comment": {
             "description": null,
@@ -7000,7 +6983,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 212,
+            "line": 205,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -7009,7 +6992,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 875,
+              "id": 874,
               "name": "size",
               "comment": {
                 "description": null,
@@ -7019,7 +7002,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 876,
+                  "id": 875,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -7049,7 +7032,7 @@
           ]
         },
         {
-          "id": 877,
+          "id": 876,
           "name": "some",
           "comment": {
             "description": null,
@@ -7057,7 +7040,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 216,
+            "line": 209,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -7066,7 +7049,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 878,
+              "id": 877,
               "name": "some",
               "comment": {
                 "description": null,
@@ -7075,7 +7058,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 879,
+                  "id": 878,
                   "name": "StoredValue",
                   "type": null,
                   "default": null
@@ -7083,7 +7066,7 @@
               ],
               "parameters": [
                 {
-                  "id": 880,
+                  "id": 879,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -7093,7 +7076,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 879,
+                        "id": 878,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -7116,7 +7099,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 879,
+                        "id": 878,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -7127,7 +7110,7 @@
               }
             },
             {
-              "id": 881,
+              "id": 880,
               "name": "some",
               "comment": {
                 "description": null,
@@ -7136,7 +7119,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 882,
+                  "id": 881,
                   "name": "Value",
                   "type": null,
                   "default": null
@@ -7144,7 +7127,7 @@
               ],
               "parameters": [
                 {
-                  "id": 883,
+                  "id": 882,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -7172,7 +7155,7 @@
               }
             },
             {
-              "id": 884,
+              "id": 883,
               "name": "some",
               "comment": {
                 "description": null,
@@ -7181,7 +7164,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 885,
+                  "id": 884,
                   "name": "StoredValue",
                   "type": null,
                   "default": null
@@ -7189,7 +7172,7 @@
               ],
               "parameters": [
                 {
-                  "id": 886,
+                  "id": 885,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -7199,7 +7182,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 885,
+                        "id": 884,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -7222,7 +7205,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 885,
+                        "id": 884,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -7235,7 +7218,7 @@
           ]
         },
         {
-          "id": 763,
+          "id": 762,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -7243,7 +7226,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 240,
+            "line": 233,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -7252,7 +7235,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 764,
+              "id": 763,
               "name": "toJSON",
               "comment": {
                 "description": "Adds the options of this class to an object.",
@@ -7272,7 +7255,7 @@
               "parameters": [],
               "returnType": {
                 "kind": "reference",
-                "id": 904,
+                "id": 902,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -7281,7 +7264,7 @@
           ]
         },
         {
-          "id": 887,
+          "id": 886,
           "name": "update",
           "comment": {
             "description": null,
@@ -7289,7 +7272,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 223,
+            "line": 216,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -7298,7 +7281,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 888,
+              "id": 887,
               "name": "update",
               "comment": {
                 "description": null,
@@ -7307,7 +7290,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 889,
+                  "id": 888,
                   "name": "Value",
                   "type": null,
                   "default": {
@@ -7321,7 +7304,7 @@
               ],
               "parameters": [
                 {
-                  "id": 890,
+                  "id": 889,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -7338,7 +7321,7 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 889,
+                        "id": 888,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -7368,7 +7351,7 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 889,
+                        "id": 888,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -7381,7 +7364,7 @@
           ]
         },
         {
-          "id": 891,
+          "id": 890,
           "name": "values",
           "comment": {
             "description": null,
@@ -7389,7 +7372,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 227,
+            "line": 220,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -7398,7 +7381,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 892,
+              "id": 891,
               "name": "values",
               "comment": {
                 "description": null,
@@ -7408,7 +7391,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 893,
+                  "id": 892,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -7456,7 +7439,7 @@
       ]
     },
     {
-      "id": 911,
+      "id": 908,
       "name": "MiddlewareStore",
       "comment": {
         "description": "The store to contain \nMiddleware\n classes.",
@@ -7500,7 +7483,7 @@
               },
               {
                 "kind": "reference",
-                "id": 915,
+                "id": 912,
                 "name": "StoredValue",
                 "packageName": null,
                 "typeArguments": []
@@ -7511,7 +7494,7 @@
       },
       "implementsType": [],
       "construct": {
-        "id": 913,
+        "id": 910,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -7525,17 +7508,17 @@
         },
         "parameters": [
           {
-            "id": 916,
+            "id": 913,
             "name": "options",
             "type": {
               "kind": "reference",
-              "id": 965,
+              "id": 960,
               "name": "MiddlewareStoreOptions",
               "packageName": null,
               "typeArguments": [
                 {
                   "kind": "reference",
-                  "id": 915,
+                  "id": 912,
                   "name": "StoredValue",
                   "packageName": null,
                   "typeArguments": []
@@ -7547,7 +7530,7 @@
       },
       "properties": [
         {
-          "id": 963,
+          "id": 958,
           "name": "[toStringTag]",
           "comment": {
             "description": null,
@@ -7570,7 +7553,7 @@
           }
         },
         {
-          "id": 917,
+          "id": 914,
           "name": "provider",
           "comment": {
             "description": "The link \nJoshProvider\n instance for this store.",
@@ -7600,7 +7583,7 @@
             "typeArguments": [
               {
                 "kind": "reference",
-                "id": 915,
+                "id": 912,
                 "name": "StoredValue",
                 "packageName": null,
                 "typeArguments": []
@@ -7609,7 +7592,7 @@
           }
         },
         {
-          "id": 954,
+          "id": 949,
           "name": "size",
           "comment": {
             "description": null,
@@ -7632,7 +7615,7 @@
           }
         },
         {
-          "id": 912,
+          "id": 909,
           "name": "[species]",
           "comment": {
             "description": null,
@@ -7660,7 +7643,7 @@
       ],
       "methods": [
         {
-          "id": 961,
+          "id": 956,
           "name": "[iterator]",
           "comment": {
             "description": null,
@@ -7677,7 +7660,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 962,
+              "id": 957,
               "name": "[iterator]",
               "comment": {
                 "description": "Returns an iterable of entries in the map.",
@@ -7714,7 +7697,7 @@
                           },
                           {
                             "kind": "reference",
-                            "id": 915,
+                            "id": 912,
                             "name": "StoredValue",
                             "packageName": null,
                             "typeArguments": []
@@ -7729,71 +7712,7 @@
           ]
         },
         {
-          "id": 918,
-          "name": "array",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 29,
-            "file": "MiddlewareStore.ts",
-            "path": "packages/middleware/src/lib"
-          },
-          "accessibility": "public",
-          "abstract": false,
-          "static": false,
-          "signatures": [
-            {
-              "id": 919,
-              "name": "array",
-              "comment": {
-                "description": "Gets an array of middlewares.",
-                "blockTags": [
-                  {
-                    "name": "since",
-                    "text": "1.0.0"
-                  },
-                  {
-                    "name": "returns",
-                    "text": "The array of middlewares."
-                  }
-                ],
-                "modifierTags": []
-              },
-              "typeParameters": [],
-              "parameters": [],
-              "returnType": {
-                "kind": "array",
-                "type": {
-                  "kind": "reference",
-                  "id": 742,
-                  "name": "Middleware",
-                  "packageName": null,
-                  "typeArguments": [
-                    {
-                      "kind": "reference",
-                      "id": null,
-                      "name": "NonNullObject",
-                      "packageName": "@sapphire/utilities",
-                      "typeArguments": []
-                    },
-                    {
-                      "kind": "reference",
-                      "id": 915,
-                      "name": "StoredValue",
-                      "packageName": null,
-                      "typeArguments": []
-                    }
-                  ]
-                }
-              }
-            }
-          ]
-        },
-        {
-          "id": 930,
+          "id": 925,
           "name": "clear",
           "comment": {
             "description": null,
@@ -7810,7 +7729,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 931,
+              "id": 926,
               "name": "clear",
               "comment": {
                 "description": null,
@@ -7827,7 +7746,7 @@
           ]
         },
         {
-          "id": 932,
+          "id": 927,
           "name": "delete",
           "comment": {
             "description": null,
@@ -7844,7 +7763,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 933,
+              "id": 928,
               "name": "delete",
               "comment": {
                 "description": null,
@@ -7854,7 +7773,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 934,
+                  "id": 929,
                   "name": "key",
                   "type": {
                     "kind": "intrinsic",
@@ -7870,7 +7789,7 @@
           ]
         },
         {
-          "id": 955,
+          "id": 950,
           "name": "entries",
           "comment": {
             "description": null,
@@ -7887,7 +7806,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 956,
+              "id": 951,
               "name": "entries",
               "comment": {
                 "description": "Returns an iterable of key, value pairs for every entry in the map.",
@@ -7924,7 +7843,7 @@
                           },
                           {
                             "kind": "reference",
-                            "id": 915,
+                            "id": 912,
                             "name": "StoredValue",
                             "packageName": null,
                             "typeArguments": []
@@ -7939,7 +7858,7 @@
           ]
         },
         {
-          "id": 926,
+          "id": 921,
           "name": "filterByCondition",
           "comment": {
             "description": null,
@@ -7947,7 +7866,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 60,
+            "line": 51,
             "file": "MiddlewareStore.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -7956,7 +7875,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 927,
+              "id": 922,
               "name": "filterByCondition",
               "comment": {
                 "description": "Filter middlewares by their conditions.",
@@ -7975,7 +7894,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 928,
+                  "id": 923,
                   "name": "method",
                   "type": {
                     "kind": "reference",
@@ -7986,7 +7905,7 @@
                   }
                 },
                 {
-                  "id": 929,
+                  "id": 924,
                   "name": "trigger",
                   "type": {
                     "kind": "reference",
@@ -8014,7 +7933,7 @@
                     },
                     {
                       "kind": "reference",
-                      "id": 915,
+                      "id": 912,
                       "name": "StoredValue",
                       "packageName": null,
                       "typeArguments": []
@@ -8026,7 +7945,7 @@
           ]
         },
         {
-          "id": 935,
+          "id": 930,
           "name": "forEach",
           "comment": {
             "description": null,
@@ -8043,7 +7962,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 936,
+              "id": 931,
               "name": "forEach",
               "comment": {
                 "description": null,
@@ -8053,12 +7972,12 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 937,
+                  "id": 932,
                   "name": "callbackfn",
                   "type": {
                     "kind": "reflection",
                     "reflection": {
-                      "id": 938,
+                      "id": 933,
                       "name": "__type",
                       "kind": 65536,
                       "kindString": "Type literal",
@@ -8074,7 +7993,7 @@
                       ],
                       "signatures": [
                         {
-                          "id": 939,
+                          "id": 934,
                           "name": "__type",
                           "kind": 4096,
                           "kindString": "Call signature",
@@ -8083,7 +8002,7 @@
                           },
                           "parameters": [
                             {
-                              "id": 940,
+                              "id": 935,
                               "name": "value",
                               "kind": 32768,
                               "kindString": "Parameter",
@@ -8102,7 +8021,7 @@
                                   },
                                   {
                                     "type": "reference",
-                                    "id": 915,
+                                    "id": 912,
                                     "name": "StoredValue"
                                   }
                                 ],
@@ -8110,7 +8029,7 @@
                               }
                             },
                             {
-                              "id": 941,
+                              "id": 936,
                               "name": "key",
                               "kind": 32768,
                               "kindString": "Parameter",
@@ -8123,7 +8042,7 @@
                               }
                             },
                             {
-                              "id": 942,
+                              "id": 937,
                               "name": "map",
                               "kind": 32768,
                               "kindString": "Parameter",
@@ -8149,7 +8068,7 @@
                                       },
                                       {
                                         "type": "reference",
-                                        "id": 915,
+                                        "id": 912,
                                         "name": "StoredValue"
                                       }
                                     ],
@@ -8172,7 +8091,7 @@
                   }
                 },
                 {
-                  "id": 943,
+                  "id": 938,
                   "name": "thisArg",
                   "type": {
                     "kind": "intrinsic",
@@ -8188,7 +8107,7 @@
           ]
         },
         {
-          "id": 944,
+          "id": 939,
           "name": "get",
           "comment": {
             "description": null,
@@ -8205,7 +8124,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 945,
+              "id": 940,
               "name": "get",
               "comment": {
                 "description": null,
@@ -8215,7 +8134,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 946,
+                  "id": 941,
                   "name": "key",
                   "type": {
                     "kind": "intrinsic",
@@ -8245,7 +8164,7 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 915,
+                        "id": 912,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -8258,7 +8177,7 @@
           ]
         },
         {
-          "id": 923,
+          "id": 918,
           "name": "getPostMiddlewares",
           "comment": {
             "description": null,
@@ -8266,7 +8185,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 49,
+            "line": 40,
             "file": "MiddlewareStore.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -8275,7 +8194,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 924,
+              "id": 919,
               "name": "getPostMiddlewares",
               "comment": {
                 "description": "Get post provider middlewares by method.",
@@ -8294,7 +8213,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 925,
+                  "id": 920,
                   "name": "method",
                   "type": {
                     "kind": "reference",
@@ -8322,7 +8241,7 @@
                     },
                     {
                       "kind": "reference",
-                      "id": 915,
+                      "id": 912,
                       "name": "StoredValue",
                       "packageName": null,
                       "typeArguments": []
@@ -8334,7 +8253,7 @@
           ]
         },
         {
-          "id": 920,
+          "id": 915,
           "name": "getPreMiddlewares",
           "comment": {
             "description": null,
@@ -8342,7 +8261,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 39,
+            "line": 30,
             "file": "MiddlewareStore.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -8351,7 +8270,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 921,
+              "id": 916,
               "name": "getPreMiddlewares",
               "comment": {
                 "description": "Get pre provider middlewares by method.",
@@ -8370,7 +8289,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 922,
+                  "id": 917,
                   "name": "method",
                   "type": {
                     "kind": "reference",
@@ -8398,7 +8317,7 @@
                     },
                     {
                       "kind": "reference",
-                      "id": 915,
+                      "id": 912,
                       "name": "StoredValue",
                       "packageName": null,
                       "typeArguments": []
@@ -8410,7 +8329,7 @@
           ]
         },
         {
-          "id": 947,
+          "id": 942,
           "name": "has",
           "comment": {
             "description": null,
@@ -8427,7 +8346,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 948,
+              "id": 943,
               "name": "has",
               "comment": {
                 "description": null,
@@ -8437,7 +8356,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 949,
+                  "id": 944,
                   "name": "key",
                   "type": {
                     "kind": "intrinsic",
@@ -8453,7 +8372,7 @@
           ]
         },
         {
-          "id": 957,
+          "id": 952,
           "name": "keys",
           "comment": {
             "description": null,
@@ -8470,7 +8389,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 958,
+              "id": 953,
               "name": "keys",
               "comment": {
                 "description": "Returns an iterable of keys in the map",
@@ -8495,7 +8414,7 @@
           ]
         },
         {
-          "id": 950,
+          "id": 945,
           "name": "set",
           "comment": {
             "description": null,
@@ -8512,7 +8431,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 951,
+              "id": 946,
               "name": "set",
               "comment": {
                 "description": null,
@@ -8522,7 +8441,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 952,
+                  "id": 947,
                   "name": "key",
                   "type": {
                     "kind": "intrinsic",
@@ -8530,7 +8449,7 @@
                   }
                 },
                 {
-                  "id": 953,
+                  "id": 948,
                   "name": "value",
                   "type": {
                     "kind": "reference",
@@ -8547,7 +8466,7 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 915,
+                        "id": 912,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -8558,13 +8477,13 @@
               ],
               "returnType": {
                 "kind": "reference",
-                "id": 911,
+                "id": 908,
                 "name": "MiddlewareStore",
                 "packageName": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 915,
+                    "id": 912,
                     "name": "StoredValue",
                     "packageName": null,
                     "typeArguments": []
@@ -8575,7 +8494,7 @@
           ]
         },
         {
-          "id": 959,
+          "id": 954,
           "name": "values",
           "comment": {
             "description": null,
@@ -8592,7 +8511,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 960,
+              "id": 955,
               "name": "values",
               "comment": {
                 "description": "Returns an iterable of values in the map",
@@ -8622,7 +8541,7 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 915,
+                        "id": 912,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -9291,7 +9210,7 @@
       ]
     },
     {
-      "id": 908,
+      "id": 905,
       "name": "MiddlewareIdentifiers",
       "comment": {
         "description": null,
@@ -9299,14 +9218,14 @@
         "modifierTags": []
       },
       "source": {
-        "line": 313,
+        "line": 294,
         "file": "Middleware.ts",
         "path": "packages/middleware/src/lib"
       },
       "external": false,
       "properties": [
         {
-          "id": 909,
+          "id": 906,
           "name": "NameNotFound",
           "comment": {
             "description": null,
@@ -9314,14 +9233,14 @@
             "modifierTags": []
           },
           "source": {
-            "line": 314,
+            "line": 295,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
           "value": "nameNotFound"
         },
         {
-          "id": 910,
+          "id": 907,
           "name": "StoreNotFound",
           "comment": {
             "description": null,
@@ -9329,7 +9248,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 316,
+            "line": 297,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -9431,7 +9350,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 897,
+                    "id": 896,
                     "name": "Options",
                     "packageName": null,
                     "typeArguments": []
@@ -11212,7 +11131,7 @@
       ]
     },
     {
-      "id": 965,
+      "id": 960,
       "name": "MiddlewareStoreOptions",
       "comment": {
         "description": null,
@@ -11220,14 +11139,14 @@
         "modifierTags": []
       },
       "source": {
-        "line": 72,
+        "line": 58,
         "file": "MiddlewareStore.ts",
         "path": "packages/middleware/src/lib"
       },
       "external": false,
       "properties": [
         {
-          "id": 966,
+          "id": 961,
           "name": "provider",
           "comment": {
             "description": null,
@@ -11235,7 +11154,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 73,
+            "line": 59,
             "file": "MiddlewareStore.ts",
             "path": "packages/middleware/src/lib"
           },
@@ -11248,7 +11167,7 @@
             "typeArguments": [
               {
                 "kind": "reference",
-                "id": 967,
+                "id": 962,
                 "name": "StoredValue",
                 "packageName": null,
                 "typeArguments": []
@@ -11831,7 +11750,7 @@
       "typeAliases": []
     },
     {
-      "id": 896,
+      "id": 895,
       "name": "Middleware",
       "comment": {
         "description": null,
@@ -11850,7 +11769,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 901,
+          "id": 899,
           "name": "Conditions",
           "comment": {
             "description": "The conditions to run this middleware on.",
@@ -11863,14 +11782,14 @@
             "modifierTags": []
           },
           "source": {
-            "line": 274,
+            "line": 261,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
           "external": false,
           "properties": [
             {
-              "id": 903,
+              "id": 901,
               "name": "post",
               "comment": {
                 "description": "The \n`post`\n provider method conditions to run at.",
@@ -11883,7 +11802,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 285,
+                "line": 272,
                 "file": "Middleware.ts",
                 "path": "packages/middleware/src/lib"
               },
@@ -11900,7 +11819,7 @@
               }
             },
             {
-              "id": 902,
+              "id": 900,
               "name": "pre",
               "comment": {
                 "description": "The \n`pre`\n provider method conditions to run at.",
@@ -11913,7 +11832,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 279,
+                "line": 266,
                 "file": "Middleware.ts",
                 "path": "packages/middleware/src/lib"
               },
@@ -11932,7 +11851,7 @@
           ]
         },
         {
-          "id": 904,
+          "id": 902,
           "name": "JSON",
           "comment": {
             "description": "The options in an object for \nMiddleware",
@@ -11945,14 +11864,14 @@
             "modifierTags": []
           },
           "source": {
-            "line": 292,
+            "line": 279,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
           "external": false,
           "properties": [
             {
-              "id": 907,
+              "id": 904,
               "name": "conditions",
               "comment": {
                 "description": "The conditions for this middleware.",
@@ -11965,21 +11884,21 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 309,
+                "line": 290,
                 "file": "Middleware.ts",
                 "path": "packages/middleware/src/lib"
               },
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 901,
+                "id": 899,
                 "name": "Conditions",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 905,
+              "id": 903,
               "name": "name",
               "comment": {
                 "description": "The name of this middleware.",
@@ -11992,7 +11911,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 297,
+                "line": 284,
                 "file": "Middleware.ts",
                 "path": "packages/middleware/src/lib"
               },
@@ -12001,35 +11920,11 @@
                 "kind": "intrinsic",
                 "type": "string"
               }
-            },
-            {
-              "id": 906,
-              "name": "position",
-              "comment": {
-                "description": "The position of this middleware.",
-                "blockTags": [
-                  {
-                    "name": "since",
-                    "text": "1.0.0"
-                  }
-                ],
-                "modifierTags": []
-              },
-              "source": {
-                "line": 303,
-                "file": "Middleware.ts",
-                "path": "packages/middleware/src/lib"
-              },
-              "readonly": false,
-              "type": {
-                "kind": "intrinsic",
-                "type": "number"
-              }
             }
           ]
         },
         {
-          "id": 897,
+          "id": 896,
           "name": "Options",
           "comment": {
             "description": "The options for \nMiddleware",
@@ -12042,14 +11937,14 @@
             "modifierTags": []
           },
           "source": {
-            "line": 250,
+            "line": 243,
             "file": "Middleware.ts",
             "path": "packages/middleware/src/lib"
           },
           "external": false,
           "properties": [
             {
-              "id": 900,
+              "id": 898,
               "name": "conditions",
               "comment": {
                 "description": "The conditions for this middleware to run on.",
@@ -12062,21 +11957,21 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 267,
+                "line": 254,
                 "file": "Middleware.ts",
                 "path": "packages/middleware/src/lib"
               },
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 901,
+                "id": 899,
                 "name": "Conditions",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 898,
+              "id": 897,
               "name": "name",
               "comment": {
                 "description": "The name of this middleware.",
@@ -12089,7 +11984,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 255,
+                "line": 248,
                 "file": "Middleware.ts",
                 "path": "packages/middleware/src/lib"
               },
@@ -12097,30 +11992,6 @@
               "type": {
                 "kind": "intrinsic",
                 "type": "string"
-              }
-            },
-            {
-              "id": 899,
-              "name": "position",
-              "comment": {
-                "description": "The position at which this middleware runs at.",
-                "blockTags": [
-                  {
-                    "name": "since",
-                    "text": "1.0.0"
-                  }
-                ],
-                "modifierTags": []
-              },
-              "source": {
-                "line": 261,
-                "file": "Middleware.ts",
-                "path": "packages/middleware/src/lib"
-              },
-              "readonly": false,
-              "type": {
-                "kind": "intrinsic",
-                "type": "number"
               }
             }
           ]
