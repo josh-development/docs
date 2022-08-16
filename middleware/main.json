@@ -813,7 +813,7 @@
                       {
                         "kind": "reference",
                         "id": null,
-                        "name": "RequiredExcept",
+                        "name": "PartialRequired",
                         "packageName": "@sapphire/utilities",
                         "typeArguments": [
                           {
@@ -824,17 +824,8 @@
                             "typeArguments": []
                           },
                           {
-                            "kind": "union",
-                            "types": [
-                              {
-                                "kind": "literal",
-                                "value": "message"
-                              },
-                              {
-                                "kind": "literal",
-                                "value": "origin"
-                              }
-                            ]
+                            "kind": "literal",
+                            "value": "identifier"
                           }
                         ]
                       }
