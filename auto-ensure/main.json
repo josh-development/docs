@@ -22,12 +22,12 @@
       "extendsType": {
         "kind": "reference",
         "id": null,
-        "name": "Middleware",
-        "packageName": "@joshdb/middleware",
+        "name": "JoshMiddleware",
+        "packageName": "@joshdb/provider",
         "typeArguments": [
           {
             "kind": "reference",
-            "id": 151,
+            "id": 158,
             "name": "AutoEnsureMiddleware.ContextData",
             "packageName": null,
             "typeArguments": [
@@ -59,9 +59,9 @@
           "modifierTags": []
         },
         "source": {
-          "line": 98,
+          "line": 1648,
           "file": "index.d.ts",
-          "path": "node_modules/@joshdb/middleware/dist"
+          "path": "node_modules/@joshdb/provider/dist"
         },
         "parameters": [
           {
@@ -69,7 +69,7 @@
             "name": "context",
             "type": {
               "kind": "reference",
-              "id": 151,
+              "id": 158,
               "name": "ContextData",
               "packageName": null,
               "typeArguments": [
@@ -95,8 +95,8 @@
                 {
                   "kind": "reference",
                   "id": null,
-                  "name": "Middleware.Options",
-                  "packageName": "@joshdb/middleware",
+                  "name": "JoshMiddleware.Options",
+                  "packageName": "@joshdb/provider",
                   "typeArguments": []
                 }
               ]
@@ -106,10 +106,10 @@
       },
       "properties": [
         {
-          "id": 47,
+          "id": 46,
           "name": "conditions",
           "comment": {
-            "description": "The conditions this middleware to run.",
+            "description": "The conditions this JoshMiddleware to run.",
             "blockTags": [
               {
                 "name": "since",
@@ -119,9 +119,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 96,
+            "line": 1646,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
@@ -131,13 +131,13 @@
           "type": {
             "kind": "reference",
             "id": null,
-            "name": "Middleware.Conditions",
-            "packageName": "@joshdb/middleware",
+            "name": "JoshMiddleware.Conditions",
+            "packageName": "@joshdb/provider",
             "typeArguments": []
           }
         },
         {
-          "id": 48,
+          "id": 47,
           "name": "context",
           "comment": {
             "description": null,
@@ -145,9 +145,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 97,
+            "line": 1647,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "protected",
           "abstract": false,
@@ -156,7 +156,7 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 151,
+            "id": 158,
             "name": "ContextData",
             "packageName": null,
             "typeArguments": [
@@ -174,7 +174,7 @@
           "id": 45,
           "name": "name",
           "comment": {
-            "description": "The name of this middleware.",
+            "description": "The name of this JoshMiddleware.",
             "blockTags": [
               {
                 "name": "since",
@@ -184,9 +184,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 86,
+            "line": 1641,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
@@ -199,38 +199,10 @@
           }
         },
         {
-          "id": 46,
-          "name": "position",
-          "comment": {
-            "description": "The position this middleware runs at.",
-            "blockTags": [
-              {
-                "name": "since",
-                "text": "1.0.0"
-              }
-            ],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 91,
-            "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
-          },
-          "accessibility": "public",
-          "abstract": false,
-          "static": false,
-          "readonly": true,
-          "optional": true,
-          "type": {
-            "kind": "intrinsic",
-            "type": "number"
-          }
-        },
-        {
           "id": 44,
           "name": "store",
           "comment": {
-            "description": "The store for this middleware.",
+            "description": "The store for this JoshMiddleware.",
             "blockTags": [
               {
                 "name": "since",
@@ -240,9 +212,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 81,
+            "line": 1636,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
@@ -252,8 +224,8 @@
           "type": {
             "kind": "reference",
             "id": null,
-            "name": "MiddlewareStore",
-            "packageName": "@joshdb/middleware",
+            "name": "JoshMiddlewareStore",
+            "packageName": "@joshdb/provider",
             "typeArguments": [
               {
                 "kind": "reference",
@@ -266,7 +238,7 @@
           }
         },
         {
-          "id": 59,
+          "id": 49,
           "name": "provider",
           "comment": {
             "description": "The provider that is used with the current Josh.",
@@ -279,9 +251,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 160,
+            "line": 1653,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
@@ -297,8 +269,8 @@
               {
                 "kind": "reference",
                 "id": null,
-                "name": "Middleware.StoredValue",
-                "packageName": "@joshdb/middleware",
+                "name": "JoshMiddleware.StoredValue",
+                "packageName": "@joshdb/provider",
                 "typeArguments": []
               }
             ]
@@ -307,7 +279,7 @@
       ],
       "methods": [
         {
-          "id": 60,
+          "id": 67,
           "name": "autoKey",
           "comment": {
             "description": null,
@@ -315,16 +287,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 106,
+            "line": 1661,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 61,
+              "id": 68,
               "name": "autoKey",
               "comment": {
                 "description": null,
@@ -334,7 +306,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 62,
+                  "id": 69,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -364,7 +336,7 @@
           ]
         },
         {
-          "id": 63,
+          "id": 70,
           "name": "clear",
           "comment": {
             "description": null,
@@ -372,16 +344,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 107,
+            "line": 1662,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 64,
+              "id": 71,
               "name": "clear",
               "comment": {
                 "description": null,
@@ -391,7 +363,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 65,
+                  "id": 72,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -478,7 +450,7 @@
           ]
         },
         {
-          "id": 66,
+          "id": 73,
           "name": "delete",
           "comment": {
             "description": null,
@@ -486,16 +458,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 109,
+            "line": 1664,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 67,
+              "id": 74,
               "name": "delete",
               "comment": {
                 "description": null,
@@ -505,7 +477,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 68,
+                  "id": 75,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -535,7 +507,7 @@
           ]
         },
         {
-          "id": 69,
+          "id": 76,
           "name": "deleteMany",
           "comment": {
             "description": null,
@@ -543,16 +515,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 110,
+            "line": 1665,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 70,
+              "id": 77,
               "name": "deleteMany",
               "comment": {
                 "description": null,
@@ -562,7 +534,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 71,
+                  "id": 78,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -592,7 +564,7 @@
           ]
         },
         {
-          "id": 72,
+          "id": 79,
           "name": "each",
           "comment": {
             "description": null,
@@ -600,16 +572,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 111,
+            "line": 1666,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 73,
+              "id": 80,
               "name": "each",
               "comment": {
                 "description": null,
@@ -619,7 +591,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 74,
+                  "id": 81,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -665,7 +637,7 @@
           ]
         },
         {
-          "id": 75,
+          "id": 82,
           "name": "ensure",
           "comment": {
             "description": null,
@@ -673,16 +645,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 112,
+            "line": 1667,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 76,
+              "id": 83,
               "name": "ensure",
               "comment": {
                 "description": null,
@@ -692,7 +664,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 77,
+                  "id": 84,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -738,7 +710,7 @@
           ]
         },
         {
-          "id": 78,
+          "id": 85,
           "name": "entries",
           "comment": {
             "description": null,
@@ -746,16 +718,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 113,
+            "line": 1668,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 79,
+              "id": 86,
               "name": "entries",
               "comment": {
                 "description": null,
@@ -765,7 +737,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 80,
+                  "id": 87,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -811,7 +783,106 @@
           ]
         },
         {
-          "id": 81,
+          "id": 59,
+          "name": "error",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1717,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist"
+          },
+          "accessibility": "protected",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 60,
+              "name": "error",
+              "comment": {
+                "description": "Creates an Josh provider error.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The error."
+                  }
+                ],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 61,
+                  "name": "options",
+                  "type": {
+                    "kind": "union",
+                    "types": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "string"
+                      },
+                      {
+                        "kind": "reference",
+                        "id": null,
+                        "name": "PartialRequired",
+                        "packageName": "@sapphire/utilities",
+                        "typeArguments": [
+                          {
+                            "kind": "reference",
+                            "id": null,
+                            "name": "JoshProviderError.Options",
+                            "packageName": "@joshdb/provider",
+                            "typeArguments": []
+                          },
+                          {
+                            "kind": "literal",
+                            "value": "identifier"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 62,
+                  "name": "metadata",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Record",
+                    "packageName": "typescript",
+                    "typeArguments": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "string"
+                      },
+                      {
+                        "kind": "intrinsic",
+                        "type": "unknown"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "JoshProviderError",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 88,
           "name": "every",
           "comment": {
             "description": null,
@@ -819,16 +890,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 114,
+            "line": 1669,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 82,
+              "id": 89,
               "name": "every",
               "comment": {
                 "description": null,
@@ -837,7 +908,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 83,
+                  "id": 90,
                   "name": "StoredValue",
                   "type": null,
                   "default": null
@@ -845,7 +916,7 @@
               ],
               "parameters": [
                 {
-                  "id": 84,
+                  "id": 91,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -855,9 +926,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 83,
+                        "id": 90,
                         "name": "StoredValue",
-                        "packageName": "@joshdb/middleware",
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -878,9 +949,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 83,
+                        "id": 90,
                         "name": "StoredValue",
-                        "packageName": "@joshdb/middleware",
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -889,7 +960,7 @@
               }
             },
             {
-              "id": 85,
+              "id": 92,
               "name": "every",
               "comment": {
                 "description": null,
@@ -899,7 +970,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 86,
+                  "id": 93,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -927,7 +998,7 @@
               }
             },
             {
-              "id": 87,
+              "id": 94,
               "name": "every",
               "comment": {
                 "description": null,
@@ -936,193 +1007,12 @@
               },
               "typeParameters": [
                 {
-                  "id": 88,
+                  "id": 95,
                   "name": "StoredValue",
                   "type": null,
                   "default": null
                 }
               ],
-              "parameters": [
-                {
-                  "id": 89,
-                  "name": "payload",
-                  "type": {
-                    "kind": "reference",
-                    "id": null,
-                    "name": "Payloads.Every",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 88,
-                        "name": "StoredValue",
-                        "packageName": "@joshdb/middleware",
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": null,
-                "name": "Awaitable",
-                "packageName": "@sapphire/utilities",
-                "typeArguments": [
-                  {
-                    "kind": "reference",
-                    "id": null,
-                    "name": "Payloads.Every",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 88,
-                        "name": "StoredValue",
-                        "packageName": "@joshdb/middleware",
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "id": 90,
-          "name": "filter",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 117,
-            "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
-          },
-          "accessibility": "public",
-          "abstract": false,
-          "static": false,
-          "signatures": [
-            {
-              "id": 91,
-              "name": "filter",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [],
-              "parameters": [
-                {
-                  "id": 92,
-                  "name": "payload",
-                  "type": {
-                    "kind": "reference",
-                    "id": null,
-                    "name": "Payloads.Filter.ByHook",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 4,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": null,
-                "name": "Awaitable",
-                "packageName": "@sapphire/utilities",
-                "typeArguments": [
-                  {
-                    "kind": "reference",
-                    "id": null,
-                    "name": "Payloads.Filter.ByHook",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 4,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "id": 93,
-              "name": "filter",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [],
-              "parameters": [
-                {
-                  "id": 94,
-                  "name": "payload",
-                  "type": {
-                    "kind": "reference",
-                    "id": null,
-                    "name": "Payloads.Filter.ByValue",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 4,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": null,
-                "name": "Awaitable",
-                "packageName": "@sapphire/utilities",
-                "typeArguments": [
-                  {
-                    "kind": "reference",
-                    "id": null,
-                    "name": "Payloads.Filter.ByValue",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 4,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            },
-            {
-              "id": 95,
-              "name": "filter",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [],
               "parameters": [
                 {
                   "id": 96,
@@ -1130,14 +1020,14 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Filter",
+                    "name": "Payloads.Every",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 4,
+                        "id": 95,
                         "name": "StoredValue",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -1153,14 +1043,14 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Filter",
+                    "name": "Payloads.Every",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 4,
+                        "id": 95,
                         "name": "StoredValue",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -1172,16 +1062,16 @@
         },
         {
           "id": 97,
-          "name": "find",
+          "name": "filter",
           "comment": {
             "description": null,
             "blockTags": [],
             "modifierTags": []
           },
           "source": {
-            "line": 120,
+            "line": 1672,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1189,7 +1079,7 @@
           "signatures": [
             {
               "id": 98,
-              "name": "find",
+              "name": "filter",
               "comment": {
                 "description": null,
                 "blockTags": [],
@@ -1203,7 +1093,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Find.ByHook",
+                    "name": "Payloads.Filter.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -1226,7 +1116,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Find.ByHook",
+                    "name": "Payloads.Filter.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -1243,7 +1133,7 @@
             },
             {
               "id": 100,
-              "name": "find",
+              "name": "filter",
               "comment": {
                 "description": null,
                 "blockTags": [],
@@ -1253,6 +1143,187 @@
               "parameters": [
                 {
                   "id": 101,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Filter.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Awaitable",
+                "packageName": "@sapphire/utilities",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Filter.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 102,
+              "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 103,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Filter",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Awaitable",
+                "packageName": "@sapphire/utilities",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Filter",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 104,
+          "name": "find",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1675,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 105,
+              "name": "find",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 106,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Find.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Awaitable",
+                "packageName": "@sapphire/utilities",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Find.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 107,
+              "name": "find",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 108,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -1296,7 +1367,7 @@
               }
             },
             {
-              "id": 102,
+              "id": 109,
               "name": "find",
               "comment": {
                 "description": null,
@@ -1306,7 +1377,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 103,
+                  "id": 110,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -1511,7 +1582,7 @@
           ]
         },
         {
-          "id": 104,
+          "id": 111,
           "name": "has",
           "comment": {
             "description": null,
@@ -1519,16 +1590,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 125,
+            "line": 1680,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 105,
+              "id": 112,
               "name": "has",
               "comment": {
                 "description": null,
@@ -1538,7 +1609,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 106,
+                  "id": 113,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -1625,7 +1696,7 @@
           ]
         },
         {
-          "id": 49,
+          "id": 50,
           "name": "init",
           "comment": {
             "description": null,
@@ -1633,16 +1704,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 105,
+            "line": 1660,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 50,
+              "id": 51,
               "name": "init",
               "comment": {
                 "description": "Initiates this class with it's store.",
@@ -1653,7 +1724,7 @@
                   },
                   {
                     "name": "returns",
-                    "text": "Returns the current Middleware class."
+                    "text": "Returns the current JoshMiddleware class."
                   }
                 ],
                 "modifierTags": []
@@ -1661,13 +1732,13 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 51,
+                  "id": 52,
                   "name": "store",
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "MiddlewareStore",
-                    "packageName": "@joshdb/middleware",
+                    "name": "JoshMiddlewareStore",
+                    "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
                         "kind": "reference",
@@ -1707,7 +1778,7 @@
           ]
         },
         {
-          "id": 107,
+          "id": 114,
           "name": "keys",
           "comment": {
             "description": null,
@@ -1715,16 +1786,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 127,
+            "line": 1682,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 108,
+              "id": 115,
               "name": "keys",
               "comment": {
                 "description": null,
@@ -1734,7 +1805,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 109,
+                  "id": 116,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -1764,7 +1835,7 @@
           ]
         },
         {
-          "id": 110,
+          "id": 117,
           "name": "map",
           "comment": {
             "description": null,
@@ -1772,16 +1843,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 128,
+            "line": 1683,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 111,
+              "id": 118,
               "name": "map",
               "comment": {
                 "description": null,
@@ -1790,7 +1861,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 112,
+                  "id": 119,
                   "name": "Value",
                   "type": null,
                   "default": {
@@ -1804,7 +1875,7 @@
               ],
               "parameters": [
                 {
-                  "id": 113,
+                  "id": 120,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -1821,9 +1892,9 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 112,
+                        "id": 119,
                         "name": "Value",
-                        "packageName": "@joshdb/middleware",
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -1851,9 +1922,9 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 112,
+                        "id": 119,
                         "name": "Value",
-                        "packageName": "@joshdb/middleware",
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -1862,7 +1933,7 @@
               }
             },
             {
-              "id": 114,
+              "id": 121,
               "name": "map",
               "comment": {
                 "description": null,
@@ -1871,7 +1942,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 115,
+                  "id": 122,
                   "name": "Value",
                   "type": null,
                   "default": null
@@ -1879,7 +1950,7 @@
               ],
               "parameters": [
                 {
-                  "id": 116,
+                  "id": 123,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -1889,9 +1960,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 115,
+                        "id": 122,
                         "name": "Value",
-                        "packageName": "@joshdb/middleware",
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -1912,9 +1983,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 115,
+                        "id": 122,
                         "name": "Value",
-                        "packageName": "@joshdb/middleware",
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -1923,7 +1994,7 @@
               }
             },
             {
-              "id": 117,
+              "id": 124,
               "name": "map",
               "comment": {
                 "description": null,
@@ -1932,7 +2003,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 118,
+                  "id": 125,
                   "name": "Value",
                   "type": null,
                   "default": {
@@ -1946,7 +2017,7 @@
               ],
               "parameters": [
                 {
-                  "id": 119,
+                  "id": 126,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -1963,9 +2034,9 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 118,
+                        "id": 125,
                         "name": "Value",
-                        "packageName": "@joshdb/middleware",
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -1993,9 +2064,9 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 118,
+                        "id": 125,
                         "name": "Value",
-                        "packageName": "@joshdb/middleware",
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -2063,7 +2134,7 @@
           ]
         },
         {
-          "id": 120,
+          "id": 127,
           "name": "partition",
           "comment": {
             "description": null,
@@ -2071,16 +2142,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 132,
+            "line": 1687,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 121,
+              "id": 128,
               "name": "partition",
               "comment": {
                 "description": null,
@@ -2090,7 +2161,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 122,
+                  "id": 129,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -2134,7 +2205,7 @@
               }
             },
             {
-              "id": 123,
+              "id": 130,
               "name": "partition",
               "comment": {
                 "description": null,
@@ -2144,7 +2215,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 124,
+                  "id": 131,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -2188,7 +2259,7 @@
               }
             },
             {
-              "id": 125,
+              "id": 132,
               "name": "partition",
               "comment": {
                 "description": null,
@@ -2198,7 +2269,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 126,
+                  "id": 133,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -2324,7 +2395,7 @@
           ]
         },
         {
-          "id": 127,
+          "id": 134,
           "name": "random",
           "comment": {
             "description": null,
@@ -2332,16 +2403,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 136,
+            "line": 1691,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 128,
+              "id": 135,
               "name": "random",
               "comment": {
                 "description": null,
@@ -2351,7 +2422,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 129,
+                  "id": 136,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -2397,7 +2468,7 @@
           ]
         },
         {
-          "id": 130,
+          "id": 137,
           "name": "randomKey",
           "comment": {
             "description": null,
@@ -2405,16 +2476,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 137,
+            "line": 1692,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 131,
+              "id": 138,
               "name": "randomKey",
               "comment": {
                 "description": null,
@@ -2424,7 +2495,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 132,
+                  "id": 139,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -2578,7 +2649,79 @@
           ]
         },
         {
-          "id": 52,
+          "id": 63,
+          "name": "resolveIdentifier",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1725,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist"
+          },
+          "accessibility": "protected",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 64,
+              "name": "resolveIdentifier",
+              "comment": {
+                "description": "Resolves an identifier.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The resolved identifier message."
+                  }
+                ],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 65,
+                  "name": "identifier",
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                },
+                {
+                  "id": 66,
+                  "name": "metadata",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Record",
+                    "packageName": "typescript",
+                    "typeArguments": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "string"
+                      },
+                      {
+                        "kind": "intrinsic",
+                        "type": "unknown"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            }
+          ]
+        },
+        {
+          "id": 53,
           "name": "run",
           "comment": {
             "description": null,
@@ -2586,16 +2729,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 149,
+            "line": 1704,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 53,
+              "id": 54,
               "name": "run",
               "comment": {
                 "description": null,
@@ -2604,7 +2747,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 54,
+                  "id": 55,
                   "name": "P",
                   "type": {
                     "kind": "reference",
@@ -2618,20 +2761,31 @@
               ],
               "parameters": [
                 {
-                  "id": 55,
+                  "id": 56,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
-                    "id": 54,
+                    "id": 55,
                     "name": "P",
-                    "packageName": "@joshdb/middleware",
+                    "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
                 }
               ],
               "returnType": {
-                "kind": "intrinsic",
-                "type": "unknown"
+                "kind": "reference",
+                "id": null,
+                "name": "Awaitable",
+                "packageName": "@sapphire/utilities",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 55,
+                    "name": "P",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
               }
             }
           ]
@@ -2780,7 +2934,7 @@
           ]
         },
         {
-          "id": 133,
+          "id": 140,
           "name": "size",
           "comment": {
             "description": null,
@@ -2788,16 +2942,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 143,
+            "line": 1698,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 134,
+              "id": 141,
               "name": "size",
               "comment": {
                 "description": null,
@@ -2807,7 +2961,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 135,
+                  "id": 142,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -2837,7 +2991,7 @@
           ]
         },
         {
-          "id": 136,
+          "id": 143,
           "name": "some",
           "comment": {
             "description": null,
@@ -2845,16 +2999,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 144,
+            "line": 1699,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 137,
+              "id": 144,
               "name": "some",
               "comment": {
                 "description": null,
@@ -2863,7 +3017,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 138,
+                  "id": 145,
                   "name": "StoredValue",
                   "type": null,
                   "default": null
@@ -2871,7 +3025,7 @@
               ],
               "parameters": [
                 {
-                  "id": 139,
+                  "id": 146,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -2881,9 +3035,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 138,
+                        "id": 145,
                         "name": "StoredValue",
-                        "packageName": "@joshdb/middleware",
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -2904,9 +3058,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 138,
+                        "id": 145,
                         "name": "StoredValue",
-                        "packageName": "@joshdb/middleware",
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -2915,7 +3069,7 @@
               }
             },
             {
-              "id": 140,
+              "id": 147,
               "name": "some",
               "comment": {
                 "description": null,
@@ -2924,7 +3078,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 141,
+                  "id": 148,
                   "name": "Value",
                   "type": null,
                   "default": null
@@ -2932,7 +3086,7 @@
               ],
               "parameters": [
                 {
-                  "id": 142,
+                  "id": 149,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -2960,7 +3114,7 @@
               }
             },
             {
-              "id": 143,
+              "id": 150,
               "name": "some",
               "comment": {
                 "description": null,
@@ -2969,7 +3123,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 144,
+                  "id": 151,
                   "name": "StoredValue",
                   "type": null,
                   "default": null
@@ -2977,7 +3131,7 @@
               ],
               "parameters": [
                 {
-                  "id": 145,
+                  "id": 152,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -2987,9 +3141,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 144,
+                        "id": 151,
                         "name": "StoredValue",
-                        "packageName": "@joshdb/middleware",
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -3010,9 +3164,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 144,
+                        "id": 151,
                         "name": "StoredValue",
-                        "packageName": "@joshdb/middleware",
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -3023,7 +3177,7 @@
           ]
         },
         {
-          "id": 56,
+          "id": 57,
           "name": "toJSON",
           "comment": {
             "description": null,
@@ -3031,16 +3185,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 155,
+            "line": 1710,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 57,
+              "id": 58,
               "name": "toJSON",
               "comment": {
                 "description": "Adds the options of this class to an object.",
@@ -3051,7 +3205,7 @@
                   },
                   {
                     "name": "returns",
-                    "text": "The options for this middleware as an object."
+                    "text": "The options for this JoshMiddleware as an object."
                   }
                 ],
                 "modifierTags": []
@@ -3061,8 +3215,8 @@
               "returnType": {
                 "kind": "reference",
                 "id": null,
-                "name": "Middleware.JSON",
-                "packageName": "@joshdb/middleware",
+                "name": "JoshMiddleware.JSON",
+                "packageName": "@joshdb/provider",
                 "typeArguments": []
               }
             }
@@ -3169,7 +3323,7 @@
           ]
         },
         {
-          "id": 146,
+          "id": 153,
           "name": "values",
           "comment": {
             "description": null,
@@ -3177,16 +3331,16 @@
             "modifierTags": []
           },
           "source": {
-            "line": 148,
+            "line": 1703,
             "file": "index.d.ts",
-            "path": "node_modules/@joshdb/middleware/dist"
+            "path": "node_modules/@joshdb/provider/dist"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 147,
+              "id": 154,
               "name": "values",
               "comment": {
                 "description": null,
@@ -3196,7 +3350,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 148,
+                  "id": 155,
                   "name": "payload",
                   "type": {
                     "kind": "reference",
@@ -3250,7 +3404,7 @@
   "interfaces": [],
   "namespaces": [
     {
-      "id": 150,
+      "id": 157,
       "name": "AutoEnsureMiddleware",
       "comment": {
         "description": null,
@@ -3269,7 +3423,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 151,
+          "id": 158,
           "name": "ContextData",
           "comment": {
             "description": null,
@@ -3284,7 +3438,7 @@
           "external": false,
           "properties": [
             {
-              "id": 152,
+              "id": 159,
               "name": "defaultValue",
               "comment": {
                 "description": "The default value to set if the key does not exist.",
@@ -3304,14 +3458,14 @@
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 154,
+                "id": 161,
                 "name": "StoredValue",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 153,
+              "id": 160,
               "name": "ensureProperties",
               "comment": {
                 "description": "Whether to merge the \ndefaultValue\n with existing values.",
