@@ -100,8 +100,8 @@
           "type": {
             "kind": "reference",
             "id": null,
-            "name": "MiddlewareStore",
-            "packageName": "@joshdb/middleware",
+            "name": "JoshMiddlewareStore",
+            "packageName": "@joshdb/provider",
             "typeArguments": [
               {
                 "kind": "reference",
@@ -228,7 +228,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1932,
+            "line": 1763,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -244,7 +244,7 @@
         },
         {
           "id": 17,
-          "name": "providerFailedError",
+          "name": "providerDataFailedError",
           "comment": {
             "description": null,
             "blockTags": [],
@@ -279,7 +279,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 184,
+            "line": 183,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -334,7 +334,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 226,
+            "line": 219,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -400,7 +400,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1812,
+            "line": 1640,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -542,7 +542,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1854,
+            "line": 1682,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -619,7 +619,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 284,
+            "line": 271,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -713,7 +713,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 344,
+            "line": 325,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -807,7 +807,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 375,
+            "line": 350,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -877,7 +877,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 404,
+            "line": 373,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -906,7 +906,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payload.HookWithKey",
+                    "name": "Payload.Hook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -959,7 +959,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 447,
+            "line": 410,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -1041,7 +1041,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 495,
+            "line": 451,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -1164,7 +1164,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1841,
+            "line": 1669,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -1203,7 +1203,7 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 283,
+                        "id": 284,
                         "name": "JoshErrorOptions",
                         "packageName": null,
                         "typeArguments": []
@@ -1251,7 +1251,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 554,
+            "line": 503,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -1375,7 +1375,7 @@
                       },
                       {
                         "kind": "intrinsic",
-                        "type": "boolean"
+                        "type": "unknown"
                       }
                     ]
                   }
@@ -1405,7 +1405,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1795,
+            "line": 1623,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -1467,7 +1467,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 641,
+            "line": 584,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -1657,7 +1657,7 @@
                       },
                       {
                         "kind": "intrinsic",
-                        "type": "boolean"
+                        "type": "unknown"
                       }
                     ]
                   }
@@ -1727,7 +1727,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 733,
+            "line": 671,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -1873,7 +1873,7 @@
                       },
                       {
                         "kind": "intrinsic",
-                        "type": "boolean"
+                        "type": "unknown"
                       }
                     ]
                   }
@@ -1933,7 +1933,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 808,
+            "line": 741,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -2094,7 +2094,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 878,
+            "line": 806,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -2236,7 +2236,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 934,
+            "line": 854,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -2315,7 +2315,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1771,
+            "line": 1598,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -2388,7 +2388,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 996,
+            "line": 908,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -2548,7 +2548,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1865,
+            "line": 1693,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -2650,7 +2650,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1034,
+            "line": 940,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -2708,7 +2708,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1087,
+            "line": 987,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -2829,7 +2829,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1165,
+            "line": 1060,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -2946,7 +2946,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1207,
+            "line": 1096,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -3020,7 +3020,7 @@
                       },
                       {
                         "kind": "intrinsic",
-                        "type": "boolean"
+                        "type": "unknown"
                       }
                     ]
                   }
@@ -3266,7 +3266,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1311,
+            "line": 1195,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -3380,7 +3380,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1354,
+            "line": 1232,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -3462,7 +3462,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1400,
+            "line": 1272,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -3545,7 +3545,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1443,
+            "line": 1309,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -3745,7 +3745,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1877,
+            "line": 1705,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -3813,7 +3813,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1911,
+            "line": 1742,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -3876,7 +3876,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1924,
+            "line": 1755,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -3930,7 +3930,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1520,
+            "line": 1381,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -4048,7 +4048,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1546,
+            "line": 1401,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -4133,7 +4133,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1589,
+            "line": 1439,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -4188,7 +4188,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1634,
+            "line": 1478,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -4296,7 +4296,7 @@
                       },
                       {
                         "kind": "intrinsic",
-                        "type": "boolean"
+                        "type": "unknown"
                       }
                     ]
                   }
@@ -4326,7 +4326,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1708,
+            "line": 1547,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -4436,7 +4436,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 137,
+            "line": 136,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -4505,9 +4505,9 @@
                       "sources": [
                         {
                           "fileName": "src/lib/structures/Josh.ts",
-                          "line": 137,
+                          "line": 136,
                           "character": 74,
-                          "url": "https://github.com/josh-development/core/blob/cdb9161/src/lib/structures/Josh.ts#L137"
+                          "url": "https://github.com/josh-development/core/blob/cd97887/src/lib/structures/Josh.ts#L136"
                         }
                       ],
                       "signatures": [
@@ -4595,8 +4595,8 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Middleware",
-                    "packageName": "@joshdb/middleware",
+                    "name": "JoshMiddleware",
+                    "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
                         "kind": "reference",
@@ -4643,7 +4643,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1745,
+            "line": 1578,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -4704,7 +4704,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1941,
+            "line": 1772,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -4850,7 +4850,7 @@
         "modifierTags": []
       },
       "source": {
-        "line": 5,
+        "line": 7,
         "file": "JoshError.ts",
         "path": "src/lib/structures"
       },
@@ -4873,7 +4873,7 @@
           "modifierTags": []
         },
         "source": {
-          "line": 12,
+          "line": 20,
           "file": "JoshError.ts",
           "path": "src/lib/structures"
         },
@@ -4883,7 +4883,7 @@
             "name": "options",
             "type": {
               "kind": "reference",
-              "id": 283,
+              "id": 284,
               "name": "JoshErrorOptions",
               "packageName": null,
               "typeArguments": []
@@ -4893,7 +4893,7 @@
       },
       "properties": [
         {
-          "id": 282,
+          "id": 283,
           "name": "cause",
           "comment": {
             "description": null,
@@ -4919,6 +4919,40 @@
           }
         },
         {
+          "id": 279,
+          "name": "errors",
+          "comment": {
+            "description": "The errors for this error.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              }
+            ],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 18,
+            "file": "JoshError.ts",
+            "path": "src/lib/structures"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "array",
+            "type": {
+              "kind": "reference",
+              "id": null,
+              "name": "JoshProviderError",
+              "packageName": "@joshdb/provider",
+              "typeArguments": []
+            }
+          }
+        },
+        {
           "id": 278,
           "name": "identifier",
           "comment": {
@@ -4932,7 +4966,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 10,
+            "line": 12,
             "file": "JoshError.ts",
             "path": "src/lib/structures"
           },
@@ -4947,7 +4981,7 @@
           }
         },
         {
-          "id": 280,
+          "id": 281,
           "name": "message",
           "comment": {
             "description": null,
@@ -4970,7 +5004,7 @@
           }
         },
         {
-          "id": 279,
+          "id": 280,
           "name": "name",
           "comment": {
             "description": null,
@@ -4993,7 +5027,7 @@
           }
         },
         {
-          "id": 281,
+          "id": 282,
           "name": "stack",
           "comment": {
             "description": null,
@@ -5207,7 +5241,7 @@
         "modifierTags": []
       },
       "source": {
-        "line": 2125,
+        "line": 1952,
         "file": "Josh.ts",
         "path": "src/lib/structures"
       },
@@ -5222,7 +5256,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 2128,
+            "line": 1955,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -5237,7 +5271,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 2126,
+            "line": 1953,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -5252,7 +5286,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 2130,
+            "line": 1957,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -5267,7 +5301,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 2132,
+            "line": 1959,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -5279,7 +5313,7 @@
   "functions": [],
   "interfaces": [
     {
-      "id": 283,
+      "id": 284,
       "name": "JoshErrorOptions",
       "comment": {
         "description": "The options for \n`JoshError`",
@@ -5292,14 +5326,44 @@
         "modifierTags": []
       },
       "source": {
-        "line": 25,
+        "line": 34,
         "file": "JoshError.ts",
         "path": "src/lib/structures"
       },
       "external": false,
       "properties": [
         {
-          "id": 285,
+          "id": 287,
+          "name": "errors",
+          "comment": {
+            "description": "The errors for this error.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              }
+            ],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 51,
+            "file": "JoshError.ts",
+            "path": "src/lib/structures"
+          },
+          "readonly": false,
+          "type": {
+            "kind": "array",
+            "type": {
+              "kind": "reference",
+              "id": null,
+              "name": "JoshProviderError",
+              "packageName": "@joshdb/provider",
+              "typeArguments": []
+            }
+          }
+        },
+        {
+          "id": 286,
           "name": "identifier",
           "comment": {
             "description": "The identifier for this error.",
@@ -5312,7 +5376,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 36,
+            "line": 45,
             "file": "JoshError.ts",
             "path": "src/lib/structures"
           },
@@ -5323,7 +5387,7 @@
           }
         },
         {
-          "id": 286,
+          "id": 288,
           "name": "message",
           "comment": {
             "description": "The message for this error.",
@@ -5336,7 +5400,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 42,
+            "line": 57,
             "file": "JoshError.ts",
             "path": "src/lib/structures"
           },
@@ -5347,7 +5411,7 @@
           }
         },
         {
-          "id": 284,
+          "id": 285,
           "name": "name",
           "comment": {
             "description": "The name for this error.",
@@ -5360,7 +5424,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 30,
+            "line": 39,
             "file": "JoshError.ts",
             "path": "src/lib/structures"
           },
@@ -5381,7 +5445,7 @@
         "modifierTags": []
       },
       "source": {
-        "line": 2135,
+        "line": 1962,
         "file": "Josh.ts",
         "path": "src/lib/structures"
       },
@@ -5396,7 +5460,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 2136,
+            "line": 1963,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -5430,7 +5494,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 2138,
+            "line": 1965,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -5464,7 +5528,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 2140,
+            "line": 1967,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -5489,7 +5553,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 2142,
+            "line": 1969,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -5544,7 +5608,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 2108,
+            "line": 1935,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -5559,7 +5623,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2109,
+                "line": 1936,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -5574,7 +5638,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2111,
+                "line": 1938,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -5589,7 +5653,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2113,
+                "line": 1940,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -5597,21 +5661,6 @@
             },
             {
               "id": 247,
-              "name": "MiddlewareNotFound",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "source": {
-                "line": 2115,
-                "file": "Josh.ts",
-                "path": "src/lib/structures"
-              },
-              "value": "middlewareNotFound"
-            },
-            {
-              "id": 248,
               "name": "MissingName",
               "comment": {
                 "description": null,
@@ -5619,11 +5668,26 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2117,
+                "line": 1942,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
               "value": "missingName"
+            },
+            {
+              "id": 248,
+              "name": "MultipleError",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "source": {
+                "line": 1944,
+                "file": "Josh.ts",
+                "path": "src/lib/structures"
+              },
+              "value": "multipleError"
             },
             {
               "id": 249,
@@ -5634,7 +5698,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2119,
+                "line": 1946,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -5649,7 +5713,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2121,
+                "line": 1948,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -5669,7 +5733,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 2015,
+            "line": 1842,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -5689,7 +5753,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2038,
+                "line": 1865,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -5728,7 +5792,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2032,
+                "line": 1859,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -5752,7 +5816,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2020,
+                "line": 1847,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -5776,7 +5840,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2026,
+                "line": 1853,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -5797,7 +5861,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 2067,
+            "line": 1894,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -5817,7 +5881,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2084,
+                "line": 1911,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -5841,7 +5905,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2072,
+                "line": 1899,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -5896,7 +5960,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2078,
+                "line": 1905,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -5917,7 +5981,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 2041,
+            "line": 1868,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -5937,7 +6001,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2058,
+                "line": 1885,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -5961,7 +6025,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2064,
+                "line": 1891,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -5986,9 +6050,9 @@
                         "sources": [
                           {
                             "fileName": "src/lib/structures/Josh.ts",
-                            "line": 2064,
+                            "line": 1891,
                             "character": 12,
-                            "url": "https://github.com/josh-development/core/blob/cdb9161/src/lib/structures/Josh.ts#L2064"
+                            "url": "https://github.com/josh-development/core/blob/cd97887/src/lib/structures/Josh.ts#L1891"
                           }
                         ],
                         "type": {
@@ -6005,9 +6069,9 @@
                         "sources": [
                           {
                             "fileName": "src/lib/structures/Josh.ts",
-                            "line": 2064,
+                            "line": 1891,
                             "character": 25,
-                            "url": "https://github.com/josh-development/core/blob/cdb9161/src/lib/structures/Josh.ts#L2064"
+                            "url": "https://github.com/josh-development/core/blob/cd97887/src/lib/structures/Josh.ts#L1891"
                           }
                         ],
                         "type": {
@@ -6029,9 +6093,9 @@
                     "sources": [
                       {
                         "fileName": "src/lib/structures/Josh.ts",
-                        "line": 2064,
+                        "line": 1891,
                         "character": 10,
-                        "url": "https://github.com/josh-development/core/blob/cdb9161/src/lib/structures/Josh.ts#L2064"
+                        "url": "https://github.com/josh-development/core/blob/cd97887/src/lib/structures/Josh.ts#L1891"
                       }
                     ]
                   }
@@ -6052,7 +6116,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2046,
+                "line": 1873,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -6076,7 +6140,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2052,
+                "line": 1879,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -6102,7 +6166,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1959,
+            "line": 1786,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -6122,7 +6186,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1982,
+                "line": 1809,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -6157,7 +6221,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1976,
+                "line": 1803,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -6167,19 +6231,22 @@
                 "type": {
                   "kind": "reference",
                   "id": null,
-                  "name": "Middleware",
-                  "packageName": "@joshdb/middleware",
+                  "name": "JoshMiddleware",
+                  "packageName": "@joshdb/provider",
                   "typeArguments": [
+                    {
+                      "kind": "reference",
+                      "id": null,
+                      "name": "NonNullObject",
+                      "packageName": "@sapphire/utilities",
+                      "typeArguments": []
+                    },
                     {
                       "kind": "reference",
                       "id": 209,
                       "name": "StoredValue",
                       "packageName": null,
                       "typeArguments": []
-                    },
-                    {
-                      "kind": "intrinsic",
-                      "type": "unknown"
                     }
                   ]
                 }
@@ -6199,7 +6266,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1964,
+                "line": 1791,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -6223,7 +6290,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1970,
+                "line": 1797,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -6255,7 +6322,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 2094,
+            "line": 1921,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -6275,7 +6342,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2099,
+                "line": 1926,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -6299,7 +6366,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2105,
+                "line": 1932,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -6320,7 +6387,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 2086,
+            "line": 1913,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -6335,7 +6402,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 16,
+                "line": 14,
                 "file": "index.d.ts",
                 "path": "node_modules/@joshdb/provider/dist"
               },
@@ -6354,7 +6421,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 17,
+                "line": 15,
                 "file": "index.d.ts",
                 "path": "node_modules/@joshdb/provider/dist"
               },
@@ -6381,7 +6448,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2091,
+                "line": 1918,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -6410,7 +6477,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1989,
+            "line": 1816,
             "file": "Josh.ts",
             "path": "src/lib/structures"
           },
@@ -6430,7 +6497,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2012,
+                "line": 1839,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -6457,7 +6524,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1994,
+                "line": 1821,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -6481,7 +6548,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2000,
+                "line": 1827,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
@@ -6505,7 +6572,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 2006,
+                "line": 1833,
                 "file": "Josh.ts",
                 "path": "src/lib/structures"
               },
