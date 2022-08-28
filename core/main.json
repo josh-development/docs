@@ -4507,7 +4507,7 @@
                           "fileName": "src/lib/structures/Josh.ts",
                           "line": 136,
                           "character": 74,
-                          "url": "https://github.com/josh-development/core/blob/cd97887/src/lib/structures/Josh.ts#L136"
+                          "url": "https://github.com/josh-development/core/blob/774634e/src/lib/structures/Josh.ts#L136"
                         }
                       ],
                       "signatures": [
@@ -4599,11 +4599,8 @@
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
-                        "kind": "reference",
-                        "id": null,
-                        "name": "NonNullObject",
-                        "packageName": "@sapphire/utilities",
-                        "typeArguments": []
+                        "kind": "intrinsic",
+                        "type": "object"
                       },
                       {
                         "kind": "reference",
@@ -4911,11 +4908,8 @@
           "readonly": false,
           "optional": true,
           "type": {
-            "kind": "reference",
-            "id": null,
-            "name": "Error",
-            "packageName": "typescript",
-            "typeArguments": []
+            "kind": "intrinsic",
+            "type": "unknown"
           }
         },
         {
@@ -4989,7 +4983,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1029,
+            "line": 1041,
             "file": "lib.es5.d.ts",
             "path": "node_modules/typescript/lib"
           },
@@ -5012,7 +5006,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1028,
+            "line": 1040,
             "file": "lib.es5.d.ts",
             "path": "node_modules/typescript/lib"
           },
@@ -5035,7 +5029,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1030,
+            "line": 1042,
             "file": "lib.es5.d.ts",
             "path": "node_modules/typescript/lib"
           },
@@ -6052,7 +6046,7 @@
                             "fileName": "src/lib/structures/Josh.ts",
                             "line": 1891,
                             "character": 12,
-                            "url": "https://github.com/josh-development/core/blob/cd97887/src/lib/structures/Josh.ts#L1891"
+                            "url": "https://github.com/josh-development/core/blob/774634e/src/lib/structures/Josh.ts#L1891"
                           }
                         ],
                         "type": {
@@ -6071,7 +6065,7 @@
                             "fileName": "src/lib/structures/Josh.ts",
                             "line": 1891,
                             "character": 25,
-                            "url": "https://github.com/josh-development/core/blob/cd97887/src/lib/structures/Josh.ts#L1891"
+                            "url": "https://github.com/josh-development/core/blob/774634e/src/lib/structures/Josh.ts#L1891"
                           }
                         ],
                         "type": {
@@ -6095,7 +6089,7 @@
                         "fileName": "src/lib/structures/Josh.ts",
                         "line": 1891,
                         "character": 10,
-                        "url": "https://github.com/josh-development/core/blob/cd97887/src/lib/structures/Josh.ts#L1891"
+                        "url": "https://github.com/josh-development/core/blob/774634e/src/lib/structures/Josh.ts#L1891"
                       }
                     ]
                   }
@@ -6235,11 +6229,8 @@
                   "packageName": "@joshdb/provider",
                   "typeArguments": [
                     {
-                      "kind": "reference",
-                      "id": null,
-                      "name": "NonNullObject",
-                      "packageName": "@sapphire/utilities",
-                      "typeArguments": []
+                      "kind": "intrinsic",
+                      "type": "object"
                     },
                     {
                       "kind": "reference",
