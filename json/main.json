@@ -15,7 +15,7 @@
       "source": {
         "line": 4,
         "file": "ChunkFile.ts",
-        "path": "src/lib/chunk-files"
+        "path": "packages/json/src/lib/chunk-files"
       },
       "external": false,
       "abstract": false,
@@ -46,7 +46,7 @@
         "source": {
           "line": 7,
           "file": "ChunkFile.ts",
-          "path": "src/lib/chunk-files"
+          "path": "packages/json/src/lib/chunk-files"
         },
         "parameters": [
           {
@@ -74,7 +74,7 @@
           "source": {
             "line": 5,
             "file": "ChunkFile.ts",
-            "path": "src/lib/chunk-files"
+            "path": "packages/json/src/lib/chunk-files"
           },
           "accessibility": "public",
           "abstract": false,
@@ -105,7 +105,7 @@
           "source": {
             "line": 9,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -131,7 +131,7 @@
           "source": {
             "line": 11,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -154,7 +154,7 @@
           "source": {
             "line": 63,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -180,7 +180,7 @@
           "source": {
             "line": 25,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -203,7 +203,7 @@
           "source": {
             "line": 21,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -231,7 +231,7 @@
           "source": {
             "line": 53,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "protected",
           "abstract": false,
@@ -317,7 +317,7 @@
           "source": {
             "line": 41,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -368,7 +368,7 @@
           "source": {
             "line": 49,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -410,7 +410,7 @@
           "source": {
             "line": 14,
             "file": "ChunkFile.ts",
-            "path": "src/lib/chunk-files"
+            "path": "packages/json/src/lib/chunk-files"
           },
           "accessibility": "public",
           "abstract": false,
@@ -463,7 +463,7 @@
           "source": {
             "line": 29,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -529,7 +529,7 @@
           "source": {
             "line": 45,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -580,7 +580,7 @@
           "source": {
             "line": 26,
             "file": "ChunkFile.ts",
-            "path": "src/lib/chunk-files"
+            "path": "packages/json/src/lib/chunk-files"
           },
           "accessibility": "public",
           "abstract": false,
@@ -642,7 +642,7 @@
           "source": {
             "line": 37,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -719,7 +719,7 @@
       "source": {
         "line": 10,
         "file": "ChunkHandler.ts",
-        "path": "src/lib"
+        "path": "packages/json/src/lib"
       },
       "external": false,
       "abstract": false,
@@ -736,7 +736,7 @@
         "source": {
           "line": 23,
           "file": "ChunkHandler.ts",
-          "path": "src/lib"
+          "path": "packages/json/src/lib"
         },
         "parameters": [
           {
@@ -764,7 +764,7 @@
           "source": {
             "line": 15,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -787,7 +787,7 @@
           "source": {
             "line": 21,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -833,7 +833,7 @@
           "source": {
             "line": 19,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -859,7 +859,7 @@
           "source": {
             "line": 11,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -885,7 +885,7 @@
           "source": {
             "line": 17,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -911,7 +911,7 @@
           "source": {
             "line": 13,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -939,7 +939,7 @@
           "source": {
             "line": 336,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "private",
           "abstract": false,
@@ -981,7 +981,7 @@
           "source": {
             "line": 80,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1023,7 +1023,7 @@
           "source": {
             "line": 98,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1074,7 +1074,7 @@
           "source": {
             "line": 119,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1128,7 +1128,7 @@
           "source": {
             "line": 141,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1185,7 +1185,7 @@
           "source": {
             "line": 312,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "private",
           "abstract": false,
@@ -1230,7 +1230,7 @@
           "source": {
             "line": 173,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1293,7 +1293,7 @@
           "source": {
             "line": 352,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "private",
           "abstract": false,
@@ -1347,7 +1347,7 @@
           "source": {
             "line": 192,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1425,7 +1425,7 @@
           "source": {
             "line": 159,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1476,7 +1476,7 @@
           "source": {
             "line": 32,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1529,7 +1529,7 @@
           "source": {
             "line": 167,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1574,7 +1574,7 @@
           "source": {
             "line": 328,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "private",
           "abstract": false,
@@ -1634,7 +1634,7 @@
           "source": {
             "line": 212,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1709,7 +1709,7 @@
           "source": {
             "line": 246,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1783,7 +1783,7 @@
           "source": {
             "line": 288,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1825,7 +1825,7 @@
           "source": {
             "line": 47,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1867,7 +1867,7 @@
           "source": {
             "line": 322,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "private",
           "abstract": false,
@@ -1912,7 +1912,7 @@
           "source": {
             "line": 294,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1960,9 +1960,9 @@
         "modifierTags": []
       },
       "source": {
-        "line": 5,
+        "line": 6,
         "file": "ChunkIndexFile.ts",
-        "path": "src/lib/chunk-files"
+        "path": "packages/json/src/lib/chunk-files"
       },
       "external": false,
       "abstract": false,
@@ -1983,9 +1983,9 @@
           "modifierTags": []
         },
         "source": {
-          "line": 10,
+          "line": 11,
           "file": "ChunkIndexFile.ts",
-          "path": "src/lib/chunk-files"
+          "path": "packages/json/src/lib/chunk-files"
         },
         "parameters": [
           {
@@ -2011,9 +2011,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 8,
+            "line": 9,
             "file": "ChunkIndexFile.ts",
-            "path": "src/lib/chunk-files"
+            "path": "packages/json/src/lib/chunk-files"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2044,7 +2044,7 @@
           "source": {
             "line": 9,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2070,7 +2070,7 @@
           "source": {
             "line": 11,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2091,9 +2091,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 6,
+            "line": 7,
             "file": "ChunkIndexFile.ts",
-            "path": "src/lib/chunk-files"
+            "path": "packages/json/src/lib/chunk-files"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2119,7 +2119,7 @@
           "source": {
             "line": 63,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2145,7 +2145,7 @@
           "source": {
             "line": 25,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2168,7 +2168,7 @@
           "source": {
             "line": 21,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2196,7 +2196,7 @@
           "source": {
             "line": 53,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "protected",
           "abstract": false,
@@ -2282,7 +2282,7 @@
           "source": {
             "line": 41,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2333,7 +2333,7 @@
           "source": {
             "line": 49,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2373,9 +2373,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 18,
+            "line": 19,
             "file": "ChunkIndexFile.ts",
-            "path": "src/lib/chunk-files"
+            "path": "packages/json/src/lib/chunk-files"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2420,7 +2420,7 @@
           "source": {
             "line": 29,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2483,7 +2483,7 @@
           "source": {
             "line": 45,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2532,9 +2532,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 34,
+            "line": 39,
             "file": "ChunkIndexFile.ts",
-            "path": "src/lib/chunk-files"
+            "path": "packages/json/src/lib/chunk-files"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2588,7 +2588,7 @@
           "source": {
             "line": 37,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2662,7 +2662,7 @@
       "source": {
         "line": 3,
         "file": "ChunkLockFile.ts",
-        "path": "src/lib/chunk-files"
+        "path": "packages/json/src/lib/chunk-files"
       },
       "external": false,
       "abstract": false,
@@ -2693,7 +2693,7 @@
         "source": {
           "line": 4,
           "file": "ChunkLockFile.ts",
-          "path": "src/lib/chunk-files"
+          "path": "packages/json/src/lib/chunk-files"
         },
         "parameters": [
           {
@@ -2721,7 +2721,7 @@
           "source": {
             "line": 9,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2747,7 +2747,7 @@
           "source": {
             "line": 11,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2770,7 +2770,7 @@
           "source": {
             "line": 63,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2796,7 +2796,7 @@
           "source": {
             "line": 25,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2819,7 +2819,7 @@
           "source": {
             "line": 21,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2847,7 +2847,7 @@
           "source": {
             "line": 53,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "protected",
           "abstract": false,
@@ -2933,7 +2933,7 @@
           "source": {
             "line": 41,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2984,7 +2984,7 @@
           "source": {
             "line": 49,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3026,7 +3026,7 @@
           "source": {
             "line": 29,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3092,7 +3092,7 @@
           "source": {
             "line": 45,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3143,7 +3143,7 @@
           "source": {
             "line": 37,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3220,7 +3220,7 @@
       "source": {
         "line": 8,
         "file": "File.ts",
-        "path": "src/lib"
+        "path": "packages/json/src/lib"
       },
       "external": false,
       "abstract": false,
@@ -3237,7 +3237,7 @@
         "source": {
           "line": 13,
           "file": "File.ts",
-          "path": "src/lib"
+          "path": "packages/json/src/lib"
         },
         "parameters": [
           {
@@ -3265,7 +3265,7 @@
           "source": {
             "line": 9,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3291,7 +3291,7 @@
           "source": {
             "line": 11,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3314,7 +3314,7 @@
           "source": {
             "line": 63,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3340,7 +3340,7 @@
           "source": {
             "line": 25,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3363,7 +3363,7 @@
           "source": {
             "line": 21,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3391,7 +3391,7 @@
           "source": {
             "line": 53,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "protected",
           "abstract": false,
@@ -3477,7 +3477,7 @@
           "source": {
             "line": 41,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3528,7 +3528,7 @@
           "source": {
             "line": 49,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3570,7 +3570,7 @@
           "source": {
             "line": 29,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3636,7 +3636,7 @@
           "source": {
             "line": 45,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3687,7 +3687,7 @@
           "source": {
             "line": 37,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3764,7 +3764,7 @@
       "source": {
         "line": 31,
         "file": "JSONProvider.ts",
-        "path": "src/lib"
+        "path": "packages/json/src/lib"
       },
       "external": false,
       "abstract": false,
@@ -3795,7 +3795,7 @@
         "source": {
           "line": 36,
           "file": "JSONProvider.ts",
-          "path": "src/lib"
+          "path": "packages/json/src/lib"
         },
         "parameters": [
           {
@@ -3823,7 +3823,7 @@
           "source": {
             "line": 34,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "private",
           "abstract": false,
@@ -3860,7 +3860,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1219,
+            "line": 1157,
             "file": "index.d.ts",
             "path": "node_modules/@joshdb/provider/dist"
           },
@@ -3894,7 +3894,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1209,
+            "line": 1147,
             "file": "index.d.ts",
             "path": "node_modules/@joshdb/provider/dist"
           },
@@ -3919,7 +3919,7 @@
           "source": {
             "line": 32,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3945,7 +3945,7 @@
           "source": {
             "line": 44,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3979,7 +3979,7 @@
           "source": {
             "line": 40,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -4007,7 +4007,7 @@
           "source": {
             "line": 70,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -4064,7 +4064,7 @@
           "source": {
             "line": 83,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -4121,7 +4121,7 @@
           "source": {
             "line": 89,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -4176,9 +4176,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 108,
+            "line": 112,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -4233,9 +4233,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 122,
+            "line": 126,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -4290,9 +4290,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 130,
+            "line": 134,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -4363,9 +4363,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 138,
+            "line": 142,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -4436,9 +4436,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 149,
+            "line": 153,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -4509,7 +4509,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1558,
+            "line": 1496,
             "file": "index.d.ts",
             "path": "node_modules/@joshdb/provider/dist"
           },
@@ -4549,9 +4549,21 @@
                       {
                         "kind": "reference",
                         "id": null,
-                        "name": "JoshProviderErrorOptions",
-                        "packageName": "@joshdb/provider",
-                        "typeArguments": []
+                        "name": "PartialRequired",
+                        "packageName": "@sapphire/utilities",
+                        "typeArguments": [
+                          {
+                            "kind": "reference",
+                            "id": null,
+                            "name": "JoshProviderError.Options",
+                            "packageName": "@joshdb/provider",
+                            "typeArguments": []
+                          },
+                          {
+                            "kind": "literal",
+                            "value": "identifier"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -4596,9 +4608,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 155,
+            "line": 159,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -4707,9 +4719,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 694,
+            "line": 733,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "protected",
           "abstract": false,
@@ -4764,9 +4776,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 199,
+            "line": 204,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -4891,9 +4903,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 234,
+            "line": 240,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -5018,9 +5030,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 287,
+            "line": 296,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -5104,9 +5116,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 301,
+            "line": 310,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -5177,9 +5189,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 309,
+            "line": 318,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -5234,9 +5246,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 315,
+            "line": 324,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -5293,7 +5305,7 @@
           "source": {
             "line": 50,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -5348,9 +5360,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 707,
+            "line": 746,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "private",
           "abstract": false,
@@ -5396,10 +5408,10 @@
                         "flags": {},
                         "sources": [
                           {
-                            "fileName": "src/lib/JSONProvider.ts",
-                            "line": 707,
+                            "fileName": "packages/json/src/lib/JSONProvider.ts",
+                            "line": 746,
                             "character": 54,
-                            "url": "https://github.com/josh-development/providers/blob/cc896d0/packages/json/src/lib/JSONProvider.ts#L707"
+                            "url": "https://github.com/josh-development/providers/blob/4784d53/packages/json/src/lib/JSONProvider.ts#L746"
                           }
                         ],
                         "type": {
@@ -5421,10 +5433,10 @@
                                   "flags": {},
                                   "sources": [
                                     {
-                                      "fileName": "src/lib/JSONProvider.ts",
-                                      "line": 707,
+                                      "fileName": "packages/json/src/lib/JSONProvider.ts",
+                                      "line": 746,
                                       "character": 63,
-                                      "url": "https://github.com/josh-development/providers/blob/cc896d0/packages/json/src/lib/JSONProvider.ts#L707"
+                                      "url": "https://github.com/josh-development/providers/blob/4784d53/packages/json/src/lib/JSONProvider.ts#L746"
                                     }
                                   ],
                                   "type": {
@@ -5440,10 +5452,10 @@
                                   "flags": {},
                                   "sources": [
                                     {
-                                      "fileName": "src/lib/JSONProvider.ts",
-                                      "line": 707,
+                                      "fileName": "packages/json/src/lib/JSONProvider.ts",
+                                      "line": 746,
                                       "character": 76,
-                                      "url": "https://github.com/josh-development/providers/blob/cc896d0/packages/json/src/lib/JSONProvider.ts#L707"
+                                      "url": "https://github.com/josh-development/providers/blob/4784d53/packages/json/src/lib/JSONProvider.ts#L746"
                                     }
                                   ],
                                   "type": {
@@ -5463,10 +5475,10 @@
                               ],
                               "sources": [
                                 {
-                                  "fileName": "src/lib/JSONProvider.ts",
-                                  "line": 707,
+                                  "fileName": "packages/json/src/lib/JSONProvider.ts",
+                                  "line": 746,
                                   "character": 61,
-                                  "url": "https://github.com/josh-development/providers/blob/cc896d0/packages/json/src/lib/JSONProvider.ts#L707"
+                                  "url": "https://github.com/josh-development/providers/blob/4784d53/packages/json/src/lib/JSONProvider.ts#L746"
                                 }
                               ]
                             }
@@ -5484,10 +5496,10 @@
                     ],
                     "sources": [
                       {
-                        "fileName": "src/lib/JSONProvider.ts",
-                        "line": 707,
+                        "fileName": "packages/json/src/lib/JSONProvider.ts",
+                        "line": 746,
                         "character": 52,
-                        "url": "https://github.com/josh-development/providers/blob/cc896d0/packages/json/src/lib/JSONProvider.ts#L707"
+                        "url": "https://github.com/josh-development/providers/blob/4784d53/packages/json/src/lib/JSONProvider.ts#L746"
                       }
                     ]
                   }
@@ -5505,9 +5517,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 334,
+            "line": 347,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -5562,9 +5574,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 340,
+            "line": 353,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -5729,9 +5741,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 364,
+            "line": 377,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -5786,9 +5798,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 415,
+            "line": 432,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -5913,9 +5925,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 454,
+            "line": 474,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -5999,9 +6011,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 474,
+            "line": 498,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -6072,9 +6084,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 502,
+            "line": 530,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -6129,9 +6141,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 526,
+            "line": 558,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -6253,9 +6265,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 681,
+            "line": 720,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "protected",
           "abstract": false,
@@ -6316,7 +6328,7 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1571,
+            "line": 1511,
             "file": "index.d.ts",
             "path": "node_modules/@joshdb/provider/dist"
           },
@@ -6330,6 +6342,10 @@
               "comment": {
                 "description": "Resolves a version.",
                 "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
                   {
                     "name": "returns",
                     "text": "The resolved version."
@@ -6367,9 +6383,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 574,
+            "line": 608,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -6453,9 +6469,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 587,
+            "line": 621,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -6510,9 +6526,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 607,
+            "line": 643,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -6567,9 +6583,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 613,
+            "line": 649,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -6678,9 +6694,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 660,
+            "line": 697,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -6778,9 +6794,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 675,
+            "line": 714,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "accessibility": "public",
           "abstract": false,
@@ -6860,7 +6876,7 @@
       "source": {
         "line": 32,
         "file": "ChunkFile.ts",
-        "path": "src/lib/chunk-files"
+        "path": "packages/json/src/lib/chunk-files"
       },
       "external": false,
       "properties": [
@@ -6875,7 +6891,7 @@
           "source": {
             "line": 33,
             "file": "ChunkFile.ts",
-            "path": "src/lib/chunk-files"
+            "path": "packages/json/src/lib/chunk-files"
           },
           "readonly": false,
           "type": {
@@ -6894,7 +6910,7 @@
           "source": {
             "line": 35,
             "file": "ChunkFile.ts",
-            "path": "src/lib/chunk-files"
+            "path": "packages/json/src/lib/chunk-files"
           },
           "readonly": false,
           "type": {
@@ -6913,7 +6929,7 @@
           "source": {
             "line": 39,
             "file": "ChunkFile.ts",
-            "path": "src/lib/chunk-files"
+            "path": "packages/json/src/lib/chunk-files"
           },
           "readonly": false,
           "type": {
@@ -6935,7 +6951,7 @@
           "source": {
             "line": 37,
             "file": "ChunkFile.ts",
-            "path": "src/lib/chunk-files"
+            "path": "packages/json/src/lib/chunk-files"
           },
           "readonly": false,
           "type": {
@@ -6956,7 +6972,7 @@
       "source": {
         "line": 359,
         "file": "ChunkHandler.ts",
-        "path": "src/lib"
+        "path": "packages/json/src/lib"
       },
       "external": false,
       "properties": [
@@ -6971,7 +6987,7 @@
           "source": {
             "line": 366,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "readonly": false,
           "type": {
@@ -6990,7 +7006,7 @@
           "source": {
             "line": 370,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "readonly": false,
           "type": {
@@ -7025,7 +7041,7 @@
           "source": {
             "line": 368,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "readonly": false,
           "type": {
@@ -7044,7 +7060,7 @@
           "source": {
             "line": 360,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "readonly": false,
           "type": {
@@ -7063,7 +7079,7 @@
           "source": {
             "line": 376,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "readonly": false,
           "type": {
@@ -7085,7 +7101,7 @@
           "source": {
             "line": 374,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "readonly": false,
           "type": {
@@ -7104,7 +7120,7 @@
           "source": {
             "line": 372,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "readonly": false,
           "type": {
@@ -7123,7 +7139,7 @@
           "source": {
             "line": 364,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "readonly": false,
           "type": {
@@ -7142,7 +7158,7 @@
           "source": {
             "line": 362,
             "file": "ChunkHandler.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "readonly": false,
           "type": {
@@ -7166,7 +7182,7 @@
       "source": {
         "line": 11,
         "file": "ChunkLockFile.ts",
-        "path": "src/lib/chunk-files"
+        "path": "packages/json/src/lib/chunk-files"
       },
       "external": false,
       "properties": [
@@ -7181,7 +7197,7 @@
           "source": {
             "line": 12,
             "file": "ChunkLockFile.ts",
-            "path": "src/lib/chunk-files"
+            "path": "packages/json/src/lib/chunk-files"
           },
           "readonly": false,
           "type": {
@@ -7200,7 +7216,7 @@
           "source": {
             "line": 14,
             "file": "ChunkLockFile.ts",
-            "path": "src/lib/chunk-files"
+            "path": "packages/json/src/lib/chunk-files"
           },
           "readonly": false,
           "type": {
@@ -7219,7 +7235,7 @@
           "source": {
             "line": 18,
             "file": "ChunkLockFile.ts",
-            "path": "src/lib/chunk-files"
+            "path": "packages/json/src/lib/chunk-files"
           },
           "readonly": false,
           "type": {
@@ -7241,7 +7257,7 @@
           "source": {
             "line": 16,
             "file": "ChunkLockFile.ts",
-            "path": "src/lib/chunk-files"
+            "path": "packages/json/src/lib/chunk-files"
           },
           "readonly": false,
           "type": {
@@ -7262,9 +7278,9 @@
         "modifierTags": []
       },
       "source": {
-        "line": 5,
+        "line": 6,
         "file": "ChunkIndexFile.ts",
-        "path": "src/lib/chunk-files"
+        "path": "packages/json/src/lib/chunk-files"
       },
       "external": false,
       "classes": [],
@@ -7281,9 +7297,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 59,
+            "line": 64,
             "file": "ChunkIndexFile.ts",
-            "path": "src/lib/chunk-files"
+            "path": "packages/json/src/lib/chunk-files"
           },
           "external": false,
           "properties": [
@@ -7296,9 +7312,9 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 62,
+                "line": 67,
                 "file": "ChunkIndexFile.ts",
-                "path": "src/lib/chunk-files"
+                "path": "packages/json/src/lib/chunk-files"
               },
               "readonly": false,
               "type": {
@@ -7315,9 +7331,9 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 60,
+                "line": 65,
                 "file": "ChunkIndexFile.ts",
-                "path": "src/lib/chunk-files"
+                "path": "packages/json/src/lib/chunk-files"
               },
               "readonly": false,
               "type": {
@@ -7339,9 +7355,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 49,
+            "line": 54,
             "file": "ChunkIndexFile.ts",
-            "path": "src/lib/chunk-files"
+            "path": "packages/json/src/lib/chunk-files"
           },
           "external": false,
           "properties": [
@@ -7354,9 +7370,9 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 54,
+                "line": 59,
                 "file": "ChunkIndexFile.ts",
-                "path": "src/lib/chunk-files"
+                "path": "packages/json/src/lib/chunk-files"
               },
               "readonly": false,
               "type": {
@@ -7373,9 +7389,9 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 56,
+                "line": 61,
                 "file": "ChunkIndexFile.ts",
-                "path": "src/lib/chunk-files"
+                "path": "packages/json/src/lib/chunk-files"
               },
               "readonly": false,
               "type": {
@@ -7398,9 +7414,9 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 50,
+                "line": 55,
                 "file": "ChunkIndexFile.ts",
-                "path": "src/lib/chunk-files"
+                "path": "packages/json/src/lib/chunk-files"
               },
               "readonly": false,
               "type": {
@@ -7417,9 +7433,9 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 52,
+                "line": 57,
                 "file": "ChunkIndexFile.ts",
-                "path": "src/lib/chunk-files"
+                "path": "packages/json/src/lib/chunk-files"
               },
               "readonly": false,
               "type": {
@@ -7441,9 +7457,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 41,
+            "line": 46,
             "file": "ChunkIndexFile.ts",
-            "path": "src/lib/chunk-files"
+            "path": "packages/json/src/lib/chunk-files"
           },
           "external": false,
           "properties": [
@@ -7456,9 +7472,9 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 44,
+                "line": 49,
                 "file": "ChunkIndexFile.ts",
-                "path": "src/lib/chunk-files"
+                "path": "packages/json/src/lib/chunk-files"
               },
               "readonly": false,
               "type": {
@@ -7475,9 +7491,9 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 46,
+                "line": 51,
                 "file": "ChunkIndexFile.ts",
-                "path": "src/lib/chunk-files"
+                "path": "packages/json/src/lib/chunk-files"
               },
               "readonly": false,
               "type": {
@@ -7497,9 +7513,9 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 42,
+                "line": 47,
                 "file": "ChunkIndexFile.ts",
-                "path": "src/lib/chunk-files"
+                "path": "packages/json/src/lib/chunk-files"
               },
               "readonly": false,
               "type": {
@@ -7527,7 +7543,7 @@
       "source": {
         "line": 8,
         "file": "File.ts",
-        "path": "src/lib"
+        "path": "packages/json/src/lib"
       },
       "external": false,
       "classes": [],
@@ -7546,7 +7562,7 @@
           "source": {
             "line": 67,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "external": false,
           "properties": [
@@ -7561,7 +7577,7 @@
               "source": {
                 "line": 68,
                 "file": "File.ts",
-                "path": "src/lib"
+                "path": "packages/json/src/lib"
               },
               "readonly": false,
               "type": {
@@ -7580,7 +7596,7 @@
               "source": {
                 "line": 70,
                 "file": "File.ts",
-                "path": "src/lib"
+                "path": "packages/json/src/lib"
               },
               "readonly": false,
               "type": {
@@ -7599,7 +7615,7 @@
               "source": {
                 "line": 74,
                 "file": "File.ts",
-                "path": "src/lib"
+                "path": "packages/json/src/lib"
               },
               "readonly": false,
               "type": {
@@ -7621,7 +7637,7 @@
               "source": {
                 "line": 72,
                 "file": "File.ts",
-                "path": "src/lib"
+                "path": "packages/json/src/lib"
               },
               "readonly": false,
               "type": {
@@ -7642,7 +7658,7 @@
           "source": {
             "line": 77,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "external": false,
           "properties": [
@@ -7657,7 +7673,7 @@
               "source": {
                 "line": 80,
                 "file": "File.ts",
-                "path": "src/lib"
+                "path": "packages/json/src/lib"
               },
               "readonly": false,
               "type": {
@@ -7676,7 +7692,7 @@
               "source": {
                 "line": 78,
                 "file": "File.ts",
-                "path": "src/lib"
+                "path": "packages/json/src/lib"
               },
               "readonly": false,
               "type": {
@@ -7700,7 +7716,7 @@
           "source": {
             "line": 83,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "external": false,
           "typeParameters": [
@@ -7721,10 +7737,10 @@
               "flags": {},
               "sources": [
                 {
-                  "fileName": "src/lib/File.ts",
+                  "fileName": "packages/json/src/lib/File.ts",
                   "line": 83,
                   "character": 28,
-                  "url": "https://github.com/josh-development/providers/blob/cc896d0/packages/json/src/lib/File.ts#L83"
+                  "url": "https://github.com/josh-development/providers/blob/4784d53/packages/json/src/lib/File.ts#L83"
                 }
               ],
               "signatures": [
@@ -7763,7 +7779,7 @@
           "source": {
             "line": 85,
             "file": "File.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "external": false,
           "typeParameters": [
@@ -7810,7 +7826,7 @@
       "source": {
         "line": 31,
         "file": "JSONProvider.ts",
-        "path": "src/lib"
+        "path": "packages/json/src/lib"
       },
       "external": false,
       "classes": [],
@@ -7825,9 +7841,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 731,
+            "line": 770,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "external": false,
           "properties": [
@@ -7840,9 +7856,9 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 732,
+                "line": 771,
                 "file": "JSONProvider.ts",
-                "path": "src/lib"
+                "path": "packages/json/src/lib"
               },
               "value": "chunkHandlerNotFound"
             }
@@ -7860,9 +7876,9 @@
             "modifierTags": []
           },
           "source": {
-            "line": 715,
+            "line": 754,
             "file": "JSONProvider.ts",
-            "path": "src/lib"
+            "path": "packages/json/src/lib"
           },
           "external": false,
           "properties": [
@@ -7880,7 +7896,7 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1593,
+                "line": 1533,
                 "file": "index.d.ts",
                 "path": "node_modules/@joshdb/provider/dist"
               },
@@ -7899,9 +7915,9 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 718,
+                "line": 757,
                 "file": "JSONProvider.ts",
-                "path": "src/lib"
+                "path": "packages/json/src/lib"
               },
               "readonly": false,
               "type": {
@@ -7918,9 +7934,9 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 720,
+                "line": 759,
                 "file": "JSONProvider.ts",
-                "path": "src/lib"
+                "path": "packages/json/src/lib"
               },
               "readonly": false,
               "type": {
@@ -7937,9 +7953,9 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 722,
+                "line": 761,
                 "file": "JSONProvider.ts",
-                "path": "src/lib"
+                "path": "packages/json/src/lib"
               },
               "readonly": false,
               "type": {
@@ -7972,9 +7988,9 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 724,
+                "line": 763,
                 "file": "JSONProvider.ts",
-                "path": "src/lib"
+                "path": "packages/json/src/lib"
               },
               "readonly": false,
               "type": {
@@ -7991,9 +8007,9 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 726,
+                "line": 765,
                 "file": "JSONProvider.ts",
-                "path": "src/lib"
+                "path": "packages/json/src/lib"
               },
               "readonly": false,
               "type": {
@@ -8013,9 +8029,9 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 728,
+                "line": 767,
                 "file": "JSONProvider.ts",
-                "path": "src/lib"
+                "path": "packages/json/src/lib"
               },
               "readonly": false,
               "type": {
@@ -8032,9 +8048,9 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 716,
+                "line": 755,
                 "file": "JSONProvider.ts",
-                "path": "src/lib"
+                "path": "packages/json/src/lib"
               },
               "readonly": false,
               "type": {
@@ -8061,7 +8077,7 @@
       "source": {
         "line": 379,
         "file": "ChunkHandler.ts",
-        "path": "src/lib"
+        "path": "packages/json/src/lib"
       },
       "external": false,
       "typeParameters": [],
@@ -8085,10 +8101,10 @@
               "flags": {},
               "sources": [
                 {
-                  "fileName": "src/lib/ChunkHandler.ts",
+                  "fileName": "packages/json/src/lib/ChunkHandler.ts",
                   "line": 379,
                   "character": 64,
-                  "url": "https://github.com/josh-development/providers/blob/cc896d0/packages/json/src/lib/ChunkHandler.ts#L379"
+                  "url": "https://github.com/josh-development/providers/blob/4784d53/packages/json/src/lib/ChunkHandler.ts#L379"
                 }
               ],
               "signatures": [
