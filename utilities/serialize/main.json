@@ -1,0 +1,512 @@
+{
+  "typeDocJsonParserVersion": "2.3.2",
+  "id": 0,
+  "name": "@joshdb/serialize",
+  "version": "1.0.0",
+  "classes": [],
+  "constants": [],
+  "enums": [
+    {
+      "id": 13,
+      "name": "SerializeType",
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "source": {
+        "line": 1,
+        "file": "SerializeType.ts",
+        "path": "lib/types"
+      },
+      "external": false,
+      "properties": [
+        {
+          "id": 14,
+          "name": "Array",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 2,
+            "file": "SerializeType.ts",
+            "path": "lib/types"
+          },
+          "value": "array"
+        },
+        {
+          "id": 15,
+          "name": "BigInt",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 4,
+            "file": "SerializeType.ts",
+            "path": "lib/types"
+          },
+          "value": "bigint"
+        },
+        {
+          "id": 16,
+          "name": "Boolean",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 6,
+            "file": "SerializeType.ts",
+            "path": "lib/types"
+          },
+          "value": "boolean"
+        },
+        {
+          "id": 17,
+          "name": "Date",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 8,
+            "file": "SerializeType.ts",
+            "path": "lib/types"
+          },
+          "value": "date"
+        },
+        {
+          "id": 18,
+          "name": "Map",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 10,
+            "file": "SerializeType.ts",
+            "path": "lib/types"
+          },
+          "value": "map"
+        },
+        {
+          "id": 19,
+          "name": "Null",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 12,
+            "file": "SerializeType.ts",
+            "path": "lib/types"
+          },
+          "value": "null"
+        },
+        {
+          "id": 20,
+          "name": "Number",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 14,
+            "file": "SerializeType.ts",
+            "path": "lib/types"
+          },
+          "value": "number"
+        },
+        {
+          "id": 21,
+          "name": "Object",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 16,
+            "file": "SerializeType.ts",
+            "path": "lib/types"
+          },
+          "value": "object"
+        },
+        {
+          "id": 22,
+          "name": "RegExp",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 18,
+            "file": "SerializeType.ts",
+            "path": "lib/types"
+          },
+          "value": "regexp"
+        },
+        {
+          "id": 23,
+          "name": "Set",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 20,
+            "file": "SerializeType.ts",
+            "path": "lib/types"
+          },
+          "value": "set"
+        },
+        {
+          "id": 24,
+          "name": "String",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 22,
+            "file": "SerializeType.ts",
+            "path": "lib/types"
+          },
+          "value": "string"
+        },
+        {
+          "id": 25,
+          "name": "Undefined",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 24,
+            "file": "SerializeType.ts",
+            "path": "lib/types"
+          },
+          "value": "undefined"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "id": 1,
+      "name": "toJSON",
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "source": {
+        "line": 4,
+        "file": "toJSON.ts",
+        "path": "lib"
+      },
+      "external": false,
+      "signatures": [
+        {
+          "id": 2,
+          "name": "toJSON",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "typeParameters": [],
+          "parameters": [
+            {
+              "id": 3,
+              "name": "data",
+              "type": {
+                "kind": "intrinsic",
+                "type": "unknown"
+              }
+            }
+          ],
+          "returnType": {
+            "kind": "reference",
+            "id": 7,
+            "name": "SerializeJSON",
+            "packageName": null,
+            "typeArguments": []
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "toRaw",
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "source": {
+        "line": 3,
+        "file": "toRaw.ts",
+        "path": "lib"
+      },
+      "external": false,
+      "signatures": [
+        {
+          "id": 5,
+          "name": "toRaw",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "typeParameters": [],
+          "parameters": [
+            {
+              "id": 6,
+              "name": "json",
+              "type": {
+                "kind": "reference",
+                "id": 7,
+                "name": "SerializeJSON",
+                "packageName": null,
+                "typeArguments": []
+              }
+            }
+          ],
+          "returnType": {
+            "kind": "intrinsic",
+            "type": "unknown"
+          }
+        }
+      ]
+    }
+  ],
+  "interfaces": [
+    {
+      "id": 7,
+      "name": "SerializeJSON",
+      "comment": {
+        "description": "The json format type interface.",
+        "blockTags": [
+          {
+            "name": "since",
+            "text": "1.0.0"
+          }
+        ],
+        "modifierTags": []
+      },
+      "source": {
+        "line": 7,
+        "file": "SerializeJSON.ts",
+        "path": "lib/types"
+      },
+      "external": false,
+      "properties": [
+        {
+          "id": 8,
+          "name": "type",
+          "comment": {
+            "description": "The type of \nvalue",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              }
+            ],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 12,
+            "file": "SerializeJSON.ts",
+            "path": "lib/types"
+          },
+          "readonly": false,
+          "type": {
+            "kind": "reference",
+            "id": 13,
+            "name": "SerializeType",
+            "packageName": null,
+            "typeArguments": []
+          }
+        },
+        {
+          "id": 9,
+          "name": "value",
+          "comment": {
+            "description": "The value for this json.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              }
+            ],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 18,
+            "file": "SerializeJSON.ts",
+            "path": "lib/types"
+          },
+          "readonly": false,
+          "type": {
+            "kind": "union",
+            "types": [
+              {
+                "kind": "literal",
+                "value": "null"
+              },
+              {
+                "kind": "intrinsic",
+                "type": "string"
+              },
+              {
+                "kind": "intrinsic",
+                "type": "number"
+              },
+              {
+                "kind": "intrinsic",
+                "type": "boolean"
+              },
+              {
+                "kind": "reference",
+                "id": null,
+                "name": "Record",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "PropertyKey",
+                    "packageName": "typescript",
+                    "typeArguments": []
+                  },
+                  {
+                    "kind": "reference",
+                    "id": 7,
+                    "name": "SerializeJSON",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              },
+              {
+                "kind": "reflection",
+                "reflection": {
+                  "id": 10,
+                  "name": "__type",
+                  "kind": 65536,
+                  "kindString": "Type literal",
+                  "flags": {},
+                  "children": [
+                    {
+                      "id": 12,
+                      "name": "flags",
+                      "kind": 1024,
+                      "kindString": "Property",
+                      "flags": {},
+                      "sources": [
+                        {
+                          "fileName": "lib/types/SerializeJSON.ts",
+                          "line": 26,
+                          "character": 24,
+                          "url": "https://github.com/josh-development/utilities/blob/3638ec7/packages/serialize/src/lib/types/SerializeJSON.ts#L26"
+                        }
+                      ],
+                      "type": {
+                        "type": "intrinsic",
+                        "name": "string"
+                      }
+                    },
+                    {
+                      "id": 11,
+                      "name": "source",
+                      "kind": 1024,
+                      "kindString": "Property",
+                      "flags": {},
+                      "sources": [
+                        {
+                          "fileName": "lib/types/SerializeJSON.ts",
+                          "line": 26,
+                          "character": 8,
+                          "url": "https://github.com/josh-development/utilities/blob/3638ec7/packages/serialize/src/lib/types/SerializeJSON.ts#L26"
+                        }
+                      ],
+                      "type": {
+                        "type": "intrinsic",
+                        "name": "string"
+                      }
+                    }
+                  ],
+                  "groups": [
+                    {
+                      "title": "Properties",
+                      "children": [
+                        12,
+                        11
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "fileName": "lib/types/SerializeJSON.ts",
+                      "line": 26,
+                      "character": 6,
+                      "url": "https://github.com/josh-development/utilities/blob/3638ec7/packages/serialize/src/lib/types/SerializeJSON.ts#L26"
+                    }
+                  ]
+                }
+              },
+              {
+                "kind": "array",
+                "type": {
+                  "kind": "reference",
+                  "id": 7,
+                  "name": "SerializeJSON",
+                  "packageName": null,
+                  "typeArguments": []
+                }
+              },
+              {
+                "kind": "array",
+                "type": {
+                  "kind": "tuple",
+                  "types": [
+                    {
+                      "kind": "reference",
+                      "id": null,
+                      "name": "PropertyKey",
+                      "packageName": "typescript",
+                      "typeArguments": []
+                    },
+                    {
+                      "kind": "reference",
+                      "id": 7,
+                      "name": "SerializeJSON",
+                      "packageName": null,
+                      "typeArguments": []
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "namespaces": [],
+  "typeAliases": []
+}
