@@ -1,0 +1,4324 @@
+{
+  "typeDocJsonParserVersion": "2.3.2",
+  "id": 0,
+  "name": "@joshdb/maria",
+  "version": "1.0.0",
+  "classes": [
+    {
+      "id": 1,
+      "name": "MariaProvider",
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "source": {
+        "line": 29,
+        "file": "MariaProvider.ts",
+        "path": "packages/maria/src/lib"
+      },
+      "external": false,
+      "abstract": false,
+      "extendsType": {
+        "kind": "reference",
+        "id": null,
+        "name": "JoshProvider",
+        "packageName": "@joshdb/provider",
+        "typeArguments": [
+          {
+            "kind": "reference",
+            "id": 5,
+            "name": "StoredValue",
+            "packageName": null,
+            "typeArguments": []
+          }
+        ]
+      },
+      "implementsType": [],
+      "construct": {
+        "id": 3,
+        "name": "constructor",
+        "comment": {
+          "description": null,
+          "blockTags": [],
+          "modifierTags": []
+        },
+        "source": {
+          "line": 36,
+          "file": "MariaProvider.ts",
+          "path": "packages/maria/src/lib"
+        },
+        "parameters": [
+          {
+            "id": 6,
+            "name": "options",
+            "type": {
+              "kind": "reference",
+              "id": 142,
+              "name": "Options",
+              "packageName": null,
+              "typeArguments": []
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "id": 8,
+          "name": "handler",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 32,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "private",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": 148,
+            "name": "QueryHandler",
+            "packageName": null,
+            "typeArguments": [
+              {
+                "kind": "reference",
+                "id": 5,
+                "name": "StoredValue",
+                "packageName": null,
+                "typeArguments": []
+              }
+            ]
+          }
+        },
+        {
+          "id": 128,
+          "name": "migrations",
+          "comment": {
+            "description": "Data migrations for this provider.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              }
+            ],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1157,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "array",
+            "type": {
+              "kind": "reference",
+              "id": null,
+              "name": "JoshProvider.Migration",
+              "packageName": "@joshdb/provider",
+              "typeArguments": []
+            }
+          }
+        },
+        {
+          "id": 127,
+          "name": "name",
+          "comment": {
+            "description": "The name for this provider.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              }
+            ],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1147,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": true,
+          "type": {
+            "kind": "intrinsic",
+            "type": "string"
+          }
+        },
+        {
+          "id": 7,
+          "name": "options",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 30,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": 142,
+            "name": "Options",
+            "packageName": null,
+            "typeArguments": []
+          }
+        },
+        {
+          "id": 9,
+          "name": "snowflake",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 34,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "private",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": null,
+            "name": "Snowflake",
+            "packageName": "@sapphire/snowflake",
+            "typeArguments": []
+          }
+        },
+        {
+          "id": 2,
+          "name": "defaultConnectionConfig",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 725,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": true,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": null,
+            "name": "ConnectionConfig",
+            "packageName": "mariadb",
+            "typeArguments": []
+          }
+        },
+        {
+          "id": 11,
+          "name": "version",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 59,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": null,
+            "name": "JoshProvider.Semver",
+            "packageName": "@joshdb/provider",
+            "typeArguments": []
+          }
+        }
+      ],
+      "methods": [
+        {
+          "id": 19,
+          "name": "autoKey",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 75,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 20,
+              "name": "autoKey",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 21,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.AutoKey",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payloads.AutoKey",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "clear",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 81,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 23,
+              "name": "clear",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 24,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Clear",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Clear",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "close",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 71,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 16,
+              "name": "close",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "dec",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 87,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 26,
+              "name": "dec",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 27,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Dec",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Dec",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "delete",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 110,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 29,
+              "name": "delete",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 30,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Delete",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Delete",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "name": "deleteMany",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 124,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 32,
+              "name": "deleteMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 33,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.DeleteMany",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.DeleteMany",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "name": "each",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 132,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 35,
+              "name": "each",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 36,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Each",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Each",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "name": "ensure",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 140,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 38,
+              "name": "ensure",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 39,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Ensure",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Ensure",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "name": "entries",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 152,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 41,
+              "name": "entries",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 42,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Entries",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Entries",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 129,
+          "name": "error",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1496,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist"
+          },
+          "accessibility": "protected",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 130,
+              "name": "error",
+              "comment": {
+                "description": "Creates an Josh provider error.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The error."
+                  }
+                ],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 131,
+                  "name": "options",
+                  "type": {
+                    "kind": "union",
+                    "types": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "string"
+                      },
+                      {
+                        "kind": "reference",
+                        "id": null,
+                        "name": "PartialRequired",
+                        "packageName": "@sapphire/utilities",
+                        "typeArguments": [
+                          {
+                            "kind": "reference",
+                            "id": null,
+                            "name": "JoshProviderError.Options",
+                            "packageName": "@joshdb/provider",
+                            "typeArguments": []
+                          },
+                          {
+                            "kind": "literal",
+                            "value": "identifier"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 132,
+                  "name": "metadata",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Record",
+                    "packageName": "typescript",
+                    "typeArguments": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "string"
+                      },
+                      {
+                        "kind": "intrinsic",
+                        "type": "unknown"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "JoshProviderError",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "name": "every",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 162,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 44,
+              "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 45,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Every.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Every.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 46,
+              "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 47,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Every.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Every.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "fetchVersion",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 721,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "protected",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 18,
+              "name": "fetchVersion",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "JoshProvider.Semver",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "name": "filter",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 207,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 49,
+              "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 50,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Filter.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Filter.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 51,
+              "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 52,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Filter.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Filter.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 53,
+          "name": "find",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 249,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 54,
+              "name": "find",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 55,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Find.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Find.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 56,
+              "name": "find",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 57,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Find.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Find.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 58,
+          "name": "get",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 299,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 59,
+              "name": "get",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 60,
+                  "name": "Value",
+                  "type": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 5,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 61,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Get",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 60,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Get",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 60,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 62,
+          "name": "getMany",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 313,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 63,
+              "name": "getMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 64,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.GetMany",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.GetMany",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 65,
+          "name": "has",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 321,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 66,
+              "name": "has",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 67,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Has",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Has",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 68,
+          "name": "inc",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 327,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 69,
+              "name": "inc",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 70,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Inc",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Inc",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "init",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 63,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 13,
+              "name": "init",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 14,
+                  "name": "context",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "JoshProvider.Context",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "JoshProvider.Context",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 71,
+          "name": "keys",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 350,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 72,
+              "name": "keys",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 73,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Keys",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Keys",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 74,
+          "name": "map",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 356,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 75,
+              "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 76,
+                  "name": "Value",
+                  "type": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 5,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 77,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Map.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 76,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Map.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 76,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 78,
+              "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 79,
+                  "name": "Value",
+                  "type": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 5,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 80,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Map.ByPath",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 79,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Map.ByPath",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 79,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 81,
+          "name": "math",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 380,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 82,
+              "name": "math",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 83,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Math",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Math",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 84,
+          "name": "partition",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 435,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 85,
+              "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 86,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Partition.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Partition.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 87,
+              "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 88,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Partition.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Partition.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 89,
+          "name": "push",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 477,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 90,
+              "name": "push",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 91,
+                  "name": "Value",
+                  "type": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 5,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 92,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Push",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 91,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Push",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 91,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 93,
+          "name": "random",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 500,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 94,
+              "name": "random",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 95,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Random",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Random",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 96,
+          "name": "randomKey",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 532,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 97,
+              "name": "randomKey",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 98,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.RandomKey",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.RandomKey",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 99,
+          "name": "remove",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 560,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 100,
+              "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 101,
+                  "name": "Value",
+                  "type": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 5,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 102,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Remove.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 101,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Remove.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 101,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 103,
+              "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 104,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Remove.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Remove.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 133,
+          "name": "resolveIdentifier",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1504,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist"
+          },
+          "accessibility": "protected",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 134,
+              "name": "resolveIdentifier",
+              "comment": {
+                "description": "Resolves an identifier.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The resolved identifier message."
+                  }
+                ],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 135,
+                  "name": "identifier",
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                },
+                {
+                  "id": 136,
+                  "name": "metadata",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Record",
+                    "packageName": "typescript",
+                    "typeArguments": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "string"
+                      },
+                      {
+                        "kind": "intrinsic",
+                        "type": "unknown"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            }
+          ]
+        },
+        {
+          "id": 137,
+          "name": "resolveVersion",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1511,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist"
+          },
+          "accessibility": "protected",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 138,
+              "name": "resolveVersion",
+              "comment": {
+                "description": "Resolves a version.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The resolved version."
+                  }
+                ],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 139,
+                  "name": "version",
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "JoshProvider.Semver",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 105,
+          "name": "set",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 610,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 106,
+              "name": "set",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 107,
+                  "name": "Value",
+                  "type": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 5,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 108,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Set",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 107,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Set",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 107,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 109,
+          "name": "setMany",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 623,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 110,
+              "name": "setMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 111,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.SetMany",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.SetMany",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 112,
+          "name": "size",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 645,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 113,
+              "name": "size",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 114,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Size",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Size",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 115,
+          "name": "some",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 651,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 116,
+              "name": "some",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 117,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Some.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Some.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 118,
+              "name": "some",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 119,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Some.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Some.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 120,
+          "name": "update",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 698,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 121,
+              "name": "update",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 122,
+                  "name": "Value",
+                  "type": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 5,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 123,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Update",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 122,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Update",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 122,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 124,
+          "name": "values",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 715,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 125,
+              "name": "values",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 126,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Values",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payloads.Values",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "name": "QueryHandler",
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "source": {
+        "line": 4,
+        "file": "QueryHandler.ts",
+        "path": "packages/maria/src/lib"
+      },
+      "external": false,
+      "abstract": false,
+      "extendsType": null,
+      "implementsType": [],
+      "construct": {
+        "id": 149,
+        "name": "constructor",
+        "comment": {
+          "description": null,
+          "blockTags": [],
+          "modifierTags": []
+        },
+        "source": {
+          "line": 9,
+          "file": "QueryHandler.ts",
+          "path": "packages/maria/src/lib"
+        },
+        "parameters": [
+          {
+            "id": 152,
+            "name": "options",
+            "type": {
+              "kind": "reference",
+              "id": 197,
+              "name": "Options",
+              "packageName": null,
+              "typeArguments": []
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "id": 154,
+          "name": "connection",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 7,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": true,
+          "type": {
+            "kind": "reference",
+            "id": null,
+            "name": "Connection",
+            "packageName": "mariadb",
+            "typeArguments": []
+          }
+        },
+        {
+          "id": 153,
+          "name": "options",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 5,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": 197,
+            "name": "Options",
+            "packageName": null,
+            "typeArguments": []
+          }
+        }
+      ],
+      "methods": [
+        {
+          "id": 159,
+          "name": "clear",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 24,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 160,
+              "name": "clear",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 157,
+          "name": "close",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 18,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 158,
+              "name": "close",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 161,
+          "name": "delete",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 30,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 162,
+              "name": "delete",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 163,
+                  "name": "key",
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 164,
+          "name": "deleteMany",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 34,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 165,
+              "name": "deleteMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 166,
+                  "name": "keys",
+                  "type": {
+                    "kind": "array",
+                    "type": {
+                      "kind": "intrinsic",
+                      "type": "string"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 193,
+          "name": "ensureTable",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 186,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "private",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 194,
+              "name": "ensureTable",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "any"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 167,
+          "name": "entries",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 44,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 168,
+              "name": "entries",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "array",
+                    "type": {
+                      "kind": "tuple",
+                      "types": [
+                        {
+                          "kind": "intrinsic",
+                          "type": "string"
+                        },
+                        {
+                          "kind": "reference",
+                          "id": 151,
+                          "name": "StoredValue",
+                          "packageName": null,
+                          "typeArguments": []
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 174,
+          "name": "get",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 75,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 175,
+              "name": "get",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 176,
+                  "name": "key",
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "union",
+                    "types": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "undefined"
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 151,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 177,
+          "name": "getMany",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 92,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 178,
+              "name": "getMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 179,
+                  "name": "keys",
+                  "type": {
+                    "kind": "array",
+                    "type": {
+                      "kind": "intrinsic",
+                      "type": "string"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Record",
+                    "packageName": "typescript",
+                    "typeArguments": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "string"
+                      },
+                      {
+                        "kind": "union",
+                        "types": [
+                          {
+                            "kind": "literal",
+                            "value": "null"
+                          },
+                          {
+                            "kind": "reference",
+                            "id": 151,
+                            "name": "StoredValue",
+                            "packageName": null,
+                            "typeArguments": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 169,
+          "name": "has",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 53,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 170,
+              "name": "has",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 171,
+                  "name": "key",
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "boolean"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 155,
+          "name": "init",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 13,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 156,
+              "name": "init",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 172,
+          "name": "keys",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 66,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 173,
+              "name": "keys",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "array",
+                    "type": {
+                      "kind": "intrinsic",
+                      "type": "string"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 180,
+          "name": "set",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 113,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 181,
+              "name": "set",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 182,
+                  "name": "Value",
+                  "type": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 151,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 183,
+                  "name": "key",
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                },
+                {
+                  "id": 184,
+                  "name": "value",
+                  "type": {
+                    "kind": "reference",
+                    "id": 182,
+                    "name": "Value",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 185,
+          "name": "setMany",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 129,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 186,
+              "name": "setMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 187,
+                  "name": "entries",
+                  "type": {
+                    "kind": "array",
+                    "type": {
+                      "kind": "tuple",
+                      "types": [
+                        {
+                          "kind": "intrinsic",
+                          "type": "string"
+                        },
+                        {
+                          "kind": "reference",
+                          "id": 151,
+                          "name": "StoredValue",
+                          "packageName": null,
+                          "typeArguments": []
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": 188,
+                  "name": "overwrite",
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "boolean"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 189,
+          "name": "size",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 167,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 190,
+              "name": "size",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "number"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 191,
+          "name": "values",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 176,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 192,
+              "name": "values",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "array",
+                    "type": {
+                      "kind": "reference",
+                      "id": 151,
+                      "name": "StoredValue",
+                      "packageName": null,
+                      "typeArguments": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "constants": [],
+  "enums": [],
+  "functions": [],
+  "interfaces": [],
+  "namespaces": [
+    {
+      "id": 141,
+      "name": "MariaProvider",
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "source": {
+        "line": 29,
+        "file": "MariaProvider.ts",
+        "path": "packages/maria/src/lib"
+      },
+      "external": false,
+      "classes": [],
+      "constants": [],
+      "enums": [],
+      "functions": [],
+      "interfaces": [
+        {
+          "id": 142,
+          "name": "Options",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 733,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "external": false,
+          "properties": [
+            {
+              "id": 146,
+              "name": "allowMigrations",
+              "comment": {
+                "description": "Whether to allow automatic provider data migrations.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  }
+                ],
+                "modifierTags": []
+              },
+              "source": {
+                "line": 1533,
+                "file": "index.d.ts",
+                "path": "node_modules/@joshdb/provider/dist"
+              },
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "boolean"
+              }
+            },
+            {
+              "id": 143,
+              "name": "connectionConfig",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "source": {
+                "line": 734,
+                "file": "MariaProvider.ts",
+                "path": "packages/maria/src/lib"
+              },
+              "readonly": false,
+              "type": {
+                "kind": "union",
+                "types": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  },
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "ConnectionConfig",
+                    "packageName": "mariadb",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            },
+            {
+              "id": 144,
+              "name": "disableSerialization",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "source": {
+                "line": 736,
+                "file": "MariaProvider.ts",
+                "path": "packages/maria/src/lib"
+              },
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "boolean"
+              }
+            },
+            {
+              "id": 145,
+              "name": "epoch",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "source": {
+                "line": 738,
+                "file": "MariaProvider.ts",
+                "path": "packages/maria/src/lib"
+              },
+              "readonly": false,
+              "type": {
+                "kind": "union",
+                "types": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "number"
+                  },
+                  {
+                    "kind": "intrinsic",
+                    "type": "bigint"
+                  },
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Date",
+                    "packageName": "typescript",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "namespaces": [],
+      "typeAliases": [
+        {
+          "id": 147,
+          "name": "ConnectionConfig",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 741,
+            "file": "MariaProvider.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "external": false,
+          "typeParameters": [],
+          "type": {
+            "kind": "reference",
+            "id": null,
+            "name": "ConnectionConfig",
+            "packageName": "mariadb",
+            "typeArguments": []
+          }
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "name": "QueryHandler",
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "source": {
+        "line": 4,
+        "file": "QueryHandler.ts",
+        "path": "packages/maria/src/lib"
+      },
+      "external": false,
+      "classes": [],
+      "constants": [],
+      "enums": [],
+      "functions": [],
+      "interfaces": [
+        {
+          "id": 197,
+          "name": "Options",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 198,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "external": false,
+          "properties": [
+            {
+              "id": 198,
+              "name": "connectionConfig",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "source": {
+                "line": 199,
+                "file": "QueryHandler.ts",
+                "path": "packages/maria/src/lib"
+              },
+              "readonly": false,
+              "type": {
+                "kind": "union",
+                "types": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  },
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "ConnectionConfig",
+                    "packageName": "mariadb",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            },
+            {
+              "id": 200,
+              "name": "disableSerialization",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "source": {
+                "line": 202,
+                "file": "QueryHandler.ts",
+                "path": "packages/maria/src/lib"
+              },
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "boolean"
+              }
+            },
+            {
+              "id": 199,
+              "name": "tableName",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "source": {
+                "line": 200,
+                "file": "QueryHandler.ts",
+                "path": "packages/maria/src/lib"
+              },
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 201,
+              "name": "version",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "source": {
+                "line": 204,
+                "file": "QueryHandler.ts",
+                "path": "packages/maria/src/lib"
+              },
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            }
+          ]
+        },
+        {
+          "id": 206,
+          "name": "RowCount",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 215,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "external": false,
+          "properties": [
+            {
+              "id": 207,
+              "name": "count",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "source": {
+                "line": 216,
+                "file": "QueryHandler.ts",
+                "path": "packages/maria/src/lib"
+              },
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            }
+          ]
+        },
+        {
+          "id": 202,
+          "name": "RowData",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 207,
+            "file": "QueryHandler.ts",
+            "path": "packages/maria/src/lib"
+          },
+          "external": false,
+          "properties": [
+            {
+              "id": 203,
+              "name": "key",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "source": {
+                "line": 208,
+                "file": "QueryHandler.ts",
+                "path": "packages/maria/src/lib"
+              },
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 204,
+              "name": "value",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "source": {
+                "line": 210,
+                "file": "QueryHandler.ts",
+                "path": "packages/maria/src/lib"
+              },
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 205,
+              "name": "version",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "source": {
+                "line": 212,
+                "file": "QueryHandler.ts",
+                "path": "packages/maria/src/lib"
+              },
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            }
+          ]
+        }
+      ],
+      "namespaces": [],
+      "typeAliases": []
+    }
+  ],
+  "typeAliases": []
+}
