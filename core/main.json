@@ -34,7 +34,7 @@
         "line": 46,
         "file": "Josh.ts",
         "path": "src/lib/structures",
-        "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L46"
+        "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L46"
       },
       "external": false,
       "abstract": false,
@@ -52,7 +52,7 @@
           "line": 74,
           "file": "Josh.ts",
           "path": "src/lib/structures",
-          "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L74"
+          "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L74"
         },
         "parameters": [
           {
@@ -60,7 +60,7 @@
             "name": "options",
             "type": {
               "kind": "reference",
-              "id": 204,
+              "id": 207,
               "name": "Options",
               "packageName": null,
               "typeArguments": [
@@ -94,7 +94,7 @@
             "line": 65,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L65"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L65"
           },
           "accessibility": "public",
           "abstract": false,
@@ -134,7 +134,7 @@
             "line": 51,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L51"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L51"
           },
           "accessibility": "public",
           "abstract": false,
@@ -163,7 +163,7 @@
             "line": 57,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L57"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L57"
           },
           "accessibility": "public",
           "abstract": false,
@@ -172,7 +172,7 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 204,
+            "id": 207,
             "name": "Options",
             "packageName": null,
             "typeArguments": [
@@ -198,7 +198,7 @@
             "line": 72,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L72"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L72"
           },
           "accessibility": "public",
           "abstract": false,
@@ -235,10 +235,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1763,
+            "line": 1782,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1763"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1782"
           },
           "accessibility": "public",
           "abstract": false,
@@ -262,7 +262,7 @@
             "line": 100,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L100"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L100"
           },
           "accessibility": "public",
           "abstract": false,
@@ -271,7 +271,7 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 264,
+            "id": 272,
             "name": "JoshError",
             "packageName": null,
             "typeArguments": []
@@ -291,7 +291,7 @@
             "line": 183,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L183"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L183"
           },
           "accessibility": "public",
           "abstract": false,
@@ -347,7 +347,7 @@
             "line": 219,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L219"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L219"
           },
           "accessibility": "public",
           "abstract": false,
@@ -411,10 +411,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1640,
+            "line": 1644,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1640"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1644"
           },
           "accessibility": "private",
           "abstract": false,
@@ -458,7 +458,7 @@
                     "operator": "keyof",
                     "type": {
                       "kind": "reference",
-                      "id": 256,
+                      "id": 264,
                       "name": "ReturnBulk",
                       "packageName": null,
                       "typeArguments": [
@@ -474,7 +474,7 @@
                   },
                   "default": {
                     "kind": "reference",
-                    "id": 252,
+                    "id": 260,
                     "name": "Object",
                     "packageName": null,
                     "typeArguments": []
@@ -521,7 +521,7 @@
                 "kind": "indexedAccess",
                 "objectType": {
                   "kind": "reference",
-                  "id": 256,
+                  "id": 264,
                   "name": "ReturnBulk",
                   "packageName": null,
                   "typeArguments": [
@@ -546,7 +546,7 @@
           ]
         },
         {
-          "id": 184,
+          "id": 187,
           "name": "convertLegacyExportJSON",
           "comment": {
             "description": null,
@@ -554,17 +554,17 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1682,
+            "line": 1702,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1682"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1702"
           },
           "accessibility": "private",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 185,
+              "id": 188,
               "name": "convertLegacyExportJSON",
               "comment": {
                 "description": "Convert a legacy export json object to a new export json object.",
@@ -578,7 +578,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 186,
+                  "id": 189,
                   "name": "StoredValue",
                   "type": null,
                   "default": null
@@ -586,17 +586,17 @@
               ],
               "parameters": [
                 {
-                  "id": 187,
+                  "id": 190,
                   "name": "json",
                   "type": {
                     "kind": "reference",
-                    "id": 221,
+                    "id": 225,
                     "name": "LegacyExportJSON",
                     "packageName": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 186,
+                        "id": 189,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -607,13 +607,13 @@
               ],
               "returnType": {
                 "kind": "reference",
-                "id": 215,
+                "id": 219,
                 "name": "ExportJSON",
                 "packageName": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 186,
+                    "id": 189,
                     "name": "StoredValue",
                     "packageName": null,
                     "typeArguments": []
@@ -632,10 +632,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 271,
+            "line": 270,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L271"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L270"
           },
           "accessibility": "public",
           "abstract": false,
@@ -727,10 +727,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 325,
+            "line": 323,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L325"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L323"
           },
           "accessibility": "public",
           "abstract": false,
@@ -822,10 +822,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 350,
+            "line": 347,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L350"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L347"
           },
           "accessibility": "public",
           "abstract": false,
@@ -893,10 +893,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 373,
+            "line": 369,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L373"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L369"
           },
           "accessibility": "public",
           "abstract": false,
@@ -976,10 +976,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 410,
+            "line": 405,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L410"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L405"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1059,10 +1059,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 451,
+            "line": 446,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L451"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L446"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1102,7 +1102,7 @@
                     "operator": "keyof",
                     "type": {
                       "kind": "reference",
-                      "id": 256,
+                      "id": 264,
                       "name": "ReturnBulk",
                       "packageName": null,
                       "typeArguments": [
@@ -1118,7 +1118,7 @@
                   },
                   "default": {
                     "kind": "reference",
-                    "id": 252,
+                    "id": 260,
                     "name": "Object",
                     "packageName": null,
                     "typeArguments": []
@@ -1148,7 +1148,7 @@
                     "kind": "indexedAccess",
                     "objectType": {
                       "kind": "reference",
-                      "id": 256,
+                      "id": 264,
                       "name": "ReturnBulk",
                       "packageName": null,
                       "typeArguments": [
@@ -1175,7 +1175,7 @@
           ]
         },
         {
-          "id": 180,
+          "id": 183,
           "name": "error",
           "comment": {
             "description": null,
@@ -1183,17 +1183,17 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1669,
+            "line": 1690,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1669"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1690"
           },
           "accessibility": "private",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 181,
+              "id": 184,
               "name": "error",
               "comment": {
                 "description": "Resolves an identifier or options to an error.",
@@ -1212,7 +1212,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 182,
+                  "id": 185,
                   "name": "options",
                   "type": {
                     "kind": "union",
@@ -1223,7 +1223,7 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 284,
+                        "id": 292,
                         "name": "JoshErrorOptions",
                         "packageName": null,
                         "typeArguments": []
@@ -1232,7 +1232,7 @@
                   }
                 },
                 {
-                  "id": 183,
+                  "id": 186,
                   "name": "metadata",
                   "type": {
                     "kind": "reference",
@@ -1254,7 +1254,7 @@
               ],
               "returnType": {
                 "kind": "reference",
-                "id": 264,
+                "id": 272,
                 "name": "JoshError",
                 "packageName": null,
                 "typeArguments": []
@@ -1271,10 +1271,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 503,
+            "line": 498,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L503"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L498"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1426,10 +1426,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1623,
+            "line": 1627,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1623"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1627"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1462,7 +1462,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 215,
+                    "id": 219,
                     "name": "ExportJSON",
                     "packageName": null,
                     "typeArguments": [
@@ -1489,10 +1489,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 584,
+            "line": 579,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L584"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L579"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1528,7 +1528,7 @@
                     "operator": "keyof",
                     "type": {
                       "kind": "reference",
-                      "id": 256,
+                      "id": 264,
                       "name": "ReturnBulk",
                       "packageName": null,
                       "typeArguments": [
@@ -1590,7 +1590,7 @@
                     "kind": "indexedAccess",
                     "objectType": {
                       "kind": "reference",
-                      "id": 256,
+                      "id": 264,
                       "name": "ReturnBulk",
                       "packageName": null,
                       "typeArguments": [
@@ -1644,7 +1644,7 @@
                     "operator": "keyof",
                     "type": {
                       "kind": "reference",
-                      "id": 256,
+                      "id": 264,
                       "name": "ReturnBulk",
                       "packageName": null,
                       "typeArguments": [
@@ -1715,7 +1715,7 @@
                     "kind": "indexedAccess",
                     "objectType": {
                       "kind": "reference",
-                      "id": 256,
+                      "id": 264,
                       "name": "ReturnBulk",
                       "packageName": null,
                       "typeArguments": [
@@ -1750,10 +1750,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 671,
+            "line": 666,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L671"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L666"
           },
           "accessibility": "public",
           "abstract": false,
@@ -1957,10 +1957,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 741,
+            "line": 736,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L741"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L736"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2119,10 +2119,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 806,
+            "line": 800,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L806"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L800"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2158,7 +2158,7 @@
                     "operator": "keyof",
                     "type": {
                       "kind": "reference",
-                      "id": 256,
+                      "id": 264,
                       "name": "ReturnBulk",
                       "packageName": null,
                       "typeArguments": [
@@ -2218,7 +2218,7 @@
                     "kind": "indexedAccess",
                     "objectType": {
                       "kind": "reference",
-                      "id": 256,
+                      "id": 264,
                       "name": "ReturnBulk",
                       "packageName": null,
                       "typeArguments": [
@@ -2262,10 +2262,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 854,
+            "line": 850,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L854"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L850"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2342,10 +2342,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1598,
+            "line": 1602,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1598"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1602"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2366,7 +2366,7 @@
                   "name": "options",
                   "type": {
                     "kind": "reference",
-                    "id": 230,
+                    "id": 234,
                     "name": "ImportOptions",
                     "packageName": null,
                     "typeArguments": [
@@ -2416,10 +2416,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 908,
+            "line": 906,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L908"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L906"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2514,7 +2514,7 @@
             "line": 114,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L114"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L114"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2570,7 +2570,7 @@
           ]
         },
         {
-          "id": 188,
+          "id": 191,
           "name": "isLegacyExportJSON",
           "comment": {
             "description": null,
@@ -2578,17 +2578,17 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1693,
+            "line": 1713,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1693"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1713"
           },
           "accessibility": "private",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 189,
+              "id": 192,
               "name": "isLegacyExportJSON",
               "comment": {
                 "description": "Check if a json object is a legacy export json object.",
@@ -2602,7 +2602,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 190,
+                  "id": 193,
                   "name": "StoredValue",
                   "type": null,
                   "default": null
@@ -2610,20 +2610,20 @@
               ],
               "parameters": [
                 {
-                  "id": 191,
+                  "id": 194,
                   "name": "json",
                   "type": {
                     "kind": "union",
                     "types": [
                       {
                         "kind": "reference",
-                        "id": 215,
+                        "id": 219,
                         "name": "ExportJSON",
                         "packageName": null,
                         "typeArguments": [
                           {
                             "kind": "reference",
-                            "id": 190,
+                            "id": 193,
                             "name": "StoredValue",
                             "packageName": null,
                             "typeArguments": []
@@ -2632,13 +2632,13 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 221,
+                        "id": 225,
                         "name": "LegacyExportJSON",
                         "packageName": null,
                         "typeArguments": [
                           {
                             "kind": "reference",
-                            "id": 190,
+                            "id": 193,
                             "name": "StoredValue",
                             "packageName": null,
                             "typeArguments": []
@@ -2655,13 +2655,13 @@
                 "name": "json",
                 "type": {
                   "kind": "reference",
-                  "id": 221,
+                  "id": 225,
                   "name": "LegacyExportJSON",
                   "packageName": null,
                   "typeArguments": [
                     {
                       "kind": "reference",
-                      "id": 190,
+                      "id": 193,
                       "name": "StoredValue",
                       "packageName": null,
                       "typeArguments": []
@@ -2681,10 +2681,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 940,
+            "line": 937,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L940"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L937"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2740,10 +2740,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 987,
+            "line": 984,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L987"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L984"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2862,10 +2862,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1060,
+            "line": 1070,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1060"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1070"
           },
           "accessibility": "public",
           "abstract": false,
@@ -2980,10 +2980,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1096,
+            "line": 1105,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1096"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1105"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3019,7 +3019,7 @@
                     "operator": "keyof",
                     "type": {
                       "kind": "reference",
-                      "id": 256,
+                      "id": 264,
                       "name": "ReturnBulk",
                       "packageName": null,
                       "typeArguments": [
@@ -3093,7 +3093,7 @@
                         "kind": "indexedAccess",
                         "objectType": {
                           "kind": "reference",
-                          "id": 256,
+                          "id": 264,
                           "name": "ReturnBulk",
                           "packageName": null,
                           "typeArguments": [
@@ -3118,7 +3118,7 @@
                         "kind": "indexedAccess",
                         "objectType": {
                           "kind": "reference",
-                          "id": 256,
+                          "id": 264,
                           "name": "ReturnBulk",
                           "packageName": null,
                           "typeArguments": [
@@ -3174,7 +3174,7 @@
                     "operator": "keyof",
                     "type": {
                       "kind": "reference",
-                      "id": 256,
+                      "id": 264,
                       "name": "ReturnBulk",
                       "packageName": null,
                       "typeArguments": [
@@ -3239,7 +3239,7 @@
                         "kind": "indexedAccess",
                         "objectType": {
                           "kind": "reference",
-                          "id": 256,
+                          "id": 264,
                           "name": "ReturnBulk",
                           "packageName": null,
                           "typeArguments": [
@@ -3264,7 +3264,7 @@
                         "kind": "indexedAccess",
                         "objectType": {
                           "kind": "reference",
-                          "id": 256,
+                          "id": 264,
                           "name": "ReturnBulk",
                           "packageName": null,
                           "typeArguments": [
@@ -3301,10 +3301,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1195,
+            "line": 1204,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1195"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1204"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3416,10 +3416,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1232,
+            "line": 1240,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1232"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1240"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3453,7 +3453,7 @@
                   "name": "options",
                   "type": {
                     "kind": "reference",
-                    "id": 240,
+                    "id": 244,
                     "name": "RandomOptions",
                     "packageName": null,
                     "typeArguments": []
@@ -3499,10 +3499,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1272,
+            "line": 1280,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1272"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1280"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3540,7 +3540,7 @@
                   "name": "options",
                   "type": {
                     "kind": "reference",
-                    "id": 240,
+                    "id": 244,
                     "name": "RandomOptions",
                     "packageName": null,
                     "typeArguments": []
@@ -3583,10 +3583,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1309,
+            "line": 1317,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1309"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1317"
           },
           "accessibility": "public",
           "abstract": false,
@@ -3776,7 +3776,7 @@
           ]
         },
         {
-          "id": 192,
+          "id": 195,
           "name": "resolveIdentifier",
           "comment": {
             "description": null,
@@ -3784,17 +3784,17 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1705,
+            "line": 1725,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1705"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1725"
           },
           "accessibility": "private",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 193,
+              "id": 196,
               "name": "resolveIdentifier",
               "comment": {
                 "description": "Resolve an identifier.",
@@ -3809,7 +3809,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 194,
+                  "id": 197,
                   "name": "identifier",
                   "type": {
                     "kind": "intrinsic",
@@ -3817,7 +3817,7 @@
                   }
                 },
                 {
-                  "id": 195,
+                  "id": 198,
                   "name": "metadata",
                   "type": {
                     "kind": "reference",
@@ -3845,7 +3845,7 @@
           ]
         },
         {
-          "id": 196,
+          "id": 199,
           "name": "resolveKeyPath",
           "comment": {
             "description": null,
@@ -3853,17 +3853,17 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1742,
+            "line": 1761,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1742"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1761"
           },
           "accessibility": "private",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 197,
+              "id": 200,
               "name": "resolveKeyPath",
               "comment": {
                 "description": "Resolves a key and/or path for universal use.",
@@ -3878,7 +3878,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 198,
+                  "id": 201,
                   "name": "keyPath",
                   "type": {
                     "kind": "reference",
@@ -3909,7 +3909,7 @@
           ]
         },
         {
-          "id": 199,
+          "id": 202,
           "name": "resolvePath",
           "comment": {
             "description": null,
@@ -3917,17 +3917,17 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1755,
+            "line": 1774,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1755"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1774"
           },
           "accessibility": "private",
           "abstract": false,
           "static": false,
           "signatures": [
             {
-              "id": 200,
+              "id": 203,
               "name": "resolvePath",
               "comment": {
                 "description": "Resolves a path for universal use.",
@@ -3942,7 +3942,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 201,
+                  "id": 204,
                   "name": "path",
                   "type": {
                     "kind": "reference",
@@ -3964,6 +3964,53 @@
           ]
         },
         {
+          "id": 180,
+          "name": "runBehaviorOnPayloadError",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1666,
+            "file": "Josh.ts",
+            "path": "src/lib/structures",
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1666"
+          },
+          "accessibility": "private",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 181,
+              "name": "runBehaviorOnPayloadError",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 182,
+                  "name": "payload",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "void"
+              }
+            }
+          ]
+        },
+        {
           "id": 144,
           "name": "set",
           "comment": {
@@ -3972,10 +4019,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1381,
+            "line": 1388,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1381"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1388"
           },
           "accessibility": "public",
           "abstract": false,
@@ -4091,10 +4138,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1401,
+            "line": 1407,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1401"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1407"
           },
           "accessibility": "public",
           "abstract": false,
@@ -4177,10 +4224,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1439,
+            "line": 1444,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1439"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1444"
           },
           "accessibility": "public",
           "abstract": false,
@@ -4233,10 +4280,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1478,
+            "line": 1483,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1478"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1483"
           },
           "accessibility": "public",
           "abstract": false,
@@ -4372,10 +4419,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1547,
+            "line": 1552,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1547"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1552"
           },
           "accessibility": "public",
           "abstract": false,
@@ -4486,7 +4533,7 @@
             "line": 136,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L136"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L136"
           },
           "accessibility": "public",
           "abstract": false,
@@ -4533,7 +4580,7 @@
                   "name": "options",
                   "type": {
                     "kind": "reference",
-                    "id": 210,
+                    "id": 214,
                     "name": "UseMiddlewareOptions",
                     "packageName": null,
                     "typeArguments": []
@@ -4555,7 +4602,7 @@
                           "fileName": "src/lib/structures/Josh.ts",
                           "line": 136,
                           "character": 74,
-                          "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L136"
+                          "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L136"
                         }
                       ],
                       "signatures": [
@@ -4688,10 +4735,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1578,
+            "line": 1582,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1578"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1582"
           },
           "accessibility": "public",
           "abstract": false,
@@ -4750,10 +4797,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1772,
+            "line": 1791,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1772"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1791"
           },
           "accessibility": "public",
           "abstract": false,
@@ -4853,7 +4900,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 204,
+                        "id": 207,
                         "name": "Options",
                         "packageName": null,
                         "typeArguments": [
@@ -4884,7 +4931,7 @@
       ]
     },
     {
-      "id": 264,
+      "id": 272,
       "name": "JoshError",
       "comment": {
         "description": "The base class for errors in `Josh`",
@@ -4900,7 +4947,7 @@
         "line": 7,
         "file": "JoshError.ts",
         "path": "src/lib/structures",
-        "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/JoshError.ts#L7"
+        "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/JoshError.ts#L7"
       },
       "external": false,
       "abstract": false,
@@ -4913,7 +4960,7 @@
       },
       "implementsType": [],
       "construct": {
-        "id": 275,
+        "id": 283,
         "name": "constructor",
         "comment": {
           "description": null,
@@ -4924,15 +4971,15 @@
           "line": 20,
           "file": "JoshError.ts",
           "path": "src/lib/structures",
-          "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/JoshError.ts#L20"
+          "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/JoshError.ts#L20"
         },
         "parameters": [
           {
-            "id": 277,
+            "id": 285,
             "name": "options",
             "type": {
               "kind": "reference",
-              "id": 284,
+              "id": 292,
               "name": "JoshErrorOptions",
               "packageName": null,
               "typeArguments": []
@@ -4942,7 +4989,7 @@
       },
       "properties": [
         {
-          "id": 283,
+          "id": 291,
           "name": "cause",
           "comment": {
             "description": null,
@@ -4966,7 +5013,7 @@
           }
         },
         {
-          "id": 279,
+          "id": 287,
           "name": "errors",
           "comment": {
             "description": "The errors for this error.",
@@ -4982,437 +5029,13 @@
             "line": 18,
             "file": "JoshError.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/JoshError.ts#L18"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/JoshError.ts#L18"
           },
           "accessibility": "public",
           "abstract": false,
           "static": false,
           "readonly": false,
           "optional": false,
-          "type": {
-            "kind": "array",
-            "type": {
-              "kind": "reference",
-              "id": null,
-              "name": "JoshProviderError",
-              "packageName": "@joshdb/provider",
-              "typeArguments": []
-            }
-          }
-        },
-        {
-          "id": 278,
-          "name": "identifier",
-          "comment": {
-            "description": "The identifier for this error.",
-            "blockTags": [
-              {
-                "name": "since",
-                "text": "2.0.0"
-              }
-            ],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 12,
-            "file": "JoshError.ts",
-            "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/JoshError.ts#L12"
-          },
-          "accessibility": "public",
-          "abstract": false,
-          "static": false,
-          "readonly": false,
-          "optional": false,
-          "type": {
-            "kind": "intrinsic",
-            "type": "string"
-          }
-        },
-        {
-          "id": 281,
-          "name": "message",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 1041,
-            "file": "lib.es5.d.ts",
-            "path": "node_modules/typescript/lib",
-            "url": null
-          },
-          "accessibility": "public",
-          "abstract": false,
-          "static": false,
-          "readonly": false,
-          "optional": false,
-          "type": {
-            "kind": "intrinsic",
-            "type": "string"
-          }
-        },
-        {
-          "id": 280,
-          "name": "name",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 1040,
-            "file": "lib.es5.d.ts",
-            "path": "node_modules/typescript/lib",
-            "url": null
-          },
-          "accessibility": "public",
-          "abstract": false,
-          "static": false,
-          "readonly": false,
-          "optional": false,
-          "type": {
-            "kind": "intrinsic",
-            "type": "string"
-          }
-        },
-        {
-          "id": 282,
-          "name": "stack",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 1042,
-            "file": "lib.es5.d.ts",
-            "path": "node_modules/typescript/lib",
-            "url": null
-          },
-          "accessibility": "public",
-          "abstract": false,
-          "static": false,
-          "readonly": false,
-          "optional": true,
-          "type": {
-            "kind": "intrinsic",
-            "type": "string"
-          }
-        },
-        {
-          "id": 269,
-          "name": "prepareStackTrace",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 11,
-            "file": "globals.d.ts",
-            "path": "node_modules/@types/node",
-            "url": null
-          },
-          "accessibility": "public",
-          "abstract": false,
-          "static": true,
-          "readonly": false,
-          "optional": true,
-          "type": {
-            "kind": "reflection",
-            "reflection": {
-              "id": 270,
-              "name": "__type",
-              "kind": 65536,
-              "kindString": "Type literal",
-              "flags": {},
-              "sources": [
-                {
-                  "fileName": "node_modules/@types/node/globals.d.ts",
-                  "line": 11,
-                  "character": 25
-                }
-              ],
-              "signatures": [
-                {
-                  "id": 271,
-                  "name": "__type",
-                  "kind": 4096,
-                  "kindString": "Call signature",
-                  "flags": {},
-                  "comment": {
-                    "summary": [
-                      {
-                        "kind": "text",
-                        "text": "Optional override for formatting stack traces"
-                      }
-                    ],
-                    "blockTags": [
-                      {
-                        "tag": "@see",
-                        "content": [
-                          {
-                            "kind": "text",
-                            "text": "https://v8.dev/docs/stack-trace-api#customizing-stack-traces"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  "parameters": [
-                    {
-                      "id": 272,
-                      "name": "err",
-                      "kind": 32768,
-                      "kindString": "Parameter",
-                      "flags": {},
-                      "type": {
-                        "type": "reference",
-                        "name": "Error",
-                        "qualifiedName": "Error",
-                        "package": "typescript"
-                      }
-                    },
-                    {
-                      "id": 273,
-                      "name": "stackTraces",
-                      "kind": 32768,
-                      "kindString": "Parameter",
-                      "flags": {},
-                      "type": {
-                        "type": "array",
-                        "elementType": {
-                          "type": "reference",
-                          "name": "CallSite",
-                          "qualifiedName": "NodeJS.CallSite",
-                          "package": "@types/node"
-                        }
-                      }
-                    }
-                  ],
-                  "type": {
-                    "type": "intrinsic",
-                    "name": "any"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "id": 274,
-          "name": "stackTraceLimit",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 13,
-            "file": "globals.d.ts",
-            "path": "node_modules/@types/node",
-            "url": null
-          },
-          "accessibility": "public",
-          "abstract": false,
-          "static": true,
-          "readonly": false,
-          "optional": false,
-          "type": {
-            "kind": "intrinsic",
-            "type": "number"
-          }
-        }
-      ],
-      "methods": [
-        {
-          "id": 265,
-          "name": "captureStackTrace",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 4,
-            "file": "globals.d.ts",
-            "path": "node_modules/@types/node",
-            "url": null
-          },
-          "accessibility": "public",
-          "abstract": false,
-          "static": true,
-          "signatures": [
-            {
-              "id": 266,
-              "name": "captureStackTrace",
-              "comment": {
-                "description": "Create .stack property on a target object",
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [],
-              "parameters": [
-                {
-                  "id": 267,
-                  "name": "targetObject",
-                  "type": {
-                    "kind": "intrinsic",
-                    "type": "object"
-                  }
-                },
-                {
-                  "id": 268,
-                  "name": "constructorOpt",
-                  "type": {
-                    "kind": "reference",
-                    "id": null,
-                    "name": "Function",
-                    "packageName": "typescript",
-                    "typeArguments": []
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "intrinsic",
-                "type": "void"
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "constants": [],
-  "enums": [
-    {
-      "id": 251,
-      "name": "Bulk",
-      "comment": {
-        "description": null,
-        "blockTags": [],
-        "modifierTags": []
-      },
-      "source": {
-        "line": 1952,
-        "file": "Josh.ts",
-        "path": "src/lib/structures",
-        "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1952"
-      },
-      "external": false,
-      "properties": [
-        {
-          "id": 253,
-          "name": "Map",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 1955,
-            "file": "Josh.ts",
-            "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1955"
-          },
-          "value": "1"
-        },
-        {
-          "id": 252,
-          "name": "Object",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 1953,
-            "file": "Josh.ts",
-            "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1953"
-          },
-          "value": "0"
-        },
-        {
-          "id": 254,
-          "name": "OneDimensionalArray",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 1957,
-            "file": "Josh.ts",
-            "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1957"
-          },
-          "value": "2"
-        },
-        {
-          "id": 255,
-          "name": "TwoDimensionalArray",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 1959,
-            "file": "Josh.ts",
-            "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1959"
-          },
-          "value": "3"
-        }
-      ]
-    }
-  ],
-  "functions": [],
-  "interfaces": [
-    {
-      "id": 284,
-      "name": "JoshErrorOptions",
-      "comment": {
-        "description": "The options for `JoshError`",
-        "blockTags": [
-          {
-            "name": "since",
-            "text": "2.0.0"
-          }
-        ],
-        "modifierTags": []
-      },
-      "source": {
-        "line": 34,
-        "file": "JoshError.ts",
-        "path": "src/lib/structures",
-        "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/JoshError.ts#L34"
-      },
-      "external": false,
-      "properties": [
-        {
-          "id": 287,
-          "name": "errors",
-          "comment": {
-            "description": "The errors for this error.",
-            "blockTags": [
-              {
-                "name": "since",
-                "text": "2.0.0"
-              }
-            ],
-            "modifierTags": []
-          },
-          "source": {
-            "line": 51,
-            "file": "JoshError.ts",
-            "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/JoshError.ts#L51"
-          },
-          "readonly": false,
           "type": {
             "kind": "array",
             "type": {
@@ -5438,10 +5061,434 @@
             "modifierTags": []
           },
           "source": {
+            "line": 12,
+            "file": "JoshError.ts",
+            "path": "src/lib/structures",
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/JoshError.ts#L12"
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "intrinsic",
+            "type": "string"
+          }
+        },
+        {
+          "id": 289,
+          "name": "message",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1041,
+            "file": "lib.es5.d.ts",
+            "path": "node_modules/typescript/lib",
+            "url": null
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "intrinsic",
+            "type": "string"
+          }
+        },
+        {
+          "id": 288,
+          "name": "name",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1040,
+            "file": "lib.es5.d.ts",
+            "path": "node_modules/typescript/lib",
+            "url": null
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "intrinsic",
+            "type": "string"
+          }
+        },
+        {
+          "id": 290,
+          "name": "stack",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1042,
+            "file": "lib.es5.d.ts",
+            "path": "node_modules/typescript/lib",
+            "url": null
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": true,
+          "type": {
+            "kind": "intrinsic",
+            "type": "string"
+          }
+        },
+        {
+          "id": 277,
+          "name": "prepareStackTrace",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 11,
+            "file": "globals.d.ts",
+            "path": "node_modules/@types/node",
+            "url": null
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": true,
+          "readonly": false,
+          "optional": true,
+          "type": {
+            "kind": "reflection",
+            "reflection": {
+              "id": 278,
+              "name": "__type",
+              "kind": 65536,
+              "kindString": "Type literal",
+              "flags": {},
+              "sources": [
+                {
+                  "fileName": "node_modules/@types/node/globals.d.ts",
+                  "line": 11,
+                  "character": 25
+                }
+              ],
+              "signatures": [
+                {
+                  "id": 279,
+                  "name": "__type",
+                  "kind": 4096,
+                  "kindString": "Call signature",
+                  "flags": {},
+                  "comment": {
+                    "summary": [
+                      {
+                        "kind": "text",
+                        "text": "Optional override for formatting stack traces"
+                      }
+                    ],
+                    "blockTags": [
+                      {
+                        "tag": "@see",
+                        "content": [
+                          {
+                            "kind": "text",
+                            "text": "https://v8.dev/docs/stack-trace-api#customizing-stack-traces"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "parameters": [
+                    {
+                      "id": 280,
+                      "name": "err",
+                      "kind": 32768,
+                      "kindString": "Parameter",
+                      "flags": {},
+                      "type": {
+                        "type": "reference",
+                        "name": "Error",
+                        "qualifiedName": "Error",
+                        "package": "typescript"
+                      }
+                    },
+                    {
+                      "id": 281,
+                      "name": "stackTraces",
+                      "kind": 32768,
+                      "kindString": "Parameter",
+                      "flags": {},
+                      "type": {
+                        "type": "array",
+                        "elementType": {
+                          "type": "reference",
+                          "name": "CallSite",
+                          "qualifiedName": "NodeJS.CallSite",
+                          "package": "@types/node"
+                        }
+                      }
+                    }
+                  ],
+                  "type": {
+                    "type": "intrinsic",
+                    "name": "any"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": 282,
+          "name": "stackTraceLimit",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 13,
+            "file": "globals.d.ts",
+            "path": "node_modules/@types/node",
+            "url": null
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": true,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "intrinsic",
+            "type": "number"
+          }
+        }
+      ],
+      "methods": [
+        {
+          "id": 273,
+          "name": "captureStackTrace",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 4,
+            "file": "globals.d.ts",
+            "path": "node_modules/@types/node",
+            "url": null
+          },
+          "accessibility": "public",
+          "abstract": false,
+          "static": true,
+          "signatures": [
+            {
+              "id": 274,
+              "name": "captureStackTrace",
+              "comment": {
+                "description": "Create .stack property on a target object",
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 275,
+                  "name": "targetObject",
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "object"
+                  }
+                },
+                {
+                  "id": 276,
+                  "name": "constructorOpt",
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Function",
+                    "packageName": "typescript",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "void"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "constants": [],
+  "enums": [
+    {
+      "id": 259,
+      "name": "Bulk",
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "source": {
+        "line": 1985,
+        "file": "Josh.ts",
+        "path": "src/lib/structures",
+        "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1985"
+      },
+      "external": false,
+      "properties": [
+        {
+          "id": 261,
+          "name": "Map",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1988,
+            "file": "Josh.ts",
+            "path": "src/lib/structures",
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1988"
+          },
+          "value": "1"
+        },
+        {
+          "id": 260,
+          "name": "Object",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1986,
+            "file": "Josh.ts",
+            "path": "src/lib/structures",
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1986"
+          },
+          "value": "0"
+        },
+        {
+          "id": 262,
+          "name": "OneDimensionalArray",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1990,
+            "file": "Josh.ts",
+            "path": "src/lib/structures",
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1990"
+          },
+          "value": "2"
+        },
+        {
+          "id": 263,
+          "name": "TwoDimensionalArray",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1992,
+            "file": "Josh.ts",
+            "path": "src/lib/structures",
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1992"
+          },
+          "value": "3"
+        }
+      ]
+    }
+  ],
+  "functions": [],
+  "interfaces": [
+    {
+      "id": 292,
+      "name": "JoshErrorOptions",
+      "comment": {
+        "description": "The options for `JoshError`",
+        "blockTags": [
+          {
+            "name": "since",
+            "text": "2.0.0"
+          }
+        ],
+        "modifierTags": []
+      },
+      "source": {
+        "line": 34,
+        "file": "JoshError.ts",
+        "path": "src/lib/structures",
+        "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/JoshError.ts#L34"
+      },
+      "external": false,
+      "properties": [
+        {
+          "id": 295,
+          "name": "errors",
+          "comment": {
+            "description": "The errors for this error.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              }
+            ],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 51,
+            "file": "JoshError.ts",
+            "path": "src/lib/structures",
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/JoshError.ts#L51"
+          },
+          "readonly": false,
+          "type": {
+            "kind": "array",
+            "type": {
+              "kind": "reference",
+              "id": null,
+              "name": "JoshProviderError",
+              "packageName": "@joshdb/provider",
+              "typeArguments": []
+            }
+          }
+        },
+        {
+          "id": 294,
+          "name": "identifier",
+          "comment": {
+            "description": "The identifier for this error.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "2.0.0"
+              }
+            ],
+            "modifierTags": []
+          },
+          "source": {
             "line": 45,
             "file": "JoshError.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/JoshError.ts#L45"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/JoshError.ts#L45"
           },
           "readonly": false,
           "type": {
@@ -5450,7 +5497,7 @@
           }
         },
         {
-          "id": 288,
+          "id": 296,
           "name": "message",
           "comment": {
             "description": "The message for this error.",
@@ -5466,7 +5513,7 @@
             "line": 57,
             "file": "JoshError.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/JoshError.ts#L57"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/JoshError.ts#L57"
           },
           "readonly": false,
           "type": {
@@ -5475,7 +5522,7 @@
           }
         },
         {
-          "id": 285,
+          "id": 293,
           "name": "name",
           "comment": {
             "description": "The name for this error.",
@@ -5491,7 +5538,7 @@
             "line": 39,
             "file": "JoshError.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/JoshError.ts#L39"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/JoshError.ts#L39"
           },
           "readonly": false,
           "type": {
@@ -5503,7 +5550,7 @@
       "methods": []
     },
     {
-      "id": 256,
+      "id": 264,
       "name": "ReturnBulk",
       "comment": {
         "description": null,
@@ -5511,15 +5558,15 @@
         "modifierTags": []
       },
       "source": {
-        "line": 1962,
+        "line": 1995,
         "file": "Josh.ts",
         "path": "src/lib/structures",
-        "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1962"
+        "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1995"
       },
       "external": false,
       "properties": [
         {
-          "id": 257,
+          "id": 265,
           "name": "0",
           "comment": {
             "description": null,
@@ -5527,10 +5574,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1963,
+            "line": 1996,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1963"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1996"
           },
           "readonly": false,
           "type": {
@@ -5545,7 +5592,7 @@
               },
               {
                 "kind": "reference",
-                "id": 261,
+                "id": 269,
                 "name": "Value",
                 "packageName": null,
                 "typeArguments": []
@@ -5554,7 +5601,7 @@
           }
         },
         {
-          "id": 258,
+          "id": 266,
           "name": "1",
           "comment": {
             "description": null,
@@ -5562,10 +5609,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1965,
+            "line": 1998,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1965"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1998"
           },
           "readonly": false,
           "type": {
@@ -5580,7 +5627,7 @@
               },
               {
                 "kind": "reference",
-                "id": 261,
+                "id": 269,
                 "name": "Value",
                 "packageName": null,
                 "typeArguments": []
@@ -5589,7 +5636,7 @@
           }
         },
         {
-          "id": 259,
+          "id": 267,
           "name": "2",
           "comment": {
             "description": null,
@@ -5597,17 +5644,17 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1967,
+            "line": 2000,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1967"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L2000"
           },
           "readonly": false,
           "type": {
             "kind": "array",
             "type": {
               "kind": "reference",
-              "id": 261,
+              "id": 269,
               "name": "Value",
               "packageName": null,
               "typeArguments": []
@@ -5615,7 +5662,7 @@
           }
         },
         {
-          "id": 260,
+          "id": 268,
           "name": "3",
           "comment": {
             "description": null,
@@ -5623,10 +5670,10 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1969,
+            "line": 2002,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1969"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L2002"
           },
           "readonly": false,
           "type": {
@@ -5640,7 +5687,7 @@
                 },
                 {
                   "kind": "reference",
-                  "id": 261,
+                  "id": 269,
                   "name": "Value",
                   "packageName": null,
                   "typeArguments": []
@@ -5655,7 +5702,7 @@
   ],
   "namespaces": [
     {
-      "id": 203,
+      "id": 206,
       "name": "Josh",
       "comment": {
         "description": null,
@@ -5666,14 +5713,80 @@
         "line": 46,
         "file": "Josh.ts",
         "path": "src/lib/structures",
-        "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L46"
+        "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L46"
       },
       "external": false,
       "classes": [],
       "constants": [],
       "enums": [
         {
-          "id": 243,
+          "id": 247,
+          "name": "ErrorBehavior",
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "source": {
+            "line": 1960,
+            "file": "Josh.ts",
+            "path": "src/lib/structures",
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1960"
+          },
+          "external": false,
+          "properties": [
+            {
+              "id": 249,
+              "name": "Log",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "source": {
+                "line": 1963,
+                "file": "Josh.ts",
+                "path": "src/lib/structures",
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1963"
+              },
+              "value": "1"
+            },
+            {
+              "id": 248,
+              "name": "None",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "source": {
+                "line": 1961,
+                "file": "Josh.ts",
+                "path": "src/lib/structures",
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1961"
+              },
+              "value": "0"
+            },
+            {
+              "id": 250,
+              "name": "Throw",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "source": {
+                "line": 1965,
+                "file": "Josh.ts",
+                "path": "src/lib/structures",
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1965"
+              },
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "id": 251,
           "name": "Identifiers",
           "comment": {
             "description": null,
@@ -5681,15 +5794,15 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1935,
+            "line": 1968,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1935"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1968"
           },
           "external": false,
           "properties": [
             {
-              "id": 244,
+              "id": 252,
               "name": "InvalidMiddleware",
               "comment": {
                 "description": null,
@@ -5697,15 +5810,15 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1936,
+                "line": 1969,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1936"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1969"
               },
               "value": "InvalidMiddleware"
             },
             {
-              "id": 245,
+              "id": 253,
               "name": "InvalidProvider",
               "comment": {
                 "description": null,
@@ -5713,15 +5826,15 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1938,
+                "line": 1971,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1938"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1971"
               },
               "value": "invalidProvider"
             },
             {
-              "id": 246,
+              "id": 254,
               "name": "LegacyDeprecation",
               "comment": {
                 "description": null,
@@ -5729,15 +5842,15 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1940,
+                "line": 1973,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1940"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1973"
               },
               "value": "legacyDeprecation"
             },
             {
-              "id": 247,
+              "id": 255,
               "name": "MissingName",
               "comment": {
                 "description": null,
@@ -5745,15 +5858,15 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1942,
+                "line": 1975,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1942"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1975"
               },
               "value": "missingName"
             },
             {
-              "id": 248,
+              "id": 256,
               "name": "MultipleError",
               "comment": {
                 "description": null,
@@ -5761,15 +5874,15 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1944,
+                "line": 1977,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1944"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1977"
               },
               "value": "multipleError"
             },
             {
-              "id": 249,
+              "id": 257,
               "name": "ProviderDataFailed",
               "comment": {
                 "description": null,
@@ -5777,15 +5890,15 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1946,
+                "line": 1979,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1946"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1979"
               },
               "value": "providerDataFailed"
             },
             {
-              "id": 250,
+              "id": 258,
               "name": "UseMiddlewareHookNotFound",
               "comment": {
                 "description": null,
@@ -5793,10 +5906,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1948,
+                "line": 1981,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1948"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1981"
               },
               "value": "useMiddlewareHookNotFound"
             }
@@ -5806,7 +5919,7 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 215,
+          "id": 219,
           "name": "ExportJSON",
           "comment": {
             "description": null,
@@ -5814,15 +5927,15 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1842,
+            "line": 1867,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1842"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1867"
           },
           "external": false,
           "properties": [
             {
-              "id": 219,
+              "id": 223,
               "name": "entries",
               "comment": {
                 "description": "The exported data entries.",
@@ -5835,10 +5948,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1865,
+                "line": 1890,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1865"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1890"
               },
               "readonly": false,
               "type": {
@@ -5852,7 +5965,7 @@
                     },
                     {
                       "kind": "reference",
-                      "id": 220,
+                      "id": 224,
                       "name": "StoredValue",
                       "packageName": null,
                       "typeArguments": []
@@ -5862,7 +5975,7 @@
               }
             },
             {
-              "id": 218,
+              "id": 222,
               "name": "exportedTimestamp",
               "comment": {
                 "description": "The timestamp of when the data was exported.",
@@ -5875,10 +5988,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1859,
+                "line": 1884,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1859"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1884"
               },
               "readonly": false,
               "type": {
@@ -5887,7 +6000,7 @@
               }
             },
             {
-              "id": 216,
+              "id": 220,
               "name": "name",
               "comment": {
                 "description": "The name of exported data.",
@@ -5900,10 +6013,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1847,
+                "line": 1872,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1847"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1872"
               },
               "readonly": false,
               "type": {
@@ -5912,7 +6025,7 @@
               }
             },
             {
-              "id": 217,
+              "id": 221,
               "name": "version",
               "comment": {
                 "description": "The version of Josh used to export the data.",
@@ -5925,10 +6038,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1853,
+                "line": 1878,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1853"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1878"
               },
               "readonly": false,
               "type": {
@@ -5940,7 +6053,7 @@
           "methods": []
         },
         {
-          "id": 230,
+          "id": 234,
           "name": "ImportOptions",
           "comment": {
             "description": null,
@@ -5948,15 +6061,15 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1894,
+            "line": 1919,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1894"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1919"
           },
           "external": false,
           "properties": [
             {
-              "id": 233,
+              "id": 237,
               "name": "clear",
               "comment": {
                 "description": "Whether to clear all data before importing.",
@@ -5969,10 +6082,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1911,
+                "line": 1936,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1911"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1936"
               },
               "readonly": false,
               "type": {
@@ -5981,7 +6094,7 @@
               }
             },
             {
-              "id": 231,
+              "id": 235,
               "name": "json",
               "comment": {
                 "description": "The data to import.",
@@ -5994,10 +6107,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1899,
+                "line": 1924,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1899"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1924"
               },
               "readonly": false,
               "type": {
@@ -6005,13 +6118,13 @@
                 "types": [
                   {
                     "kind": "reference",
-                    "id": 215,
+                    "id": 219,
                     "name": "ExportJSON",
                     "packageName": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 234,
+                        "id": 238,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -6020,13 +6133,13 @@
                   },
                   {
                     "kind": "reference",
-                    "id": 221,
+                    "id": 225,
                     "name": "LegacyExportJSON",
                     "packageName": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 234,
+                        "id": 238,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -6037,7 +6150,7 @@
               }
             },
             {
-              "id": 232,
+              "id": 236,
               "name": "overwrite",
               "comment": {
                 "description": "Whether to overwrite existing data.",
@@ -6050,10 +6163,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1905,
+                "line": 1930,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1905"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1930"
               },
               "readonly": false,
               "type": {
@@ -6065,7 +6178,7 @@
           "methods": []
         },
         {
-          "id": 221,
+          "id": 225,
           "name": "LegacyExportJSON",
           "comment": {
             "description": null,
@@ -6073,15 +6186,15 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1868,
+            "line": 1893,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1868"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1893"
           },
           "external": false,
           "properties": [
             {
-              "id": 224,
+              "id": 228,
               "name": "exportDate",
               "comment": {
                 "description": "The timestamp of when the data was exported.",
@@ -6094,10 +6207,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1885,
+                "line": 1910,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1885"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1910"
               },
               "readonly": false,
               "type": {
@@ -6106,7 +6219,7 @@
               }
             },
             {
-              "id": 225,
+              "id": 229,
               "name": "keys",
               "comment": {
                 "description": "The exported data.",
@@ -6119,10 +6232,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1891,
+                "line": 1916,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1891"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1916"
               },
               "readonly": false,
               "type": {
@@ -6130,14 +6243,14 @@
                 "type": {
                   "kind": "reflection",
                   "reflection": {
-                    "id": 226,
+                    "id": 230,
                     "name": "__type",
                     "kind": 65536,
                     "kindString": "Type literal",
                     "flags": {},
                     "children": [
                       {
-                        "id": 227,
+                        "id": 231,
                         "name": "key",
                         "kind": 1024,
                         "kindString": "Property",
@@ -6145,9 +6258,9 @@
                         "sources": [
                           {
                             "fileName": "src/lib/structures/Josh.ts",
-                            "line": 1891,
+                            "line": 1916,
                             "character": 12,
-                            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1891"
+                            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1916"
                           }
                         ],
                         "type": {
@@ -6156,7 +6269,7 @@
                         }
                       },
                       {
-                        "id": 228,
+                        "id": 232,
                         "name": "value",
                         "kind": 1024,
                         "kindString": "Property",
@@ -6164,14 +6277,14 @@
                         "sources": [
                           {
                             "fileName": "src/lib/structures/Josh.ts",
-                            "line": 1891,
+                            "line": 1916,
                             "character": 25,
-                            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1891"
+                            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1916"
                           }
                         ],
                         "type": {
                           "type": "reference",
-                          "id": 229,
+                          "id": 233,
                           "name": "StoredValue"
                         }
                       }
@@ -6180,17 +6293,17 @@
                       {
                         "title": "Properties",
                         "children": [
-                          227,
-                          228
+                          231,
+                          232
                         ]
                       }
                     ],
                     "sources": [
                       {
                         "fileName": "src/lib/structures/Josh.ts",
-                        "line": 1891,
+                        "line": 1916,
                         "character": 10,
-                        "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1891"
+                        "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1916"
                       }
                     ]
                   }
@@ -6198,7 +6311,7 @@
               }
             },
             {
-              "id": 222,
+              "id": 226,
               "name": "name",
               "comment": {
                 "description": "The name of exported data.",
@@ -6211,10 +6324,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1873,
+                "line": 1898,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1873"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1898"
               },
               "readonly": false,
               "type": {
@@ -6223,7 +6336,7 @@
               }
             },
             {
-              "id": 223,
+              "id": 227,
               "name": "version",
               "comment": {
                 "description": "The version of Josh or Enmap used to export the data.",
@@ -6236,10 +6349,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1879,
+                "line": 1904,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1879"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1904"
               },
               "readonly": false,
               "type": {
@@ -6251,7 +6364,7 @@
           "methods": []
         },
         {
-          "id": 204,
+          "id": 207,
           "name": "Options",
           "comment": {
             "description": "The options for {@link Josh}.",
@@ -6264,15 +6377,15 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1786,
+            "line": 1805,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1786"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1805"
           },
           "external": false,
           "properties": [
             {
-              "id": 208,
+              "id": 211,
               "name": "autoEnsure",
               "comment": {
                 "description": "The context data for the auto-ensure middleware",
@@ -6285,10 +6398,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1809,
+                "line": 1828,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1809"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1828"
               },
               "readonly": false,
               "type": {
@@ -6299,7 +6412,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 209,
+                    "id": 213,
                     "name": "StoredValue",
                     "packageName": null,
                     "typeArguments": []
@@ -6308,7 +6421,35 @@
               }
             },
             {
-              "id": 207,
+              "id": 212,
+              "name": "behaviorOnPayloadError",
+              "comment": {
+                "description": "The behavior when encountering errors.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  }
+                ],
+                "modifierTags": []
+              },
+              "source": {
+                "line": 1834,
+                "file": "Josh.ts",
+                "path": "src/lib/structures",
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1834"
+              },
+              "readonly": false,
+              "type": {
+                "kind": "reference",
+                "id": 247,
+                "name": "ErrorBehavior",
+                "packageName": null,
+                "typeArguments": []
+              }
+            },
+            {
+              "id": 210,
               "name": "middlewares",
               "comment": {
                 "description": "The middleware to use.",
@@ -6321,10 +6462,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1803,
+                "line": 1822,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1803"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1822"
               },
               "readonly": false,
               "type": {
@@ -6341,7 +6482,7 @@
                     },
                     {
                       "kind": "reference",
-                      "id": 209,
+                      "id": 213,
                       "name": "StoredValue",
                       "packageName": null,
                       "typeArguments": []
@@ -6351,7 +6492,7 @@
               }
             },
             {
-              "id": 205,
+              "id": 208,
               "name": "name",
               "comment": {
                 "description": "The name for the Josh instance.",
@@ -6364,10 +6505,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1791,
+                "line": 1810,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1791"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1810"
               },
               "readonly": false,
               "type": {
@@ -6376,7 +6517,7 @@
               }
             },
             {
-              "id": 206,
+              "id": 209,
               "name": "provider",
               "comment": {
                 "description": "The provider instance.",
@@ -6389,10 +6530,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1797,
+                "line": 1816,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1797"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1816"
               },
               "readonly": false,
               "type": {
@@ -6403,7 +6544,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 209,
+                    "id": 213,
                     "name": "StoredValue",
                     "packageName": null,
                     "typeArguments": []
@@ -6415,7 +6556,7 @@
           "methods": []
         },
         {
-          "id": 240,
+          "id": 244,
           "name": "RandomOptions",
           "comment": {
             "description": null,
@@ -6423,15 +6564,15 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1921,
+            "line": 1946,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1921"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1946"
           },
           "external": false,
           "properties": [
             {
-              "id": 241,
+              "id": 245,
               "name": "count",
               "comment": {
                 "description": "The amount of values to get.",
@@ -6444,10 +6585,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1926,
+                "line": 1951,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1926"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1951"
               },
               "readonly": false,
               "type": {
@@ -6456,7 +6597,7 @@
               }
             },
             {
-              "id": 242,
+              "id": 246,
               "name": "duplicates",
               "comment": {
                 "description": "Whether to allow duplicates.",
@@ -6469,10 +6610,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1932,
+                "line": 1957,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1932"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1957"
               },
               "readonly": false,
               "type": {
@@ -6484,7 +6625,7 @@
           "methods": []
         },
         {
-          "id": 235,
+          "id": 239,
           "name": "SetManyOptions",
           "comment": {
             "description": null,
@@ -6492,15 +6633,15 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1913,
+            "line": 1938,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1913"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1938"
           },
           "external": false,
           "properties": [
             {
-              "id": 237,
+              "id": 241,
               "name": "key",
               "comment": {
                 "description": null,
@@ -6520,7 +6661,7 @@
               }
             },
             {
-              "id": 238,
+              "id": 242,
               "name": "path",
               "comment": {
                 "description": null,
@@ -6543,7 +6684,7 @@
               }
             },
             {
-              "id": 236,
+              "id": 240,
               "name": "value",
               "comment": {
                 "description": "The value to set.",
@@ -6556,15 +6697,15 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1918,
+                "line": 1943,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1918"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1943"
               },
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 239,
+                "id": 243,
                 "name": "Value",
                 "packageName": null,
                 "typeArguments": []
@@ -6574,7 +6715,7 @@
           "methods": []
         },
         {
-          "id": 210,
+          "id": 214,
           "name": "UseMiddlewareOptions",
           "comment": {
             "description": "The options for the {@link use} method.",
@@ -6587,15 +6728,15 @@
             "modifierTags": []
           },
           "source": {
-            "line": 1816,
+            "line": 1841,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1816"
+            "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1841"
           },
           "external": false,
           "properties": [
             {
-              "id": 214,
+              "id": 218,
               "name": "method",
               "comment": {
                 "description": "The trigger for the middleware hook.",
@@ -6608,10 +6749,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1839,
+                "line": 1864,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1839"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1864"
               },
               "readonly": false,
               "type": {
@@ -6623,7 +6764,7 @@
               }
             },
             {
-              "id": 211,
+              "id": 215,
               "name": "name",
               "comment": {
                 "description": "The name for the middleware.",
@@ -6636,10 +6777,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1821,
+                "line": 1846,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1821"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1846"
               },
               "readonly": false,
               "type": {
@@ -6648,7 +6789,7 @@
               }
             },
             {
-              "id": 212,
+              "id": 216,
               "name": "position",
               "comment": {
                 "description": "The position for the middleware.",
@@ -6661,10 +6802,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1827,
+                "line": 1852,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1827"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1852"
               },
               "readonly": false,
               "type": {
@@ -6673,7 +6814,7 @@
               }
             },
             {
-              "id": 213,
+              "id": 217,
               "name": "trigger",
               "comment": {
                 "description": "The trigger for the middleware hook.",
@@ -6686,10 +6827,10 @@
                 "modifierTags": []
               },
               "source": {
-                "line": 1833,
+                "line": 1858,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/2ee975f/src/lib/structures/Josh.ts#L1833"
+                "url": "https://github.com/josh-development/core/blob/0c78b5a/src/lib/structures/Josh.ts#L1858"
               },
               "readonly": false,
               "type": {
