@@ -23,7 +23,7 @@
         "line": 3,
         "file": "Serialize.ts",
         "path": "lib",
-        "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L3"
+        "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L3"
       },
       "external": false,
       "classes": [],
@@ -41,7 +41,7 @@
             "line": 108,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L108"
+            "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L108"
           },
           "external": false,
           "properties": [
@@ -57,7 +57,7 @@
                 "line": 109,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L109"
+                "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L109"
               },
               "value": "array"
             },
@@ -73,7 +73,7 @@
                 "line": 111,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L111"
+                "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L111"
               },
               "value": "bigint"
             },
@@ -89,7 +89,7 @@
                 "line": 113,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L113"
+                "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L113"
               },
               "value": "boolean"
             },
@@ -105,7 +105,7 @@
                 "line": 115,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L115"
+                "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L115"
               },
               "value": "date"
             },
@@ -121,7 +121,7 @@
                 "line": 117,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L117"
+                "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L117"
               },
               "value": "map"
             },
@@ -137,7 +137,7 @@
                 "line": 119,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L119"
+                "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L119"
               },
               "value": "null"
             },
@@ -153,7 +153,7 @@
                 "line": 121,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L121"
+                "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L121"
               },
               "value": "number"
             },
@@ -169,7 +169,7 @@
                 "line": 123,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L123"
+                "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L123"
               },
               "value": "object"
             },
@@ -185,7 +185,7 @@
                 "line": 125,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L125"
+                "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L125"
               },
               "value": "regexp"
             },
@@ -201,7 +201,7 @@
                 "line": 127,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L127"
+                "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L127"
               },
               "value": "set"
             },
@@ -217,7 +217,7 @@
                 "line": 129,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L129"
+                "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L129"
               },
               "value": "string"
             },
@@ -233,7 +233,7 @@
                 "line": 131,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L131"
+                "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L131"
               },
               "value": "undefined"
             }
@@ -253,7 +253,7 @@
             "line": 33,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L33"
+            "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L33"
           },
           "external": false,
           "signatures": [
@@ -298,7 +298,7 @@
             "line": 4,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L4"
+            "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L4"
           },
           "external": false,
           "signatures": [
@@ -350,7 +350,7 @@
             "line": 94,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L94"
+            "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L94"
           },
           "external": false,
           "properties": [
@@ -371,7 +371,7 @@
                 "line": 99,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L99"
+                "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L99"
               },
               "readonly": false,
               "type": {
@@ -399,7 +399,7 @@
                 "line": 105,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L105"
+                "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L105"
               },
               "readonly": false,
               "type": {
@@ -495,7 +495,7 @@
                               "fileName": "lib/Serialize.ts",
                               "line": 105,
                               "character": 125,
-                              "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L105"
+                              "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L105"
                             }
                           ],
                           "type": {
@@ -514,7 +514,7 @@
                               "fileName": "lib/Serialize.ts",
                               "line": 105,
                               "character": 109,
-                              "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L105"
+                              "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L105"
                             }
                           ],
                           "type": {
@@ -537,7 +537,7 @@
                           "fileName": "lib/Serialize.ts",
                           "line": 105,
                           "character": 107,
-                          "url": "https://github.com/josh-development/utilities/blob/c8a24bd/packages/serialize/src/lib/Serialize.ts#L105"
+                          "url": "https://github.com/josh-development/utilities/blob/2469aa2/packages/serialize/src/lib/Serialize.ts#L105"
                         }
                       ]
                     }
