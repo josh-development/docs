@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "3.2.0",
+  "typeDocJsonParserVersion": "4.0.0",
   "id": 0,
   "name": "@joshdb/auto-ensure",
   "version": "1.0.0",
@@ -18,7 +18,7 @@
         "line": 5,
         "file": "AutoEnsureMiddleware.ts",
         "path": "packages/auto-ensure/src/lib",
-        "url": "https://github.com/josh-development/middlewares/blob/19a954e/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L5"
+        "url": "https://github.com/josh-development/middlewares/blob/58fda60/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L5"
       },
       "external": false,
       "abstract": false,
@@ -67,6 +67,7 @@
           "path": "node_modules/@joshdb/provider/dist",
           "url": null
         },
+        "parentId": 1,
         "parameters": [
           {
             "id": 5,
@@ -128,6 +129,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -155,6 +157,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "protected",
           "abstract": false,
           "static": false,
@@ -195,6 +198,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -224,6 +228,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -264,6 +269,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -301,6 +307,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -359,6 +366,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -415,8 +423,9 @@
             "line": 7,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/19a954e/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L7"
+            "url": "https://github.com/josh-development/middlewares/blob/58fda60/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L7"
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -475,6 +484,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -533,6 +543,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -591,6 +602,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -665,6 +677,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -739,6 +752,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -813,6 +827,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "protected",
           "abstract": false,
           "static": false,
@@ -913,6 +928,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -1093,6 +1109,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -1275,6 +1292,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -1455,8 +1473,9 @@
             "line": 29,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/19a954e/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L29"
+            "url": "https://github.com/josh-development/middlewares/blob/58fda60/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L29"
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -1542,8 +1561,9 @@
             "line": 43,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/19a954e/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L43"
+            "url": "https://github.com/josh-development/middlewares/blob/58fda60/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L43"
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -1618,6 +1638,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -1674,8 +1695,9 @@
             "line": 60,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/19a954e/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L60"
+            "url": "https://github.com/josh-development/middlewares/blob/58fda60/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L60"
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -1734,6 +1756,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -1817,6 +1840,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -1875,6 +1899,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -2116,8 +2141,9 @@
             "line": 104,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/19a954e/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L104"
+            "url": "https://github.com/josh-development/middlewares/blob/58fda60/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L104"
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -2176,6 +2202,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -2356,8 +2383,9 @@
             "line": 82,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/19a954e/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L82"
+            "url": "https://github.com/josh-development/middlewares/blob/58fda60/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L82"
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -2439,6 +2467,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -2513,6 +2542,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -2569,8 +2599,9 @@
             "line": 125,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/19a954e/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L125"
+            "url": "https://github.com/josh-development/middlewares/blob/58fda60/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L125"
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -2696,6 +2727,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "protected",
           "abstract": false,
           "static": false,
@@ -2769,6 +2801,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -2838,8 +2871,9 @@
             "line": 151,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/19a954e/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L151"
+            "url": "https://github.com/josh-development/middlewares/blob/58fda60/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L151"
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -2925,8 +2959,9 @@
             "line": 173,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/19a954e/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L173"
+            "url": "https://github.com/josh-development/middlewares/blob/58fda60/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L173"
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -2985,6 +3020,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -3043,6 +3079,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -3230,6 +3267,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -3275,8 +3313,9 @@
             "line": 203,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/19a954e/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L203"
+            "url": "https://github.com/josh-development/middlewares/blob/58fda60/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L203"
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -3378,6 +3417,7 @@
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
+          "parentId": 1,
           "accessibility": "public",
           "abstract": false,
           "static": false,
@@ -3458,7 +3498,7 @@
         "line": 5,
         "file": "AutoEnsureMiddleware.ts",
         "path": "packages/auto-ensure/src/lib",
-        "url": "https://github.com/josh-development/middlewares/blob/19a954e/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L5"
+        "url": "https://github.com/josh-development/middlewares/blob/58fda60/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L5"
       },
       "external": false,
       "classes": [],
@@ -3478,7 +3518,7 @@
             "line": 226,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/19a954e/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L226"
+            "url": "https://github.com/josh-development/middlewares/blob/58fda60/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L226"
           },
           "external": false,
           "properties": [
@@ -3499,8 +3539,9 @@
                 "line": 231,
                 "file": "AutoEnsureMiddleware.ts",
                 "path": "packages/auto-ensure/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/19a954e/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L231"
+                "url": "https://github.com/josh-development/middlewares/blob/58fda60/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L231"
               },
+              "parentId": 158,
               "readonly": false,
               "type": {
                 "kind": "reference",
@@ -3527,8 +3568,9 @@
                 "line": 237,
                 "file": "AutoEnsureMiddleware.ts",
                 "path": "packages/auto-ensure/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/19a954e/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L237"
+                "url": "https://github.com/josh-development/middlewares/blob/58fda60/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L237"
               },
+              "parentId": 158,
               "readonly": false,
               "type": {
                 "kind": "intrinsic",
