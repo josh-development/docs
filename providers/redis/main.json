@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "5.2.0",
+  "typeDocJsonParserVersion": "6.0.0",
   "id": 0,
   "name": "@joshdb/redis",
   "version": "1.0.0",
@@ -9,16 +9,16 @@
     {
       "id": 2,
       "name": "RedisProvider",
-      "comment": {
-        "description": null,
-        "blockTags": [],
-        "modifierTags": []
-      },
       "source": {
         "line": 29,
         "file": "RedisProvider.ts",
         "path": "packages/redis/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L29"
+        "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L29"
+      },
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
       },
       "external": false,
       "abstract": false,
@@ -38,25 +38,41 @@
         ]
       },
       "implementsType": [],
+      "typeParameters": [
+        {
+          "id": 652,
+          "name": "StoredValue",
+          "type": null,
+          "default": {
+            "kind": "intrinsic",
+            "type": "unknown"
+          }
+        }
+      ],
       "construct": {
         "id": 3,
         "name": "constructor",
-        "comment": {
-          "description": null,
-          "blockTags": [],
-          "modifierTags": []
-        },
         "source": {
           "line": 36,
           "file": "RedisProvider.ts",
           "path": "packages/redis/src/lib",
-          "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L36"
+          "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L36"
+        },
+        "comment": {
+          "description": null,
+          "blockTags": [],
+          "modifierTags": []
         },
         "parentId": 2,
         "parameters": [
           {
             "id": 6,
             "name": "options",
+            "comment": {
+              "description": null,
+              "blockTags": [],
+              "modifierTags": []
+            },
             "type": {
               "kind": "reference",
               "id": 654,
@@ -71,16 +87,16 @@
         {
           "id": 9,
           "name": "_client",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 34,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L34"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L34"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "parentId": 2,
           "accessibility": "private",
@@ -5884,16 +5900,16 @@
         {
           "id": 8,
           "name": "migrations",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 32,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L32"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L32"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "parentId": 2,
           "accessibility": "public",
@@ -5915,6 +5931,12 @@
         {
           "id": 640,
           "name": "name",
+          "source": {
+            "line": 1147,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist",
+            "url": null
+          },
           "comment": {
             "description": "The name for this provider.",
             "blockTags": [
@@ -5924,12 +5946,6 @@
               }
             ],
             "modifierTags": []
-          },
-          "source": {
-            "line": 1147,
-            "file": "index.d.ts",
-            "path": "node_modules/@joshdb/provider/dist",
-            "url": null
           },
           "parentId": 2,
           "accessibility": "public",
@@ -5945,16 +5961,16 @@
         {
           "id": 7,
           "name": "options",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 30,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L30"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L30"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "parentId": 2,
           "accessibility": "public",
@@ -5973,16 +5989,16 @@
         {
           "id": 264,
           "name": "client",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 44,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L44"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L44"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "parentId": 2,
           "accessibility": "public",
@@ -11786,16 +11802,16 @@
         {
           "id": 262,
           "name": "version",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 40,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L40"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L40"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "parentId": 2,
           "accessibility": "public",
@@ -11816,16 +11832,11 @@
         {
           "id": 532,
           "name": "autoKey",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 66,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L66"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L66"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -11845,6 +11856,11 @@
                 {
                   "id": 534,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -11867,16 +11883,11 @@
         {
           "id": 535,
           "name": "clear",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 72,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L72"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L72"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -11896,6 +11907,11 @@
                 {
                   "id": 537,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -11926,16 +11942,11 @@
         {
           "id": 519,
           "name": "close",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 62,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L62"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L62"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -11970,16 +11981,11 @@
         {
           "id": 538,
           "name": "dec",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 77,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L77"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L77"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -11999,6 +12005,11 @@
                 {
                   "id": 540,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -12029,16 +12040,11 @@
         {
           "id": 541,
           "name": "delete",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 100,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L100"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L100"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -12058,6 +12064,11 @@
                 {
                   "id": 543,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -12088,16 +12099,11 @@
         {
           "id": 544,
           "name": "deleteMany",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 121,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L121"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L121"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -12117,6 +12123,11 @@
                 {
                   "id": 546,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -12147,16 +12158,11 @@
         {
           "id": 525,
           "name": "deserialize",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 754,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L754"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L754"
           },
           "parentId": 2,
           "accessibility": "private",
@@ -12176,6 +12182,11 @@
                 {
                   "id": 527,
                   "name": "value",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "union",
                     "types": [
@@ -12210,16 +12221,11 @@
         {
           "id": 547,
           "name": "each",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 131,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L131"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L131"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -12239,6 +12245,11 @@
                 {
                   "id": 549,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -12285,16 +12296,11 @@
         {
           "id": 550,
           "name": "ensure",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 141,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L141"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L141"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -12314,6 +12320,11 @@
                 {
                   "id": 552,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -12360,16 +12371,11 @@
         {
           "id": 553,
           "name": "entries",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 153,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L153"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L153"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -12389,6 +12395,11 @@
                 {
                   "id": 555,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -12435,11 +12446,6 @@
         {
           "id": 641,
           "name": "error",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 1496,
             "file": "index.d.ts",
@@ -12473,6 +12479,11 @@
                 {
                   "id": 643,
                   "name": "options",
+                  "comment": {
+                    "description": "The options for the error.",
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "union",
                     "types": [
@@ -12505,6 +12516,11 @@
                 {
                   "id": 644,
                   "name": "metadata",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -12536,16 +12552,11 @@
         {
           "id": 556,
           "name": "every",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 161,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L161"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L161"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -12565,6 +12576,11 @@
                 {
                   "id": 558,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -12619,6 +12635,11 @@
                 {
                   "id": 560,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -12649,16 +12670,11 @@
         {
           "id": 521,
           "name": "fetchVersion",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 736,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L736"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L736"
           },
           "parentId": 2,
           "accessibility": "protected",
@@ -12696,16 +12712,11 @@
         {
           "id": 561,
           "name": "filter",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 206,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L206"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L206"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -12725,6 +12736,11 @@
                 {
                   "id": 563,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -12779,6 +12795,11 @@
                 {
                   "id": 565,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -12825,16 +12846,11 @@
         {
           "id": 566,
           "name": "find",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 248,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L248"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L248"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -12854,6 +12870,11 @@
                 {
                   "id": 568,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -12908,6 +12929,11 @@
                 {
                   "id": 570,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -12954,16 +12980,11 @@
         {
           "id": 571,
           "name": "get",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 298,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L298"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L298"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -12996,6 +13017,11 @@
                 {
                   "id": 574,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -13042,16 +13068,11 @@
         {
           "id": 575,
           "name": "getMany",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 316,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L316"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L316"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13071,6 +13092,11 @@
                 {
                   "id": 577,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -13117,16 +13143,11 @@
         {
           "id": 578,
           "name": "has",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 335,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L335"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L335"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13146,6 +13167,11 @@
                 {
                   "id": 580,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -13176,16 +13202,11 @@
         {
           "id": 581,
           "name": "inc",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 351,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L351"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L351"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13205,6 +13226,11 @@
                 {
                   "id": 583,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -13235,16 +13261,11 @@
         {
           "id": 516,
           "name": "init",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 55,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L55"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L55"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13264,6 +13285,11 @@
                 {
                   "id": 518,
                   "name": "context",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -13294,16 +13320,11 @@
         {
           "id": 523,
           "name": "iterate",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 742,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L742"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L742"
           },
           "parentId": 2,
           "accessibility": "private",
@@ -13349,16 +13370,11 @@
         {
           "id": 584,
           "name": "keys",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 374,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L374"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L374"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13378,6 +13394,11 @@
                 {
                   "id": 586,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -13408,16 +13429,11 @@
         {
           "id": 587,
           "name": "map",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 380,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L380"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L380"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13450,6 +13466,11 @@
                 {
                   "id": 590,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -13531,6 +13552,11 @@
                 {
                   "id": 593,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -13577,16 +13603,11 @@
         {
           "id": 594,
           "name": "math",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 404,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L404"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L404"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13606,6 +13627,11 @@
                 {
                   "id": 596,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -13636,16 +13662,11 @@
         {
           "id": 597,
           "name": "partition",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 459,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L459"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L459"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13665,6 +13686,11 @@
                 {
                   "id": 599,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -13719,6 +13745,11 @@
                 {
                   "id": 601,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -13765,16 +13796,11 @@
         {
           "id": 602,
           "name": "push",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 503,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L503"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L503"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13807,6 +13833,11 @@
                 {
                   "id": 605,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -13853,16 +13884,11 @@
         {
           "id": 606,
           "name": "random",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 527,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L527"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L527"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13882,6 +13908,11 @@
                 {
                   "id": 608,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -13928,16 +13959,11 @@
         {
           "id": 609,
           "name": "randomKey",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 552,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L552"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L552"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13957,6 +13983,11 @@
                 {
                   "id": 611,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -13987,16 +14018,11 @@
         {
           "id": 612,
           "name": "remove",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 575,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L575"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L575"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -14029,6 +14055,11 @@
                 {
                   "id": 615,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -14083,6 +14114,11 @@
                 {
                   "id": 617,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -14113,11 +14149,6 @@
         {
           "id": 645,
           "name": "resolveIdentifier",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 1504,
             "file": "index.d.ts",
@@ -14151,6 +14182,11 @@
                 {
                   "id": 647,
                   "name": "identifier",
+                  "comment": {
+                    "description": "The identifier to resolve.",
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -14159,6 +14195,11 @@
                 {
                   "id": 648,
                   "name": "metadata",
+                  "comment": {
+                    "description": "The metadata to use.",
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -14187,11 +14228,6 @@
         {
           "id": 649,
           "name": "resolveVersion",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 1511,
             "file": "index.d.ts",
@@ -14225,6 +14261,11 @@
                 {
                   "id": 651,
                   "name": "version",
+                  "comment": {
+                    "description": "The version to resolve.",
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -14244,16 +14285,11 @@
         {
           "id": 528,
           "name": "serialize",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 759,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L759"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L759"
           },
           "parentId": 2,
           "accessibility": "private",
@@ -14280,6 +14316,11 @@
                 {
                   "id": 531,
                   "name": "value",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": 530,
@@ -14314,16 +14355,11 @@
         {
           "id": 618,
           "name": "set",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 625,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L625"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L625"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -14356,6 +14392,11 @@
                 {
                   "id": 621,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -14402,16 +14443,11 @@
         {
           "id": 622,
           "name": "setMany",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 634,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L634"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L634"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -14431,6 +14467,11 @@
                 {
                   "id": 624,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -14461,16 +14502,11 @@
         {
           "id": 625,
           "name": "size",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 656,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L656"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L656"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -14490,6 +14526,11 @@
                 {
                   "id": 627,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -14520,16 +14561,11 @@
         {
           "id": 628,
           "name": "some",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 662,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L662"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L662"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -14549,6 +14585,11 @@
                 {
                   "id": 630,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -14603,6 +14644,11 @@
                 {
                   "id": 632,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -14633,16 +14679,11 @@
         {
           "id": 633,
           "name": "update",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 709,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L709"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L709"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -14675,6 +14716,11 @@
                 {
                   "id": 636,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -14735,16 +14781,11 @@
         {
           "id": 637,
           "name": "values",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 726,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L726"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L726"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -14764,6 +14805,11 @@
                 {
                   "id": 639,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -14810,29 +14856,6 @@
       ]
     }
   ],
-  "constants": [
-    {
-      "id": 1,
-      "name": "version",
-      "comment": {
-        "description": null,
-        "blockTags": [],
-        "modifierTags": []
-      },
-      "source": {
-        "line": 3,
-        "file": "index.ts",
-        "path": "packages/redis/src",
-        "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/index.ts#L3"
-      },
-      "external": false,
-      "type": {
-        "kind": "literal",
-        "value": "[VI]{version}[/VI]"
-      },
-      "value": "'[VI]{version}[/VI]'"
-    }
-  ],
   "enums": [],
   "functions": [],
   "interfaces": [],
@@ -14840,50 +14863,49 @@
     {
       "id": 653,
       "name": "RedisProvider",
+      "source": {
+        "line": 29,
+        "file": "RedisProvider.ts",
+        "path": "packages/redis/src/lib",
+        "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L29"
+      },
       "comment": {
         "description": null,
         "blockTags": [],
         "modifierTags": []
       },
-      "source": {
-        "line": 29,
-        "file": "RedisProvider.ts",
-        "path": "packages/redis/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L29"
-      },
       "external": false,
       "classes": [],
-      "constants": [],
       "enums": [
         {
           "id": 668,
           "name": "Identifiers",
+          "source": {
+            "line": 788,
+            "file": "RedisProvider.ts",
+            "path": "packages/redis/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L788"
+          },
           "comment": {
             "description": null,
             "blockTags": [],
             "modifierTags": []
           },
-          "source": {
-            "line": 788,
-            "file": "RedisProvider.ts",
-            "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L788"
-          },
           "external": false,
-          "properties": [
+          "members": [
             {
               "id": 669,
               "name": "NotConnected",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 789,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L789"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L789"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 668,
               "value": "notConnected"
@@ -14896,32 +14918,32 @@
         {
           "id": 663,
           "name": "IterateReturn",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 780,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L780"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L780"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "external": false,
           "properties": [
             {
               "id": 664,
               "name": "key",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 781,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L781"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L781"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 663,
               "readonly": false,
@@ -14933,16 +14955,16 @@
             {
               "id": 665,
               "name": "value",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 783,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L783"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L783"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 663,
               "readonly": false,
@@ -14957,16 +14979,16 @@
             {
               "id": 666,
               "name": "version",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 785,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L785"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L785"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 663,
               "readonly": false,
@@ -14984,22 +15006,28 @@
         {
           "id": 654,
           "name": "Options",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 766,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L766"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L766"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "external": false,
           "properties": [
             {
               "id": 658,
               "name": "allowMigrations",
+              "source": {
+                "line": 1533,
+                "file": "index.d.ts",
+                "path": "node_modules/@joshdb/provider/dist",
+                "url": null
+              },
               "comment": {
                 "description": "Whether to allow automatic provider data migrations.",
                 "blockTags": [
@@ -15009,12 +15037,6 @@
                   }
                 ],
                 "modifierTags": []
-              },
-              "source": {
-                "line": 1533,
-                "file": "index.d.ts",
-                "path": "node_modules/@joshdb/provider/dist",
-                "url": null
               },
               "parentId": 654,
               "readonly": false,
@@ -15026,16 +15048,16 @@
             {
               "id": 655,
               "name": "connectOptions",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 767,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L767"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L767"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 654,
               "readonly": false,
@@ -15072,16 +15094,16 @@
             {
               "id": 657,
               "name": "disableSerialization",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 771,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L771"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L771"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 654,
               "readonly": false,
@@ -15093,16 +15115,16 @@
             {
               "id": 656,
               "name": "expiry",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 769,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L769"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L769"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 654,
               "readonly": false,
@@ -15117,32 +15139,32 @@
         {
           "id": 659,
           "name": "Row",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 774,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L774"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L774"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "external": false,
           "properties": [
             {
               "id": 660,
               "name": "value",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 775,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L775"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L775"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 659,
               "readonly": false,
@@ -15169,16 +15191,16 @@
             {
               "id": 661,
               "name": "version",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 777,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/redis/src/lib/RedisProvider.ts#L777"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/lib/RedisProvider.ts#L777"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 659,
               "readonly": false,
@@ -15195,8 +15217,32 @@
         }
       ],
       "namespaces": [],
-      "typeAliases": []
+      "typeAliases": [],
+      "variables": []
     }
   ],
-  "typeAliases": []
+  "typeAliases": [],
+  "variables": [
+    {
+      "id": 1,
+      "name": "version",
+      "source": {
+        "line": 3,
+        "file": "index.ts",
+        "path": "packages/redis/src",
+        "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/redis/src/index.ts#L3"
+      },
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "external": false,
+      "type": {
+        "kind": "literal",
+        "value": "[VI]{version}[/VI]"
+      },
+      "value": "'[VI]{version}[/VI]'"
+    }
+  ]
 }
