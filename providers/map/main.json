@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "5.2.0",
+  "typeDocJsonParserVersion": "6.0.0",
   "id": 0,
   "name": "@joshdb/map",
   "version": "1.0.0",
@@ -9,6 +9,12 @@
     {
       "id": 1,
       "name": "MapProvider",
+      "source": {
+        "line": 30,
+        "file": "MapProvider.ts",
+        "path": "packages/map/src/lib",
+        "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L30"
+      },
       "comment": {
         "description": "A provider that uses the Node.js native [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) class.",
         "blockTags": [
@@ -18,12 +24,6 @@
           }
         ],
         "modifierTags": []
-      },
-      "source": {
-        "line": 30,
-        "file": "MapProvider.ts",
-        "path": "packages/map/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L30"
       },
       "external": false,
       "abstract": false,
@@ -43,25 +43,41 @@
         ]
       },
       "implementsType": [],
+      "typeParameters": [
+        {
+          "id": 137,
+          "name": "StoredValue",
+          "type": null,
+          "default": {
+            "kind": "intrinsic",
+            "type": "unknown"
+          }
+        }
+      ],
       "construct": {
         "id": 2,
         "name": "constructor",
-        "comment": {
-          "description": null,
-          "blockTags": [],
-          "modifierTags": []
-        },
         "source": {
           "line": 1158,
           "file": "index.d.ts",
           "path": "node_modules/@joshdb/provider/dist",
           "url": null
         },
+        "comment": {
+          "description": null,
+          "blockTags": [],
+          "modifierTags": []
+        },
         "parentId": 1,
         "parameters": [
           {
             "id": 5,
             "name": "options",
+            "comment": {
+              "description": null,
+              "blockTags": [],
+              "modifierTags": []
+            },
             "type": {
               "kind": "reference",
               "id": null,
@@ -76,6 +92,12 @@
         {
           "id": 7,
           "name": "autoKeyCount",
+          "source": {
+            "line": 41,
+            "file": "MapProvider.ts",
+            "path": "packages/map/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L41"
+          },
           "comment": {
             "description": "A simple cache for the autoKey method.",
             "blockTags": [
@@ -85,12 +107,6 @@
               }
             ],
             "modifierTags": []
-          },
-          "source": {
-            "line": 41,
-            "file": "MapProvider.ts",
-            "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L41"
           },
           "parentId": 1,
           "accessibility": "private",
@@ -106,6 +122,12 @@
         {
           "id": 6,
           "name": "cache",
+          "source": {
+            "line": 35,
+            "file": "MapProvider.ts",
+            "path": "packages/map/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L35"
+          },
           "comment": {
             "description": "The [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) cache to store data.",
             "blockTags": [
@@ -115,12 +137,6 @@
               }
             ],
             "modifierTags": []
-          },
-          "source": {
-            "line": 35,
-            "file": "MapProvider.ts",
-            "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L35"
           },
           "parentId": 1,
           "accessibility": "private",
@@ -151,6 +167,12 @@
         {
           "id": 125,
           "name": "migrations",
+          "source": {
+            "line": 1157,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist",
+            "url": null
+          },
           "comment": {
             "description": "Data migrations for this provider.",
             "blockTags": [
@@ -160,12 +182,6 @@
               }
             ],
             "modifierTags": []
-          },
-          "source": {
-            "line": 1157,
-            "file": "index.d.ts",
-            "path": "node_modules/@joshdb/provider/dist",
-            "url": null
           },
           "parentId": 1,
           "accessibility": "public",
@@ -187,6 +203,12 @@
         {
           "id": 123,
           "name": "name",
+          "source": {
+            "line": 1147,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist",
+            "url": null
+          },
           "comment": {
             "description": "The name for this provider.",
             "blockTags": [
@@ -196,12 +218,6 @@
               }
             ],
             "modifierTags": []
-          },
-          "source": {
-            "line": 1147,
-            "file": "index.d.ts",
-            "path": "node_modules/@joshdb/provider/dist",
-            "url": null
           },
           "parentId": 1,
           "accessibility": "public",
@@ -217,6 +233,12 @@
         {
           "id": 124,
           "name": "options",
+          "source": {
+            "line": 1152,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist",
+            "url": null
+          },
           "comment": {
             "description": "The options for this provider.",
             "blockTags": [
@@ -226,12 +248,6 @@
               }
             ],
             "modifierTags": []
-          },
-          "source": {
-            "line": 1152,
-            "file": "index.d.ts",
-            "path": "node_modules/@joshdb/provider/dist",
-            "url": null
           },
           "parentId": 1,
           "accessibility": "public",
@@ -250,16 +266,16 @@
         {
           "id": 9,
           "name": "version",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 43,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L43"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L43"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "parentId": 1,
           "accessibility": "public",
@@ -280,16 +296,11 @@
         {
           "id": 15,
           "name": "autoKey",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 51,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L51"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L51"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -309,6 +320,11 @@
                 {
                   "id": 17,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -331,16 +347,11 @@
         {
           "id": 18,
           "name": "clear",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 58,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L58"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L58"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -360,6 +371,11 @@
                 {
                   "id": 20,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -382,16 +398,11 @@
         {
           "id": 21,
           "name": "dec",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 65,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L65"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L65"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -411,6 +422,11 @@
                 {
                   "id": 23,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -433,16 +449,11 @@
         {
           "id": 24,
           "name": "delete",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 88,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L88"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L88"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -462,6 +473,11 @@
                 {
                   "id": 26,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -484,16 +500,11 @@
         {
           "id": 27,
           "name": "deleteMany",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 97,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L97"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L97"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -513,6 +524,11 @@
                 {
                   "id": 29,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -535,16 +551,11 @@
         {
           "id": 30,
           "name": "each",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 105,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L105"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L105"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -564,6 +575,11 @@
                 {
                   "id": 32,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -610,16 +626,11 @@
         {
           "id": 33,
           "name": "ensure",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 113,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L113"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L113"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -639,6 +650,11 @@
                 {
                   "id": 35,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -677,16 +693,11 @@
         {
           "id": 36,
           "name": "entries",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 124,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L124"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L124"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -706,6 +717,11 @@
                 {
                   "id": 38,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -744,11 +760,6 @@
         {
           "id": 126,
           "name": "error",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 1496,
             "file": "index.d.ts",
@@ -782,6 +793,11 @@
                 {
                   "id": 128,
                   "name": "options",
+                  "comment": {
+                    "description": "The options for the error.",
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "union",
                     "types": [
@@ -814,6 +830,11 @@
                 {
                   "id": 129,
                   "name": "metadata",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -845,16 +866,11 @@
         {
           "id": 39,
           "name": "every",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 130,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L130"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L130"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -874,6 +890,11 @@
                 {
                   "id": 41,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -928,6 +949,11 @@
                 {
                   "id": 43,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -958,16 +984,11 @@
         {
           "id": 13,
           "name": "fetchVersion",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 686,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L686"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L686"
           },
           "parentId": 1,
           "accessibility": "protected",
@@ -997,16 +1018,11 @@
         {
           "id": 44,
           "name": "filter",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 175,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L175"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L175"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1026,6 +1042,11 @@
                 {
                   "id": 46,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1080,6 +1101,11 @@
                 {
                   "id": 48,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1126,16 +1152,11 @@
         {
           "id": 49,
           "name": "find",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 211,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L211"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L211"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1155,6 +1176,11 @@
                 {
                   "id": 51,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1209,6 +1235,11 @@
                 {
                   "id": 53,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1255,16 +1286,11 @@
         {
           "id": 54,
           "name": "get",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 267,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L267"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L267"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1297,6 +1323,11 @@
                 {
                   "id": 57,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1335,16 +1366,11 @@
         {
           "id": 58,
           "name": "getMany",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 281,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L281"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L281"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1364,6 +1390,11 @@
                 {
                   "id": 60,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1402,16 +1433,11 @@
         {
           "id": 61,
           "name": "has",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 289,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L289"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L289"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1431,6 +1457,11 @@
                 {
                   "id": 63,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1453,16 +1484,11 @@
         {
           "id": 64,
           "name": "inc",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 297,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L297"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L297"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1482,6 +1508,11 @@
                 {
                   "id": 66,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1504,16 +1535,11 @@
         {
           "id": 10,
           "name": "init",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 47,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L47"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L47"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1533,6 +1559,11 @@
                 {
                   "id": 12,
                   "name": "context",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1563,16 +1594,11 @@
         {
           "id": 67,
           "name": "keys",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 320,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L320"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L320"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1592,6 +1618,11 @@
                 {
                   "id": 69,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1614,16 +1645,11 @@
         {
           "id": 70,
           "name": "map",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 326,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L326"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L326"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1656,6 +1682,11 @@
                 {
                   "id": 73,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1737,6 +1768,11 @@
                 {
                   "id": 76,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1783,16 +1819,11 @@
         {
           "id": 77,
           "name": "math",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 350,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L350"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L350"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1812,6 +1843,11 @@
                 {
                   "id": 79,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1834,16 +1870,11 @@
         {
           "id": 80,
           "name": "partition",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 405,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L405"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L405"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1863,6 +1894,11 @@
                 {
                   "id": 82,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1917,6 +1953,11 @@
                 {
                   "id": 84,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1963,16 +2004,11 @@
         {
           "id": 85,
           "name": "push",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 449,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L449"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L449"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2005,6 +2041,11 @@
                 {
                   "id": 88,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2043,16 +2084,11 @@
         {
           "id": 89,
           "name": "random",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 473,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L473"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L473"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2072,6 +2108,11 @@
                 {
                   "id": 91,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2110,16 +2151,11 @@
         {
           "id": 92,
           "name": "randomKey",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 505,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L505"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L505"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2139,6 +2175,11 @@
                 {
                   "id": 94,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2161,16 +2202,11 @@
         {
           "id": 95,
           "name": "remove",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 533,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L533"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L533"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2203,6 +2239,11 @@
                 {
                   "id": 98,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2257,6 +2298,11 @@
                 {
                   "id": 100,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2287,11 +2333,6 @@
         {
           "id": 130,
           "name": "resolveIdentifier",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 1504,
             "file": "index.d.ts",
@@ -2325,6 +2366,11 @@
                 {
                   "id": 132,
                   "name": "identifier",
+                  "comment": {
+                    "description": "The identifier to resolve.",
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -2333,6 +2379,11 @@
                 {
                   "id": 133,
                   "name": "metadata",
+                  "comment": {
+                    "description": "The metadata to use.",
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2361,11 +2412,6 @@
         {
           "id": 134,
           "name": "resolveVersion",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 1511,
             "file": "index.d.ts",
@@ -2399,6 +2445,11 @@
                 {
                   "id": 136,
                   "name": "version",
+                  "comment": {
+                    "description": "The version to resolve.",
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -2418,16 +2469,11 @@
         {
           "id": 101,
           "name": "set",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 583,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L583"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L583"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2460,6 +2506,11 @@
                 {
                   "id": 104,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2498,16 +2549,11 @@
         {
           "id": 105,
           "name": "setMany",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 596,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L596"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L596"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2527,6 +2573,11 @@
                 {
                   "id": 107,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2549,16 +2600,11 @@
         {
           "id": 108,
           "name": "size",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 609,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L609"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L609"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2578,6 +2624,11 @@
                 {
                   "id": 110,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2600,16 +2651,11 @@
         {
           "id": 111,
           "name": "some",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 615,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L615"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L615"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2629,6 +2675,11 @@
                 {
                   "id": 113,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2683,6 +2734,11 @@
                 {
                   "id": 115,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2713,16 +2769,11 @@
         {
           "id": 116,
           "name": "update",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 663,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L663"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L663"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2755,6 +2806,11 @@
                 {
                   "id": 119,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2815,16 +2871,11 @@
         {
           "id": 120,
           "name": "values",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 680,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/map/src/lib/MapProvider.ts#L680"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/map/src/lib/MapProvider.ts#L680"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2844,6 +2895,11 @@
                 {
                   "id": 122,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2882,10 +2938,10 @@
       ]
     }
   ],
-  "constants": [],
   "enums": [],
   "functions": [],
   "interfaces": [],
   "namespaces": [],
-  "typeAliases": []
+  "typeAliases": [],
+  "variables": []
 }
