@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "5.2.0",
+  "typeDocJsonParserVersion": "6.0.0",
   "id": 0,
   "name": "@joshdb/mongo",
   "version": "2.0.0",
@@ -9,16 +9,16 @@
     {
       "id": 2,
       "name": "MongoProvider",
-      "comment": {
-        "description": null,
-        "blockTags": [],
-        "modifierTags": []
-      },
       "source": {
         "line": 28,
         "file": "MongoProvider.ts",
         "path": "packages/mongo/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L28"
+        "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L28"
+      },
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
       },
       "external": false,
       "abstract": false,
@@ -38,25 +38,41 @@
         ]
       },
       "implementsType": [],
+      "typeParameters": [
+        {
+          "id": 173,
+          "name": "StoredValue",
+          "type": null,
+          "default": {
+            "kind": "intrinsic",
+            "type": "unknown"
+          }
+        }
+      ],
       "construct": {
         "id": 4,
         "name": "constructor",
-        "comment": {
-          "description": null,
-          "blockTags": [],
-          "modifierTags": []
-        },
         "source": {
           "line": 54,
           "file": "MongoProvider.ts",
           "path": "packages/mongo/src/lib",
-          "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L54"
+          "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L54"
+        },
+        "comment": {
+          "description": null,
+          "blockTags": [],
+          "modifierTags": []
         },
         "parentId": 2,
         "parameters": [
           {
             "id": 7,
             "name": "options",
+            "comment": {
+              "description": null,
+              "blockTags": [],
+              "modifierTags": []
+            },
             "type": {
               "kind": "reference",
               "id": 175,
@@ -71,16 +87,16 @@
         {
           "id": 11,
           "name": "_client",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 50,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L50"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L50"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "parentId": 2,
           "accessibility": "private",
@@ -99,16 +115,16 @@
         {
           "id": 12,
           "name": "_collection",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 52,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L52"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L52"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "parentId": 2,
           "accessibility": "private",
@@ -143,16 +159,16 @@
         {
           "id": 10,
           "name": "connectionURI",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 48,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L48"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L48"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "parentId": 2,
           "accessibility": "private",
@@ -168,16 +184,16 @@
         {
           "id": 9,
           "name": "migrations",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 31,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L31"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L31"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "parentId": 2,
           "accessibility": "public",
@@ -199,6 +215,12 @@
         {
           "id": 161,
           "name": "name",
+          "source": {
+            "line": 1147,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist",
+            "url": null
+          },
           "comment": {
             "description": "The name for this provider.",
             "blockTags": [
@@ -208,12 +230,6 @@
               }
             ],
             "modifierTags": []
-          },
-          "source": {
-            "line": 1147,
-            "file": "index.d.ts",
-            "path": "node_modules/@joshdb/provider/dist",
-            "url": null
           },
           "parentId": 2,
           "accessibility": "public",
@@ -229,16 +245,16 @@
         {
           "id": 8,
           "name": "options",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 29,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L29"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L29"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "parentId": 2,
           "accessibility": "public",
@@ -257,16 +273,16 @@
         {
           "id": 3,
           "name": "defaultAuthentication",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 856,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L856"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L856"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "parentId": 2,
           "accessibility": "public",
@@ -285,16 +301,16 @@
         {
           "id": 16,
           "name": "client",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 62,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L62"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L62"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "parentId": 2,
           "accessibility": "public",
@@ -313,16 +329,16 @@
         {
           "id": 18,
           "name": "collection",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 73,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L73"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L73"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "parentId": 2,
           "accessibility": "public",
@@ -357,16 +373,16 @@
         {
           "id": 14,
           "name": "version",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 58,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L58"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L58"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "parentId": 2,
           "accessibility": "public",
@@ -387,16 +403,11 @@
         {
           "id": 34,
           "name": "_getAll",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 830,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L830"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L830"
           },
           "parentId": 2,
           "accessibility": "private",
@@ -416,6 +427,11 @@
                 {
                   "id": 36,
                   "name": "projection",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reflection",
                     "reflection": {
@@ -429,7 +445,7 @@
                           "fileName": "packages/mongo/src/lib/MongoProvider.ts",
                           "line": 830,
                           "character": 30,
-                          "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L830"
+                          "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L830"
                         }
                       ],
                       "indexSignature": {
@@ -500,16 +516,11 @@
         {
           "id": 53,
           "name": "autoKey",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 121,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L121"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L121"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -529,6 +540,11 @@
                 {
                   "id": 55,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -551,16 +567,11 @@
         {
           "id": 56,
           "name": "clear",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 127,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L127"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L127"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -580,6 +591,11 @@
                 {
                   "id": 58,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -610,16 +626,11 @@
         {
           "id": 22,
           "name": "close",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 117,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L117"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L117"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -654,16 +665,11 @@
         {
           "id": 26,
           "name": "connect",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 813,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L813"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L813"
           },
           "parentId": 2,
           "accessibility": "private",
@@ -683,6 +689,11 @@
                 {
                   "id": 28,
                   "name": "__namedParameters",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reflection",
                     "reflection": {
@@ -703,7 +714,7 @@
                               "fileName": "packages/mongo/src/lib/MongoProvider.ts",
                               "line": 822,
                               "character": 4,
-                              "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L822"
+                              "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L822"
                             }
                           ],
                           "type": {
@@ -724,7 +735,7 @@
                               "fileName": "packages/mongo/src/lib/MongoProvider.ts",
                               "line": 820,
                               "character": 4,
-                              "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L820"
+                              "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L820"
                             }
                           ],
                           "type": {
@@ -745,7 +756,7 @@
                               "fileName": "packages/mongo/src/lib/MongoProvider.ts",
                               "line": 819,
                               "character": 4,
-                              "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L819"
+                              "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L819"
                             }
                           ],
                           "type": {
@@ -766,7 +777,7 @@
                               "fileName": "packages/mongo/src/lib/MongoProvider.ts",
                               "line": 821,
                               "character": 4,
-                              "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L821"
+                              "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L821"
                             }
                           ],
                           "type": {
@@ -791,7 +802,7 @@
                           "fileName": "packages/mongo/src/lib/MongoProvider.ts",
                           "line": 818,
                           "character": 5,
-                          "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L818"
+                          "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L818"
                         }
                       ]
                     }
@@ -816,16 +827,11 @@
         {
           "id": 59,
           "name": "dec",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 132,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L132"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L132"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -845,6 +851,11 @@
                 {
                   "id": 61,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -875,16 +886,11 @@
         {
           "id": 62,
           "name": "delete",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 155,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L155"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L155"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -904,6 +910,11 @@
                 {
                   "id": 64,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -934,16 +945,11 @@
         {
           "id": 65,
           "name": "deleteMany",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 176,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L176"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L176"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -963,6 +969,11 @@
                 {
                   "id": 67,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -993,16 +1004,11 @@
         {
           "id": 43,
           "name": "deserialize",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 842,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L842"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L842"
           },
           "parentId": 2,
           "accessibility": "private",
@@ -1022,6 +1028,11 @@
                 {
                   "id": 45,
                   "name": "value",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "union",
                     "types": [
@@ -1056,16 +1067,11 @@
         {
           "id": 68,
           "name": "each",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 184,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L184"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L184"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1085,6 +1091,11 @@
                 {
                   "id": 70,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1131,16 +1142,11 @@
         {
           "id": 71,
           "name": "ensure",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 194,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L194"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L194"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1160,6 +1166,11 @@
                 {
                   "id": 73,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1206,16 +1217,11 @@
         {
           "id": 74,
           "name": "entries",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 206,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L206"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L206"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1235,6 +1241,11 @@
                 {
                   "id": 76,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1281,11 +1292,6 @@
         {
           "id": 162,
           "name": "error",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 1496,
             "file": "index.d.ts",
@@ -1319,6 +1325,11 @@
                 {
                   "id": 164,
                   "name": "options",
+                  "comment": {
+                    "description": "The options for the error.",
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "union",
                     "types": [
@@ -1351,6 +1362,11 @@
                 {
                   "id": 165,
                   "name": "metadata",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1382,16 +1398,11 @@
         {
           "id": 77,
           "name": "every",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 216,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L216"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L216"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1411,6 +1422,11 @@
                 {
                   "id": 79,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1465,6 +1481,11 @@
                 {
                   "id": 81,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1495,16 +1516,11 @@
         {
           "id": 24,
           "name": "fetchVersion",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 806,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L806"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L806"
           },
           "parentId": 2,
           "accessibility": "protected",
@@ -1542,16 +1558,11 @@
         {
           "id": 82,
           "name": "filter",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 263,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L263"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L263"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1571,6 +1582,11 @@
                 {
                   "id": 84,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1625,6 +1641,11 @@
                 {
                   "id": 86,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1671,16 +1692,11 @@
         {
           "id": 87,
           "name": "find",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 307,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L307"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L307"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1700,6 +1716,11 @@
                 {
                   "id": 89,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1754,6 +1775,11 @@
                 {
                   "id": 91,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1800,16 +1826,11 @@
         {
           "id": 49,
           "name": "generateMongoDoc",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 852,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L852"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L852"
           },
           "parentId": 2,
           "accessibility": "private",
@@ -1836,6 +1857,11 @@
                 {
                   "id": 52,
                   "name": "collectionName",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -1871,16 +1897,11 @@
         {
           "id": 92,
           "name": "get",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 360,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L360"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L360"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1907,6 +1928,11 @@
                 {
                   "id": 95,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1953,16 +1979,11 @@
         {
           "id": 96,
           "name": "getMany",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 379,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L379"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L379"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1982,6 +2003,11 @@
                 {
                   "id": 98,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2028,16 +2054,11 @@
         {
           "id": 99,
           "name": "has",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 390,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L390"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L390"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2057,6 +2078,11 @@
                 {
                   "id": 101,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2087,16 +2113,11 @@
         {
           "id": 102,
           "name": "inc",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 405,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L405"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L405"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2116,6 +2137,11 @@
                 {
                   "id": 104,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2146,16 +2172,11 @@
         {
           "id": 19,
           "name": "init",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 84,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L84"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L84"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2175,6 +2196,11 @@
                 {
                   "id": 21,
                   "name": "context",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2205,16 +2231,11 @@
         {
           "id": 40,
           "name": "iterate",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 834,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L834"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L834"
           },
           "parentId": 2,
           "accessibility": "private",
@@ -2234,6 +2255,11 @@
                 {
                   "id": 42,
                   "name": "options",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": 193,
@@ -2277,16 +2303,11 @@
         {
           "id": 105,
           "name": "keys",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 428,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L428"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L428"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2306,6 +2327,11 @@
                 {
                   "id": 107,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2336,16 +2362,11 @@
         {
           "id": 108,
           "name": "map",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 436,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L436"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L436"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2378,6 +2399,11 @@
                 {
                   "id": 111,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2459,6 +2485,11 @@
                 {
                   "id": 114,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2505,16 +2536,11 @@
         {
           "id": 115,
           "name": "math",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 461,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L461"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L461"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2534,6 +2560,11 @@
                 {
                   "id": 117,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2564,16 +2595,11 @@
         {
           "id": 118,
           "name": "partition",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 516,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L516"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L516"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2593,6 +2619,11 @@
                 {
                   "id": 120,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2647,6 +2678,11 @@
                 {
                   "id": 122,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2693,16 +2729,11 @@
         {
           "id": 123,
           "name": "push",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 562,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L562"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L562"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2735,6 +2766,11 @@
                 {
                   "id": 126,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2781,16 +2817,11 @@
         {
           "id": 127,
           "name": "random",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 586,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L586"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L586"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2810,6 +2841,11 @@
                 {
                   "id": 129,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2856,16 +2892,11 @@
         {
           "id": 130,
           "name": "randomKey",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 604,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L604"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L604"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2885,6 +2916,11 @@
                 {
                   "id": 132,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2915,16 +2951,11 @@
         {
           "id": 133,
           "name": "remove",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 622,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L622"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L622"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2957,6 +2988,11 @@
                 {
                   "id": 136,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -3011,6 +3047,11 @@
                 {
                   "id": 138,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -3041,11 +3082,6 @@
         {
           "id": 166,
           "name": "resolveIdentifier",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 1504,
             "file": "index.d.ts",
@@ -3079,6 +3115,11 @@
                 {
                   "id": 168,
                   "name": "identifier",
+                  "comment": {
+                    "description": "The identifier to resolve.",
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -3087,6 +3128,11 @@
                 {
                   "id": 169,
                   "name": "metadata",
+                  "comment": {
+                    "description": "The metadata to use.",
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -3115,11 +3161,6 @@
         {
           "id": 170,
           "name": "resolveVersion",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 1511,
             "file": "index.d.ts",
@@ -3153,6 +3194,11 @@
                 {
                   "id": 172,
                   "name": "version",
+                  "comment": {
+                    "description": "The version to resolve.",
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -3172,16 +3218,11 @@
         {
           "id": 46,
           "name": "serialize",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 847,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L847"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L847"
           },
           "parentId": 2,
           "accessibility": "private",
@@ -3201,6 +3242,11 @@
                 {
                   "id": 48,
                   "name": "value",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": 6,
@@ -3235,16 +3281,11 @@
         {
           "id": 139,
           "name": "set",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 672,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L672"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L672"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3277,6 +3318,11 @@
                 {
                   "id": 142,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -3323,16 +3369,11 @@
         {
           "id": 143,
           "name": "setMany",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 691,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L691"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L691"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3352,6 +3393,11 @@
                 {
                   "id": 145,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -3382,16 +3428,11 @@
         {
           "id": 146,
           "name": "size",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 726,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L726"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L726"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3411,6 +3452,11 @@
                 {
                   "id": 148,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -3441,16 +3487,11 @@
         {
           "id": 149,
           "name": "some",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 732,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L732"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L732"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3470,6 +3511,11 @@
                 {
                   "id": 151,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -3524,6 +3570,11 @@
                 {
                   "id": 153,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -3554,16 +3605,11 @@
         {
           "id": 154,
           "name": "update",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 781,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L781"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L781"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3596,6 +3642,11 @@
                 {
                   "id": 157,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -3656,16 +3707,11 @@
         {
           "id": 158,
           "name": "values",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 798,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L798"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L798"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3685,6 +3731,11 @@
                 {
                   "id": 160,
                   "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -3731,29 +3782,6 @@
       ]
     }
   ],
-  "constants": [
-    {
-      "id": 1,
-      "name": "version",
-      "comment": {
-        "description": null,
-        "blockTags": [],
-        "modifierTags": []
-      },
-      "source": {
-        "line": 3,
-        "file": "index.ts",
-        "path": "packages/mongo/src",
-        "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/index.ts#L3"
-      },
-      "external": false,
-      "type": {
-        "kind": "literal",
-        "value": "[VI]{version}[/VI]"
-      },
-      "value": "'[VI]{version}[/VI]'"
-    }
-  ],
   "enums": [],
   "functions": [],
   "interfaces": [],
@@ -3761,50 +3789,49 @@
     {
       "id": 174,
       "name": "MongoProvider",
+      "source": {
+        "line": 28,
+        "file": "MongoProvider.ts",
+        "path": "packages/mongo/src/lib",
+        "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L28"
+      },
       "comment": {
         "description": null,
         "blockTags": [],
         "modifierTags": []
       },
-      "source": {
-        "line": 28,
-        "file": "MongoProvider.ts",
-        "path": "packages/mongo/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L28"
-      },
       "external": false,
       "classes": [],
-      "constants": [],
       "enums": [
         {
           "id": 197,
           "name": "Identifiers",
+          "source": {
+            "line": 898,
+            "file": "MongoProvider.ts",
+            "path": "packages/mongo/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L898"
+          },
           "comment": {
             "description": null,
             "blockTags": [],
             "modifierTags": []
           },
-          "source": {
-            "line": 898,
-            "file": "MongoProvider.ts",
-            "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L898"
-          },
           "external": false,
-          "properties": [
+          "members": [
             {
               "id": 198,
               "name": "InitMissingCollectionName",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 899,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L899"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L899"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 197,
               "value": "initMissingCollectionName"
@@ -3812,16 +3839,16 @@
             {
               "id": 199,
               "name": "NotConnected",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 901,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L901"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L901"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 197,
               "value": "notConnected"
@@ -3834,32 +3861,32 @@
         {
           "id": 182,
           "name": "Authentication",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 872,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L872"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L872"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "external": false,
           "properties": [
             {
               "id": 185,
               "name": "dbName",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 877,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L877"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L877"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 182,
               "readonly": false,
@@ -3871,16 +3898,16 @@
             {
               "id": 187,
               "name": "host",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 881,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L881"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L881"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 182,
               "readonly": false,
@@ -3892,16 +3919,16 @@
             {
               "id": 184,
               "name": "password",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 875,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L875"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L875"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 182,
               "readonly": false,
@@ -3913,16 +3940,16 @@
             {
               "id": 186,
               "name": "port",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 879,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L879"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L879"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 182,
               "readonly": false,
@@ -3934,16 +3961,16 @@
             {
               "id": 183,
               "name": "user",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 873,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L873"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L873"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 182,
               "readonly": false,
@@ -3958,32 +3985,32 @@
         {
           "id": 188,
           "name": "DocType",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 884,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L884"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L884"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "external": false,
           "properties": [
             {
               "id": 189,
               "name": "key",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 885,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L885"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L885"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 188,
               "readonly": false,
@@ -3995,16 +4022,16 @@
             {
               "id": 190,
               "name": "value",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 887,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L887"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L887"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 188,
               "readonly": false,
@@ -4031,16 +4058,16 @@
             {
               "id": 191,
               "name": "version",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 889,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L889"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L889"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 188,
               "readonly": false,
@@ -4058,32 +4085,32 @@
         {
           "id": 193,
           "name": "IterateOptions",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 892,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L892"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L892"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "external": false,
           "properties": [
             {
               "id": 194,
               "name": "filter",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 893,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L893"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L893"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 193,
               "readonly": false,
@@ -4114,16 +4141,16 @@
             {
               "id": 195,
               "name": "project",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 895,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L895"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L895"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 193,
               "readonly": false,
@@ -4180,22 +4207,28 @@
         {
           "id": 175,
           "name": "Options",
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
           "source": {
             "line": 860,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L860"
+            "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L860"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
           },
           "external": false,
           "properties": [
             {
               "id": 181,
               "name": "allowMigrations",
+              "source": {
+                "line": 1533,
+                "file": "index.d.ts",
+                "path": "node_modules/@joshdb/provider/dist",
+                "url": null
+              },
               "comment": {
                 "description": "Whether to allow automatic provider data migrations.",
                 "blockTags": [
@@ -4205,12 +4238,6 @@
                   }
                 ],
                 "modifierTags": []
-              },
-              "source": {
-                "line": 1533,
-                "file": "index.d.ts",
-                "path": "node_modules/@joshdb/provider/dist",
-                "url": null
               },
               "parentId": 175,
               "readonly": false,
@@ -4222,16 +4249,16 @@
             {
               "id": 179,
               "name": "authentication",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 867,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L867"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L867"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 175,
               "readonly": false,
@@ -4263,16 +4290,16 @@
             {
               "id": 176,
               "name": "collectionName",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 861,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L861"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L861"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 175,
               "readonly": false,
@@ -4284,16 +4311,16 @@
             {
               "id": 177,
               "name": "connectOptions",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 863,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L863"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L863"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 175,
               "readonly": false,
@@ -4308,16 +4335,16 @@
             {
               "id": 180,
               "name": "disableSerialization",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 869,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L869"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L869"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 175,
               "readonly": false,
@@ -4329,16 +4356,16 @@
             {
               "id": 178,
               "name": "enforceCollectionName",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
               "source": {
                 "line": 865,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/be0086d/packages/mongo/src/lib/MongoProvider.ts#L865"
+                "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/lib/MongoProvider.ts#L865"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
               },
               "parentId": 175,
               "readonly": false,
@@ -4352,8 +4379,32 @@
         }
       ],
       "namespaces": [],
-      "typeAliases": []
+      "typeAliases": [],
+      "variables": []
     }
   ],
-  "typeAliases": []
+  "typeAliases": [],
+  "variables": [
+    {
+      "id": 1,
+      "name": "version",
+      "source": {
+        "line": 3,
+        "file": "index.ts",
+        "path": "packages/mongo/src",
+        "url": "https://github.com/josh-development/providers/blob/8c34c04/packages/mongo/src/index.ts#L3"
+      },
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "external": false,
+      "type": {
+        "kind": "literal",
+        "value": "[VI]{version}[/VI]"
+      },
+      "value": "'[VI]{version}[/VI]'"
+    }
+  ]
 }
