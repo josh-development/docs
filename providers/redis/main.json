@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "6.0.1",
+  "typeDocJsonParserVersion": "6.0.2",
   "id": 0,
   "name": "@joshdb/redis",
   "version": "1.0.0",
@@ -13,7 +13,7 @@
         "line": 29,
         "file": "RedisProvider.ts",
         "path": "packages/redis/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L29"
+        "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L29"
       },
       "comment": {
         "description": null,
@@ -56,7 +56,7 @@
           "line": 36,
           "file": "RedisProvider.ts",
           "path": "packages/redis/src/lib",
-          "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L36"
+          "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L36"
         },
         "comment": {
           "description": null,
@@ -91,7 +91,7 @@
             "line": 34,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L34"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L34"
           },
           "comment": {
             "description": null,
@@ -5904,7 +5904,7 @@
             "line": 32,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L32"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L32"
           },
           "comment": {
             "description": null,
@@ -5965,7 +5965,7 @@
             "line": 30,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L30"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L30"
           },
           "comment": {
             "description": null,
@@ -5993,7 +5993,7 @@
             "line": 44,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L44"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L44"
           },
           "comment": {
             "description": null,
@@ -11806,7 +11806,7 @@
             "line": 40,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L40"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L40"
           },
           "comment": {
             "description": null,
@@ -11836,7 +11836,7 @@
             "line": 66,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L66"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L66"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -11887,7 +11887,7 @@
             "line": 72,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L72"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L72"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -11946,7 +11946,7 @@
             "line": 62,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L62"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L62"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -11985,7 +11985,7 @@
             "line": 77,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L77"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L77"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -12044,7 +12044,7 @@
             "line": 100,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L100"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L100"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -12103,7 +12103,7 @@
             "line": 121,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L121"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L121"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -12162,7 +12162,7 @@
             "line": 754,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L754"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L754"
           },
           "parentId": 2,
           "accessibility": "private",
@@ -12225,7 +12225,7 @@
             "line": 131,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L131"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L131"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -12300,7 +12300,7 @@
             "line": 141,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L141"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L141"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -12375,7 +12375,7 @@
             "line": 153,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L153"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L153"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -12556,7 +12556,7 @@
             "line": 161,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L161"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L161"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -12674,7 +12674,7 @@
             "line": 736,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L736"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L736"
           },
           "parentId": 2,
           "accessibility": "protected",
@@ -12716,7 +12716,7 @@
             "line": 206,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L206"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L206"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -12850,7 +12850,7 @@
             "line": 248,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L248"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L248"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -12984,7 +12984,7 @@
             "line": 298,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L298"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L298"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13072,7 +13072,7 @@
             "line": 316,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L316"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L316"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13147,7 +13147,7 @@
             "line": 335,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L335"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L335"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13206,7 +13206,7 @@
             "line": 351,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L351"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L351"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13265,7 +13265,7 @@
             "line": 55,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L55"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L55"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13324,7 +13324,7 @@
             "line": 742,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L742"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L742"
           },
           "parentId": 2,
           "accessibility": "private",
@@ -13374,7 +13374,7 @@
             "line": 374,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L374"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L374"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13433,7 +13433,7 @@
             "line": 380,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L380"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L380"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13607,7 +13607,7 @@
             "line": 404,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L404"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L404"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13666,7 +13666,7 @@
             "line": 459,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L459"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L459"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13800,7 +13800,7 @@
             "line": 503,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L503"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L503"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13888,7 +13888,7 @@
             "line": 527,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L527"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L527"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -13963,7 +13963,7 @@
             "line": 552,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L552"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L552"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -14022,7 +14022,7 @@
             "line": 575,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L575"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L575"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -14289,7 +14289,7 @@
             "line": 759,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L759"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L759"
           },
           "parentId": 2,
           "accessibility": "private",
@@ -14359,7 +14359,7 @@
             "line": 625,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L625"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L625"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -14447,7 +14447,7 @@
             "line": 634,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L634"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L634"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -14506,7 +14506,7 @@
             "line": 656,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L656"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L656"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -14565,7 +14565,7 @@
             "line": 662,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L662"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L662"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -14683,7 +14683,7 @@
             "line": 709,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L709"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L709"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -14785,7 +14785,7 @@
             "line": 726,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L726"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L726"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -14867,7 +14867,7 @@
         "line": 29,
         "file": "RedisProvider.ts",
         "path": "packages/redis/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L29"
+        "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L29"
       },
       "comment": {
         "description": null,
@@ -14884,7 +14884,7 @@
             "line": 788,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L788"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L788"
           },
           "comment": {
             "description": null,
@@ -14900,7 +14900,7 @@
                 "line": 789,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L789"
+                "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L789"
               },
               "comment": {
                 "description": null,
@@ -14922,7 +14922,7 @@
             "line": 780,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L780"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L780"
           },
           "comment": {
             "description": null,
@@ -14938,7 +14938,7 @@
                 "line": 781,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L781"
+                "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L781"
               },
               "comment": {
                 "description": null,
@@ -14959,7 +14959,7 @@
                 "line": 783,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L783"
+                "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L783"
               },
               "comment": {
                 "description": null,
@@ -14983,7 +14983,7 @@
                 "line": 785,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L785"
+                "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L785"
               },
               "comment": {
                 "description": null,
@@ -15010,7 +15010,7 @@
             "line": 766,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L766"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L766"
           },
           "comment": {
             "description": null,
@@ -15052,7 +15052,7 @@
                 "line": 767,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L767"
+                "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L767"
               },
               "comment": {
                 "description": null,
@@ -15098,7 +15098,7 @@
                 "line": 771,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L771"
+                "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L771"
               },
               "comment": {
                 "description": null,
@@ -15119,7 +15119,7 @@
                 "line": 769,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L769"
+                "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L769"
               },
               "comment": {
                 "description": null,
@@ -15143,7 +15143,7 @@
             "line": 774,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L774"
+            "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L774"
           },
           "comment": {
             "description": null,
@@ -15159,7 +15159,7 @@
                 "line": 775,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L775"
+                "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L775"
               },
               "comment": {
                 "description": null,
@@ -15195,7 +15195,7 @@
                 "line": 777,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/lib/RedisProvider.ts#L777"
+                "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/lib/RedisProvider.ts#L777"
               },
               "comment": {
                 "description": null,
@@ -15230,7 +15230,7 @@
         "line": 3,
         "file": "index.ts",
         "path": "packages/redis/src",
-        "url": "https://github.com/josh-development/providers/blob/58ba975/packages/redis/src/index.ts#L3"
+        "url": "https://github.com/josh-development/providers/blob/51ec0b4/packages/redis/src/index.ts#L3"
       },
       "comment": {
         "description": null,
