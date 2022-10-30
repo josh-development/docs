@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "6.0.2",
+  "typeDocJsonParserVersion": "7.0.1",
   "id": 0,
   "name": "@joshdb/auto-ensure",
   "version": "1.0.0",
@@ -13,7 +13,7 @@
         "line": 5,
         "file": "AutoEnsureMiddleware.ts",
         "path": "packages/auto-ensure/src/lib",
-        "url": "https://github.com/josh-development/middlewares/blob/cdf3258/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L5"
+        "url": "https://github.com/josh-development/middlewares/blob/8eb933a/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L5"
       },
       "comment": {
         "description": null,
@@ -57,7 +57,7 @@
         {
           "id": 156,
           "name": "StoredValue",
-          "type": null,
+          "constraint": null,
           "default": {
             "kind": "intrinsic",
             "type": "unknown"
@@ -79,6 +79,7 @@
           "modifierTags": []
         },
         "parentId": 1,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 5,
@@ -439,7 +440,7 @@
             "line": 7,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/cdf3258/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L7"
+            "url": "https://github.com/josh-development/middlewares/blob/8eb933a/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L7"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -966,7 +967,7 @@
                 {
                   "id": 90,
                   "name": "StoredValue",
-                  "type": null,
+                  "constraint": null,
                   "default": null
                 }
               ],
@@ -1075,7 +1076,7 @@
                 {
                   "id": 95,
                   "name": "StoredValue",
-                  "type": null,
+                  "constraint": null,
                   "default": null
                 }
               ],
@@ -1524,7 +1525,7 @@
             "line": 29,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/cdf3258/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L29"
+            "url": "https://github.com/josh-development/middlewares/blob/8eb933a/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L29"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1543,7 +1544,7 @@
                 {
                   "id": 12,
                   "name": "Value",
-                  "type": null,
+                  "constraint": null,
                   "default": {
                     "kind": "reference",
                     "id": 4,
@@ -1612,7 +1613,7 @@
             "line": 43,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/cdf3258/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L43"
+            "url": "https://github.com/josh-development/middlewares/blob/8eb933a/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L43"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1746,7 +1747,7 @@
             "line": 60,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/cdf3258/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L60"
+            "url": "https://github.com/josh-development/middlewares/blob/8eb933a/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L60"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1967,7 +1968,7 @@
                 {
                   "id": 119,
                   "name": "Value",
-                  "type": null,
+                  "constraint": null,
                   "default": {
                     "kind": "reference",
                     "id": 4,
@@ -2053,7 +2054,7 @@
                 {
                   "id": 122,
                   "name": "Value",
-                  "type": null,
+                  "constraint": null,
                   "default": null
                 }
               ],
@@ -2119,7 +2120,7 @@
                 {
                   "id": 125,
                   "name": "Value",
-                  "type": null,
+                  "constraint": null,
                   "default": {
                     "kind": "reference",
                     "id": 4,
@@ -2202,7 +2203,7 @@
             "line": 104,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/cdf3258/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L104"
+            "url": "https://github.com/josh-development/middlewares/blob/8eb933a/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L104"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2454,7 +2455,7 @@
             "line": 82,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/cdf3258/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L82"
+            "url": "https://github.com/josh-development/middlewares/blob/8eb933a/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L82"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2473,7 +2474,7 @@
                 {
                   "id": 22,
                   "name": "Value",
-                  "type": null,
+                  "constraint": null,
                   "default": null
                 }
               ],
@@ -2670,7 +2671,7 @@
             "line": 125,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/cdf3258/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L125"
+            "url": "https://github.com/josh-development/middlewares/blob/8eb933a/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L125"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2689,7 +2690,7 @@
                 {
                   "id": 29,
                   "name": "Value",
-                  "type": null,
+                  "constraint": null,
                   "default": {
                     "kind": "reference",
                     "id": 4,
@@ -2899,7 +2900,7 @@
                 {
                   "id": 55,
                   "name": "P",
-                  "type": {
+                  "constraint": {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload",
@@ -2952,7 +2953,7 @@
             "line": 151,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/cdf3258/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L151"
+            "url": "https://github.com/josh-development/middlewares/blob/8eb933a/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L151"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2971,7 +2972,7 @@
                 {
                   "id": 35,
                   "name": "Value",
-                  "type": null,
+                  "constraint": null,
                   "default": {
                     "kind": "reference",
                     "id": 4,
@@ -3040,7 +3041,7 @@
             "line": 173,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/cdf3258/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L173"
+            "url": "https://github.com/josh-development/middlewares/blob/8eb933a/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L173"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3177,7 +3178,7 @@
                 {
                   "id": 145,
                   "name": "StoredValue",
-                  "type": null,
+                  "constraint": null,
                   "default": null
                 }
               ],
@@ -3243,7 +3244,7 @@
                 {
                   "id": 148,
                   "name": "Value",
-                  "type": null,
+                  "constraint": null,
                   "default": null
                 }
               ],
@@ -3293,7 +3294,7 @@
                 {
                   "id": 151,
                   "name": "StoredValue",
-                  "type": null,
+                  "constraint": null,
                   "default": null
                 }
               ],
@@ -3399,7 +3400,7 @@
             "line": 203,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/cdf3258/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L203"
+            "url": "https://github.com/josh-development/middlewares/blob/8eb933a/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L203"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3418,7 +3419,7 @@
                 {
                   "id": 42,
                   "name": "Value",
-                  "type": null,
+                  "constraint": null,
                   "default": {
                     "kind": "reference",
                     "id": 4,
@@ -3583,7 +3584,7 @@
         "line": 5,
         "file": "AutoEnsureMiddleware.ts",
         "path": "packages/auto-ensure/src/lib",
-        "url": "https://github.com/josh-development/middlewares/blob/cdf3258/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L5"
+        "url": "https://github.com/josh-development/middlewares/blob/8eb933a/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L5"
       },
       "comment": {
         "description": null,
@@ -3602,7 +3603,7 @@
             "line": 226,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/cdf3258/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L226"
+            "url": "https://github.com/josh-development/middlewares/blob/8eb933a/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L226"
           },
           "comment": {
             "description": null,
@@ -3610,6 +3611,17 @@
             "modifierTags": []
           },
           "external": false,
+          "typeParameters": [
+            {
+              "id": 161,
+              "name": "StoredValue",
+              "constraint": null,
+              "default": {
+                "kind": "intrinsic",
+                "type": "unknown"
+              }
+            }
+          ],
           "properties": [
             {
               "id": 159,
@@ -3618,7 +3630,7 @@
                 "line": 231,
                 "file": "AutoEnsureMiddleware.ts",
                 "path": "packages/auto-ensure/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/cdf3258/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L231"
+                "url": "https://github.com/josh-development/middlewares/blob/8eb933a/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L231"
               },
               "comment": {
                 "description": "The default value to set if the key does not exist.",
@@ -3647,7 +3659,7 @@
                 "line": 237,
                 "file": "AutoEnsureMiddleware.ts",
                 "path": "packages/auto-ensure/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/cdf3258/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L237"
+                "url": "https://github.com/josh-development/middlewares/blob/8eb933a/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L237"
               },
               "comment": {
                 "description": "Whether to merge the {@link defaultValue} with existing values.",
