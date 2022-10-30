@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "6.0.2",
+  "typeDocJsonParserVersion": "7.0.1",
   "id": 0,
   "name": "@joshdb/map",
   "version": "1.0.0",
@@ -13,7 +13,7 @@
         "line": 30,
         "file": "MapProvider.ts",
         "path": "packages/map/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L30"
+        "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L30"
       },
       "comment": {
         "description": "A provider that uses the Node.js native [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) class.",
@@ -47,7 +47,7 @@
         {
           "id": 137,
           "name": "StoredValue",
-          "type": null,
+          "constraint": null,
           "default": {
             "kind": "intrinsic",
             "type": "unknown"
@@ -69,6 +69,7 @@
           "modifierTags": []
         },
         "parentId": 1,
+        "accessibility": "public",
         "parameters": [
           {
             "id": 5,
@@ -96,7 +97,7 @@
             "line": 41,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L41"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L41"
           },
           "comment": {
             "description": "A simple cache for the autoKey method.",
@@ -126,7 +127,7 @@
             "line": 35,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L35"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L35"
           },
           "comment": {
             "description": "The [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) cache to store data.",
@@ -270,7 +271,7 @@
             "line": 43,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L43"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L43"
           },
           "comment": {
             "description": null,
@@ -300,7 +301,7 @@
             "line": 51,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L51"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L51"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -351,7 +352,7 @@
             "line": 58,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L58"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L58"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -402,7 +403,7 @@
             "line": 65,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L65"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L65"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -453,7 +454,7 @@
             "line": 88,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L88"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L88"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -504,7 +505,7 @@
             "line": 97,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L97"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L97"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -555,7 +556,7 @@
             "line": 105,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L105"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L105"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -630,7 +631,7 @@
             "line": 113,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L113"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L113"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -697,7 +698,7 @@
             "line": 124,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L124"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L124"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -870,7 +871,7 @@
             "line": 130,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L130"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L130"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -988,7 +989,7 @@
             "line": 686,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L686"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L686"
           },
           "parentId": 1,
           "accessibility": "protected",
@@ -1022,7 +1023,7 @@
             "line": 175,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L175"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L175"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1156,7 +1157,7 @@
             "line": 211,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L211"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L211"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1290,7 +1291,7 @@
             "line": 267,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L267"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L267"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1309,7 +1310,7 @@
                 {
                   "id": 56,
                   "name": "Value",
-                  "type": null,
+                  "constraint": null,
                   "default": {
                     "kind": "reference",
                     "id": 4,
@@ -1370,7 +1371,7 @@
             "line": 281,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L281"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L281"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1437,7 +1438,7 @@
             "line": 289,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L289"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L289"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1488,7 +1489,7 @@
             "line": 297,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L297"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L297"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1539,7 +1540,7 @@
             "line": 47,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L47"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L47"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1598,7 +1599,7 @@
             "line": 320,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L320"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L320"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1649,7 +1650,7 @@
             "line": 326,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L326"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L326"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1668,7 +1669,7 @@
                 {
                   "id": 72,
                   "name": "Value",
-                  "type": null,
+                  "constraint": null,
                   "default": {
                     "kind": "reference",
                     "id": 4,
@@ -1754,7 +1755,7 @@
                 {
                   "id": 75,
                   "name": "Value",
-                  "type": null,
+                  "constraint": null,
                   "default": {
                     "kind": "reference",
                     "id": 4,
@@ -1823,7 +1824,7 @@
             "line": 350,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L350"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L350"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1874,7 +1875,7 @@
             "line": 405,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L405"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L405"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2008,7 +2009,7 @@
             "line": 449,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L449"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L449"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2027,7 +2028,7 @@
                 {
                   "id": 87,
                   "name": "Value",
-                  "type": null,
+                  "constraint": null,
                   "default": {
                     "kind": "reference",
                     "id": 4,
@@ -2088,7 +2089,7 @@
             "line": 473,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L473"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L473"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2155,7 +2156,7 @@
             "line": 505,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L505"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L505"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2206,7 +2207,7 @@
             "line": 533,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L533"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L533"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2225,7 +2226,7 @@
                 {
                   "id": 97,
                   "name": "Value",
-                  "type": null,
+                  "constraint": null,
                   "default": {
                     "kind": "reference",
                     "id": 4,
@@ -2473,7 +2474,7 @@
             "line": 583,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L583"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L583"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2492,7 +2493,7 @@
                 {
                   "id": 103,
                   "name": "Value",
-                  "type": null,
+                  "constraint": null,
                   "default": {
                     "kind": "reference",
                     "id": 4,
@@ -2553,7 +2554,7 @@
             "line": 596,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L596"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L596"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2604,7 +2605,7 @@
             "line": 609,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L609"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L609"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2655,7 +2656,7 @@
             "line": 615,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L615"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L615"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2773,7 +2774,7 @@
             "line": 663,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L663"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L663"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2792,7 +2793,7 @@
                 {
                   "id": 118,
                   "name": "Value",
-                  "type": null,
+                  "constraint": null,
                   "default": {
                     "kind": "reference",
                     "id": 4,
@@ -2875,7 +2876,7 @@
             "line": 680,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/90d3da5/packages/map/src/lib/MapProvider.ts#L680"
+            "url": "https://github.com/josh-development/providers/blob/9cd18d4/packages/map/src/lib/MapProvider.ts#L680"
           },
           "parentId": 1,
           "accessibility": "public",
