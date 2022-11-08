@@ -1,0 +1,4979 @@
+{
+  "typeDocJsonParserVersion": "7.0.1",
+  "id": 0,
+  "name": "@joshdb/postgresql",
+  "version": "1.0.0",
+  "readme": "<div align=\"center\">\n\n![Josh Logo](https://evie.codes/josh-light.png)\n\n# @joshdb/postgresql\n\n**A provider for `@joshdb/core`**\n\n[![GitHub](https://img.shields.io/github/license/josh-development/providers)](https://github.com/josh-development/providers/blob/main/LICENSE.md)\n[![codecov](https://codecov.io/gh/josh-development/providers/branch/main/graph/badge.svg?token=JnJcjxqT3k)](https://codecov.io/gh/josh-development/providers)\n[![npm](https://img.shields.io/npm/v/@joshdb/postgresql?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@joshdb/postgresql)\n\n[![Support Server](https://discord.com/api/guilds/298508738623438848/embed.png?style=banner2)](https://discord.gg/N7ZKH3P)\n\n</div>\n\n## Description\n\nA Josh provider using postgres\n\n## Features\n\n- Written in TypeScript\n- Offers CommonJS and ESM bundles\n- Fully tested\n\n## Installation\n\nYou can use the following command to install this package, or replace `npm install` with your package manager of choice.\n\n```sh\nnpm install @joshdb/postgresql\n```\n",
+  "changelog": "# Changelog\n\nAll notable changes to this project will be documented in this file.\n",
+  "classes": [
+    {
+      "id": 1,
+      "name": "PostgreSQLProvider",
+      "source": {
+        "line": 30,
+        "file": "PostgreSQLProvider.ts",
+        "path": "packages/postgresql/src/lib",
+        "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L30"
+      },
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "external": false,
+      "abstract": false,
+      "extendsType": {
+        "kind": "reference",
+        "id": null,
+        "name": "JoshProvider",
+        "packageName": "@joshdb/provider",
+        "typeArguments": [
+          {
+            "kind": "reference",
+            "id": 5,
+            "name": "StoredValue",
+            "packageName": null,
+            "typeArguments": []
+          }
+        ]
+      },
+      "implementsType": [],
+      "typeParameters": [
+        {
+          "id": 145,
+          "name": "StoredValue",
+          "constraint": null,
+          "default": {
+            "kind": "intrinsic",
+            "type": "unknown"
+          }
+        }
+      ],
+      "construct": {
+        "id": 3,
+        "name": "constructor",
+        "source": {
+          "line": 39,
+          "file": "PostgreSQLProvider.ts",
+          "path": "packages/postgresql/src/lib",
+          "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L39"
+        },
+        "comment": {
+          "description": null,
+          "blockTags": [],
+          "modifierTags": []
+        },
+        "parentId": 1,
+        "accessibility": "public",
+        "parameters": [
+          {
+            "id": 6,
+            "name": "options",
+            "comment": {
+              "description": null,
+              "blockTags": [],
+              "modifierTags": []
+            },
+            "type": {
+              "kind": "reference",
+              "id": 147,
+              "name": "Options",
+              "packageName": null,
+              "typeArguments": []
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "id": 9,
+          "name": "handler",
+          "source": {
+            "line": 35,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L35"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "parentId": 1,
+          "accessibility": "private",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": 159,
+            "name": "QueryHandler",
+            "packageName": null,
+            "typeArguments": [
+              {
+                "kind": "reference",
+                "id": 5,
+                "name": "StoredValue",
+                "packageName": null,
+                "typeArguments": []
+              }
+            ]
+          }
+        },
+        {
+          "id": 8,
+          "name": "migrations",
+          "source": {
+            "line": 33,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L33"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "array",
+            "type": {
+              "kind": "reference",
+              "id": null,
+              "name": "JoshProvider.Migration",
+              "packageName": "@joshdb/provider",
+              "typeArguments": []
+            }
+          }
+        },
+        {
+          "id": 136,
+          "name": "name",
+          "source": {
+            "line": 771,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist",
+            "url": null
+          },
+          "comment": {
+            "description": "The name for this provider.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              }
+            ],
+            "modifierTags": []
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": true,
+          "type": {
+            "kind": "intrinsic",
+            "type": "string"
+          }
+        },
+        {
+          "id": 7,
+          "name": "options",
+          "source": {
+            "line": 31,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L31"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": 147,
+            "name": "Options",
+            "packageName": null,
+            "typeArguments": []
+          }
+        },
+        {
+          "id": 10,
+          "name": "snowflake",
+          "source": {
+            "line": 37,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L37"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "parentId": 1,
+          "accessibility": "private",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": null,
+            "name": "Snowflake",
+            "packageName": "@sapphire/snowflake",
+            "typeArguments": []
+          }
+        },
+        {
+          "id": 2,
+          "name": "defaultConnectionDetails",
+          "source": {
+            "line": 737,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L737"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": true,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": 153,
+            "name": "ConnectionDetails",
+            "packageName": null,
+            "typeArguments": []
+          }
+        },
+        {
+          "id": 12,
+          "name": "version",
+          "source": {
+            "line": 68,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L68"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": null,
+            "name": "Semver",
+            "packageName": "@joshdb/provider",
+            "typeArguments": []
+          }
+        }
+      ],
+      "methods": [
+        {
+          "id": 28,
+          "name": "autoKey",
+          "source": {
+            "line": 92,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L92"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 29,
+              "name": "autoKey",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 30,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.AutoKey",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.AutoKey",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "name": "clear",
+          "source": {
+            "line": 98,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L98"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 32,
+              "name": "clear",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 33,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Clear",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Clear",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "name": "dec",
+          "source": {
+            "line": 104,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L104"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 35,
+              "name": "dec",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 36,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Dec",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Dec",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "name": "delete",
+          "source": {
+            "line": 127,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L127"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 38,
+              "name": "delete",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 39,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Delete",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Delete",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "name": "deleteMany",
+          "source": {
+            "line": 141,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L141"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 41,
+              "name": "deleteMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 42,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.DeleteMany",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.DeleteMany",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "deleteMetadata",
+          "source": {
+            "line": 80,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L80"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 17,
+              "name": "deleteMetadata",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 18,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "name": "each",
+          "source": {
+            "line": 149,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L149"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 44,
+              "name": "each",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 45,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Each",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Each",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 46,
+          "name": "ensure",
+          "source": {
+            "line": 157,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L157"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 47,
+              "name": "ensure",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 48,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Ensure",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Ensure",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 49,
+          "name": "entries",
+          "source": {
+            "line": 168,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L168"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 50,
+              "name": "entries",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 51,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Entries",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Entries",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 137,
+          "name": "error",
+          "source": {
+            "line": 1123,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist",
+            "url": null
+          },
+          "parentId": 1,
+          "accessibility": "protected",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 138,
+              "name": "error",
+              "comment": {
+                "description": "Creates an instance of `JoshProviderError` with the given options.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The error."
+                  }
+                ],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 139,
+                  "name": "options",
+                  "comment": {
+                    "description": "The options for the error.",
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "union",
+                    "types": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "string"
+                      },
+                      {
+                        "kind": "reference",
+                        "id": null,
+                        "name": "PartialRequired",
+                        "packageName": "@sapphire/utilities",
+                        "typeArguments": [
+                          {
+                            "kind": "reference",
+                            "id": null,
+                            "name": "JoshProviderError.Options",
+                            "packageName": "@joshdb/provider",
+                            "typeArguments": []
+                          },
+                          {
+                            "kind": "literal",
+                            "value": "identifier"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 140,
+                  "name": "metadata",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Record",
+                    "packageName": "typescript",
+                    "typeArguments": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "string"
+                      },
+                      {
+                        "kind": "intrinsic",
+                        "type": "unknown"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "JoshProviderError",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 52,
+          "name": "every",
+          "source": {
+            "line": 174,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L174"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 53,
+              "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 54,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Every.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Every.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 55,
+              "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 56,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Every.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Every.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "fetchVersion",
+          "source": {
+            "line": 731,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L731"
+          },
+          "parentId": 1,
+          "accessibility": "protected",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 27,
+              "name": "fetchVersion",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Semver",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "name": "filter",
+          "source": {
+            "line": 219,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L219"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 58,
+              "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 59,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Filter.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Filter.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 60,
+              "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 61,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Filter.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Filter.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 62,
+          "name": "find",
+          "source": {
+            "line": 255,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L255"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 63,
+              "name": "find",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 64,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Find.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Find.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 65,
+              "name": "find",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 66,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Find.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Find.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 67,
+          "name": "get",
+          "source": {
+            "line": 305,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L305"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 68,
+              "name": "get",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 69,
+                  "name": "Value",
+                  "constraint": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 5,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 70,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Get",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 69,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Get",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 69,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 71,
+          "name": "getMany",
+          "source": {
+            "line": 319,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L319"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 72,
+              "name": "getMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 73,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.GetMany",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.GetMany",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "getMetadata",
+          "source": {
+            "line": 84,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L84"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 20,
+              "name": "getMetadata",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 21,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "unknown"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 74,
+          "name": "has",
+          "source": {
+            "line": 327,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L327"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 75,
+              "name": "has",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 76,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Has",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Has",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 77,
+          "name": "inc",
+          "source": {
+            "line": 335,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L335"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 78,
+              "name": "inc",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 79,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Inc",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Inc",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "init",
+          "source": {
+            "line": 72,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L72"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 14,
+              "name": "init",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 15,
+                  "name": "context",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "JoshProvider.Context",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "JoshProvider.Context",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 80,
+          "name": "keys",
+          "source": {
+            "line": 358,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L358"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 81,
+              "name": "keys",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 82,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Keys",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Keys",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 83,
+          "name": "map",
+          "source": {
+            "line": 364,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L364"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 84,
+              "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 85,
+                  "name": "Value",
+                  "constraint": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 5,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 86,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Map.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 85,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Map.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 85,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 87,
+              "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 88,
+                  "name": "Value",
+                  "constraint": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 5,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 89,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Map.ByPath",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 88,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Map.ByPath",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 88,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 90,
+          "name": "math",
+          "source": {
+            "line": 388,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L388"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 91,
+              "name": "math",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 92,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Math",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Math",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 93,
+          "name": "partition",
+          "source": {
+            "line": 443,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L443"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 94,
+              "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 95,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Partition.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Partition.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 96,
+              "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 97,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Partition.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Partition.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 98,
+          "name": "push",
+          "source": {
+            "line": 485,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L485"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 99,
+              "name": "push",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 100,
+                  "name": "Value",
+                  "constraint": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 5,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 101,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Push",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 100,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Push",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 100,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 102,
+          "name": "random",
+          "source": {
+            "line": 509,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L509"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 103,
+              "name": "random",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 104,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Random",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Random",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 105,
+          "name": "randomKey",
+          "source": {
+            "line": 541,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L541"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 106,
+              "name": "randomKey",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 107,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.RandomKey",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.RandomKey",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 108,
+          "name": "remove",
+          "source": {
+            "line": 569,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L569"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 109,
+              "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 110,
+                  "name": "Value",
+                  "constraint": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 5,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 111,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Remove.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 110,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Remove.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 110,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 112,
+              "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 113,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Remove.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Remove.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 141,
+          "name": "resolveIdentifier",
+          "source": {
+            "line": 1131,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist",
+            "url": null
+          },
+          "parentId": 1,
+          "accessibility": "protected",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 142,
+              "name": "resolveIdentifier",
+              "comment": {
+                "description": "Resolves an identifier.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The resolved identifier message."
+                  }
+                ],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 143,
+                  "name": "identifier",
+                  "comment": {
+                    "description": "The identifier to resolve.",
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                },
+                {
+                  "id": 144,
+                  "name": "metadata",
+                  "comment": {
+                    "description": "The metadata to use.",
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Record",
+                    "packageName": "typescript",
+                    "typeArguments": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "string"
+                      },
+                      {
+                        "kind": "intrinsic",
+                        "type": "unknown"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            }
+          ]
+        },
+        {
+          "id": 114,
+          "name": "set",
+          "source": {
+            "line": 619,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L619"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 115,
+              "name": "set",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 116,
+                  "name": "Value",
+                  "constraint": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 5,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 117,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Set",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 116,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Set",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 116,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 118,
+          "name": "setMany",
+          "source": {
+            "line": 632,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L632"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 119,
+              "name": "setMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 120,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.SetMany",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.SetMany",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "setMetadata",
+          "source": {
+            "line": 88,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L88"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 23,
+              "name": "setMetadata",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 24,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                },
+                {
+                  "id": 25,
+                  "name": "value",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "unknown"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 121,
+          "name": "size",
+          "source": {
+            "line": 654,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L654"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 122,
+              "name": "size",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 123,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Size",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Size",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 124,
+          "name": "some",
+          "source": {
+            "line": 660,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L660"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 125,
+              "name": "some",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 126,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Some.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Some.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 127,
+              "name": "some",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 128,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Some.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Some.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 129,
+          "name": "update",
+          "source": {
+            "line": 708,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L708"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 130,
+              "name": "update",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 131,
+                  "name": "Value",
+                  "constraint": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 5,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 132,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Update",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 131,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Update",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 131,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 133,
+          "name": "values",
+          "source": {
+            "line": 725,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L725"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 134,
+              "name": "values",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 135,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Values",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Values",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 5,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "name": "QueryHandler",
+      "source": {
+        "line": 6,
+        "file": "QueryHandler.ts",
+        "path": "packages/postgresql/src/lib",
+        "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L6"
+      },
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "external": false,
+      "abstract": false,
+      "extendsType": null,
+      "implementsType": [],
+      "typeParameters": [
+        {
+          "id": 213,
+          "name": "StoredValue",
+          "constraint": null,
+          "default": {
+            "kind": "intrinsic",
+            "type": "unknown"
+          }
+        }
+      ],
+      "construct": {
+        "id": 160,
+        "name": "constructor",
+        "source": {
+          "line": 11,
+          "file": "QueryHandler.ts",
+          "path": "packages/postgresql/src/lib",
+          "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L11"
+        },
+        "comment": {
+          "description": null,
+          "blockTags": [],
+          "modifierTags": []
+        },
+        "parentId": 159,
+        "accessibility": "public",
+        "parameters": [
+          {
+            "id": 163,
+            "name": "options",
+            "comment": {
+              "description": null,
+              "blockTags": [],
+              "modifierTags": []
+            },
+            "type": {
+              "kind": "reference",
+              "id": 215,
+              "name": "Options",
+              "packageName": null,
+              "typeArguments": []
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "id": 164,
+          "name": "options",
+          "source": {
+            "line": 7,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L7"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "parentId": 159,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": 215,
+            "name": "Options",
+            "packageName": null,
+            "typeArguments": []
+          }
+        },
+        {
+          "id": 165,
+          "name": "sql",
+          "source": {
+            "line": 9,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L9"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "parentId": 159,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": null,
+            "name": "postgres.Sql",
+            "packageName": "postgres",
+            "typeArguments": [
+              {
+                "kind": "reference",
+                "id": null,
+                "name": "Record",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  },
+                  {
+                    "kind": "intrinsic",
+                    "type": "unknown"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "methods": [
+        {
+          "id": 178,
+          "name": "clear",
+          "source": {
+            "line": 80,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L80"
+          },
+          "parentId": 159,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 179,
+              "name": "clear",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 180,
+          "name": "delete",
+          "source": {
+            "line": 88,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L88"
+          },
+          "parentId": 159,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 181,
+              "name": "delete",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 182,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 183,
+          "name": "deleteMany",
+          "source": {
+            "line": 96,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L96"
+          },
+          "parentId": 159,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 184,
+              "name": "deleteMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 185,
+                  "name": "keys",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "array",
+                    "type": {
+                      "kind": "intrinsic",
+                      "type": "string"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 168,
+          "name": "deleteMetadata",
+          "source": {
+            "line": 48,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L48"
+          },
+          "parentId": 159,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 169,
+              "name": "deleteMetadata",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 170,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 186,
+          "name": "entries",
+          "source": {
+            "line": 106,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L106"
+          },
+          "parentId": 159,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 187,
+              "name": "entries",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "array",
+                    "type": {
+                      "kind": "tuple",
+                      "types": [
+                        {
+                          "kind": "intrinsic",
+                          "type": "string"
+                        },
+                        {
+                          "kind": "reference",
+                          "id": 162,
+                          "name": "StoredValue",
+                          "packageName": null,
+                          "typeArguments": []
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 211,
+          "name": "fetchMetadata",
+          "source": {
+            "line": 239,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L239"
+          },
+          "parentId": 159,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 212,
+              "name": "fetchMetadata",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 223,
+                    "name": "MetadataRow",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 193,
+          "name": "get",
+          "source": {
+            "line": 139,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L139"
+          },
+          "parentId": 159,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 194,
+              "name": "get",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 195,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "union",
+                    "types": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "undefined"
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 162,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 196,
+          "name": "getMany",
+          "source": {
+            "line": 153,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L153"
+          },
+          "parentId": 159,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 197,
+              "name": "getMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 198,
+                  "name": "keys",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "array",
+                    "type": {
+                      "kind": "intrinsic",
+                      "type": "string"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Record",
+                    "packageName": "typescript",
+                    "typeArguments": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "string"
+                      },
+                      {
+                        "kind": "union",
+                        "types": [
+                          {
+                            "kind": "literal",
+                            "value": "null"
+                          },
+                          {
+                            "kind": "reference",
+                            "id": 162,
+                            "name": "StoredValue",
+                            "packageName": null,
+                            "typeArguments": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 171,
+          "name": "getMetadata",
+          "source": {
+            "line": 61,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L61"
+          },
+          "parentId": 159,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 172,
+              "name": "getMetadata",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 173,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "unknown"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 188,
+          "name": "has",
+          "source": {
+            "line": 116,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L116"
+          },
+          "parentId": 159,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 189,
+              "name": "has",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 190,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "boolean"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 166,
+          "name": "init",
+          "source": {
+            "line": 24,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L24"
+          },
+          "parentId": 159,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 167,
+              "name": "init",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 191,
+          "name": "keys",
+          "source": {
+            "line": 129,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L129"
+          },
+          "parentId": 159,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 192,
+              "name": "keys",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "array",
+                    "type": {
+                      "kind": "intrinsic",
+                      "type": "string"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 199,
+          "name": "set",
+          "source": {
+            "line": 171,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L171"
+          },
+          "parentId": 159,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 200,
+              "name": "set",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 201,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                },
+                {
+                  "id": 202,
+                  "name": "value",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": 162,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 203,
+          "name": "setMany",
+          "source": {
+            "line": 185,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L185"
+          },
+          "parentId": 159,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 204,
+              "name": "setMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 205,
+                  "name": "entries",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "array",
+                    "type": {
+                      "kind": "tuple",
+                      "types": [
+                        {
+                          "kind": "intrinsic",
+                          "type": "string"
+                        },
+                        {
+                          "kind": "reference",
+                          "id": 162,
+                          "name": "StoredValue",
+                          "packageName": null,
+                          "typeArguments": []
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": 206,
+                  "name": "overwrite",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "boolean"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 174,
+          "name": "setMetadata",
+          "source": {
+            "line": 67,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L67"
+          },
+          "parentId": 159,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 175,
+              "name": "setMetadata",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 176,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                },
+                {
+                  "id": 177,
+                  "name": "value",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "unknown"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 207,
+          "name": "size",
+          "source": {
+            "line": 219,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L219"
+          },
+          "parentId": 159,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 208,
+              "name": "size",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "number"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 209,
+          "name": "values",
+          "source": {
+            "line": 229,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L229"
+          },
+          "parentId": 159,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 210,
+              "name": "values",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "array",
+                    "type": {
+                      "kind": "reference",
+                      "id": 162,
+                      "name": "StoredValue",
+                      "packageName": null,
+                      "typeArguments": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "enums": [],
+  "functions": [],
+  "interfaces": [],
+  "namespaces": [
+    {
+      "id": 146,
+      "name": "PostgreSQLProvider",
+      "source": {
+        "line": 30,
+        "file": "PostgreSQLProvider.ts",
+        "path": "packages/postgresql/src/lib",
+        "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L30"
+      },
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "external": false,
+      "classes": [],
+      "enums": [],
+      "functions": [],
+      "interfaces": [
+        {
+          "id": 153,
+          "name": "ConnectionDetails",
+          "source": {
+            "line": 751,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L751"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "external": false,
+          "typeParameters": [],
+          "properties": [
+            {
+              "id": 156,
+              "name": "database",
+              "source": {
+                "line": 756,
+                "file": "PostgreSQLProvider.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L756"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 153,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 154,
+              "name": "host",
+              "source": {
+                "line": 752,
+                "file": "PostgreSQLProvider.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L752"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 153,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 158,
+              "name": "password",
+              "source": {
+                "line": 760,
+                "file": "PostgreSQLProvider.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L760"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 153,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 155,
+              "name": "port",
+              "source": {
+                "line": 754,
+                "file": "PostgreSQLProvider.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L754"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 153,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "number"
+              }
+            },
+            {
+              "id": 157,
+              "name": "user",
+              "source": {
+                "line": 758,
+                "file": "PostgreSQLProvider.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L758"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 153,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            }
+          ],
+          "methods": []
+        },
+        {
+          "id": 147,
+          "name": "Options",
+          "source": {
+            "line": 741,
+            "file": "PostgreSQLProvider.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L741"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "external": false,
+          "typeParameters": [],
+          "properties": [
+            {
+              "id": 152,
+              "name": "allowMigrations",
+              "source": {
+                "line": 1153,
+                "file": "index.d.ts",
+                "path": "node_modules/@joshdb/provider/dist",
+                "url": null
+              },
+              "comment": {
+                "description": "Whether to allow automatic provider data migrations.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  }
+                ],
+                "modifierTags": []
+              },
+              "parentId": 147,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "boolean"
+              }
+            },
+            {
+              "id": 149,
+              "name": "connectionDetails",
+              "source": {
+                "line": 744,
+                "file": "PostgreSQLProvider.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L744"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 147,
+              "readonly": false,
+              "type": {
+                "kind": "union",
+                "types": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  },
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Partial",
+                    "packageName": "typescript",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 153,
+                        "name": "ConnectionDetails",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 150,
+              "name": "disableSerialization",
+              "source": {
+                "line": 746,
+                "file": "PostgreSQLProvider.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L746"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 147,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "boolean"
+              }
+            },
+            {
+              "id": 151,
+              "name": "epoch",
+              "source": {
+                "line": 748,
+                "file": "PostgreSQLProvider.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L748"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 147,
+              "readonly": false,
+              "type": {
+                "kind": "union",
+                "types": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "number"
+                  },
+                  {
+                    "kind": "intrinsic",
+                    "type": "bigint"
+                  },
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Date",
+                    "packageName": "typescript",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            },
+            {
+              "id": 148,
+              "name": "tableName",
+              "source": {
+                "line": 742,
+                "file": "PostgreSQLProvider.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/PostgreSQLProvider.ts#L742"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 147,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            }
+          ],
+          "methods": []
+        }
+      ],
+      "namespaces": [],
+      "typeAliases": [],
+      "variables": []
+    },
+    {
+      "id": 214,
+      "name": "QueryHandler",
+      "source": {
+        "line": 6,
+        "file": "QueryHandler.ts",
+        "path": "packages/postgresql/src/lib",
+        "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L6"
+      },
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "external": false,
+      "classes": [],
+      "enums": [],
+      "functions": [],
+      "interfaces": [
+        {
+          "id": 223,
+          "name": "MetadataRow",
+          "source": {
+            "line": 268,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L268"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "external": false,
+          "typeParameters": [],
+          "properties": [
+            {
+              "id": 226,
+              "name": "metadata",
+              "source": {
+                "line": 273,
+                "file": "QueryHandler.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L273"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 223,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 224,
+              "name": "name",
+              "source": {
+                "line": 269,
+                "file": "QueryHandler.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L269"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 223,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 225,
+              "name": "version",
+              "source": {
+                "line": 271,
+                "file": "QueryHandler.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L271"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 223,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            }
+          ],
+          "methods": []
+        },
+        {
+          "id": 215,
+          "name": "Options",
+          "source": {
+            "line": 252,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L252"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "external": false,
+          "typeParameters": [],
+          "properties": [
+            {
+              "id": 217,
+              "name": "connectionDetails",
+              "source": {
+                "line": 255,
+                "file": "QueryHandler.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L255"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 215,
+              "readonly": false,
+              "type": {
+                "kind": "union",
+                "types": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  },
+                  {
+                    "kind": "reference",
+                    "id": 153,
+                    "name": "ConnectionDetails",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            },
+            {
+              "id": 218,
+              "name": "disableSerialization",
+              "source": {
+                "line": 257,
+                "file": "QueryHandler.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L257"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 215,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "boolean"
+              }
+            },
+            {
+              "id": 216,
+              "name": "tableName",
+              "source": {
+                "line": 253,
+                "file": "QueryHandler.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L253"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 215,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 219,
+              "name": "version",
+              "source": {
+                "line": 259,
+                "file": "QueryHandler.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L259"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 215,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            }
+          ],
+          "methods": []
+        },
+        {
+          "id": 220,
+          "name": "Row",
+          "source": {
+            "line": 262,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L262"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "external": false,
+          "typeParameters": [],
+          "properties": [
+            {
+              "id": 221,
+              "name": "key",
+              "source": {
+                "line": 263,
+                "file": "QueryHandler.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L263"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 220,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 222,
+              "name": "value",
+              "source": {
+                "line": 265,
+                "file": "QueryHandler.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L265"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 220,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            }
+          ],
+          "methods": []
+        },
+        {
+          "id": 229,
+          "name": "RowCount",
+          "source": {
+            "line": 280,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L280"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "external": false,
+          "typeParameters": [],
+          "properties": [
+            {
+              "id": 230,
+              "name": "count",
+              "source": {
+                "line": 281,
+                "file": "QueryHandler.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L281"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 229,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            }
+          ],
+          "methods": []
+        },
+        {
+          "id": 227,
+          "name": "RowExists",
+          "source": {
+            "line": 276,
+            "file": "QueryHandler.ts",
+            "path": "packages/postgresql/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L276"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "external": false,
+          "typeParameters": [],
+          "properties": [
+            {
+              "id": 228,
+              "name": "exists",
+              "source": {
+                "line": 277,
+                "file": "QueryHandler.ts",
+                "path": "packages/postgresql/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/postgresql/src/lib/QueryHandler.ts#L277"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 227,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "boolean"
+              }
+            }
+          ],
+          "methods": []
+        }
+      ],
+      "namespaces": [],
+      "typeAliases": [],
+      "variables": []
+    }
+  ],
+  "typeAliases": [],
+  "variables": []
+}
