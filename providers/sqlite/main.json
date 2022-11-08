@@ -1,0 +1,4506 @@
+{
+  "typeDocJsonParserVersion": "7.0.1",
+  "id": 0,
+  "name": "@joshdb/sqlite",
+  "version": "2.0.0",
+  "readme": "<div align=\"center\">\n\n![Josh Logo](https://evie.codes/josh-light.png)\n\n# @joshdb/sqlite\n\n**A provider for `@joshdb/core`**\n\n[![GitHub](https://img.shields.io/github/license/josh-development/providers)](https://github.com/josh-development/providers/blob/main/LICENSE.md)\n[![codecov](https://codecov.io/gh/josh-development/providers/branch/main/graph/badge.svg?token=JnJcjxqT3k)](https://codecov.io/gh/josh-development/providers)\n[![npm](https://img.shields.io/npm/v/@joshdb/sqlite?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@joshdb/sqlite)\n\n[![Support Server](https://discord.com/api/guilds/298508738623438848/embed.png?style=banner2)](https://discord.gg/N7ZKH3P)\n\n</div>\n\n## Description\n\nA Josh provider for @joshdb/core which uses [better-sqlite3](https://npmjs.com/package/better-sqlite3)\n\n## Features\n\n- Written in TypeScript\n- Offers CommonJS and ESM bundles\n- Fully tested\n\n## Installation\n\nYou can use the following command to install this package, or replace `npm install` with your package manager of choice.\n\n```sh\nnpm install @joshdb/sqlite\n```\n",
+  "changelog": "# Changelog\n\nAll notable changes to this project will be documented in this file.\n",
+  "classes": [
+    {
+      "id": 1,
+      "name": "QueryHandler",
+      "source": {
+        "line": 4,
+        "file": "QueryHandler.ts",
+        "path": "packages/sqlite/src/lib",
+        "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L4"
+      },
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "external": false,
+      "abstract": false,
+      "extendsType": null,
+      "implementsType": [],
+      "typeParameters": [
+        {
+          "id": 54,
+          "name": "StoredValue",
+          "constraint": null,
+          "default": {
+            "kind": "intrinsic",
+            "type": "unknown"
+          }
+        }
+      ],
+      "construct": {
+        "id": 2,
+        "name": "constructor",
+        "source": {
+          "line": 9,
+          "file": "QueryHandler.ts",
+          "path": "packages/sqlite/src/lib",
+          "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L9"
+        },
+        "comment": {
+          "description": null,
+          "blockTags": [],
+          "modifierTags": []
+        },
+        "parentId": 1,
+        "accessibility": "public",
+        "parameters": [
+          {
+            "id": 5,
+            "name": "options",
+            "comment": {
+              "description": null,
+              "blockTags": [],
+              "modifierTags": []
+            },
+            "type": {
+              "kind": "reference",
+              "id": 56,
+              "name": "Options",
+              "packageName": null,
+              "typeArguments": []
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "id": 7,
+          "name": "database",
+          "source": {
+            "line": 7,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L7"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": null,
+            "name": "BetterSqlite3.Database",
+            "packageName": "@types/better-sqlite3",
+            "typeArguments": []
+          }
+        },
+        {
+          "id": 6,
+          "name": "options",
+          "source": {
+            "line": 5,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L5"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": 56,
+            "name": "Options",
+            "packageName": null,
+            "typeArguments": []
+          }
+        }
+      ],
+      "methods": [
+        {
+          "id": 18,
+          "name": "autoKey",
+          "source": {
+            "line": 129,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L129"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 19,
+              "name": "autoKey",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "clear",
+          "source": {
+            "line": 146,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L146"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 21,
+              "name": "clear",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "void"
+              }
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "delete",
+          "source": {
+            "line": 164,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L164"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 23,
+              "name": "delete",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 24,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "void"
+              }
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "deleteMany",
+          "source": {
+            "line": 170,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L170"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 26,
+              "name": "deleteMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 27,
+                  "name": "keys",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "array",
+                    "type": {
+                      "kind": "intrinsic",
+                      "type": "string"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "void"
+              }
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "deleteMetadata",
+          "source": {
+            "line": 82,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L82"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 9,
+              "name": "deleteMetadata",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 10,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "void"
+              }
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "entries",
+          "source": {
+            "line": 176,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L176"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 29,
+              "name": "entries",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "array",
+                "type": {
+                  "kind": "tuple",
+                  "types": [
+                    {
+                      "kind": "intrinsic",
+                      "type": "string"
+                    },
+                    {
+                      "kind": "reference",
+                      "id": 4,
+                      "name": "StoredValue",
+                      "packageName": null,
+                      "typeArguments": []
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "name": "get",
+          "source": {
+            "line": 204,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L204"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 36,
+              "name": "get",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 37,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "union",
+                "types": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "undefined"
+                  },
+                  {
+                    "kind": "reference",
+                    "id": 4,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "name": "getMany",
+          "source": {
+            "line": 216,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L216"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 39,
+              "name": "getMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 40,
+                  "name": "keys",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "array",
+                    "type": {
+                      "kind": "intrinsic",
+                      "type": "string"
+                    }
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Record",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  },
+                  {
+                    "kind": "union",
+                    "types": [
+                      {
+                        "kind": "literal",
+                        "value": "null"
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 4,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "getMetadata",
+          "source": {
+            "line": 99,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L99"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 12,
+              "name": "getMetadata",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 13,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "unknown"
+              }
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": "has",
+          "source": {
+            "line": 185,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L185"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 31,
+              "name": "has",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 32,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "boolean"
+              }
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "name": "keys",
+          "source": {
+            "line": 195,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L195"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 34,
+              "name": "keys",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "array",
+                "type": {
+                  "kind": "intrinsic",
+                  "type": "string"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "name": "set",
+          "source": {
+            "line": 228,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L228"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 42,
+              "name": "set",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 43,
+                  "name": "Value",
+                  "constraint": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 4,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 44,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                },
+                {
+                  "id": 45,
+                  "name": "value",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": 43,
+                    "name": "Value",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "void"
+              }
+            }
+          ]
+        },
+        {
+          "id": 46,
+          "name": "setMany",
+          "source": {
+            "line": 257,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L257"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 47,
+              "name": "setMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 48,
+                  "name": "entries",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "array",
+                    "type": {
+                      "kind": "tuple",
+                      "types": [
+                        {
+                          "kind": "intrinsic",
+                          "type": "string"
+                        },
+                        {
+                          "kind": "reference",
+                          "id": 4,
+                          "name": "StoredValue",
+                          "packageName": null,
+                          "typeArguments": []
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": 49,
+                  "name": "overwrite",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "boolean"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "void"
+              }
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "setMetadata",
+          "source": {
+            "line": 112,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L112"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 15,
+              "name": "setMetadata",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 16,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                },
+                {
+                  "id": 17,
+                  "name": "value",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "unknown"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "void"
+              }
+            }
+          ]
+        },
+        {
+          "id": 50,
+          "name": "size",
+          "source": {
+            "line": 299,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L299"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 51,
+              "name": "size",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "number"
+              }
+            }
+          ]
+        },
+        {
+          "id": 52,
+          "name": "values",
+          "source": {
+            "line": 306,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L306"
+          },
+          "parentId": 1,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 53,
+              "name": "values",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [],
+              "returnType": {
+                "kind": "array",
+                "type": {
+                  "kind": "reference",
+                  "id": 4,
+                  "name": "StoredValue",
+                  "packageName": null,
+                  "typeArguments": []
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "SQLiteProvider",
+      "source": {
+        "line": 34,
+        "file": "SQLiteProvider.ts",
+        "path": "packages/sqlite/src/lib",
+        "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L34"
+      },
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "external": false,
+      "abstract": false,
+      "extendsType": {
+        "kind": "reference",
+        "id": null,
+        "name": "JoshProvider",
+        "packageName": "@joshdb/provider",
+        "typeArguments": [
+          {
+            "kind": "reference",
+            "id": 74,
+            "name": "StoredValue",
+            "packageName": null,
+            "typeArguments": []
+          }
+        ]
+      },
+      "implementsType": [],
+      "typeParameters": [
+        {
+          "id": 216,
+          "name": "StoredValue",
+          "constraint": null,
+          "default": {
+            "kind": "intrinsic",
+            "type": "unknown"
+          }
+        }
+      ],
+      "construct": {
+        "id": 72,
+        "name": "constructor",
+        "source": {
+          "line": 93,
+          "file": "SQLiteProvider.ts",
+          "path": "packages/sqlite/src/lib",
+          "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L93"
+        },
+        "comment": {
+          "description": null,
+          "blockTags": [],
+          "modifierTags": []
+        },
+        "parentId": 71,
+        "accessibility": "public",
+        "parameters": [
+          {
+            "id": 75,
+            "name": "options",
+            "comment": {
+              "description": null,
+              "blockTags": [],
+              "modifierTags": []
+            },
+            "type": {
+              "kind": "reference",
+              "id": null,
+              "name": "Partial",
+              "packageName": "typescript",
+              "typeArguments": [
+                {
+                  "kind": "reference",
+                  "id": 218,
+                  "name": "Options",
+                  "packageName": null,
+                  "typeArguments": []
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "id": 78,
+          "name": "_handler",
+          "source": {
+            "line": 91,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L91"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "parentId": 71,
+          "accessibility": "private",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": true,
+          "type": {
+            "kind": "reference",
+            "id": 1,
+            "name": "QueryHandler",
+            "packageName": null,
+            "typeArguments": [
+              {
+                "kind": "reference",
+                "id": 74,
+                "name": "StoredValue",
+                "packageName": null,
+                "typeArguments": []
+              }
+            ]
+          }
+        },
+        {
+          "id": 77,
+          "name": "migrations",
+          "source": {
+            "line": 37,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L37"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "array",
+            "type": {
+              "kind": "reference",
+              "id": null,
+              "name": "JoshProvider.Migration",
+              "packageName": "@joshdb/provider",
+              "typeArguments": []
+            }
+          }
+        },
+        {
+          "id": 211,
+          "name": "name",
+          "source": {
+            "line": 771,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist",
+            "url": null
+          },
+          "comment": {
+            "description": "The name for this provider.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              }
+            ],
+            "modifierTags": []
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": true,
+          "type": {
+            "kind": "intrinsic",
+            "type": "string"
+          }
+        },
+        {
+          "id": 76,
+          "name": "options",
+          "source": {
+            "line": 35,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L35"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": 218,
+            "name": "Options",
+            "packageName": null,
+            "typeArguments": []
+          }
+        },
+        {
+          "id": 82,
+          "name": "handler",
+          "source": {
+            "line": 111,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L111"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": 1,
+            "name": "QueryHandler",
+            "packageName": null,
+            "typeArguments": [
+              {
+                "kind": "reference",
+                "id": 74,
+                "name": "StoredValue",
+                "packageName": null,
+                "typeArguments": []
+              }
+            ]
+          }
+        },
+        {
+          "id": 80,
+          "name": "version",
+          "source": {
+            "line": 107,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L107"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": null,
+            "name": "Semver",
+            "packageName": "@joshdb/provider",
+            "typeArguments": []
+          }
+        }
+      ],
+      "methods": [
+        {
+          "id": 103,
+          "name": "autoKey",
+          "source": {
+            "line": 146,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L146"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 104,
+              "name": "autoKey",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 105,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.AutoKey",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.AutoKey",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 106,
+          "name": "clear",
+          "source": {
+            "line": 152,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L152"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 107,
+              "name": "clear",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 108,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Clear",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.Clear",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 109,
+          "name": "dec",
+          "source": {
+            "line": 158,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L158"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 110,
+              "name": "dec",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 111,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Dec",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.Dec",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 112,
+          "name": "delete",
+          "source": {
+            "line": 181,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L181"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 113,
+              "name": "delete",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 114,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Delete",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.Delete",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 115,
+          "name": "deleteMany",
+          "source": {
+            "line": 195,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L195"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 116,
+              "name": "deleteMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 117,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.DeleteMany",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.DeleteMany",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 86,
+          "name": "deleteMetadata",
+          "source": {
+            "line": 134,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L134"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 87,
+              "name": "deleteMetadata",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 88,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "void"
+              }
+            }
+          ]
+        },
+        {
+          "id": 118,
+          "name": "each",
+          "source": {
+            "line": 203,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L203"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 119,
+              "name": "each",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 120,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Each",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Each",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 121,
+          "name": "ensure",
+          "source": {
+            "line": 211,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L211"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 122,
+              "name": "ensure",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 123,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Ensure",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.Ensure",
+                "packageName": "@joshdb/provider",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 74,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 124,
+          "name": "entries",
+          "source": {
+            "line": 222,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L222"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 125,
+              "name": "entries",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 126,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Entries",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.Entries",
+                "packageName": "@joshdb/provider",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 74,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 212,
+          "name": "error",
+          "source": {
+            "line": 1123,
+            "file": "index.d.ts",
+            "path": "node_modules/@joshdb/provider/dist",
+            "url": null
+          },
+          "parentId": 71,
+          "accessibility": "protected",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 213,
+              "name": "error",
+              "comment": {
+                "description": "Creates an instance of `JoshProviderError` with the given options.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The error."
+                  }
+                ],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 214,
+                  "name": "options",
+                  "comment": {
+                    "description": "The options for the error.",
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "union",
+                    "types": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "string"
+                      },
+                      {
+                        "kind": "reference",
+                        "id": null,
+                        "name": "PartialRequired",
+                        "packageName": "@sapphire/utilities",
+                        "typeArguments": [
+                          {
+                            "kind": "reference",
+                            "id": null,
+                            "name": "JoshProviderError.Options",
+                            "packageName": "@joshdb/provider",
+                            "typeArguments": []
+                          },
+                          {
+                            "kind": "literal",
+                            "value": "identifier"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 215,
+                  "name": "metadata",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Record",
+                    "packageName": "typescript",
+                    "typeArguments": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "string"
+                      },
+                      {
+                        "kind": "intrinsic",
+                        "type": "unknown"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "JoshProviderError",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 127,
+          "name": "every",
+          "source": {
+            "line": 228,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L228"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 128,
+              "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 129,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Every.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Every.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 130,
+              "name": "every",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 131,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Every.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Every.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 100,
+          "name": "fetchVersion",
+          "source": {
+            "line": 802,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L802"
+          },
+          "parentId": 71,
+          "accessibility": "protected",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 101,
+              "name": "fetchVersion",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 102,
+                  "name": "context",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "JoshProvider.Context",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Semver",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 132,
+          "name": "filter",
+          "source": {
+            "line": 273,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L273"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 133,
+              "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 134,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Filter.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Filter.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 135,
+              "name": "filter",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 136,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Filter.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Filter.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 137,
+          "name": "find",
+          "source": {
+            "line": 309,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L309"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 138,
+              "name": "find",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 139,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Find.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Find.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 140,
+              "name": "find",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 141,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Find.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Find.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 142,
+          "name": "get",
+          "source": {
+            "line": 365,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L365"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 143,
+              "name": "get",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 144,
+                  "name": "Value",
+                  "constraint": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 74,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 145,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Get",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 144,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.Get",
+                "packageName": "@joshdb/provider",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 144,
+                    "name": "Value",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 146,
+          "name": "getMany",
+          "source": {
+            "line": 379,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L379"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 147,
+              "name": "getMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 148,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.GetMany",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.GetMany",
+                "packageName": "@joshdb/provider",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 74,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 89,
+          "name": "getMetadata",
+          "source": {
+            "line": 138,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L138"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 90,
+              "name": "getMetadata",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 91,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "unknown"
+              }
+            }
+          ]
+        },
+        {
+          "id": 149,
+          "name": "has",
+          "source": {
+            "line": 387,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L387"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 150,
+              "name": "has",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 151,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Has",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.Has",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 152,
+          "name": "inc",
+          "source": {
+            "line": 393,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L393"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 153,
+              "name": "inc",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 154,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Inc",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.Inc",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 83,
+          "name": "init",
+          "source": {
+            "line": 117,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L117"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 84,
+              "name": "init",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 85,
+                  "name": "context",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "JoshProvider.Context",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "JoshProvider.Context",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 155,
+          "name": "keys",
+          "source": {
+            "line": 416,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L416"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 156,
+              "name": "keys",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 157,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Keys",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.Keys",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 158,
+          "name": "map",
+          "source": {
+            "line": 422,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L422"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 159,
+              "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 160,
+                  "name": "Value",
+                  "constraint": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 74,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 161,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Map.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 160,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Map.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 160,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 162,
+              "name": "map",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 163,
+                  "name": "Value",
+                  "constraint": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 74,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 164,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Map.ByPath",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 163,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Map.ByPath",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 163,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 165,
+          "name": "math",
+          "source": {
+            "line": 446,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L446"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 166,
+              "name": "math",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 167,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Math",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.Math",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 168,
+          "name": "partition",
+          "source": {
+            "line": 501,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L501"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 169,
+              "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 170,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Partition.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Partition.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 171,
+              "name": "partition",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 172,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Partition.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Partition.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 173,
+          "name": "push",
+          "source": {
+            "line": 543,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L543"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 174,
+              "name": "push",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 175,
+                  "name": "Value",
+                  "constraint": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 74,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 176,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Push",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 175,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.Push",
+                "packageName": "@joshdb/provider",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 175,
+                    "name": "Value",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 177,
+          "name": "random",
+          "source": {
+            "line": 567,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L567"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 178,
+              "name": "random",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 179,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Random",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.Random",
+                "packageName": "@joshdb/provider",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 74,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 180,
+          "name": "randomKey",
+          "source": {
+            "line": 599,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L599"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 181,
+              "name": "randomKey",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 182,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.RandomKey",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.RandomKey",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 183,
+          "name": "remove",
+          "source": {
+            "line": 627,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L627"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 184,
+              "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 185,
+                  "name": "Value",
+                  "constraint": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 74,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 186,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Remove.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 185,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Remove.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 185,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 187,
+              "name": "remove",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 188,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Remove.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Remove.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 96,
+          "name": "resolveIdentifier",
+          "source": {
+            "line": 789,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L789"
+          },
+          "parentId": 71,
+          "accessibility": "protected",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 97,
+              "name": "resolveIdentifier",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 98,
+                  "name": "identifier",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                },
+                {
+                  "id": 99,
+                  "name": "metadata",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Record",
+                    "packageName": "typescript",
+                    "typeArguments": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "string"
+                      },
+                      {
+                        "kind": "intrinsic",
+                        "type": "unknown"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            }
+          ]
+        },
+        {
+          "id": 189,
+          "name": "set",
+          "source": {
+            "line": 677,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L677"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 190,
+              "name": "set",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 191,
+                  "name": "Value",
+                  "constraint": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 74,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 192,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Set",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 191,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.Set",
+                "packageName": "@joshdb/provider",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 191,
+                    "name": "Value",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 193,
+          "name": "setMany",
+          "source": {
+            "line": 690,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L690"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 194,
+              "name": "setMany",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 195,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.SetMany",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.SetMany",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 92,
+          "name": "setMetadata",
+          "source": {
+            "line": 142,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L142"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 93,
+              "name": "setMetadata",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 94,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                },
+                {
+                  "id": 95,
+                  "name": "value",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "unknown"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "intrinsic",
+                "type": "void"
+              }
+            }
+          ]
+        },
+        {
+          "id": 196,
+          "name": "size",
+          "source": {
+            "line": 712,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L712"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 197,
+              "name": "size",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 198,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Size",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.Size",
+                "packageName": "@joshdb/provider",
+                "typeArguments": []
+              }
+            }
+          ]
+        },
+        {
+          "id": 199,
+          "name": "some",
+          "source": {
+            "line": 718,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L718"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 200,
+              "name": "some",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 201,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Some.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Some.ByHook",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": 202,
+              "name": "some",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 203,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Some.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Some.ByValue",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 204,
+          "name": "update",
+          "source": {
+            "line": 766,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L766"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 205,
+              "name": "update",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 206,
+                  "name": "Value",
+                  "constraint": null,
+                  "default": {
+                    "kind": "reference",
+                    "id": 74,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 207,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Update",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 206,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Update",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 206,
+                        "name": "Value",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 208,
+          "name": "values",
+          "source": {
+            "line": 783,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L783"
+          },
+          "parentId": 71,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 209,
+              "name": "values",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 210,
+                  "name": "payload",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Payload.Values",
+                    "packageName": "@joshdb/provider",
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 74,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Payload.Values",
+                "packageName": "@joshdb/provider",
+                "typeArguments": [
+                  {
+                    "kind": "reference",
+                    "id": 74,
+                    "name": "StoredValue",
+                    "packageName": null,
+                    "typeArguments": []
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "enums": [],
+  "functions": [],
+  "interfaces": [],
+  "namespaces": [
+    {
+      "id": 55,
+      "name": "QueryHandler",
+      "source": {
+        "line": 4,
+        "file": "QueryHandler.ts",
+        "path": "packages/sqlite/src/lib",
+        "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L4"
+      },
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "external": false,
+      "classes": [],
+      "enums": [],
+      "functions": [],
+      "interfaces": [
+        {
+          "id": 65,
+          "name": "MetadataRow",
+          "source": {
+            "line": 335,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L335"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "external": false,
+          "typeParameters": [],
+          "properties": [
+            {
+              "id": 68,
+              "name": "autoKeyCount",
+              "source": {
+                "line": 340,
+                "file": "QueryHandler.ts",
+                "path": "packages/sqlite/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L340"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 65,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "number"
+              }
+            },
+            {
+              "id": 70,
+              "name": "metadata",
+              "source": {
+                "line": 344,
+                "file": "QueryHandler.ts",
+                "path": "packages/sqlite/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L344"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 65,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 66,
+              "name": "name",
+              "source": {
+                "line": 336,
+                "file": "QueryHandler.ts",
+                "path": "packages/sqlite/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L336"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 65,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 69,
+              "name": "serializedKeys",
+              "source": {
+                "line": 342,
+                "file": "QueryHandler.ts",
+                "path": "packages/sqlite/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L342"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 65,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 67,
+              "name": "version",
+              "source": {
+                "line": 338,
+                "file": "QueryHandler.ts",
+                "path": "packages/sqlite/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L338"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 65,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            }
+          ],
+          "methods": []
+        },
+        {
+          "id": 56,
+          "name": "Options",
+          "source": {
+            "line": 317,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L317"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "external": false,
+          "typeParameters": [],
+          "properties": [
+            {
+              "id": 57,
+              "name": "database",
+              "source": {
+                "line": 318,
+                "file": "QueryHandler.ts",
+                "path": "packages/sqlite/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L318"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 56,
+              "readonly": false,
+              "type": {
+                "kind": "reference",
+                "id": null,
+                "name": "BetterSqlite3.Database",
+                "packageName": "@types/better-sqlite3",
+                "typeArguments": []
+              }
+            },
+            {
+              "id": 60,
+              "name": "disableSerialization",
+              "source": {
+                "line": 324,
+                "file": "QueryHandler.ts",
+                "path": "packages/sqlite/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L324"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 56,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "boolean"
+              }
+            },
+            {
+              "id": 58,
+              "name": "tableName",
+              "source": {
+                "line": 320,
+                "file": "QueryHandler.ts",
+                "path": "packages/sqlite/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L320"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 56,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 61,
+              "name": "version",
+              "source": {
+                "line": 326,
+                "file": "QueryHandler.ts",
+                "path": "packages/sqlite/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L326"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 56,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 59,
+              "name": "wal",
+              "source": {
+                "line": 322,
+                "file": "QueryHandler.ts",
+                "path": "packages/sqlite/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L322"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 56,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "boolean"
+              }
+            }
+          ],
+          "methods": []
+        },
+        {
+          "id": 62,
+          "name": "Row",
+          "source": {
+            "line": 329,
+            "file": "QueryHandler.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L329"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "external": false,
+          "typeParameters": [],
+          "properties": [
+            {
+              "id": 63,
+              "name": "key",
+              "source": {
+                "line": 330,
+                "file": "QueryHandler.ts",
+                "path": "packages/sqlite/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L330"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 62,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 64,
+              "name": "value",
+              "source": {
+                "line": 332,
+                "file": "QueryHandler.ts",
+                "path": "packages/sqlite/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/QueryHandler.ts#L332"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 62,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            }
+          ],
+          "methods": []
+        }
+      ],
+      "namespaces": [],
+      "typeAliases": [],
+      "variables": []
+    },
+    {
+      "id": 217,
+      "name": "SQLiteProvider",
+      "source": {
+        "line": 34,
+        "file": "SQLiteProvider.ts",
+        "path": "packages/sqlite/src/lib",
+        "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L34"
+      },
+      "comment": {
+        "description": null,
+        "blockTags": [],
+        "modifierTags": []
+      },
+      "external": false,
+      "classes": [],
+      "enums": [
+        {
+          "id": 226,
+          "name": "Identifiers",
+          "source": {
+            "line": 845,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L845"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "external": false,
+          "members": [
+            {
+              "id": 227,
+              "name": "HandlerNotFound",
+              "source": {
+                "line": 846,
+                "file": "SQLiteProvider.ts",
+                "path": "packages/sqlite/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L846"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 226,
+              "value": "handlerNotFound"
+            }
+          ]
+        }
+      ],
+      "functions": [],
+      "interfaces": [
+        {
+          "id": 218,
+          "name": "Options",
+          "source": {
+            "line": 831,
+            "file": "SQLiteProvider.ts",
+            "path": "packages/sqlite/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L831"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "external": false,
+          "typeParameters": [],
+          "properties": [
+            {
+              "id": 225,
+              "name": "allowMigrations",
+              "source": {
+                "line": 1153,
+                "file": "index.d.ts",
+                "path": "node_modules/@joshdb/provider/dist",
+                "url": null
+              },
+              "comment": {
+                "description": "Whether to allow automatic provider data migrations.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  }
+                ],
+                "modifierTags": []
+              },
+              "parentId": 218,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "boolean"
+              }
+            },
+            {
+              "id": 221,
+              "name": "dataDirectory",
+              "source": {
+                "line": 836,
+                "file": "SQLiteProvider.ts",
+                "path": "packages/sqlite/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L836"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 218,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 224,
+              "name": "disableSerialization",
+              "source": {
+                "line": 842,
+                "file": "SQLiteProvider.ts",
+                "path": "packages/sqlite/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L842"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 218,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "boolean"
+              }
+            },
+            {
+              "id": 223,
+              "name": "persistent",
+              "source": {
+                "line": 840,
+                "file": "SQLiteProvider.ts",
+                "path": "packages/sqlite/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L840"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 218,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "boolean"
+              }
+            },
+            {
+              "id": 219,
+              "name": "tableName",
+              "source": {
+                "line": 832,
+                "file": "SQLiteProvider.ts",
+                "path": "packages/sqlite/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L832"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 218,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 220,
+              "name": "useAbsolutePath",
+              "source": {
+                "line": 834,
+                "file": "SQLiteProvider.ts",
+                "path": "packages/sqlite/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L834"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 218,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "boolean"
+              }
+            },
+            {
+              "id": 222,
+              "name": "wal",
+              "source": {
+                "line": 838,
+                "file": "SQLiteProvider.ts",
+                "path": "packages/sqlite/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/sqlite/src/lib/SQLiteProvider.ts#L838"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 218,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "boolean"
+              }
+            }
+          ],
+          "methods": []
+        }
+      ],
+      "namespaces": [],
+      "typeAliases": [],
+      "variables": []
+    }
+  ],
+  "typeAliases": [],
+  "variables": []
+}
