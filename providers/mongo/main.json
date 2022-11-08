@@ -10,14 +10,19 @@
       "id": 2,
       "name": "MongoProvider",
       "source": {
-        "line": 28,
+        "line": 34,
         "file": "MongoProvider.ts",
         "path": "packages/mongo/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L28"
+        "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L34"
       },
       "comment": {
-        "description": null,
-        "blockTags": [],
+        "description": "A provider that uses MongoDB as a database.",
+        "blockTags": [
+          {
+            "name": "since",
+            "text": "2.0.0"
+          }
+        ],
         "modifierTags": []
       },
       "external": false,
@@ -40,7 +45,7 @@
       "implementsType": [],
       "typeParameters": [
         {
-          "id": 173,
+          "id": 184,
           "name": "StoredValue",
           "constraint": null,
           "default": {
@@ -53,10 +58,10 @@
         "id": 4,
         "name": "constructor",
         "source": {
-          "line": 54,
+          "line": 65,
           "file": "MongoProvider.ts",
           "path": "packages/mongo/src/lib",
-          "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L54"
+          "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L65"
         },
         "comment": {
           "description": null,
@@ -76,7 +81,7 @@
             },
             "type": {
               "kind": "reference",
-              "id": 175,
+              "id": 186,
               "name": "Options",
               "packageName": null,
               "typeArguments": []
@@ -89,10 +94,10 @@
           "id": 11,
           "name": "_client",
           "source": {
-            "line": 50,
+            "line": 59,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L50"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L59"
           },
           "comment": {
             "description": null,
@@ -117,10 +122,10 @@
           "id": 12,
           "name": "_collection",
           "source": {
-            "line": 52,
+            "line": 61,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L52"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L61"
           },
           "comment": {
             "description": null,
@@ -141,7 +146,7 @@
             "typeArguments": [
               {
                 "kind": "reference",
-                "id": 188,
+                "id": 199,
                 "name": "DocType",
                 "packageName": null,
                 "typeArguments": [
@@ -158,13 +163,49 @@
           }
         },
         {
+          "id": 13,
+          "name": "_metadata",
+          "source": {
+            "line": 63,
+            "file": "MongoProvider.ts",
+            "path": "packages/mongo/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L63"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "parentId": 2,
+          "accessibility": "private",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": true,
+          "type": {
+            "kind": "reference",
+            "id": null,
+            "name": "Collection",
+            "packageName": "mongodb",
+            "typeArguments": [
+              {
+                "kind": "reference",
+                "id": 203,
+                "name": "MetadataDocType",
+                "packageName": null,
+                "typeArguments": []
+              }
+            ]
+          }
+        },
+        {
           "id": 10,
           "name": "connectionURI",
           "source": {
-            "line": 48,
+            "line": 57,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L48"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L57"
           },
           "comment": {
             "description": null,
@@ -186,10 +227,10 @@
           "id": 9,
           "name": "migrations",
           "source": {
-            "line": 31,
+            "line": 37,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L31"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L37"
           },
           "comment": {
             "description": null,
@@ -214,10 +255,10 @@
           }
         },
         {
-          "id": 161,
+          "id": 175,
           "name": "name",
           "source": {
-            "line": 1147,
+            "line": 771,
             "file": "index.d.ts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -247,10 +288,10 @@
           "id": 8,
           "name": "options",
           "source": {
-            "line": 29,
+            "line": 35,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L29"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L35"
           },
           "comment": {
             "description": null,
@@ -265,7 +306,7 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 175,
+            "id": 186,
             "name": "Options",
             "packageName": null,
             "typeArguments": []
@@ -275,10 +316,10 @@
           "id": 3,
           "name": "defaultAuthentication",
           "source": {
-            "line": 856,
+            "line": 908,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L856"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L908"
           },
           "comment": {
             "description": null,
@@ -293,20 +334,20 @@
           "optional": false,
           "type": {
             "kind": "reference",
-            "id": 182,
+            "id": 193,
             "name": "Authentication",
             "packageName": null,
             "typeArguments": []
           }
         },
         {
-          "id": 16,
+          "id": 17,
           "name": "client",
           "source": {
-            "line": 62,
+            "line": 73,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L62"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L73"
           },
           "comment": {
             "description": null,
@@ -328,13 +369,13 @@
           }
         },
         {
-          "id": 18,
+          "id": 19,
           "name": "collection",
           "source": {
-            "line": 73,
+            "line": 84,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L73"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L84"
           },
           "comment": {
             "description": null,
@@ -355,7 +396,7 @@
             "typeArguments": [
               {
                 "kind": "reference",
-                "id": 188,
+                "id": 199,
                 "name": "DocType",
                 "packageName": null,
                 "typeArguments": [
@@ -372,13 +413,13 @@
           }
         },
         {
-          "id": 14,
-          "name": "version",
+          "id": 21,
+          "name": "metadata",
           "source": {
-            "line": 58,
+            "line": 95,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L58"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L95"
           },
           "comment": {
             "description": null,
@@ -394,7 +435,43 @@
           "type": {
             "kind": "reference",
             "id": null,
-            "name": "JoshProvider.Semver",
+            "name": "Collection",
+            "packageName": "mongodb",
+            "typeArguments": [
+              {
+                "kind": "reference",
+                "id": 203,
+                "name": "MetadataDocType",
+                "packageName": null,
+                "typeArguments": []
+              }
+            ]
+          }
+        },
+        {
+          "id": 15,
+          "name": "version",
+          "source": {
+            "line": 69,
+            "file": "MongoProvider.ts",
+            "path": "packages/mongo/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L69"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "parentId": 2,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "readonly": false,
+          "optional": false,
+          "type": {
+            "kind": "reference",
+            "id": null,
+            "name": "Semver",
             "packageName": "@joshdb/provider",
             "typeArguments": []
           }
@@ -402,13 +479,13 @@
       ],
       "methods": [
         {
-          "id": 34,
+          "id": 48,
           "name": "_getAll",
           "source": {
-            "line": 830,
+            "line": 882,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L830"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L882"
           },
           "parentId": 2,
           "accessibility": "private",
@@ -416,7 +493,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 35,
+              "id": 49,
               "name": "_getAll",
               "comment": {
                 "description": null,
@@ -426,7 +503,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 36,
+                  "id": 50,
                   "name": "projection",
                   "comment": {
                     "description": null,
@@ -436,7 +513,7 @@
                   "type": {
                     "kind": "reflection",
                     "reflection": {
-                      "id": 37,
+                      "id": 51,
                       "name": "__type",
                       "kind": 65536,
                       "kindString": "Type literal",
@@ -444,20 +521,20 @@
                       "sources": [
                         {
                           "fileName": "packages/mongo/src/lib/MongoProvider.ts",
-                          "line": 830,
+                          "line": 882,
                           "character": 30,
-                          "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L830"
+                          "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L882"
                         }
                       ],
                       "indexSignature": {
-                        "id": 38,
+                        "id": 52,
                         "name": "__index",
                         "kind": 8192,
                         "kindString": "Index signature",
                         "flags": {},
                         "parameters": [
                           {
-                            "id": 39,
+                            "id": 53,
                             "name": "key",
                             "kind": 32768,
                             "flags": {},
@@ -495,7 +572,7 @@
                     "kind": "array",
                     "type": {
                       "kind": "reference",
-                      "id": 188,
+                      "id": 199,
                       "name": "DocType",
                       "packageName": null,
                       "typeArguments": [
@@ -515,13 +592,13 @@
           ]
         },
         {
-          "id": 53,
+          "id": 67,
           "name": "autoKey",
           "source": {
-            "line": 121,
+            "line": 136,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L121"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L136"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -529,7 +606,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 54,
+              "id": 68,
               "name": "autoKey",
               "comment": {
                 "description": null,
@@ -539,7 +616,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 55,
+                  "id": 69,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -549,7 +626,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.AutoKey",
+                    "name": "Payload.AutoKey",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -558,7 +635,7 @@
               "returnType": {
                 "kind": "reference",
                 "id": null,
-                "name": "Payloads.AutoKey",
+                "name": "Payload.AutoKey",
                 "packageName": "@joshdb/provider",
                 "typeArguments": []
               }
@@ -566,13 +643,13 @@
           ]
         },
         {
-          "id": 56,
+          "id": 70,
           "name": "clear",
           "source": {
-            "line": 127,
+            "line": 142,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L127"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L142"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -580,7 +657,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 57,
+              "id": 71,
               "name": "clear",
               "comment": {
                 "description": null,
@@ -590,7 +667,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 58,
+                  "id": 72,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -600,7 +677,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Clear",
+                    "name": "Payload.Clear",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -615,7 +692,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Clear",
+                    "name": "Payload.Clear",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -625,13 +702,13 @@
           ]
         },
         {
-          "id": 22,
+          "id": 25,
           "name": "close",
           "source": {
-            "line": 117,
+            "line": 132,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L117"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L132"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -639,7 +716,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 23,
+              "id": 26,
               "name": "close",
               "comment": {
                 "description": null,
@@ -664,13 +741,13 @@
           ]
         },
         {
-          "id": 26,
+          "id": 40,
           "name": "connect",
           "source": {
-            "line": 813,
+            "line": 863,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L813"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L863"
           },
           "parentId": 2,
           "accessibility": "private",
@@ -678,7 +755,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 27,
+              "id": 41,
               "name": "connect",
               "comment": {
                 "description": null,
@@ -688,7 +765,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 28,
+                  "id": 42,
                   "name": "__namedParameters",
                   "comment": {
                     "description": null,
@@ -698,14 +775,14 @@
                   "type": {
                     "kind": "reflection",
                     "reflection": {
-                      "id": 29,
+                      "id": 43,
                       "name": "__type",
                       "kind": 65536,
                       "kindString": "Type literal",
                       "flags": {},
                       "children": [
                         {
-                          "id": 33,
+                          "id": 47,
                           "name": "collectionName",
                           "kind": 1024,
                           "kindString": "Property",
@@ -713,9 +790,9 @@
                           "sources": [
                             {
                               "fileName": "packages/mongo/src/lib/MongoProvider.ts",
-                              "line": 822,
+                              "line": 872,
                               "character": 4,
-                              "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L822"
+                              "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L872"
                             }
                           ],
                           "type": {
@@ -724,7 +801,7 @@
                           }
                         },
                         {
-                          "id": 31,
+                          "id": 45,
                           "name": "connectOptions",
                           "kind": 1024,
                           "kindString": "Property",
@@ -734,9 +811,9 @@
                           "sources": [
                             {
                               "fileName": "packages/mongo/src/lib/MongoProvider.ts",
-                              "line": 820,
+                              "line": 870,
                               "character": 4,
-                              "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L820"
+                              "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L870"
                             }
                           ],
                           "type": {
@@ -747,7 +824,7 @@
                           }
                         },
                         {
-                          "id": 30,
+                          "id": 44,
                           "name": "connectionURI",
                           "kind": 1024,
                           "kindString": "Property",
@@ -755,9 +832,9 @@
                           "sources": [
                             {
                               "fileName": "packages/mongo/src/lib/MongoProvider.ts",
-                              "line": 819,
+                              "line": 869,
                               "character": 4,
-                              "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L819"
+                              "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L869"
                             }
                           ],
                           "type": {
@@ -766,7 +843,7 @@
                           }
                         },
                         {
-                          "id": 32,
+                          "id": 46,
                           "name": "enforceCollectionName",
                           "kind": 1024,
                           "kindString": "Property",
@@ -776,9 +853,9 @@
                           "sources": [
                             {
                               "fileName": "packages/mongo/src/lib/MongoProvider.ts",
-                              "line": 821,
+                              "line": 871,
                               "character": 4,
-                              "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L821"
+                              "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L871"
                             }
                           ],
                           "type": {
@@ -791,19 +868,19 @@
                         {
                           "title": "Properties",
                           "children": [
-                            33,
-                            31,
-                            30,
-                            32
+                            47,
+                            45,
+                            44,
+                            46
                           ]
                         }
                       ],
                       "sources": [
                         {
                           "fileName": "packages/mongo/src/lib/MongoProvider.ts",
-                          "line": 818,
+                          "line": 868,
                           "character": 5,
-                          "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L818"
+                          "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L868"
                         }
                       ]
                     }
@@ -826,13 +903,13 @@
           ]
         },
         {
-          "id": 59,
+          "id": 73,
           "name": "dec",
           "source": {
-            "line": 132,
+            "line": 147,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L132"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L147"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -840,7 +917,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 60,
+              "id": 74,
               "name": "dec",
               "comment": {
                 "description": null,
@@ -850,7 +927,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 61,
+                  "id": 75,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -860,7 +937,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Dec",
+                    "name": "Payload.Dec",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -875,7 +952,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Dec",
+                    "name": "Payload.Dec",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -885,13 +962,13 @@
           ]
         },
         {
-          "id": 62,
+          "id": 76,
           "name": "delete",
           "source": {
-            "line": 155,
+            "line": 170,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L155"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L170"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -899,7 +976,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 63,
+              "id": 77,
               "name": "delete",
               "comment": {
                 "description": null,
@@ -909,7 +986,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 64,
+                  "id": 78,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -919,7 +996,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Delete",
+                    "name": "Payload.Delete",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -934,7 +1011,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Delete",
+                    "name": "Payload.Delete",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -944,13 +1021,13 @@
           ]
         },
         {
-          "id": 65,
+          "id": 79,
           "name": "deleteMany",
           "source": {
-            "line": 176,
+            "line": 191,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L176"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L191"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -958,7 +1035,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 66,
+              "id": 80,
               "name": "deleteMany",
               "comment": {
                 "description": null,
@@ -968,7 +1045,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 67,
+                  "id": 81,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -978,7 +1055,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.DeleteMany",
+                    "name": "Payload.DeleteMany",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -993,7 +1070,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.DeleteMany",
+                    "name": "Payload.DeleteMany",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -1003,13 +1080,66 @@
           ]
         },
         {
-          "id": 43,
-          "name": "deserialize",
+          "id": 27,
+          "name": "deleteMetadata",
           "source": {
-            "line": 842,
+            "line": 820,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L842"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L820"
+          },
+          "parentId": 2,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 28,
+              "name": "deleteMetadata",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 29,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "name": "deserialize",
+          "source": {
+            "line": 894,
+            "file": "MongoProvider.ts",
+            "path": "packages/mongo/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L894"
           },
           "parentId": 2,
           "accessibility": "private",
@@ -1017,7 +1147,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 44,
+              "id": 58,
               "name": "deserialize",
               "comment": {
                 "description": null,
@@ -1027,7 +1157,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 45,
+                  "id": 59,
                   "name": "value",
                   "comment": {
                     "description": null,
@@ -1066,13 +1196,13 @@
           ]
         },
         {
-          "id": 68,
+          "id": 82,
           "name": "each",
           "source": {
-            "line": 184,
+            "line": 199,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L184"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L199"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1080,7 +1210,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 69,
+              "id": 83,
               "name": "each",
               "comment": {
                 "description": null,
@@ -1090,7 +1220,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 70,
+                  "id": 84,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -1100,7 +1230,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Each",
+                    "name": "Payload.Each",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -1123,7 +1253,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Each",
+                    "name": "Payload.Each",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -1141,13 +1271,13 @@
           ]
         },
         {
-          "id": 71,
+          "id": 85,
           "name": "ensure",
           "source": {
-            "line": 194,
+            "line": 209,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L194"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L209"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1155,7 +1285,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 72,
+              "id": 86,
               "name": "ensure",
               "comment": {
                 "description": null,
@@ -1165,7 +1295,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 73,
+                  "id": 87,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -1175,7 +1305,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Ensure",
+                    "name": "Payload.Ensure",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -1198,7 +1328,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Ensure",
+                    "name": "Payload.Ensure",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -1216,13 +1346,13 @@
           ]
         },
         {
-          "id": 74,
+          "id": 88,
           "name": "entries",
           "source": {
-            "line": 206,
+            "line": 221,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L206"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L221"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1230,7 +1360,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 75,
+              "id": 89,
               "name": "entries",
               "comment": {
                 "description": null,
@@ -1240,7 +1370,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 76,
+                  "id": 90,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -1250,7 +1380,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Entries",
+                    "name": "Payload.Entries",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -1273,7 +1403,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Entries",
+                    "name": "Payload.Entries",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -1291,10 +1421,10 @@
           ]
         },
         {
-          "id": 162,
+          "id": 176,
           "name": "error",
           "source": {
-            "line": 1496,
+            "line": 1123,
             "file": "index.d.ts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -1305,10 +1435,10 @@
           "static": false,
           "signatures": [
             {
-              "id": 163,
+              "id": 177,
               "name": "error",
               "comment": {
-                "description": "Creates an Josh provider error.",
+                "description": "Creates an instance of `JoshProviderError` with the given options.",
                 "blockTags": [
                   {
                     "name": "since",
@@ -1324,7 +1454,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 164,
+                  "id": 178,
                   "name": "options",
                   "comment": {
                     "description": "The options for the error.",
@@ -1361,7 +1491,7 @@
                   }
                 },
                 {
-                  "id": 165,
+                  "id": 179,
                   "name": "metadata",
                   "comment": {
                     "description": null,
@@ -1397,13 +1527,13 @@
           ]
         },
         {
-          "id": 77,
+          "id": 91,
           "name": "every",
           "source": {
-            "line": 216,
+            "line": 231,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L216"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L231"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1411,7 +1541,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 78,
+              "id": 92,
               "name": "every",
               "comment": {
                 "description": null,
@@ -1421,7 +1551,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 79,
+                  "id": 93,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -1431,7 +1561,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Every.ByHook",
+                    "name": "Payload.Every.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -1454,7 +1584,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Every.ByHook",
+                    "name": "Payload.Every.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -1470,7 +1600,7 @@
               }
             },
             {
-              "id": 80,
+              "id": 94,
               "name": "every",
               "comment": {
                 "description": null,
@@ -1480,7 +1610,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 81,
+                  "id": 95,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -1490,7 +1620,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Every.ByValue",
+                    "name": "Payload.Every.ByValue",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -1505,7 +1635,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Every.ByValue",
+                    "name": "Payload.Every.ByValue",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -1515,13 +1645,13 @@
           ]
         },
         {
-          "id": 24,
+          "id": 38,
           "name": "fetchVersion",
           "source": {
-            "line": 806,
+            "line": 846,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L806"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L846"
           },
           "parentId": 2,
           "accessibility": "protected",
@@ -1529,7 +1659,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 25,
+              "id": 39,
               "name": "fetchVersion",
               "comment": {
                 "description": null,
@@ -1547,7 +1677,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "JoshProvider.Semver",
+                    "name": "Semver",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -1557,13 +1687,13 @@
           ]
         },
         {
-          "id": 82,
+          "id": 96,
           "name": "filter",
           "source": {
-            "line": 263,
+            "line": 278,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L263"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L278"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1571,7 +1701,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 83,
+              "id": 97,
               "name": "filter",
               "comment": {
                 "description": null,
@@ -1581,7 +1711,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 84,
+                  "id": 98,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -1591,7 +1721,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Filter.ByHook",
+                    "name": "Payload.Filter.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -1614,7 +1744,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Filter.ByHook",
+                    "name": "Payload.Filter.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -1630,7 +1760,7 @@
               }
             },
             {
-              "id": 85,
+              "id": 99,
               "name": "filter",
               "comment": {
                 "description": null,
@@ -1640,7 +1770,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 86,
+                  "id": 100,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -1650,7 +1780,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Filter.ByValue",
+                    "name": "Payload.Filter.ByValue",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -1673,7 +1803,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Filter.ByValue",
+                    "name": "Payload.Filter.ByValue",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -1691,13 +1821,13 @@
           ]
         },
         {
-          "id": 87,
+          "id": 101,
           "name": "find",
           "source": {
-            "line": 307,
+            "line": 322,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L307"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L322"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1705,7 +1835,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 88,
+              "id": 102,
               "name": "find",
               "comment": {
                 "description": null,
@@ -1715,7 +1845,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 89,
+                  "id": 103,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -1725,7 +1855,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Find.ByHook",
+                    "name": "Payload.Find.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -1748,7 +1878,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Find.ByHook",
+                    "name": "Payload.Find.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -1764,7 +1894,7 @@
               }
             },
             {
-              "id": 90,
+              "id": 104,
               "name": "find",
               "comment": {
                 "description": null,
@@ -1774,7 +1904,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 91,
+                  "id": 105,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -1784,7 +1914,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Find.ByValue",
+                    "name": "Payload.Find.ByValue",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -1807,7 +1937,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Find.ByValue",
+                    "name": "Payload.Find.ByValue",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -1825,13 +1955,13 @@
           ]
         },
         {
-          "id": 49,
+          "id": 63,
           "name": "generateMongoDoc",
           "source": {
-            "line": 852,
+            "line": 904,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L852"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L904"
           },
           "parentId": 2,
           "accessibility": "private",
@@ -1839,7 +1969,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 50,
+              "id": 64,
               "name": "generateMongoDoc",
               "comment": {
                 "description": null,
@@ -1848,15 +1978,35 @@
               },
               "typeParameters": [
                 {
-                  "id": 51,
-                  "name": "StoredValue",
-                  "constraint": null,
-                  "default": null
+                  "id": 65,
+                  "name": "T",
+                  "constraint": {
+                    "kind": "reference",
+                    "id": null,
+                    "name": "Document",
+                    "packageName": "bson",
+                    "typeArguments": []
+                  },
+                  "default": {
+                    "kind": "reference",
+                    "id": 199,
+                    "name": "DocType",
+                    "packageName": null,
+                    "typeArguments": [
+                      {
+                        "kind": "reference",
+                        "id": 6,
+                        "name": "StoredValue",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
                 }
               ],
               "parameters": [
                 {
-                  "id": 52,
+                  "id": 66,
                   "name": "collectionName",
                   "comment": {
                     "description": null,
@@ -1877,18 +2027,10 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 188,
-                    "name": "DocType",
+                    "id": 65,
+                    "name": "T",
                     "packageName": null,
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 51,
-                        "name": "StoredValue",
-                        "packageName": null,
-                        "typeArguments": []
-                      }
-                    ]
+                    "typeArguments": []
                   }
                 ]
               }
@@ -1896,13 +2038,13 @@
           ]
         },
         {
-          "id": 92,
+          "id": 106,
           "name": "get",
           "source": {
-            "line": 360,
+            "line": 375,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L360"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L375"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1910,7 +2052,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 93,
+              "id": 107,
               "name": "get",
               "comment": {
                 "description": null,
@@ -1919,7 +2061,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 94,
+                  "id": 108,
                   "name": "StoredValue",
                   "constraint": null,
                   "default": null
@@ -1927,7 +2069,7 @@
               ],
               "parameters": [
                 {
-                  "id": 95,
+                  "id": 109,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -1937,12 +2079,12 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Get",
+                    "name": "Payload.Get",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 94,
+                        "id": 108,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -1960,12 +2102,12 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Get",
+                    "name": "Payload.Get",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 94,
+                        "id": 108,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -1978,13 +2120,13 @@
           ]
         },
         {
-          "id": 96,
+          "id": 110,
           "name": "getMany",
           "source": {
-            "line": 379,
+            "line": 394,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L379"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L394"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1992,7 +2134,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 97,
+              "id": 111,
               "name": "getMany",
               "comment": {
                 "description": null,
@@ -2002,7 +2144,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 98,
+                  "id": 112,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -2012,7 +2154,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.GetMany",
+                    "name": "Payload.GetMany",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -2035,7 +2177,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.GetMany",
+                    "name": "Payload.GetMany",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -2053,13 +2195,13 @@
           ]
         },
         {
-          "id": 99,
-          "name": "has",
+          "id": 30,
+          "name": "getMetadata",
           "source": {
-            "line": 390,
+            "line": 824,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L390"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L824"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2067,7 +2209,82 @@
           "static": false,
           "signatures": [
             {
-              "id": 100,
+              "id": 31,
+              "name": "getMetadata",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [
+                {
+                  "id": 32,
+                  "name": "T",
+                  "constraint": null,
+                  "default": {
+                    "kind": "intrinsic",
+                    "type": "unknown"
+                  }
+                }
+              ],
+              "parameters": [
+                {
+                  "id": 33,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "union",
+                    "types": [
+                      {
+                        "kind": "intrinsic",
+                        "type": "undefined"
+                      },
+                      {
+                        "kind": "reference",
+                        "id": 32,
+                        "name": "T",
+                        "packageName": null,
+                        "typeArguments": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 113,
+          "name": "has",
+          "source": {
+            "line": 405,
+            "file": "MongoProvider.ts",
+            "path": "packages/mongo/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L405"
+          },
+          "parentId": 2,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 114,
               "name": "has",
               "comment": {
                 "description": null,
@@ -2077,7 +2294,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 101,
+                  "id": 115,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -2087,7 +2304,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Has",
+                    "name": "Payload.Has",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -2102,7 +2319,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Has",
+                    "name": "Payload.Has",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -2112,13 +2329,13 @@
           ]
         },
         {
-          "id": 102,
+          "id": 116,
           "name": "inc",
           "source": {
-            "line": 405,
+            "line": 420,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L405"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L420"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2126,7 +2343,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 103,
+              "id": 117,
               "name": "inc",
               "comment": {
                 "description": null,
@@ -2136,7 +2353,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 104,
+                  "id": 118,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -2146,7 +2363,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Inc",
+                    "name": "Payload.Inc",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -2161,7 +2378,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Inc",
+                    "name": "Payload.Inc",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -2171,13 +2388,13 @@
           ]
         },
         {
-          "id": 19,
+          "id": 22,
           "name": "init",
           "source": {
-            "line": 84,
+            "line": 106,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L84"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L106"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2185,7 +2402,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 20,
+              "id": 23,
               "name": "init",
               "comment": {
                 "description": null,
@@ -2195,7 +2412,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 21,
+                  "id": 24,
                   "name": "context",
                   "comment": {
                     "description": null,
@@ -2230,13 +2447,13 @@
           ]
         },
         {
-          "id": 40,
+          "id": 54,
           "name": "iterate",
           "source": {
-            "line": 834,
+            "line": 886,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L834"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L886"
           },
           "parentId": 2,
           "accessibility": "private",
@@ -2244,7 +2461,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 41,
+              "id": 55,
               "name": "iterate",
               "comment": {
                 "description": null,
@@ -2254,7 +2471,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 42,
+                  "id": 56,
                   "name": "options",
                   "comment": {
                     "description": null,
@@ -2263,7 +2480,7 @@
                   },
                   "type": {
                     "kind": "reference",
-                    "id": 193,
+                    "id": 206,
                     "name": "IterateOptions",
                     "packageName": null,
                     "typeArguments": [
@@ -2283,7 +2500,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 188,
+                    "id": 199,
                     "name": "DocType",
                     "packageName": null,
                     "typeArguments": [
@@ -2302,13 +2519,13 @@
           ]
         },
         {
-          "id": 105,
+          "id": 119,
           "name": "keys",
           "source": {
-            "line": 428,
+            "line": 443,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L428"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L443"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2316,7 +2533,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 106,
+              "id": 120,
               "name": "keys",
               "comment": {
                 "description": null,
@@ -2326,7 +2543,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 107,
+                  "id": 121,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -2336,7 +2553,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Keys",
+                    "name": "Payload.Keys",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -2351,7 +2568,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Keys",
+                    "name": "Payload.Keys",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -2361,13 +2578,13 @@
           ]
         },
         {
-          "id": 108,
+          "id": 122,
           "name": "map",
           "source": {
-            "line": 436,
+            "line": 451,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L436"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L451"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2375,7 +2592,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 109,
+              "id": 123,
               "name": "map",
               "comment": {
                 "description": null,
@@ -2384,7 +2601,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 110,
+                  "id": 124,
                   "name": "Value",
                   "constraint": null,
                   "default": {
@@ -2398,7 +2615,7 @@
               ],
               "parameters": [
                 {
-                  "id": 111,
+                  "id": 125,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -2408,7 +2625,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Map.ByHook",
+                    "name": "Payload.Map.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -2420,7 +2637,7 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 110,
+                        "id": 124,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -2438,7 +2655,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Map.ByHook",
+                    "name": "Payload.Map.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -2450,7 +2667,7 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 110,
+                        "id": 124,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -2461,7 +2678,7 @@
               }
             },
             {
-              "id": 112,
+              "id": 126,
               "name": "map",
               "comment": {
                 "description": null,
@@ -2470,7 +2687,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 113,
+                  "id": 127,
                   "name": "Value",
                   "constraint": null,
                   "default": {
@@ -2484,7 +2701,7 @@
               ],
               "parameters": [
                 {
-                  "id": 114,
+                  "id": 128,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -2494,12 +2711,12 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Map.ByPath",
+                    "name": "Payload.Map.ByPath",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 113,
+                        "id": 127,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -2517,12 +2734,12 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Map.ByPath",
+                    "name": "Payload.Map.ByPath",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 113,
+                        "id": 127,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -2535,13 +2752,13 @@
           ]
         },
         {
-          "id": 115,
+          "id": 129,
           "name": "math",
           "source": {
-            "line": 461,
+            "line": 476,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L461"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L476"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2549,7 +2766,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 116,
+              "id": 130,
               "name": "math",
               "comment": {
                 "description": null,
@@ -2559,7 +2776,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 117,
+                  "id": 131,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -2569,7 +2786,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Math",
+                    "name": "Payload.Math",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -2584,7 +2801,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Math",
+                    "name": "Payload.Math",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -2594,13 +2811,13 @@
           ]
         },
         {
-          "id": 118,
+          "id": 132,
           "name": "partition",
           "source": {
-            "line": 516,
+            "line": 531,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L516"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L531"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2608,7 +2825,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 119,
+              "id": 133,
               "name": "partition",
               "comment": {
                 "description": null,
@@ -2618,7 +2835,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 120,
+                  "id": 134,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -2628,7 +2845,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Partition.ByHook",
+                    "name": "Payload.Partition.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -2651,7 +2868,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Partition.ByHook",
+                    "name": "Payload.Partition.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -2667,7 +2884,7 @@
               }
             },
             {
-              "id": 121,
+              "id": 135,
               "name": "partition",
               "comment": {
                 "description": null,
@@ -2677,7 +2894,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 122,
+                  "id": 136,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -2687,7 +2904,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Partition.ByValue",
+                    "name": "Payload.Partition.ByValue",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -2710,7 +2927,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Partition.ByValue",
+                    "name": "Payload.Partition.ByValue",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -2728,13 +2945,13 @@
           ]
         },
         {
-          "id": 123,
+          "id": 137,
           "name": "push",
           "source": {
-            "line": 562,
+            "line": 577,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L562"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L577"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2742,7 +2959,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 124,
+              "id": 138,
               "name": "push",
               "comment": {
                 "description": null,
@@ -2751,7 +2968,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 125,
+                  "id": 139,
                   "name": "Value",
                   "constraint": null,
                   "default": {
@@ -2765,7 +2982,7 @@
               ],
               "parameters": [
                 {
-                  "id": 126,
+                  "id": 140,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -2775,12 +2992,12 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Push",
+                    "name": "Payload.Push",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 125,
+                        "id": 139,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -2798,12 +3015,12 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Push",
+                    "name": "Payload.Push",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 125,
+                        "id": 139,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -2816,13 +3033,13 @@
           ]
         },
         {
-          "id": 127,
+          "id": 141,
           "name": "random",
           "source": {
-            "line": 586,
+            "line": 601,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L586"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L601"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2830,7 +3047,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 128,
+              "id": 142,
               "name": "random",
               "comment": {
                 "description": null,
@@ -2840,7 +3057,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 129,
+                  "id": 143,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -2850,7 +3067,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Random",
+                    "name": "Payload.Random",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -2873,7 +3090,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Random",
+                    "name": "Payload.Random",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -2891,13 +3108,13 @@
           ]
         },
         {
-          "id": 130,
+          "id": 144,
           "name": "randomKey",
           "source": {
-            "line": 604,
+            "line": 619,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L604"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L619"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2905,7 +3122,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 131,
+              "id": 145,
               "name": "randomKey",
               "comment": {
                 "description": null,
@@ -2915,7 +3132,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 132,
+                  "id": 146,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -2925,7 +3142,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.RandomKey",
+                    "name": "Payload.RandomKey",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -2940,7 +3157,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.RandomKey",
+                    "name": "Payload.RandomKey",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -2950,13 +3167,13 @@
           ]
         },
         {
-          "id": 133,
+          "id": 147,
           "name": "remove",
           "source": {
-            "line": 622,
+            "line": 637,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L622"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L637"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2964,7 +3181,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 134,
+              "id": 148,
               "name": "remove",
               "comment": {
                 "description": null,
@@ -2973,7 +3190,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 135,
+                  "id": 149,
                   "name": "HookValue",
                   "constraint": null,
                   "default": {
@@ -2987,7 +3204,7 @@
               ],
               "parameters": [
                 {
-                  "id": 136,
+                  "id": 150,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -2997,12 +3214,12 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Remove.ByHook",
+                    "name": "Payload.Remove.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 135,
+                        "id": 149,
                         "name": "HookValue",
                         "packageName": null,
                         "typeArguments": []
@@ -3020,12 +3237,12 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Remove.ByHook",
+                    "name": "Payload.Remove.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 135,
+                        "id": 149,
                         "name": "HookValue",
                         "packageName": null,
                         "typeArguments": []
@@ -3036,7 +3253,7 @@
               }
             },
             {
-              "id": 137,
+              "id": 151,
               "name": "remove",
               "comment": {
                 "description": null,
@@ -3046,7 +3263,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 138,
+                  "id": 152,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -3056,7 +3273,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Remove.ByValue",
+                    "name": "Payload.Remove.ByValue",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -3071,7 +3288,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Remove.ByValue",
+                    "name": "Payload.Remove.ByValue",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -3081,10 +3298,10 @@
           ]
         },
         {
-          "id": 166,
+          "id": 180,
           "name": "resolveIdentifier",
           "source": {
-            "line": 1504,
+            "line": 1131,
             "file": "index.d.ts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -3095,7 +3312,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 167,
+              "id": 181,
               "name": "resolveIdentifier",
               "comment": {
                 "description": "Resolves an identifier.",
@@ -3114,7 +3331,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 168,
+                  "id": 182,
                   "name": "identifier",
                   "comment": {
                     "description": "The identifier to resolve.",
@@ -3127,7 +3344,7 @@
                   }
                 },
                 {
-                  "id": 169,
+                  "id": 183,
                   "name": "metadata",
                   "comment": {
                     "description": "The metadata to use.",
@@ -3160,70 +3377,13 @@
           ]
         },
         {
-          "id": 170,
-          "name": "resolveVersion",
-          "source": {
-            "line": 1511,
-            "file": "index.d.ts",
-            "path": "node_modules/@joshdb/provider/dist",
-            "url": null
-          },
-          "parentId": 2,
-          "accessibility": "protected",
-          "abstract": false,
-          "static": false,
-          "signatures": [
-            {
-              "id": 171,
-              "name": "resolveVersion",
-              "comment": {
-                "description": "Resolves a version.",
-                "blockTags": [
-                  {
-                    "name": "since",
-                    "text": "1.0.0"
-                  },
-                  {
-                    "name": "returns",
-                    "text": "The resolved version."
-                  }
-                ],
-                "modifierTags": []
-              },
-              "typeParameters": [],
-              "parameters": [
-                {
-                  "id": 172,
-                  "name": "version",
-                  "comment": {
-                    "description": "The version to resolve.",
-                    "blockTags": [],
-                    "modifierTags": []
-                  },
-                  "type": {
-                    "kind": "intrinsic",
-                    "type": "string"
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": null,
-                "name": "JoshProvider.Semver",
-                "packageName": "@joshdb/provider",
-                "typeArguments": []
-              }
-            }
-          ]
-        },
-        {
-          "id": 46,
+          "id": 60,
           "name": "serialize",
           "source": {
-            "line": 847,
+            "line": 899,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L847"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L899"
           },
           "parentId": 2,
           "accessibility": "private",
@@ -3231,7 +3391,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 47,
+              "id": 61,
               "name": "serialize",
               "comment": {
                 "description": null,
@@ -3241,7 +3401,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 48,
+                  "id": 62,
                   "name": "value",
                   "comment": {
                     "description": null,
@@ -3280,13 +3440,13 @@
           ]
         },
         {
-          "id": 139,
+          "id": 153,
           "name": "set",
           "source": {
-            "line": 672,
+            "line": 687,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L672"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L687"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3294,7 +3454,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 140,
+              "id": 154,
               "name": "set",
               "comment": {
                 "description": null,
@@ -3303,7 +3463,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 141,
+                  "id": 155,
                   "name": "Value",
                   "constraint": null,
                   "default": {
@@ -3317,7 +3477,7 @@
               ],
               "parameters": [
                 {
-                  "id": 142,
+                  "id": 156,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -3327,12 +3487,12 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Set",
+                    "name": "Payload.Set",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 141,
+                        "id": 155,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -3350,12 +3510,12 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Set",
+                    "name": "Payload.Set",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 141,
+                        "id": 155,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -3368,13 +3528,13 @@
           ]
         },
         {
-          "id": 143,
+          "id": 157,
           "name": "setMany",
           "source": {
-            "line": 691,
+            "line": 706,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L691"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L706"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3382,7 +3542,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 144,
+              "id": 158,
               "name": "setMany",
               "comment": {
                 "description": null,
@@ -3392,7 +3552,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 145,
+                  "id": 159,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -3402,7 +3562,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.SetMany",
+                    "name": "Payload.SetMany",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -3417,7 +3577,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.SetMany",
+                    "name": "Payload.SetMany",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -3427,13 +3587,13 @@
           ]
         },
         {
-          "id": 146,
-          "name": "size",
+          "id": 34,
+          "name": "setMetadata",
           "source": {
-            "line": 726,
+            "line": 832,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L726"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L832"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3441,7 +3601,73 @@
           "static": false,
           "signatures": [
             {
-              "id": 147,
+              "id": 35,
+              "name": "setMetadata",
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "typeParameters": [],
+              "parameters": [
+                {
+                  "id": 36,
+                  "name": "key",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "string"
+                  }
+                },
+                {
+                  "id": 37,
+                  "name": "value",
+                  "comment": {
+                    "description": null,
+                    "blockTags": [],
+                    "modifierTags": []
+                  },
+                  "type": {
+                    "kind": "intrinsic",
+                    "type": "unknown"
+                  }
+                }
+              ],
+              "returnType": {
+                "kind": "reference",
+                "id": null,
+                "name": "Promise",
+                "packageName": "typescript",
+                "typeArguments": [
+                  {
+                    "kind": "intrinsic",
+                    "type": "void"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 160,
+          "name": "size",
+          "source": {
+            "line": 740,
+            "file": "MongoProvider.ts",
+            "path": "packages/mongo/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L740"
+          },
+          "parentId": 2,
+          "accessibility": "public",
+          "abstract": false,
+          "static": false,
+          "signatures": [
+            {
+              "id": 161,
               "name": "size",
               "comment": {
                 "description": null,
@@ -3451,7 +3677,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 148,
+                  "id": 162,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -3461,7 +3687,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Size",
+                    "name": "Payload.Size",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -3476,7 +3702,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Size",
+                    "name": "Payload.Size",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -3486,13 +3712,13 @@
           ]
         },
         {
-          "id": 149,
+          "id": 163,
           "name": "some",
           "source": {
-            "line": 732,
+            "line": 746,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L732"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L746"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3500,7 +3726,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 150,
+              "id": 164,
               "name": "some",
               "comment": {
                 "description": null,
@@ -3510,7 +3736,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 151,
+                  "id": 165,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -3520,7 +3746,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Some.ByHook",
+                    "name": "Payload.Some.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -3543,7 +3769,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Some.ByHook",
+                    "name": "Payload.Some.ByHook",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -3559,7 +3785,7 @@
               }
             },
             {
-              "id": 152,
+              "id": 166,
               "name": "some",
               "comment": {
                 "description": null,
@@ -3569,7 +3795,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 153,
+                  "id": 167,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -3579,7 +3805,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Some.ByValue",
+                    "name": "Payload.Some.ByValue",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -3594,7 +3820,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Some.ByValue",
+                    "name": "Payload.Some.ByValue",
                     "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
@@ -3604,13 +3830,13 @@
           ]
         },
         {
-          "id": 154,
+          "id": 168,
           "name": "update",
           "source": {
-            "line": 781,
+            "line": 795,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L781"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L795"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3618,7 +3844,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 155,
+              "id": 169,
               "name": "update",
               "comment": {
                 "description": null,
@@ -3627,7 +3853,7 @@
               },
               "typeParameters": [
                 {
-                  "id": 156,
+                  "id": 170,
                   "name": "Value",
                   "constraint": null,
                   "default": {
@@ -3641,7 +3867,7 @@
               ],
               "parameters": [
                 {
-                  "id": 157,
+                  "id": 171,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -3651,7 +3877,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Update",
+                    "name": "Payload.Update",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -3663,7 +3889,7 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 156,
+                        "id": 170,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -3681,7 +3907,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Update",
+                    "name": "Payload.Update",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -3693,7 +3919,7 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 156,
+                        "id": 170,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -3706,13 +3932,13 @@
           ]
         },
         {
-          "id": 158,
+          "id": 172,
           "name": "values",
           "source": {
-            "line": 798,
+            "line": 812,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L798"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L812"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3720,7 +3946,7 @@
           "static": false,
           "signatures": [
             {
-              "id": 159,
+              "id": 173,
               "name": "values",
               "comment": {
                 "description": null,
@@ -3730,7 +3956,7 @@
               "typeParameters": [],
               "parameters": [
                 {
-                  "id": 160,
+                  "id": 174,
                   "name": "payload",
                   "comment": {
                     "description": null,
@@ -3740,7 +3966,7 @@
                   "type": {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Values",
+                    "name": "Payload.Values",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -3763,7 +3989,7 @@
                   {
                     "kind": "reference",
                     "id": null,
-                    "name": "Payloads.Values",
+                    "name": "Payload.Values",
                     "packageName": "@joshdb/provider",
                     "typeArguments": [
                       {
@@ -3788,13 +4014,13 @@
   "interfaces": [],
   "namespaces": [
     {
-      "id": 174,
+      "id": 185,
       "name": "MongoProvider",
       "source": {
-        "line": 28,
+        "line": 34,
         "file": "MongoProvider.ts",
         "path": "packages/mongo/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L28"
+        "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L34"
       },
       "comment": {
         "description": null,
@@ -3805,13 +4031,13 @@
       "classes": [],
       "enums": [
         {
-          "id": 197,
+          "id": 210,
           "name": "Identifiers",
           "source": {
-            "line": 898,
+            "line": 974,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L898"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L974"
           },
           "comment": {
             "description": null,
@@ -3821,37 +4047,37 @@
           "external": false,
           "members": [
             {
-              "id": 198,
+              "id": 211,
               "name": "InitMissingCollectionName",
               "source": {
-                "line": 899,
+                "line": 975,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L899"
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L975"
               },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "parentId": 197,
+              "parentId": 210,
               "value": "initMissingCollectionName"
             },
             {
-              "id": 199,
+              "id": 212,
               "name": "NotConnected",
               "source": {
-                "line": 901,
+                "line": 977,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L901"
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L977"
               },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "parentId": 197,
+              "parentId": 210,
               "value": "notConnected"
             }
           ]
@@ -3860,13 +4086,13 @@
       "functions": [],
       "interfaces": [
         {
-          "id": 182,
+          "id": 193,
           "name": "Authentication",
           "source": {
-            "line": 872,
+            "line": 944,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L872"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L944"
           },
           "comment": {
             "description": null,
@@ -3877,20 +4103,20 @@
           "typeParameters": [],
           "properties": [
             {
-              "id": 185,
+              "id": 196,
               "name": "dbName",
               "source": {
-                "line": 877,
+                "line": 949,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L877"
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L949"
               },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "parentId": 182,
+              "parentId": 193,
               "readonly": false,
               "type": {
                 "kind": "intrinsic",
@@ -3898,20 +4124,20 @@
               }
             },
             {
-              "id": 187,
+              "id": 198,
               "name": "host",
               "source": {
-                "line": 881,
+                "line": 953,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L881"
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L953"
               },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "parentId": 182,
+              "parentId": 193,
               "readonly": false,
               "type": {
                 "kind": "intrinsic",
@@ -3919,20 +4145,20 @@
               }
             },
             {
-              "id": 184,
+              "id": 195,
               "name": "password",
               "source": {
-                "line": 875,
+                "line": 947,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L875"
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L947"
               },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "parentId": 182,
+              "parentId": 193,
               "readonly": false,
               "type": {
                 "kind": "intrinsic",
@@ -3940,20 +4166,20 @@
               }
             },
             {
-              "id": 186,
+              "id": 197,
               "name": "port",
               "source": {
-                "line": 879,
+                "line": 951,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L879"
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L951"
               },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "parentId": 182,
+              "parentId": 193,
               "readonly": false,
               "type": {
                 "kind": "intrinsic",
@@ -3961,20 +4187,20 @@
               }
             },
             {
-              "id": 183,
+              "id": 194,
               "name": "user",
               "source": {
-                "line": 873,
+                "line": 945,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L873"
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L945"
               },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "parentId": 182,
+              "parentId": 193,
               "readonly": false,
               "type": {
                 "kind": "intrinsic",
@@ -3985,13 +4211,13 @@
           "methods": []
         },
         {
-          "id": 188,
+          "id": 199,
           "name": "DocType",
           "source": {
-            "line": 884,
+            "line": 956,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L884"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L956"
           },
           "comment": {
             "description": null,
@@ -4001,7 +4227,7 @@
           "external": false,
           "typeParameters": [
             {
-              "id": 192,
+              "id": 202,
               "name": "StoredValue",
               "constraint": null,
               "default": null
@@ -4009,20 +4235,20 @@
           ],
           "properties": [
             {
-              "id": 189,
+              "id": 200,
               "name": "key",
               "source": {
-                "line": 885,
+                "line": 957,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L885"
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L957"
               },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "parentId": 188,
+              "parentId": 199,
               "readonly": false,
               "type": {
                 "kind": "intrinsic",
@@ -4030,20 +4256,20 @@
               }
             },
             {
-              "id": 190,
+              "id": 201,
               "name": "value",
               "source": {
-                "line": 887,
+                "line": 959,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L887"
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L959"
               },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "parentId": 188,
+              "parentId": 199,
               "readonly": false,
               "type": {
                 "kind": "union",
@@ -4057,49 +4283,25 @@
                   },
                   {
                     "kind": "reference",
-                    "id": 192,
+                    "id": 202,
                     "name": "StoredValue",
                     "packageName": null,
                     "typeArguments": []
                   }
                 ]
               }
-            },
-            {
-              "id": 191,
-              "name": "version",
-              "source": {
-                "line": 889,
-                "file": "MongoProvider.ts",
-                "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L889"
-              },
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "parentId": 188,
-              "readonly": false,
-              "type": {
-                "kind": "reference",
-                "id": null,
-                "name": "JoshProvider.Semver",
-                "packageName": "@joshdb/provider",
-                "typeArguments": []
-              }
             }
           ],
           "methods": []
         },
         {
-          "id": 193,
+          "id": 206,
           "name": "IterateOptions",
           "source": {
-            "line": 892,
+            "line": 968,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L892"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L968"
           },
           "comment": {
             "description": null,
@@ -4109,7 +4311,7 @@
           "external": false,
           "typeParameters": [
             {
-              "id": 196,
+              "id": 209,
               "name": "StoredValue",
               "constraint": null,
               "default": {
@@ -4120,20 +4322,20 @@
           ],
           "properties": [
             {
-              "id": 194,
+              "id": 207,
               "name": "filter",
               "source": {
-                "line": 893,
+                "line": 969,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L893"
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L969"
               },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "parentId": 193,
+              "parentId": 206,
               "readonly": false,
               "type": {
                 "kind": "reference",
@@ -4143,13 +4345,13 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": 188,
+                    "id": 199,
                     "name": "DocType",
                     "packageName": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 196,
+                        "id": 209,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -4160,20 +4362,20 @@
               }
             },
             {
-              "id": 195,
+              "id": 208,
               "name": "project",
               "source": {
-                "line": 895,
+                "line": 971,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L895"
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L971"
               },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "parentId": 193,
+              "parentId": 206,
               "readonly": false,
               "type": {
                 "kind": "reference",
@@ -4226,13 +4428,13 @@
           "methods": []
         },
         {
-          "id": 175,
-          "name": "Options",
+          "id": 203,
+          "name": "MetadataDocType",
           "source": {
-            "line": 860,
+            "line": 962,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L860"
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L962"
           },
           "comment": {
             "description": null,
@@ -4243,10 +4445,72 @@
           "typeParameters": [],
           "properties": [
             {
-              "id": 181,
+              "id": 204,
+              "name": "key",
+              "source": {
+                "line": 963,
+                "file": "MongoProvider.ts",
+                "path": "packages/mongo/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L963"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 203,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 205,
+              "name": "value",
+              "source": {
+                "line": 965,
+                "file": "MongoProvider.ts",
+                "path": "packages/mongo/src/lib",
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L965"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 203,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "unknown"
+              }
+            }
+          ],
+          "methods": []
+        },
+        {
+          "id": 186,
+          "name": "Options",
+          "source": {
+            "line": 912,
+            "file": "MongoProvider.ts",
+            "path": "packages/mongo/src/lib",
+            "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L912"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "external": false,
+          "typeParameters": [],
+          "properties": [
+            {
+              "id": 192,
               "name": "allowMigrations",
               "source": {
-                "line": 1533,
+                "line": 1153,
                 "file": "index.d.ts",
                 "path": "node_modules/@joshdb/provider/dist",
                 "url": null
@@ -4261,7 +4525,7 @@
                 ],
                 "modifierTags": []
               },
-              "parentId": 175,
+              "parentId": 186,
               "readonly": false,
               "type": {
                 "kind": "intrinsic",
@@ -4269,20 +4533,25 @@
               }
             },
             {
-              "id": 179,
+              "id": 190,
               "name": "authentication",
               "source": {
-                "line": 867,
+                "line": 935,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L867"
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L935"
               },
               "comment": {
-                "description": null,
-                "blockTags": [],
+                "description": "The authentication to use.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  }
+                ],
                 "modifierTags": []
               },
-              "parentId": 175,
+              "parentId": 186,
               "readonly": false,
               "type": {
                 "kind": "union",
@@ -4299,7 +4568,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": 182,
+                        "id": 193,
                         "name": "Authentication",
                         "packageName": null,
                         "typeArguments": []
@@ -4310,20 +4579,25 @@
               }
             },
             {
-              "id": 176,
+              "id": 187,
               "name": "collectionName",
               "source": {
-                "line": 861,
+                "line": 917,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L861"
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L917"
               },
               "comment": {
-                "description": null,
-                "blockTags": [],
+                "description": "The collection name to use.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  }
+                ],
                 "modifierTags": []
               },
-              "parentId": 175,
+              "parentId": 186,
               "readonly": false,
               "type": {
                 "kind": "intrinsic",
@@ -4331,20 +4605,25 @@
               }
             },
             {
-              "id": 177,
+              "id": 188,
               "name": "connectOptions",
               "source": {
-                "line": 863,
+                "line": 923,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L863"
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L923"
               },
               "comment": {
-                "description": null,
-                "blockTags": [],
+                "description": "The connection options to use.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  }
+                ],
                 "modifierTags": []
               },
-              "parentId": 175,
+              "parentId": 186,
               "readonly": false,
               "type": {
                 "kind": "reference",
@@ -4355,20 +4634,25 @@
               }
             },
             {
-              "id": 180,
+              "id": 191,
               "name": "disableSerialization",
               "source": {
-                "line": 869,
+                "line": 941,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L869"
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L941"
               },
               "comment": {
-                "description": null,
-                "blockTags": [],
+                "description": "Whether to disable serialization.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  }
+                ],
                 "modifierTags": []
               },
-              "parentId": 175,
+              "parentId": 186,
               "readonly": false,
               "type": {
                 "kind": "intrinsic",
@@ -4376,20 +4660,25 @@
               }
             },
             {
-              "id": 178,
+              "id": 189,
               "name": "enforceCollectionName",
               "source": {
-                "line": 865,
+                "line": 929,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/lib/MongoProvider.ts#L865"
+                "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/lib/MongoProvider.ts#L929"
               },
               "comment": {
-                "description": null,
-                "blockTags": [],
+                "description": "Whether to enforce the collection name for compatibility with MongoDB.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "2.0.0"
+                  }
+                ],
                 "modifierTags": []
               },
-              "parentId": 175,
+              "parentId": 186,
               "readonly": false,
               "type": {
                 "kind": "intrinsic",
@@ -4414,7 +4703,7 @@
         "line": 3,
         "file": "index.ts",
         "path": "packages/mongo/src",
-        "url": "https://github.com/josh-development/providers/blob/230f6e9/packages/mongo/src/index.ts#L3"
+        "url": "https://github.com/josh-development/providers/blob/d5954a5/packages/mongo/src/index.ts#L3"
       },
       "comment": {
         "description": null,
