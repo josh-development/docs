@@ -17,7 +17,7 @@
         "line": 3,
         "file": "Serialize.ts",
         "path": "lib",
-        "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L3"
+        "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L3"
       },
       "comment": {
         "description": null,
@@ -28,13 +28,99 @@
       "classes": [],
       "enums": [
         {
-          "id": 14,
-          "name": "Type",
+          "id": 8,
+          "name": "Keying",
           "source": {
-            "line": 126,
+            "line": 133,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L126"
+            "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L133"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "external": false,
+          "members": [
+            {
+              "id": 12,
+              "name": "Flags",
+              "source": {
+                "line": 140,
+                "file": "Serialize.ts",
+                "path": "lib",
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L140"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 8,
+              "value": "f"
+            },
+            {
+              "id": 11,
+              "name": "Source",
+              "source": {
+                "line": 138,
+                "file": "Serialize.ts",
+                "path": "lib",
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L138"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 8,
+              "value": "s"
+            },
+            {
+              "id": 9,
+              "name": "Type",
+              "source": {
+                "line": 134,
+                "file": "Serialize.ts",
+                "path": "lib",
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L134"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 8,
+              "value": "t"
+            },
+            {
+              "id": 10,
+              "name": "Value",
+              "source": {
+                "line": 136,
+                "file": "Serialize.ts",
+                "path": "lib",
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L136"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 8,
+              "value": "v"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Type",
+          "source": {
+            "line": 169,
+            "file": "Serialize.ts",
+            "path": "lib",
+            "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L169"
           },
           "comment": {
             "description": "The json format type enum.",
@@ -49,208 +135,208 @@
           "external": false,
           "members": [
             {
-              "id": 15,
+              "id": 20,
               "name": "Array",
               "source": {
-                "line": 127,
+                "line": 170,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L127"
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L170"
               },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "parentId": 14,
-              "value": "array"
-            },
-            {
-              "id": 16,
-              "name": "BigInt",
-              "source": {
-                "line": 129,
-                "file": "Serialize.ts",
-                "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L129"
-              },
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "parentId": 14,
-              "value": "bigint"
-            },
-            {
-              "id": 17,
-              "name": "Boolean",
-              "source": {
-                "line": 131,
-                "file": "Serialize.ts",
-                "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L131"
-              },
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "parentId": 14,
-              "value": "boolean"
-            },
-            {
-              "id": 18,
-              "name": "Date",
-              "source": {
-                "line": 133,
-                "file": "Serialize.ts",
-                "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L133"
-              },
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "parentId": 14,
-              "value": "date"
-            },
-            {
-              "id": 19,
-              "name": "Map",
-              "source": {
-                "line": 135,
-                "file": "Serialize.ts",
-                "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L135"
-              },
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "parentId": 14,
-              "value": "map"
-            },
-            {
-              "id": 20,
-              "name": "Null",
-              "source": {
-                "line": 137,
-                "file": "Serialize.ts",
-                "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L137"
-              },
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "parentId": 14,
-              "value": "null"
+              "parentId": 19,
+              "value": "0"
             },
             {
               "id": 21,
-              "name": "Number",
+              "name": "BigInt",
               "source": {
-                "line": 139,
+                "line": 172,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L139"
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L172"
               },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "parentId": 14,
-              "value": "number"
+              "parentId": 19,
+              "value": "11"
             },
             {
               "id": 22,
-              "name": "Object",
+              "name": "Boolean",
               "source": {
-                "line": 141,
+                "line": 174,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L141"
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L174"
               },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "parentId": 14,
-              "value": "object"
+              "parentId": 19,
+              "value": "2"
             },
             {
               "id": 23,
-              "name": "RegExp",
+              "name": "Date",
               "source": {
-                "line": 143,
+                "line": 176,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L143"
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L176"
               },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "parentId": 14,
-              "value": "regexp"
+              "parentId": 19,
+              "value": "3"
             },
             {
               "id": 24,
-              "name": "Set",
+              "name": "Map",
               "source": {
-                "line": 145,
+                "line": 178,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L145"
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L178"
               },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "parentId": 14,
-              "value": "set"
+              "parentId": 19,
+              "value": "4"
             },
             {
               "id": 25,
-              "name": "String",
+              "name": "Null",
               "source": {
-                "line": 147,
+                "line": 180,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L147"
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L180"
               },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "parentId": 14,
-              "value": "string"
+              "parentId": 19,
+              "value": "5"
             },
             {
               "id": 26,
-              "name": "Undefined",
+              "name": "Number",
               "source": {
-                "line": 149,
+                "line": 182,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L149"
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L182"
               },
               "comment": {
                 "description": null,
                 "blockTags": [],
                 "modifierTags": []
               },
-              "parentId": 14,
-              "value": "undefined"
+              "parentId": 19,
+              "value": "6"
+            },
+            {
+              "id": 27,
+              "name": "Object",
+              "source": {
+                "line": 184,
+                "file": "Serialize.ts",
+                "path": "lib",
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L184"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 19,
+              "value": "7"
+            },
+            {
+              "id": 28,
+              "name": "RegExp",
+              "source": {
+                "line": 186,
+                "file": "Serialize.ts",
+                "path": "lib",
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L186"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 19,
+              "value": "10"
+            },
+            {
+              "id": 29,
+              "name": "Set",
+              "source": {
+                "line": 188,
+                "file": "Serialize.ts",
+                "path": "lib",
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L188"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 19,
+              "value": "9"
+            },
+            {
+              "id": 30,
+              "name": "String",
+              "source": {
+                "line": 190,
+                "file": "Serialize.ts",
+                "path": "lib",
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L190"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 19,
+              "value": "8"
+            },
+            {
+              "id": 31,
+              "name": "Undefined",
+              "source": {
+                "line": 192,
+                "file": "Serialize.ts",
+                "path": "lib",
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L192"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 19,
+              "value": "1"
             }
           ]
         }
@@ -260,10 +346,10 @@
           "id": 5,
           "name": "fromJSON",
           "source": {
-            "line": 47,
+            "line": 62,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L47"
+            "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L62"
           },
           "comment": {
             "description": null,
@@ -301,7 +387,7 @@
                   },
                   "type": {
                     "kind": "reference",
-                    "id": 8,
+                    "id": 16,
                     "name": "JSON",
                     "packageName": null,
                     "typeArguments": []
@@ -322,7 +408,7 @@
             "line": 10,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L10"
+            "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L10"
           },
           "comment": {
             "description": null,
@@ -366,7 +452,7 @@
               ],
               "returnType": {
                 "kind": "reference",
-                "id": 8,
+                "id": 16,
                 "name": "JSON",
                 "packageName": null,
                 "typeArguments": []
@@ -377,13 +463,13 @@
       ],
       "interfaces": [
         {
-          "id": 8,
+          "id": 16,
           "name": "JSON",
           "source": {
-            "line": 108,
+            "line": 151,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L108"
+            "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L151"
           },
           "comment": {
             "description": "The json format type interface.",
@@ -399,16 +485,16 @@
           "typeParameters": [],
           "properties": [
             {
-              "id": 9,
-              "name": "type",
+              "id": 17,
+              "name": "t",
               "source": {
-                "line": 113,
+                "line": 156,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L113"
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L156"
               },
               "comment": {
-                "description": "The type of {@link value}",
+                "description": "The type of {@link v}",
                 "blockTags": [
                   {
                     "name": "since",
@@ -417,24 +503,24 @@
                 ],
                 "modifierTags": []
               },
-              "parentId": 8,
+              "parentId": 16,
               "readonly": false,
               "type": {
                 "kind": "reference",
-                "id": 14,
+                "id": 19,
                 "name": "Type",
                 "packageName": null,
                 "typeArguments": []
               }
             },
             {
-              "id": 10,
-              "name": "value",
+              "id": 18,
+              "name": "v",
               "source": {
-                "line": 119,
+                "line": 162,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L119"
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L162"
               },
               "comment": {
                 "description": "The value for this json.",
@@ -446,7 +532,7 @@
                 ],
                 "modifierTags": []
               },
-              "parentId": 8,
+              "parentId": 16,
               "readonly": false,
               "type": {
                 "kind": "union",
@@ -471,7 +557,7 @@
                     "kind": "array",
                     "type": {
                       "kind": "reference",
-                      "id": 8,
+                      "id": 16,
                       "name": "JSON",
                       "packageName": null,
                       "typeArguments": []
@@ -491,7 +577,7 @@
                         },
                         {
                           "kind": "reference",
-                          "id": 8,
+                          "id": 16,
                           "name": "JSON",
                           "packageName": null,
                           "typeArguments": []
@@ -514,7 +600,7 @@
                       },
                       {
                         "kind": "reference",
-                        "id": 8,
+                        "id": 16,
                         "name": "JSON",
                         "packageName": null,
                         "typeArguments": []
@@ -522,73 +608,75 @@
                     ]
                   },
                   {
-                    "kind": "reflection",
-                    "reflection": {
-                      "id": 11,
-                      "name": "__type",
-                      "kind": 65536,
-                      "kindString": "Type literal",
-                      "flags": {},
-                      "children": [
-                        {
-                          "id": 13,
-                          "name": "flags",
-                          "kind": 1024,
-                          "kindString": "Property",
-                          "flags": {},
-                          "sources": [
-                            {
-                              "fileName": "lib/Serialize.ts",
-                              "line": 119,
-                              "character": 125,
-                              "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L119"
-                            }
-                          ],
-                          "type": {
-                            "type": "intrinsic",
-                            "name": "string"
-                          }
-                        },
-                        {
-                          "id": 12,
-                          "name": "source",
-                          "kind": 1024,
-                          "kindString": "Property",
-                          "flags": {},
-                          "sources": [
-                            {
-                              "fileName": "lib/Serialize.ts",
-                              "line": 119,
-                              "character": 109,
-                              "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L119"
-                            }
-                          ],
-                          "type": {
-                            "type": "intrinsic",
-                            "name": "string"
-                          }
-                        }
-                      ],
-                      "groups": [
-                        {
-                          "title": "Properties",
-                          "children": [
-                            13,
-                            12
-                          ]
-                        }
-                      ],
-                      "sources": [
-                        {
-                          "fileName": "lib/Serialize.ts",
-                          "line": 119,
-                          "character": 107,
-                          "url": "https://github.com/josh-development/utilities/blob/f40a41e/packages/serialize/src/lib/Serialize.ts#L119"
-                        }
-                      ]
-                    }
+                    "kind": "reference",
+                    "id": 13,
+                    "name": "Regex",
+                    "packageName": null,
+                    "typeArguments": []
                   }
                 ]
+              }
+            }
+          ],
+          "methods": []
+        },
+        {
+          "id": 13,
+          "name": "Regex",
+          "source": {
+            "line": 142,
+            "file": "Serialize.ts",
+            "path": "lib",
+            "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L142"
+          },
+          "comment": {
+            "description": null,
+            "blockTags": [],
+            "modifierTags": []
+          },
+          "external": false,
+          "typeParameters": [],
+          "properties": [
+            {
+              "id": 15,
+              "name": "f",
+              "source": {
+                "line": 145,
+                "file": "Serialize.ts",
+                "path": "lib",
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L145"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 13,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
+              }
+            },
+            {
+              "id": 14,
+              "name": "s",
+              "source": {
+                "line": 143,
+                "file": "Serialize.ts",
+                "path": "lib",
+                "url": "https://github.com/josh-development/utilities/blob/24b745c/packages/serialize/src/lib/Serialize.ts#L143"
+              },
+              "comment": {
+                "description": null,
+                "blockTags": [],
+                "modifierTags": []
+              },
+              "parentId": 13,
+              "readonly": false,
+              "type": {
+                "kind": "intrinsic",
+                "type": "string"
               }
             }
           ],
