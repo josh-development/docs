@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "7.0.2",
+  "typeDocJsonParserVersion": "7.1.0",
   "id": 0,
   "name": "@joshdb/postgresql",
   "version": "1.0.0",
@@ -13,7 +13,7 @@
         "line": 30,
         "file": "PostgreSQLProvider.ts",
         "path": "packages/postgresql/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L30"
+        "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L30"
       },
       "comment": {
         "description": null,
@@ -56,7 +56,7 @@
           "line": 39,
           "file": "PostgreSQLProvider.ts",
           "path": "packages/postgresql/src/lib",
-          "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L39"
+          "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L39"
         },
         "comment": {
           "description": null,
@@ -74,6 +74,7 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 147,
@@ -92,7 +93,7 @@
             "line": 35,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L35"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L35"
           },
           "comment": {
             "description": null,
@@ -128,7 +129,7 @@
             "line": 33,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L33"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L33"
           },
           "comment": {
             "description": null,
@@ -189,7 +190,7 @@
             "line": 31,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L31"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L31"
           },
           "comment": {
             "description": null,
@@ -217,7 +218,7 @@
             "line": 37,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L37"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L37"
           },
           "comment": {
             "description": null,
@@ -245,7 +246,7 @@
             "line": 737,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L737"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L737"
           },
           "comment": {
             "description": null,
@@ -273,7 +274,7 @@
             "line": 68,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L68"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L68"
           },
           "comment": {
             "description": null,
@@ -303,7 +304,7 @@
             "line": 92,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L92"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L92"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -328,6 +329,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -354,7 +356,7 @@
             "line": 98,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L98"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L98"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -379,6 +381,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -413,7 +416,7 @@
             "line": 104,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L104"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L104"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -438,6 +441,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -472,7 +476,7 @@
             "line": 127,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L127"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L127"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -497,6 +501,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -531,7 +536,7 @@
             "line": 141,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L141"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L141"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -556,6 +561,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -590,7 +596,7 @@
             "line": 80,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L80"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L80"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -615,6 +621,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -643,7 +650,7 @@
             "line": 149,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L149"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L149"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -668,6 +675,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -718,7 +726,7 @@
             "line": 157,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L157"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L157"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -743,6 +751,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -793,7 +802,7 @@
             "line": 168,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L168"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L168"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -818,6 +827,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -902,6 +912,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "union",
                     "types": [
@@ -939,6 +950,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": true,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -974,7 +986,7 @@
             "line": 174,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L174"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L174"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -999,6 +1011,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1058,6 +1071,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1092,7 +1106,7 @@
             "line": 731,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L731"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L731"
           },
           "parentId": 1,
           "accessibility": "protected",
@@ -1134,7 +1148,7 @@
             "line": 219,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L219"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L219"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1159,6 +1173,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1218,6 +1233,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1268,7 +1284,7 @@
             "line": 255,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L255"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L255"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1293,6 +1309,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1352,6 +1369,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1402,7 +1420,7 @@
             "line": 305,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L305"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L305"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1440,6 +1458,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1490,7 +1509,7 @@
             "line": 319,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L319"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L319"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1515,6 +1534,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1565,7 +1585,7 @@
             "line": 84,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L84"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L84"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1590,6 +1610,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -1618,7 +1639,7 @@
             "line": 327,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L327"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L327"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1643,6 +1664,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1677,7 +1699,7 @@
             "line": 335,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L335"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L335"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1702,6 +1724,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1736,7 +1759,7 @@
             "line": 72,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L72"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L72"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1761,6 +1784,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1795,7 +1819,7 @@
             "line": 358,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L358"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L358"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1820,6 +1844,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1854,7 +1879,7 @@
             "line": 364,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L364"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L364"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1892,6 +1917,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -1978,6 +2004,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2028,7 +2055,7 @@
             "line": 388,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L388"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L388"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2053,6 +2080,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2087,7 +2115,7 @@
             "line": 443,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L443"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L443"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2112,6 +2140,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2171,6 +2200,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2221,7 +2251,7 @@
             "line": 485,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L485"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L485"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2259,6 +2289,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2309,7 +2340,7 @@
             "line": 509,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L509"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L509"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2334,6 +2365,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2384,7 +2416,7 @@
             "line": 541,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L541"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L541"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2409,6 +2441,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2443,7 +2476,7 @@
             "line": 569,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L569"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L569"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2481,6 +2514,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2540,6 +2574,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2608,6 +2643,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -2621,6 +2657,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": true,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2653,7 +2690,7 @@
             "line": 619,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L619"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L619"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2691,6 +2728,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2741,7 +2779,7 @@
             "line": 632,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L632"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L632"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2766,6 +2804,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2800,7 +2839,7 @@
             "line": 88,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L88"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L88"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2825,6 +2864,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -2838,6 +2878,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "unknown"
@@ -2866,7 +2907,7 @@
             "line": 654,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L654"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L654"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2891,6 +2932,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -2925,7 +2967,7 @@
             "line": 660,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L660"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L660"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2950,6 +2992,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -3009,6 +3052,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -3043,7 +3087,7 @@
             "line": 708,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L708"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L708"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3081,6 +3125,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -3145,7 +3190,7 @@
             "line": 725,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L725"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L725"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3170,6 +3215,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": null,
@@ -3222,7 +3268,7 @@
         "line": 6,
         "file": "QueryHandler.ts",
         "path": "packages/postgresql/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L6"
+        "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L6"
       },
       "comment": {
         "description": null,
@@ -3251,7 +3297,7 @@
           "line": 11,
           "file": "QueryHandler.ts",
           "path": "packages/postgresql/src/lib",
-          "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L11"
+          "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L11"
         },
         "comment": {
           "description": null,
@@ -3269,6 +3315,7 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "optional": false,
             "type": {
               "kind": "reference",
               "id": 215,
@@ -3287,7 +3334,7 @@
             "line": 7,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L7"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L7"
           },
           "comment": {
             "description": null,
@@ -3315,7 +3362,7 @@
             "line": 9,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L9"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L9"
           },
           "comment": {
             "description": null,
@@ -3362,7 +3409,7 @@
             "line": 80,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L80"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L80"
           },
           "parentId": 159,
           "accessibility": "public",
@@ -3401,7 +3448,7 @@
             "line": 88,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L88"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L88"
           },
           "parentId": 159,
           "accessibility": "public",
@@ -3426,6 +3473,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -3454,7 +3502,7 @@
             "line": 96,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L96"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L96"
           },
           "parentId": 159,
           "accessibility": "public",
@@ -3479,6 +3527,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "array",
                     "type": {
@@ -3510,7 +3559,7 @@
             "line": 48,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L48"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L48"
           },
           "parentId": 159,
           "accessibility": "public",
@@ -3535,6 +3584,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -3563,7 +3613,7 @@
             "line": 106,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L106"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L106"
           },
           "parentId": 159,
           "accessibility": "public",
@@ -3617,7 +3667,7 @@
             "line": 239,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L239"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L239"
           },
           "parentId": 159,
           "accessibility": "public",
@@ -3659,7 +3709,7 @@
             "line": 139,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L139"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L139"
           },
           "parentId": 159,
           "accessibility": "public",
@@ -3684,6 +3734,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -3724,7 +3775,7 @@
             "line": 153,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L153"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L153"
           },
           "parentId": 159,
           "accessibility": "public",
@@ -3749,6 +3800,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "array",
                     "type": {
@@ -3804,7 +3856,7 @@
             "line": 61,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L61"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L61"
           },
           "parentId": 159,
           "accessibility": "public",
@@ -3829,6 +3881,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -3857,7 +3910,7 @@
             "line": 116,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L116"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L116"
           },
           "parentId": 159,
           "accessibility": "public",
@@ -3882,6 +3935,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -3910,7 +3964,7 @@
             "line": 24,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L24"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L24"
           },
           "parentId": 159,
           "accessibility": "public",
@@ -3949,7 +4003,7 @@
             "line": 129,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L129"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L129"
           },
           "parentId": 159,
           "accessibility": "public",
@@ -3991,7 +4045,7 @@
             "line": 171,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L171"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L171"
           },
           "parentId": 159,
           "accessibility": "public",
@@ -4016,6 +4070,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -4029,6 +4084,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "reference",
                     "id": 162,
@@ -4060,7 +4116,7 @@
             "line": 185,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L185"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L185"
           },
           "parentId": 159,
           "accessibility": "public",
@@ -4085,6 +4141,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "array",
                     "type": {
@@ -4113,6 +4170,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "boolean"
@@ -4141,7 +4199,7 @@
             "line": 67,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L67"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L67"
           },
           "parentId": 159,
           "accessibility": "public",
@@ -4166,6 +4224,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "string"
@@ -4179,6 +4238,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "optional": false,
                   "type": {
                     "kind": "intrinsic",
                     "type": "unknown"
@@ -4207,7 +4267,7 @@
             "line": 219,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L219"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L219"
           },
           "parentId": 159,
           "accessibility": "public",
@@ -4246,7 +4306,7 @@
             "line": 229,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L229"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L229"
           },
           "parentId": 159,
           "accessibility": "public",
@@ -4298,7 +4358,7 @@
         "line": 30,
         "file": "PostgreSQLProvider.ts",
         "path": "packages/postgresql/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L30"
+        "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L30"
       },
       "comment": {
         "description": null,
@@ -4317,7 +4377,7 @@
             "line": 751,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L751"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L751"
           },
           "comment": {
             "description": null,
@@ -4334,7 +4394,7 @@
                 "line": 756,
                 "file": "PostgreSQLProvider.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L756"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L756"
               },
               "comment": {
                 "description": null,
@@ -4355,7 +4415,7 @@
                 "line": 752,
                 "file": "PostgreSQLProvider.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L752"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L752"
               },
               "comment": {
                 "description": null,
@@ -4376,7 +4436,7 @@
                 "line": 760,
                 "file": "PostgreSQLProvider.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L760"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L760"
               },
               "comment": {
                 "description": null,
@@ -4397,7 +4457,7 @@
                 "line": 754,
                 "file": "PostgreSQLProvider.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L754"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L754"
               },
               "comment": {
                 "description": null,
@@ -4418,7 +4478,7 @@
                 "line": 758,
                 "file": "PostgreSQLProvider.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L758"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L758"
               },
               "comment": {
                 "description": null,
@@ -4442,7 +4502,7 @@
             "line": 741,
             "file": "PostgreSQLProvider.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L741"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L741"
           },
           "comment": {
             "description": null,
@@ -4485,7 +4545,7 @@
                 "line": 744,
                 "file": "PostgreSQLProvider.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L744"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L744"
               },
               "comment": {
                 "description": null,
@@ -4526,7 +4586,7 @@
                 "line": 746,
                 "file": "PostgreSQLProvider.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L746"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L746"
               },
               "comment": {
                 "description": null,
@@ -4547,7 +4607,7 @@
                 "line": 748,
                 "file": "PostgreSQLProvider.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L748"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L748"
               },
               "comment": {
                 "description": null,
@@ -4584,7 +4644,7 @@
                 "line": 742,
                 "file": "PostgreSQLProvider.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/PostgreSQLProvider.ts#L742"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/PostgreSQLProvider.ts#L742"
               },
               "comment": {
                 "description": null,
@@ -4613,7 +4673,7 @@
         "line": 6,
         "file": "QueryHandler.ts",
         "path": "packages/postgresql/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L6"
+        "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L6"
       },
       "comment": {
         "description": null,
@@ -4632,7 +4692,7 @@
             "line": 268,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L268"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L268"
           },
           "comment": {
             "description": null,
@@ -4649,7 +4709,7 @@
                 "line": 273,
                 "file": "QueryHandler.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L273"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L273"
               },
               "comment": {
                 "description": null,
@@ -4670,7 +4730,7 @@
                 "line": 269,
                 "file": "QueryHandler.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L269"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L269"
               },
               "comment": {
                 "description": null,
@@ -4691,7 +4751,7 @@
                 "line": 271,
                 "file": "QueryHandler.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L271"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L271"
               },
               "comment": {
                 "description": null,
@@ -4715,7 +4775,7 @@
             "line": 252,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L252"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L252"
           },
           "comment": {
             "description": null,
@@ -4732,7 +4792,7 @@
                 "line": 255,
                 "file": "QueryHandler.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L255"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L255"
               },
               "comment": {
                 "description": null,
@@ -4765,7 +4825,7 @@
                 "line": 257,
                 "file": "QueryHandler.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L257"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L257"
               },
               "comment": {
                 "description": null,
@@ -4786,7 +4846,7 @@
                 "line": 253,
                 "file": "QueryHandler.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L253"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L253"
               },
               "comment": {
                 "description": null,
@@ -4807,7 +4867,7 @@
                 "line": 259,
                 "file": "QueryHandler.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L259"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L259"
               },
               "comment": {
                 "description": null,
@@ -4831,7 +4891,7 @@
             "line": 262,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L262"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L262"
           },
           "comment": {
             "description": null,
@@ -4848,7 +4908,7 @@
                 "line": 263,
                 "file": "QueryHandler.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L263"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L263"
               },
               "comment": {
                 "description": null,
@@ -4869,7 +4929,7 @@
                 "line": 265,
                 "file": "QueryHandler.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L265"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L265"
               },
               "comment": {
                 "description": null,
@@ -4893,7 +4953,7 @@
             "line": 280,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L280"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L280"
           },
           "comment": {
             "description": null,
@@ -4910,7 +4970,7 @@
                 "line": 281,
                 "file": "QueryHandler.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L281"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L281"
               },
               "comment": {
                 "description": null,
@@ -4934,7 +4994,7 @@
             "line": 276,
             "file": "QueryHandler.ts",
             "path": "packages/postgresql/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L276"
+            "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L276"
           },
           "comment": {
             "description": null,
@@ -4951,7 +5011,7 @@
                 "line": 277,
                 "file": "QueryHandler.ts",
                 "path": "packages/postgresql/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/3ac8814/packages/postgresql/src/lib/QueryHandler.ts#L277"
+                "url": "https://github.com/josh-development/providers/blob/9a4ab51/packages/postgresql/src/lib/QueryHandler.ts#L277"
               },
               "comment": {
                 "description": null,
