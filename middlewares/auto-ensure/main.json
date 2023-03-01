@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "7.1.0",
+  "typeDocJsonParserVersion": "7.2.0",
   "id": 0,
   "name": "@joshdb/auto-ensure",
   "version": "1.0.0",
@@ -13,7 +13,7 @@
         "line": 15,
         "file": "AutoEnsureMiddleware.ts",
         "path": "packages/auto-ensure/src/lib",
-        "url": "https://github.com/josh-development/middlewares/blob/6111408/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L15"
+        "url": "https://github.com/josh-development/middlewares/blob/d8b0167/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L15"
       },
       "comment": {
         "description": null,
@@ -89,6 +89,7 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
             "optional": false,
             "type": {
               "kind": "reference",
@@ -114,6 +115,7 @@
               "blockTags": [],
               "modifierTags": []
             },
+            "rest": false,
             "optional": true,
             "type": {
               "kind": "reference",
@@ -371,7 +373,7 @@
             "line": 16,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/6111408/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L16"
+            "url": "https://github.com/josh-development/middlewares/blob/d8b0167/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L16"
           },
           "comment": {
             "description": null,
@@ -426,6 +428,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -486,6 +489,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -521,7 +525,7 @@
             "line": 21,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/6111408/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L21"
+            "url": "https://github.com/josh-development/middlewares/blob/d8b0167/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L21"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -546,6 +550,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -606,6 +611,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -666,6 +672,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -726,6 +733,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -802,6 +810,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -878,6 +887,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -963,6 +973,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "union",
@@ -1001,6 +1012,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": true,
                   "type": {
                     "kind": "reference",
@@ -1069,6 +1081,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -1129,6 +1142,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -1180,6 +1194,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -1231,7 +1246,7 @@
             "line": 240,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/6111408/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L240"
+            "url": "https://github.com/josh-development/middlewares/blob/d8b0167/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L240"
           },
           "parentId": 1,
           "accessibility": "protected",
@@ -1290,6 +1305,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -1350,6 +1366,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -1410,6 +1427,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -1486,6 +1504,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -1546,6 +1565,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -1606,6 +1626,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -1657,7 +1678,7 @@
             "line": 43,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/6111408/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L43"
+            "url": "https://github.com/josh-development/middlewares/blob/d8b0167/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L43"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1695,6 +1716,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -1746,7 +1768,7 @@
             "line": 57,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/6111408/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L57"
+            "url": "https://github.com/josh-development/middlewares/blob/d8b0167/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L57"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1771,6 +1793,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -1847,6 +1870,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -1882,7 +1906,7 @@
             "line": 74,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/6111408/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L74"
+            "url": "https://github.com/josh-development/middlewares/blob/d8b0167/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L74"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1907,6 +1931,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -1976,6 +2001,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -2052,6 +2078,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -2125,6 +2152,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -2206,6 +2234,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -2279,6 +2308,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -2344,7 +2374,7 @@
             "line": 118,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/6111408/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L118"
+            "url": "https://github.com/josh-development/middlewares/blob/d8b0167/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L118"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2369,6 +2399,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -2429,6 +2460,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -2489,6 +2521,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -2549,6 +2582,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -2600,7 +2634,7 @@
             "line": 96,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/6111408/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L96"
+            "url": "https://github.com/josh-development/middlewares/blob/d8b0167/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L96"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2632,6 +2666,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -2708,6 +2743,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -2784,6 +2820,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -2819,7 +2856,7 @@
             "line": 139,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/6111408/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L139"
+            "url": "https://github.com/josh-development/middlewares/blob/d8b0167/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L139"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2857,6 +2894,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -2917,6 +2955,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -2986,6 +3025,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "intrinsic",
@@ -3000,6 +3040,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": true,
                   "type": {
                     "kind": "reference",
@@ -3071,6 +3112,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -3106,7 +3148,7 @@
             "line": 165,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/6111408/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L165"
+            "url": "https://github.com/josh-development/middlewares/blob/d8b0167/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L165"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3144,6 +3186,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -3195,7 +3238,7 @@
             "line": 187,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/6111408/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L187"
+            "url": "https://github.com/josh-development/middlewares/blob/d8b0167/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L187"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3220,6 +3263,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -3280,6 +3324,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -3347,6 +3392,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -3414,6 +3460,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -3465,6 +3512,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -3559,7 +3607,7 @@
             "line": 217,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/6111408/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L217"
+            "url": "https://github.com/josh-development/middlewares/blob/d8b0167/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L217"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3597,6 +3645,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -3687,6 +3736,7 @@
                     "blockTags": [],
                     "modifierTags": []
                   },
+                  "rest": false,
                   "optional": false,
                   "type": {
                     "kind": "reference",
@@ -3745,7 +3795,7 @@
         "line": 15,
         "file": "AutoEnsureMiddleware.ts",
         "path": "packages/auto-ensure/src/lib",
-        "url": "https://github.com/josh-development/middlewares/blob/6111408/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L15"
+        "url": "https://github.com/josh-development/middlewares/blob/d8b0167/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L15"
       },
       "comment": {
         "description": null,
@@ -3764,7 +3814,7 @@
             "line": 246,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/6111408/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L246"
+            "url": "https://github.com/josh-development/middlewares/blob/d8b0167/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L246"
           },
           "comment": {
             "description": null,
@@ -3812,7 +3862,7 @@
                 "line": 251,
                 "file": "AutoEnsureMiddleware.ts",
                 "path": "packages/auto-ensure/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/6111408/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L251"
+                "url": "https://github.com/josh-development/middlewares/blob/d8b0167/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L251"
               },
               "comment": {
                 "description": "The default value to set if the key does not exist.",
@@ -3841,7 +3891,7 @@
                 "line": 257,
                 "file": "AutoEnsureMiddleware.ts",
                 "path": "packages/auto-ensure/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/6111408/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L257"
+                "url": "https://github.com/josh-development/middlewares/blob/d8b0167/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L257"
               },
               "comment": {
                 "description": "Whether to merge the {@link defaultValue} with existing values.",
