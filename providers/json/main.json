@@ -13,7 +13,7 @@
         "line": 6,
         "file": "ChunkFile.ts",
         "path": "packages/json/src/lib/chunk-files",
-        "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkFile.ts#L6"
+        "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkFile.ts#L6"
       },
       "comment": {
         "description": null,
@@ -56,7 +56,7 @@
           "line": 11,
           "file": "ChunkFile.ts",
           "path": "packages/json/src/lib/chunk-files",
-          "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkFile.ts#L11"
+          "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkFile.ts#L11"
         },
         "comment": {
           "description": null,
@@ -94,7 +94,7 @@
             "line": 9,
             "file": "ChunkFile.ts",
             "path": "packages/json/src/lib/chunk-files",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkFile.ts#L9"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkFile.ts#L9"
           },
           "comment": {
             "description": null,
@@ -127,7 +127,7 @@
             "line": 7,
             "file": "ChunkFile.ts",
             "path": "packages/json/src/lib/chunk-files",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkFile.ts#L7"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkFile.ts#L7"
           },
           "comment": {
             "description": null,
@@ -164,10 +164,10 @@
           "id": 14,
           "name": "path",
           "source": {
-            "line": 10,
+            "line": 12,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L10"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L12"
           },
           "comment": {
             "description": null,
@@ -189,10 +189,10 @@
           "id": 2,
           "name": "defaultRetryOptions",
           "source": {
-            "line": 58,
+            "line": 8,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L58"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L8"
           },
           "comment": {
             "description": null,
@@ -217,10 +217,10 @@
           "id": 18,
           "name": "exists",
           "source": {
-            "line": 24,
+            "line": 26,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L24"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L26"
           },
           "comment": {
             "description": null,
@@ -242,10 +242,10 @@
           "id": 16,
           "name": "retryOptions",
           "source": {
-            "line": 20,
+            "line": 22,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L20"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L22"
           },
           "comment": {
             "description": null,
@@ -272,10 +272,10 @@
           "id": 34,
           "name": "attempt",
           "source": {
-            "line": 48,
+            "line": 50,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L48"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L50"
           },
           "parentId": 1,
           "accessibility": "protected",
@@ -369,10 +369,10 @@
           "id": 26,
           "name": "copy",
           "source": {
-            "line": 36,
+            "line": 38,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L36"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L38"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -424,10 +424,10 @@
           "id": 32,
           "name": "delete",
           "source": {
-            "line": 44,
+            "line": 46,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L44"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L46"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -466,7 +466,7 @@
             "line": 17,
             "file": "ChunkFile.ts",
             "path": "packages/json/src/lib/chunk-files",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkFile.ts#L17"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkFile.ts#L17"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -513,10 +513,10 @@
           "id": 19,
           "name": "read",
           "source": {
-            "line": 28,
+            "line": 30,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L28"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L30"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -576,10 +576,10 @@
           "id": 29,
           "name": "rename",
           "source": {
-            "line": 40,
+            "line": 42,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L40"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L42"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -634,7 +634,7 @@
             "line": 31,
             "file": "ChunkFile.ts",
             "path": "packages/json/src/lib/chunk-files",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkFile.ts#L31"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkFile.ts#L31"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -697,10 +697,10 @@
           "id": 22,
           "name": "write",
           "source": {
-            "line": 32,
+            "line": 34,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L32"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L34"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -781,7 +781,7 @@
         "line": 11,
         "file": "ChunkHandler.ts",
         "path": "packages/json/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L11"
+        "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L11"
       },
       "comment": {
         "description": null,
@@ -810,7 +810,7 @@
           "line": 24,
           "file": "ChunkHandler.ts",
           "path": "packages/json/src/lib",
-          "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L24"
+          "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L24"
         },
         "comment": {
           "description": null,
@@ -848,7 +848,7 @@
             "line": 16,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L16"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L16"
           },
           "comment": {
             "description": null,
@@ -873,7 +873,7 @@
             "line": 22,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L22"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L22"
           },
           "comment": {
             "description": null,
@@ -921,7 +921,7 @@
             "line": 20,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L20"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L20"
           },
           "comment": {
             "description": null,
@@ -949,7 +949,7 @@
             "line": 12,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L12"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L12"
           },
           "comment": {
             "description": null,
@@ -977,7 +977,7 @@
             "line": 18,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L18"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L18"
           },
           "comment": {
             "description": null,
@@ -1005,7 +1005,7 @@
             "line": 14,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L14"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L14"
           },
           "comment": {
             "description": null,
@@ -1035,7 +1035,7 @@
             "line": 388,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L388"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L388"
           },
           "parentId": 142,
           "accessibility": "private",
@@ -1074,7 +1074,7 @@
             "line": 130,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L130"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L130"
           },
           "parentId": 142,
           "accessibility": "public",
@@ -1113,7 +1113,7 @@
             "line": 148,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L148"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L148"
           },
           "parentId": 142,
           "accessibility": "public",
@@ -1168,7 +1168,7 @@
             "line": 169,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L169"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L169"
           },
           "parentId": 142,
           "accessibility": "public",
@@ -1226,7 +1226,7 @@
             "line": 102,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L102"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L102"
           },
           "parentId": 142,
           "accessibility": "public",
@@ -1281,7 +1281,7 @@
             "line": 191,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L191"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L191"
           },
           "parentId": 142,
           "accessibility": "public",
@@ -1335,7 +1335,7 @@
             "line": 364,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L364"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L364"
           },
           "parentId": 142,
           "accessibility": "private",
@@ -1377,7 +1377,7 @@
             "line": 209,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L209"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L209"
           },
           "parentId": 142,
           "accessibility": "public",
@@ -1444,7 +1444,7 @@
             "line": 404,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L404"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L404"
           },
           "parentId": 142,
           "accessibility": "private",
@@ -1502,7 +1502,7 @@
             "line": 228,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L228"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L228"
           },
           "parentId": 142,
           "accessibility": "public",
@@ -1584,7 +1584,7 @@
             "line": 112,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L112"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L112"
           },
           "parentId": 142,
           "accessibility": "public",
@@ -1639,7 +1639,7 @@
             "line": 248,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L248"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L248"
           },
           "parentId": 142,
           "accessibility": "public",
@@ -1694,7 +1694,7 @@
             "line": 33,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L33"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L33"
           },
           "parentId": 142,
           "accessibility": "public",
@@ -1744,7 +1744,7 @@
             "line": 256,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L256"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L256"
           },
           "parentId": 142,
           "accessibility": "public",
@@ -1786,7 +1786,7 @@
             "line": 380,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L380"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L380"
           },
           "parentId": 142,
           "accessibility": "private",
@@ -1850,7 +1850,7 @@
             "line": 262,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L262"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L262"
           },
           "parentId": 142,
           "accessibility": "public",
@@ -1936,7 +1936,7 @@
             "line": 296,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L296"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L296"
           },
           "parentId": 142,
           "accessibility": "public",
@@ -2021,7 +2021,7 @@
             "line": 120,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L120"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L120"
           },
           "parentId": 142,
           "accessibility": "public",
@@ -2091,7 +2091,7 @@
             "line": 340,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L340"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L340"
           },
           "parentId": 142,
           "accessibility": "public",
@@ -2130,7 +2130,7 @@
             "line": 68,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L68"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L68"
           },
           "parentId": 142,
           "accessibility": "public",
@@ -2169,7 +2169,7 @@
             "line": 374,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L374"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L374"
           },
           "parentId": 142,
           "accessibility": "private",
@@ -2211,7 +2211,7 @@
             "line": 346,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L346"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L346"
           },
           "parentId": 142,
           "accessibility": "public",
@@ -2258,7 +2258,7 @@
         "line": 6,
         "file": "ChunkIndexFile.ts",
         "path": "packages/json/src/lib/chunk-files",
-        "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L6"
+        "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L6"
       },
       "comment": {
         "description": null,
@@ -2283,7 +2283,7 @@
           "line": 11,
           "file": "ChunkIndexFile.ts",
           "path": "packages/json/src/lib/chunk-files",
-          "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L11"
+          "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L11"
         },
         "comment": {
           "description": null,
@@ -2321,7 +2321,7 @@
             "line": 9,
             "file": "ChunkIndexFile.ts",
             "path": "packages/json/src/lib/chunk-files",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L9"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L9"
           },
           "comment": {
             "description": null,
@@ -2351,10 +2351,10 @@
           "id": 58,
           "name": "options",
           "source": {
-            "line": 8,
+            "line": 10,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L8"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L10"
           },
           "comment": {
             "description": null,
@@ -2379,10 +2379,10 @@
           "id": 59,
           "name": "path",
           "source": {
-            "line": 10,
+            "line": 12,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L10"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L12"
           },
           "comment": {
             "description": null,
@@ -2407,7 +2407,7 @@
             "line": 7,
             "file": "ChunkIndexFile.ts",
             "path": "packages/json/src/lib/chunk-files",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L7"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L7"
           },
           "comment": {
             "description": null,
@@ -2432,10 +2432,10 @@
           "id": 47,
           "name": "defaultRetryOptions",
           "source": {
-            "line": 58,
+            "line": 8,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L58"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L8"
           },
           "comment": {
             "description": null,
@@ -2460,10 +2460,10 @@
           "id": 63,
           "name": "exists",
           "source": {
-            "line": 24,
+            "line": 26,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L24"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L26"
           },
           "comment": {
             "description": null,
@@ -2485,10 +2485,10 @@
           "id": 61,
           "name": "retryOptions",
           "source": {
-            "line": 20,
+            "line": 22,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L20"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L22"
           },
           "comment": {
             "description": null,
@@ -2515,10 +2515,10 @@
           "id": 79,
           "name": "attempt",
           "source": {
-            "line": 48,
+            "line": 50,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L48"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L50"
           },
           "parentId": 46,
           "accessibility": "protected",
@@ -2612,10 +2612,10 @@
           "id": 71,
           "name": "copy",
           "source": {
-            "line": 36,
+            "line": 38,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L36"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L38"
           },
           "parentId": 46,
           "accessibility": "public",
@@ -2667,10 +2667,10 @@
           "id": 77,
           "name": "delete",
           "source": {
-            "line": 44,
+            "line": 46,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L44"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L46"
           },
           "parentId": 46,
           "accessibility": "public",
@@ -2709,7 +2709,7 @@
             "line": 19,
             "file": "ChunkIndexFile.ts",
             "path": "packages/json/src/lib/chunk-files",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L19"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L19"
           },
           "parentId": 46,
           "accessibility": "public",
@@ -2748,10 +2748,10 @@
           "id": 64,
           "name": "read",
           "source": {
-            "line": 28,
+            "line": 30,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L28"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L30"
           },
           "parentId": 46,
           "accessibility": "public",
@@ -2808,10 +2808,10 @@
           "id": 74,
           "name": "rename",
           "source": {
-            "line": 40,
+            "line": 42,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L40"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L42"
           },
           "parentId": 46,
           "accessibility": "public",
@@ -2866,7 +2866,7 @@
             "line": 39,
             "file": "ChunkIndexFile.ts",
             "path": "packages/json/src/lib/chunk-files",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L39"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L39"
           },
           "parentId": 46,
           "accessibility": "public",
@@ -2921,10 +2921,10 @@
           "id": 67,
           "name": "write",
           "source": {
-            "line": 32,
+            "line": 34,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L32"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L34"
           },
           "parentId": 46,
           "accessibility": "public",
@@ -3002,7 +3002,7 @@
         "line": 3,
         "file": "ChunkLockFile.ts",
         "path": "packages/json/src/lib/chunk-files",
-        "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkLockFile.ts#L3"
+        "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkLockFile.ts#L3"
       },
       "comment": {
         "description": null,
@@ -3045,7 +3045,7 @@
           "line": 4,
           "file": "ChunkLockFile.ts",
           "path": "packages/json/src/lib/chunk-files",
-          "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkLockFile.ts#L4"
+          "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkLockFile.ts#L4"
         },
         "comment": {
           "description": null,
@@ -3080,10 +3080,10 @@
           "id": 110,
           "name": "options",
           "source": {
-            "line": 8,
+            "line": 10,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L8"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L10"
           },
           "comment": {
             "description": null,
@@ -3108,10 +3108,10 @@
           "id": 111,
           "name": "path",
           "source": {
-            "line": 10,
+            "line": 12,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L10"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L12"
           },
           "comment": {
             "description": null,
@@ -3133,10 +3133,10 @@
           "id": 105,
           "name": "defaultRetryOptions",
           "source": {
-            "line": 58,
+            "line": 8,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L58"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L8"
           },
           "comment": {
             "description": null,
@@ -3161,10 +3161,10 @@
           "id": 115,
           "name": "exists",
           "source": {
-            "line": 24,
+            "line": 26,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L24"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L26"
           },
           "comment": {
             "description": null,
@@ -3186,10 +3186,10 @@
           "id": 113,
           "name": "retryOptions",
           "source": {
-            "line": 20,
+            "line": 22,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L20"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L22"
           },
           "comment": {
             "description": null,
@@ -3216,10 +3216,10 @@
           "id": 131,
           "name": "attempt",
           "source": {
-            "line": 48,
+            "line": 50,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L48"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L50"
           },
           "parentId": 104,
           "accessibility": "protected",
@@ -3313,10 +3313,10 @@
           "id": 123,
           "name": "copy",
           "source": {
-            "line": 36,
+            "line": 38,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L36"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L38"
           },
           "parentId": 104,
           "accessibility": "public",
@@ -3368,10 +3368,10 @@
           "id": 129,
           "name": "delete",
           "source": {
-            "line": 44,
+            "line": 46,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L44"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L46"
           },
           "parentId": 104,
           "accessibility": "public",
@@ -3407,10 +3407,10 @@
           "id": 116,
           "name": "read",
           "source": {
-            "line": 28,
+            "line": 30,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L28"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L30"
           },
           "parentId": 104,
           "accessibility": "public",
@@ -3470,10 +3470,10 @@
           "id": 126,
           "name": "rename",
           "source": {
-            "line": 40,
+            "line": 42,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L40"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L42"
           },
           "parentId": 104,
           "accessibility": "public",
@@ -3525,10 +3525,10 @@
           "id": 119,
           "name": "write",
           "source": {
-            "line": 32,
+            "line": 34,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L32"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L34"
           },
           "parentId": 104,
           "accessibility": "public",
@@ -3609,7 +3609,7 @@
         "line": 7,
         "file": "File.ts",
         "path": "packages/json/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L7"
+        "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L7"
       },
       "comment": {
         "description": null,
@@ -3635,10 +3635,10 @@
         "id": 229,
         "name": "constructor",
         "source": {
-          "line": 12,
+          "line": 14,
           "file": "File.ts",
           "path": "packages/json/src/lib",
-          "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L12"
+          "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L14"
         },
         "comment": {
           "description": null,
@@ -3673,10 +3673,10 @@
           "id": 233,
           "name": "options",
           "source": {
-            "line": 8,
+            "line": 10,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L8"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L10"
           },
           "comment": {
             "description": null,
@@ -3701,10 +3701,10 @@
           "id": 234,
           "name": "path",
           "source": {
-            "line": 10,
+            "line": 12,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L10"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L12"
           },
           "comment": {
             "description": null,
@@ -3726,10 +3726,10 @@
           "id": 228,
           "name": "defaultRetryOptions",
           "source": {
-            "line": 58,
+            "line": 8,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L58"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L8"
           },
           "comment": {
             "description": null,
@@ -3754,10 +3754,10 @@
           "id": 238,
           "name": "exists",
           "source": {
-            "line": 24,
+            "line": 26,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L24"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L26"
           },
           "comment": {
             "description": null,
@@ -3779,10 +3779,10 @@
           "id": 236,
           "name": "retryOptions",
           "source": {
-            "line": 20,
+            "line": 22,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L20"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L22"
           },
           "comment": {
             "description": null,
@@ -3809,10 +3809,10 @@
           "id": 254,
           "name": "attempt",
           "source": {
-            "line": 48,
+            "line": 50,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L48"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L50"
           },
           "parentId": 227,
           "accessibility": "protected",
@@ -3906,10 +3906,10 @@
           "id": 246,
           "name": "copy",
           "source": {
-            "line": 36,
+            "line": 38,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L36"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L38"
           },
           "parentId": 227,
           "accessibility": "public",
@@ -3961,10 +3961,10 @@
           "id": 252,
           "name": "delete",
           "source": {
-            "line": 44,
+            "line": 46,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L44"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L46"
           },
           "parentId": 227,
           "accessibility": "public",
@@ -4000,10 +4000,10 @@
           "id": 239,
           "name": "read",
           "source": {
-            "line": 28,
+            "line": 30,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L28"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L30"
           },
           "parentId": 227,
           "accessibility": "public",
@@ -4063,10 +4063,10 @@
           "id": 249,
           "name": "rename",
           "source": {
-            "line": 40,
+            "line": 42,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L40"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L42"
           },
           "parentId": 227,
           "accessibility": "public",
@@ -4118,10 +4118,10 @@
           "id": 242,
           "name": "write",
           "source": {
-            "line": 32,
+            "line": 34,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L32"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L34"
           },
           "parentId": 227,
           "accessibility": "public",
@@ -4199,10 +4199,10 @@
       "id": 274,
       "name": "JSONProvider",
       "source": {
-        "line": 38,
+        "line": 37,
         "file": "JSONProvider.ts",
         "path": "packages/json/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L38"
+        "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L37"
       },
       "comment": {
         "description": "A provider that uses JSON files to store data.",
@@ -4247,10 +4247,10 @@
         "id": 275,
         "name": "constructor",
         "source": {
-          "line": 79,
+          "line": 78,
           "file": "JSONProvider.ts",
           "path": "packages/json/src/lib",
-          "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L79"
+          "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L78"
         },
         "comment": {
           "description": null,
@@ -4285,10 +4285,10 @@
           "id": 281,
           "name": "_handler",
           "source": {
-            "line": 77,
+            "line": 76,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L77"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L76"
           },
           "comment": {
             "description": null,
@@ -4321,10 +4321,10 @@
           "id": 280,
           "name": "migrations",
           "source": {
-            "line": 41,
+            "line": 40,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L41"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L40"
           },
           "comment": {
             "description": null,
@@ -4382,10 +4382,10 @@
           "id": 279,
           "name": "options",
           "source": {
-            "line": 39,
+            "line": 38,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L39"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L38"
           },
           "comment": {
             "description": null,
@@ -4410,10 +4410,10 @@
           "id": 285,
           "name": "handler",
           "source": {
-            "line": 87,
+            "line": 86,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L87"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L86"
           },
           "comment": {
             "description": null,
@@ -4446,10 +4446,10 @@
           "id": 283,
           "name": "version",
           "source": {
-            "line": 83,
+            "line": 82,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L83"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L82"
           },
           "comment": {
             "description": null,
@@ -4476,10 +4476,10 @@
           "id": 309,
           "name": "autoKey",
           "source": {
-            "line": 125,
+            "line": 124,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L125"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L124"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -4537,10 +4537,10 @@
           "id": 312,
           "name": "clear",
           "source": {
-            "line": 138,
+            "line": 137,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L138"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L137"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -4598,10 +4598,10 @@
           "id": 315,
           "name": "dec",
           "source": {
-            "line": 144,
+            "line": 143,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L144"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L143"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -4659,10 +4659,10 @@
           "id": 318,
           "name": "delete",
           "source": {
-            "line": 167,
+            "line": 166,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L167"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L166"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -4720,10 +4720,10 @@
           "id": 321,
           "name": "deleteMany",
           "source": {
-            "line": 181,
+            "line": 180,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L181"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L180"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -4781,10 +4781,10 @@
           "id": 289,
           "name": "deleteMetadata",
           "source": {
-            "line": 113,
+            "line": 112,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L113"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L112"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -4836,10 +4836,10 @@
           "id": 324,
           "name": "each",
           "source": {
-            "line": 189,
+            "line": 188,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L189"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L188"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -4913,10 +4913,10 @@
           "id": 327,
           "name": "ensure",
           "source": {
-            "line": 197,
+            "line": 196,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L197"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L196"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -4990,10 +4990,10 @@
           "id": 330,
           "name": "entries",
           "source": {
-            "line": 208,
+            "line": 207,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L208"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L207"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -5177,10 +5177,10 @@
           "id": 333,
           "name": "every",
           "source": {
-            "line": 214,
+            "line": 213,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L214"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L213"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -5299,10 +5299,10 @@
           "id": 303,
           "name": "fetchVersion",
           "source": {
-            "line": 788,
+            "line": 787,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L788"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L787"
           },
           "parentId": 274,
           "accessibility": "protected",
@@ -5360,10 +5360,10 @@
           "id": 338,
           "name": "filter",
           "source": {
-            "line": 259,
+            "line": 258,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L259"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L258"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -5498,10 +5498,10 @@
           "id": 343,
           "name": "find",
           "source": {
-            "line": 295,
+            "line": 294,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L295"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L294"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -5636,10 +5636,10 @@
           "id": 348,
           "name": "get",
           "source": {
-            "line": 351,
+            "line": 350,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L351"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L350"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -5726,10 +5726,10 @@
           "id": 352,
           "name": "getMany",
           "source": {
-            "line": 365,
+            "line": 364,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L365"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L364"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -5803,10 +5803,10 @@
           "id": 292,
           "name": "getMetadata",
           "source": {
-            "line": 117,
+            "line": 116,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L117"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L116"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -5858,10 +5858,10 @@
           "id": 355,
           "name": "has",
           "source": {
-            "line": 373,
+            "line": 372,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L373"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L372"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -5919,10 +5919,10 @@
           "id": 358,
           "name": "inc",
           "source": {
-            "line": 379,
+            "line": 378,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L379"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L378"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -5980,10 +5980,10 @@
           "id": 286,
           "name": "init",
           "source": {
-            "line": 93,
+            "line": 92,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L93"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L92"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -6041,10 +6041,10 @@
           "id": 306,
           "name": "isLegacyIndexData",
           "source": {
-            "line": 801,
+            "line": 800,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L801"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L800"
           },
           "parentId": 274,
           "accessibility": "private",
@@ -6096,10 +6096,10 @@
           "id": 361,
           "name": "keys",
           "source": {
-            "line": 402,
+            "line": 401,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L402"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L401"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -6157,10 +6157,10 @@
           "id": 364,
           "name": "map",
           "source": {
-            "line": 408,
+            "line": 407,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L408"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L407"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -6335,10 +6335,10 @@
           "id": 371,
           "name": "math",
           "source": {
-            "line": 432,
+            "line": 431,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L432"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L431"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -6396,10 +6396,10 @@
           "id": 374,
           "name": "partition",
           "source": {
-            "line": 487,
+            "line": 486,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L487"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L486"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -6534,10 +6534,10 @@
           "id": 379,
           "name": "push",
           "source": {
-            "line": 529,
+            "line": 528,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L529"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L528"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -6624,10 +6624,10 @@
           "id": 383,
           "name": "random",
           "source": {
-            "line": 553,
+            "line": 552,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L553"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L552"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -6701,10 +6701,10 @@
           "id": 386,
           "name": "randomKey",
           "source": {
-            "line": 585,
+            "line": 584,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L585"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L584"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -6762,10 +6762,10 @@
           "id": 389,
           "name": "remove",
           "source": {
-            "line": 613,
+            "line": 612,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L613"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L612"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -6897,10 +6897,10 @@
           "id": 299,
           "name": "resolveIdentifier",
           "source": {
-            "line": 775,
+            "line": 774,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L775"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L774"
           },
           "parentId": 274,
           "accessibility": "protected",
@@ -6971,10 +6971,10 @@
           "id": 395,
           "name": "set",
           "source": {
-            "line": 663,
+            "line": 662,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L663"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L662"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -7061,10 +7061,10 @@
           "id": 399,
           "name": "setMany",
           "source": {
-            "line": 676,
+            "line": 675,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L676"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L675"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -7122,10 +7122,10 @@
           "id": 295,
           "name": "setMetadata",
           "source": {
-            "line": 121,
+            "line": 120,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L121"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L120"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -7192,10 +7192,10 @@
           "id": 402,
           "name": "size",
           "source": {
-            "line": 698,
+            "line": 697,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L698"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L697"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -7253,10 +7253,10 @@
           "id": 405,
           "name": "some",
           "source": {
-            "line": 704,
+            "line": 703,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L704"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L703"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -7375,10 +7375,10 @@
           "id": 410,
           "name": "update",
           "source": {
-            "line": 752,
+            "line": 751,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L752"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L751"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -7479,10 +7479,10 @@
           "id": 414,
           "name": "values",
           "source": {
-            "line": 769,
+            "line": 768,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L769"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L768"
           },
           "parentId": 274,
           "accessibility": "public",
@@ -7565,7 +7565,7 @@
         "line": 411,
         "file": "ChunkHandler.ts",
         "path": "packages/json/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L411"
+        "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L411"
       },
       "comment": {
         "description": null,
@@ -7582,7 +7582,7 @@
             "line": 418,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L418"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L418"
           },
           "comment": {
             "description": null,
@@ -7603,7 +7603,7 @@
             "line": 422,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L422"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L422"
           },
           "comment": {
             "description": null,
@@ -7640,7 +7640,7 @@
             "line": 420,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L420"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L420"
           },
           "comment": {
             "description": null,
@@ -7661,7 +7661,7 @@
             "line": 412,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L412"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L412"
           },
           "comment": {
             "description": null,
@@ -7682,7 +7682,7 @@
             "line": 428,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L428"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L428"
           },
           "comment": {
             "description": null,
@@ -7706,7 +7706,7 @@
             "line": 426,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L426"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L426"
           },
           "comment": {
             "description": null,
@@ -7727,7 +7727,7 @@
             "line": 424,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L424"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L424"
           },
           "comment": {
             "description": null,
@@ -7748,7 +7748,7 @@
             "line": 416,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L416"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L416"
           },
           "comment": {
             "description": null,
@@ -7769,7 +7769,7 @@
             "line": 414,
             "file": "ChunkHandler.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L414"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L414"
           },
           "comment": {
             "description": null,
@@ -7798,7 +7798,7 @@
         "line": 6,
         "file": "ChunkFile.ts",
         "path": "packages/json/src/lib/chunk-files",
-        "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkFile.ts#L6"
+        "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkFile.ts#L6"
       },
       "comment": {
         "description": null,
@@ -7817,7 +7817,7 @@
             "line": 41,
             "file": "ChunkFile.ts",
             "path": "packages/json/src/lib/chunk-files",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkFile.ts#L41"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkFile.ts#L41"
           },
           "comment": {
             "description": null,
@@ -7834,7 +7834,7 @@
                 "line": 42,
                 "file": "ChunkFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkFile.ts#L42"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkFile.ts#L42"
               },
               "comment": {
                 "description": null,
@@ -7855,7 +7855,7 @@
                 "line": 44,
                 "file": "ChunkFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkFile.ts#L44"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkFile.ts#L44"
               },
               "comment": {
                 "description": null,
@@ -7876,7 +7876,7 @@
                 "line": 48,
                 "file": "ChunkFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkFile.ts#L48"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkFile.ts#L48"
               },
               "comment": {
                 "description": null,
@@ -7900,7 +7900,7 @@
                 "line": 46,
                 "file": "ChunkFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkFile.ts#L46"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkFile.ts#L46"
               },
               "comment": {
                 "description": null,
@@ -7929,7 +7929,7 @@
         "line": 6,
         "file": "ChunkIndexFile.ts",
         "path": "packages/json/src/lib/chunk-files",
-        "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L6"
+        "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L6"
       },
       "comment": {
         "description": null,
@@ -7948,7 +7948,7 @@
             "line": 66,
             "file": "ChunkIndexFile.ts",
             "path": "packages/json/src/lib/chunk-files",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L66"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L66"
           },
           "comment": {
             "description": null,
@@ -7965,7 +7965,7 @@
                 "line": 69,
                 "file": "ChunkIndexFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L69"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L69"
               },
               "comment": {
                 "description": null,
@@ -7986,7 +7986,7 @@
                 "line": 67,
                 "file": "ChunkIndexFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L67"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L67"
               },
               "comment": {
                 "description": null,
@@ -8010,7 +8010,7 @@
                 "line": 71,
                 "file": "ChunkIndexFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L71"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L71"
               },
               "comment": {
                 "description": null,
@@ -8034,7 +8034,7 @@
             "line": 54,
             "file": "ChunkIndexFile.ts",
             "path": "packages/json/src/lib/chunk-files",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L54"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L54"
           },
           "comment": {
             "description": null,
@@ -8051,7 +8051,7 @@
                 "line": 59,
                 "file": "ChunkIndexFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L59"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L59"
               },
               "comment": {
                 "description": null,
@@ -8072,7 +8072,7 @@
                 "line": 61,
                 "file": "ChunkIndexFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L61"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L61"
               },
               "comment": {
                 "description": null,
@@ -8099,7 +8099,7 @@
                 "line": 63,
                 "file": "ChunkIndexFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L63"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L63"
               },
               "comment": {
                 "description": null,
@@ -8132,7 +8132,7 @@
                 "line": 55,
                 "file": "ChunkIndexFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L55"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L55"
               },
               "comment": {
                 "description": null,
@@ -8153,7 +8153,7 @@
                 "line": 57,
                 "file": "ChunkIndexFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L57"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L57"
               },
               "comment": {
                 "description": null,
@@ -8180,7 +8180,7 @@
             "line": 74,
             "file": "ChunkIndexFile.ts",
             "path": "packages/json/src/lib/chunk-files",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L74"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L74"
           },
           "comment": {
             "description": null,
@@ -8197,7 +8197,7 @@
                 "line": 75,
                 "file": "ChunkIndexFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L75"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L75"
               },
               "comment": {
                 "description": null,
@@ -8227,7 +8227,7 @@
             "line": 78,
             "file": "ChunkIndexFile.ts",
             "path": "packages/json/src/lib/chunk-files",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L78"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L78"
           },
           "comment": {
             "description": null,
@@ -8244,7 +8244,7 @@
                 "line": 79,
                 "file": "ChunkIndexFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L79"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L79"
               },
               "comment": {
                 "description": null,
@@ -8268,7 +8268,7 @@
                 "line": 81,
                 "file": "ChunkIndexFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L81"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L81"
               },
               "comment": {
                 "description": null,
@@ -8292,7 +8292,7 @@
             "line": 46,
             "file": "ChunkIndexFile.ts",
             "path": "packages/json/src/lib/chunk-files",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L46"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L46"
           },
           "comment": {
             "description": null,
@@ -8309,7 +8309,7 @@
                 "line": 49,
                 "file": "ChunkIndexFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L49"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L49"
               },
               "comment": {
                 "description": null,
@@ -8330,7 +8330,7 @@
                 "line": 51,
                 "file": "ChunkIndexFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L51"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L51"
               },
               "comment": {
                 "description": null,
@@ -8354,7 +8354,7 @@
                 "line": 47,
                 "file": "ChunkIndexFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L47"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkIndexFile.ts#L47"
               },
               "comment": {
                 "description": null,
@@ -8386,7 +8386,7 @@
         "line": 3,
         "file": "ChunkLockFile.ts",
         "path": "packages/json/src/lib/chunk-files",
-        "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkLockFile.ts#L3"
+        "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkLockFile.ts#L3"
       },
       "comment": {
         "description": null,
@@ -8405,7 +8405,7 @@
             "line": 12,
             "file": "ChunkLockFile.ts",
             "path": "packages/json/src/lib/chunk-files",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkLockFile.ts#L12"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkLockFile.ts#L12"
           },
           "comment": {
             "description": null,
@@ -8422,7 +8422,7 @@
                 "line": 13,
                 "file": "ChunkLockFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkLockFile.ts#L13"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkLockFile.ts#L13"
               },
               "comment": {
                 "description": null,
@@ -8443,7 +8443,7 @@
                 "line": 15,
                 "file": "ChunkLockFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkLockFile.ts#L15"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkLockFile.ts#L15"
               },
               "comment": {
                 "description": null,
@@ -8464,7 +8464,7 @@
                 "line": 17,
                 "file": "ChunkLockFile.ts",
                 "path": "packages/json/src/lib/chunk-files",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/chunk-files/ChunkLockFile.ts#L17"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/chunk-files/ChunkLockFile.ts#L17"
               },
               "comment": {
                 "description": null,
@@ -8496,7 +8496,7 @@
         "line": 7,
         "file": "File.ts",
         "path": "packages/json/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L7"
+        "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L7"
       },
       "comment": {
         "description": null,
@@ -8515,7 +8515,7 @@
             "line": 62,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L62"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L62"
           },
           "comment": {
             "description": null,
@@ -8532,7 +8532,7 @@
                 "line": 63,
                 "file": "File.ts",
                 "path": "packages/json/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L63"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L63"
               },
               "comment": {
                 "description": null,
@@ -8553,7 +8553,7 @@
                 "line": 65,
                 "file": "File.ts",
                 "path": "packages/json/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L65"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L65"
               },
               "comment": {
                 "description": null,
@@ -8574,7 +8574,7 @@
                 "line": 67,
                 "file": "File.ts",
                 "path": "packages/json/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L67"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L67"
               },
               "comment": {
                 "description": null,
@@ -8601,7 +8601,7 @@
             "line": 70,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L70"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L70"
           },
           "comment": {
             "description": null,
@@ -8618,7 +8618,7 @@
                 "line": 73,
                 "file": "File.ts",
                 "path": "packages/json/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L73"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L73"
               },
               "comment": {
                 "description": null,
@@ -8639,7 +8639,7 @@
                 "line": 71,
                 "file": "File.ts",
                 "path": "packages/json/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L71"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L71"
               },
               "comment": {
                 "description": null,
@@ -8666,7 +8666,7 @@
             "line": 76,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L76"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L76"
           },
           "comment": {
             "description": null,
@@ -8695,7 +8695,7 @@
                   "fileName": "packages/json/src/lib/File.ts",
                   "line": 76,
                   "character": 28,
-                  "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L76"
+                  "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L76"
                 }
               ],
               "signatures": [
@@ -8734,7 +8734,7 @@
             "line": 78,
             "file": "File.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/File.ts#L78"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/File.ts#L78"
           },
           "comment": {
             "description": null,
@@ -8780,10 +8780,10 @@
       "id": 423,
       "name": "JSONProvider",
       "source": {
-        "line": 38,
+        "line": 37,
         "file": "JSONProvider.ts",
         "path": "packages/json/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L38"
+        "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L37"
       },
       "comment": {
         "description": null,
@@ -8797,10 +8797,10 @@
           "id": 433,
           "name": "Identifiers",
           "source": {
-            "line": 864,
+            "line": 863,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L864"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L863"
           },
           "comment": {
             "description": "The identifiers used by the {@link JSONProvider} class.",
@@ -8813,10 +8813,10 @@
               "id": 434,
               "name": "ChunkHandlerNotFound",
               "source": {
-                "line": 865,
+                "line": 864,
                 "file": "JSONProvider.ts",
                 "path": "packages/json/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L865"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L864"
               },
               "comment": {
                 "description": null,
@@ -8835,10 +8835,10 @@
           "id": 424,
           "name": "Options",
           "source": {
-            "line": 815,
+            "line": 814,
             "file": "JSONProvider.ts",
             "path": "packages/json/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L815"
+            "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L814"
           },
           "comment": {
             "description": "The options passed to a {@link JSONProvider} instance.",
@@ -8883,10 +8883,10 @@
               "id": 426,
               "name": "dataDirectory",
               "source": {
-                "line": 826,
+                "line": 825,
                 "file": "JSONProvider.ts",
                 "path": "packages/json/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L826"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L825"
               },
               "comment": {
                 "description": "The data directory to use.",
@@ -8909,10 +8909,10 @@
               "id": 427,
               "name": "disableSerialization",
               "source": {
-                "line": 832,
+                "line": 831,
                 "file": "JSONProvider.ts",
                 "path": "packages/json/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L832"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L831"
               },
               "comment": {
                 "description": "Whether to disable data serialization with `better-serialize`.",
@@ -8935,10 +8935,10 @@
               "id": 428,
               "name": "epoch",
               "source": {
-                "line": 838,
+                "line": 837,
                 "file": "JSONProvider.ts",
                 "path": "packages/json/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L838"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L837"
               },
               "comment": {
                 "description": "The epoch used for `@sapphire/snowflake`.",
@@ -8977,10 +8977,10 @@
               "id": 429,
               "name": "maxChunkSize",
               "source": {
-                "line": 846,
+                "line": 845,
                 "file": "JSONProvider.ts",
                 "path": "packages/json/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L846"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L845"
               },
               "comment": {
                 "description": "The max chunk size to use.\n\nThis is the maximum number of entries that can be stored in a single chunk file.",
@@ -9003,10 +9003,10 @@
               "id": 430,
               "name": "retry",
               "source": {
-                "line": 852,
+                "line": 851,
                 "file": "JSONProvider.ts",
                 "path": "packages/json/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L852"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L851"
               },
               "comment": {
                 "description": "The retry options to use.",
@@ -9032,10 +9032,10 @@
               "id": 431,
               "name": "synchronize",
               "source": {
-                "line": 858,
+                "line": 857,
                 "file": "JSONProvider.ts",
                 "path": "packages/json/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L858"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L857"
               },
               "comment": {
                 "description": "Whether to synchronize all data when the provider is initialized.",
@@ -9058,10 +9058,10 @@
               "id": 425,
               "name": "useAbsolutePath",
               "source": {
-                "line": 820,
+                "line": 819,
                 "file": "JSONProvider.ts",
                 "path": "packages/json/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/JSONProvider.ts#L820"
+                "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/JSONProvider.ts#L819"
               },
               "comment": {
                 "description": "Whether to use treat the data directory as an absolute path.",
@@ -9097,7 +9097,7 @@
         "line": 431,
         "file": "ChunkHandler.ts",
         "path": "packages/json/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L431"
+        "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L431"
       },
       "comment": {
         "description": null,
@@ -9129,7 +9129,7 @@
                   "fileName": "packages/json/src/lib/ChunkHandler.ts",
                   "line": 431,
                   "character": 64,
-                  "url": "https://github.com/josh-development/providers/blob/4cc49b4/packages/json/src/lib/ChunkHandler.ts#L431"
+                  "url": "https://github.com/josh-development/providers/blob/4bd1c15/packages/json/src/lib/ChunkHandler.ts#L431"
                 }
               ],
               "signatures": [
