@@ -13,7 +13,7 @@
         "line": 51,
         "file": "Josh.ts",
         "path": "src/lib/structures",
-        "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L51"
+        "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L51"
       },
       "comment": {
         "description": "The base class that makes Josh work.",
@@ -63,7 +63,7 @@
           "line": 84,
           "file": "Josh.ts",
           "path": "src/lib/structures",
-          "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L84"
+          "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L84"
         },
         "comment": {
           "description": null,
@@ -109,7 +109,7 @@
             "line": 75,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L75"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L75"
           },
           "comment": {
             "description": "This Josh's middleware store.\n\nNOTE: Do not use this unless you know what your doing.",
@@ -150,7 +150,7 @@
             "line": 61,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L61"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L61"
           },
           "comment": {
             "description": "This Josh's name. Used for middleware and/or provider information.",
@@ -180,7 +180,7 @@
             "line": 67,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L67"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L67"
           },
           "comment": {
             "description": "This Josh's options. Used throughout the instance.",
@@ -221,7 +221,7 @@
             "line": 82,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L82"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L82"
           },
           "comment": {
             "description": "This Josh's provider instance.\n\nNOTE: Do not use this unless you know what your doing.",
@@ -257,7 +257,7 @@
             "line": 56,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L56"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L56"
           },
           "comment": {
             "description": "The current version of {@link Josh}",
@@ -287,7 +287,7 @@
             "line": 125,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L125"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L125"
           },
           "comment": {
             "description": null,
@@ -317,7 +317,7 @@
             "line": 211,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L211"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L211"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -369,7 +369,7 @@
             "line": 247,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L247"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L247"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -432,7 +432,7 @@
             "line": 1792,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1792"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1792"
           },
           "parentId": 1,
           "accessibility": "private",
@@ -585,7 +585,7 @@
             "line": 1850,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1850"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1850"
           },
           "parentId": 1,
           "accessibility": "private",
@@ -666,7 +666,7 @@
             "line": 298,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L298"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L298"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -771,7 +771,7 @@
             "line": 351,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L351"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L351"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -876,7 +876,7 @@
             "line": 385,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L385"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L385"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -958,7 +958,7 @@
             "line": 415,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L415"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L415"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1052,7 +1052,7 @@
             "line": 451,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L451"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L451"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1145,7 +1145,7 @@
             "line": 485,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L485"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L485"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1268,7 +1268,7 @@
             "line": 1838,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1838"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1838"
           },
           "parentId": 1,
           "accessibility": "private",
@@ -1366,7 +1366,7 @@
             "line": 537,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L537"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L537"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1538,7 +1538,7 @@
             "line": 1775,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1775"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1775"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1601,7 +1601,7 @@
             "line": 626,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L626"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L626"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1885,7 +1885,7 @@
             "line": 719,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L719"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L719"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2109,7 +2109,7 @@
             "line": 798,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L798"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L798"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2288,7 +2288,7 @@
             "line": 862,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L862"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L862"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2441,7 +2441,7 @@
             "line": 912,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L912"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L912"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2531,7 +2531,7 @@
             "line": 1742,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1742"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1742"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2621,7 +2621,7 @@
             "line": 968,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L968"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L968"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2726,7 +2726,7 @@
             "line": 143,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L143"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L143"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2793,7 +2793,7 @@
             "line": 1861,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1861"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1861"
           },
           "parentId": 1,
           "accessibility": "private",
@@ -2899,7 +2899,7 @@
             "line": 999,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L999"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L999"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2954,7 +2954,7 @@
             "line": 1053,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1053"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1053"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3083,7 +3083,7 @@
             "line": 1149,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1149"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1149"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3225,7 +3225,7 @@
             "line": 1184,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1184"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1184"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3569,7 +3569,7 @@
             "line": 1290,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1290"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1290"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3701,7 +3701,7 @@
             "line": 1326,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1326"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1326"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3787,7 +3787,7 @@
             "line": 1366,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1366"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1366"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3874,7 +3874,7 @@
             "line": 1403,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1403"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1403"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -4113,7 +4113,7 @@
             "line": 1873,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1873"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1873"
           },
           "parentId": 1,
           "accessibility": "private",
@@ -4192,7 +4192,7 @@
             "line": 1909,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1909"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1909"
           },
           "parentId": 1,
           "accessibility": "private",
@@ -4259,7 +4259,7 @@
             "line": 1922,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1922"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1922"
           },
           "parentId": 1,
           "accessibility": "private",
@@ -4317,7 +4317,7 @@
             "line": 1814,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1814"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1814"
           },
           "parentId": 1,
           "accessibility": "private",
@@ -4367,7 +4367,7 @@
             "line": 1485,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1485"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1485"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -4499,7 +4499,7 @@
             "line": 1524,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1524"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1524"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -4608,7 +4608,7 @@
             "line": 1561,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1561"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1561"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -4660,7 +4660,7 @@
             "line": 1600,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1600"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1600"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -4816,7 +4816,7 @@
             "line": 1678,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1678"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1678"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -4941,7 +4941,7 @@
             "line": 163,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L163"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L163"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -5025,7 +5025,7 @@
                           "fileName": "src/lib/structures/Josh.ts",
                           "line": 163,
                           "character": 74,
-                          "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L163"
+                          "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L163"
                         }
                       ],
                       "signatures": [
@@ -5040,7 +5040,7 @@
                               "fileName": "src/lib/structures/Josh.ts",
                               "line": 163,
                               "character": 74,
-                              "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L163"
+                              "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L163"
                             }
                           ],
                           "parameters": [
@@ -5176,7 +5176,7 @@
             "line": 1708,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1708"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1708"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -5234,7 +5234,7 @@
             "line": 117,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L117"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L117"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -5386,7 +5386,7 @@
         "line": 7,
         "file": "JoshError.ts",
         "path": "src/lib/structures",
-        "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/JoshError.ts#L7"
+        "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/JoshError.ts#L7"
       },
       "comment": {
         "description": "The base class for errors in `Josh`",
@@ -5416,7 +5416,7 @@
           "line": 20,
           "file": "JoshError.ts",
           "path": "src/lib/structures",
-          "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/JoshError.ts#L20"
+          "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/JoshError.ts#L20"
         },
         "comment": {
           "description": null,
@@ -5479,7 +5479,7 @@
             "line": 18,
             "file": "JoshError.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/JoshError.ts#L18"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/JoshError.ts#L18"
           },
           "comment": {
             "description": "The errors for this error.",
@@ -5515,7 +5515,7 @@
             "line": 12,
             "file": "JoshError.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/JoshError.ts#L12"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/JoshError.ts#L12"
           },
           "comment": {
             "description": "The identifier for this error.",
@@ -5839,7 +5839,7 @@
         "line": 2112,
         "file": "Josh.ts",
         "path": "src/lib/structures",
-        "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2112"
+        "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2112"
       },
       "comment": {
         "description": null,
@@ -5855,7 +5855,7 @@
             "line": 2115,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2115"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2115"
           },
           "comment": {
             "description": null,
@@ -5872,7 +5872,7 @@
             "line": 2113,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2113"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2113"
           },
           "comment": {
             "description": null,
@@ -5889,7 +5889,7 @@
             "line": 2117,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2117"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2117"
           },
           "comment": {
             "description": null,
@@ -5906,7 +5906,7 @@
             "line": 2119,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2119"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2119"
           },
           "comment": {
             "description": null,
@@ -5928,7 +5928,7 @@
         "line": 34,
         "file": "JoshError.ts",
         "path": "src/lib/structures",
-        "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/JoshError.ts#L34"
+        "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/JoshError.ts#L34"
       },
       "comment": {
         "description": "The options for `JoshError`",
@@ -5950,7 +5950,7 @@
             "line": 51,
             "file": "JoshError.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/JoshError.ts#L51"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/JoshError.ts#L51"
           },
           "comment": {
             "description": "The errors for this error.",
@@ -5982,7 +5982,7 @@
             "line": 45,
             "file": "JoshError.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/JoshError.ts#L45"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/JoshError.ts#L45"
           },
           "comment": {
             "description": "The identifier for this error.",
@@ -6008,7 +6008,7 @@
             "line": 57,
             "file": "JoshError.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/JoshError.ts#L57"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/JoshError.ts#L57"
           },
           "comment": {
             "description": "The message for this error.",
@@ -6034,7 +6034,7 @@
             "line": 39,
             "file": "JoshError.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/JoshError.ts#L39"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/JoshError.ts#L39"
           },
           "comment": {
             "description": "The name for this error.",
@@ -6063,7 +6063,7 @@
         "line": 2122,
         "file": "Josh.ts",
         "path": "src/lib/structures",
-        "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2122"
+        "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2122"
       },
       "comment": {
         "description": null,
@@ -6090,7 +6090,7 @@
             "line": 2123,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2123"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2123"
           },
           "comment": {
             "description": null,
@@ -6126,7 +6126,7 @@
             "line": 2125,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2125"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2125"
           },
           "comment": {
             "description": null,
@@ -6162,7 +6162,7 @@
             "line": 2127,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2127"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2127"
           },
           "comment": {
             "description": null,
@@ -6189,7 +6189,7 @@
             "line": 2129,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2129"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2129"
           },
           "comment": {
             "description": null,
@@ -6230,7 +6230,7 @@
         "line": 51,
         "file": "Josh.ts",
         "path": "src/lib/structures",
-        "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L51"
+        "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L51"
       },
       "comment": {
         "description": null,
@@ -6247,7 +6247,7 @@
             "line": 2087,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2087"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2087"
           },
           "comment": {
             "description": null,
@@ -6263,7 +6263,7 @@
                 "line": 2090,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2090"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2090"
               },
               "comment": {
                 "description": null,
@@ -6280,7 +6280,7 @@
                 "line": 2088,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2088"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2088"
               },
               "comment": {
                 "description": null,
@@ -6297,7 +6297,7 @@
                 "line": 2092,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2092"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2092"
               },
               "comment": {
                 "description": null,
@@ -6316,7 +6316,7 @@
             "line": 2095,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2095"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2095"
           },
           "comment": {
             "description": null,
@@ -6332,7 +6332,7 @@
                 "line": 2096,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2096"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2096"
               },
               "comment": {
                 "description": null,
@@ -6349,7 +6349,7 @@
                 "line": 2098,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2098"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2098"
               },
               "comment": {
                 "description": null,
@@ -6366,7 +6366,7 @@
                 "line": 2100,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2100"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2100"
               },
               "comment": {
                 "description": null,
@@ -6383,7 +6383,7 @@
                 "line": 2102,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2102"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2102"
               },
               "comment": {
                 "description": null,
@@ -6400,7 +6400,7 @@
                 "line": 2104,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2104"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2104"
               },
               "comment": {
                 "description": null,
@@ -6417,7 +6417,7 @@
                 "line": 2106,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2106"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2106"
               },
               "comment": {
                 "description": null,
@@ -6434,7 +6434,7 @@
                 "line": 2108,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2108"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2108"
               },
               "comment": {
                 "description": null,
@@ -6456,7 +6456,7 @@
             "line": 1994,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1994"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1994"
           },
           "comment": {
             "description": null,
@@ -6483,7 +6483,7 @@
                 "line": 2017,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2017"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2017"
               },
               "comment": {
                 "description": "The exported data entries.",
@@ -6524,7 +6524,7 @@
                 "line": 2011,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2011"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2011"
               },
               "comment": {
                 "description": "The timestamp of when the data was exported.",
@@ -6550,7 +6550,7 @@
                 "line": 1999,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1999"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1999"
               },
               "comment": {
                 "description": "The name of exported data.",
@@ -6576,7 +6576,7 @@
                 "line": 2005,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2005"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2005"
               },
               "comment": {
                 "description": "The version of Josh used to export the data.",
@@ -6605,7 +6605,7 @@
             "line": 2046,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2046"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2046"
           },
           "comment": {
             "description": null,
@@ -6632,7 +6632,7 @@
                 "line": 2063,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2063"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2063"
               },
               "comment": {
                 "description": "Whether to clear all data before importing.",
@@ -6658,7 +6658,7 @@
                 "line": 2051,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2051"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2051"
               },
               "comment": {
                 "description": "The data to import.",
@@ -6715,7 +6715,7 @@
                 "line": 2057,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2057"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2057"
               },
               "comment": {
                 "description": "Whether to overwrite existing data.",
@@ -6744,7 +6744,7 @@
             "line": 2020,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2020"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2020"
           },
           "comment": {
             "description": null,
@@ -6771,7 +6771,7 @@
                 "line": 2037,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2037"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2037"
               },
               "comment": {
                 "description": "The timestamp of when the data was exported.",
@@ -6797,7 +6797,7 @@
                 "line": 2043,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2043"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2043"
               },
               "comment": {
                 "description": "The exported data.",
@@ -6833,7 +6833,7 @@
                             "fileName": "src/lib/structures/Josh.ts",
                             "line": 2043,
                             "character": 12,
-                            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2043"
+                            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2043"
                           }
                         ],
                         "type": {
@@ -6852,7 +6852,7 @@
                             "fileName": "src/lib/structures/Josh.ts",
                             "line": 2043,
                             "character": 25,
-                            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2043"
+                            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2043"
                           }
                         ],
                         "type": {
@@ -6877,7 +6877,7 @@
                         "fileName": "src/lib/structures/Josh.ts",
                         "line": 2043,
                         "character": 10,
-                        "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2043"
+                        "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2043"
                       }
                     ]
                   }
@@ -6891,7 +6891,7 @@
                 "line": 2025,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2025"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2025"
               },
               "comment": {
                 "description": "The name of exported data.",
@@ -6917,7 +6917,7 @@
                 "line": 2031,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2031"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2031"
               },
               "comment": {
                 "description": "The version of Josh or Enmap used to export the data.",
@@ -6946,7 +6946,7 @@
             "line": 1932,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1932"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1932"
           },
           "comment": {
             "description": "The options for {@link Josh}.",
@@ -6978,7 +6978,7 @@
                 "line": 1955,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1955"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1955"
               },
               "comment": {
                 "description": "The context data for the auto-ensure middleware",
@@ -7015,7 +7015,7 @@
                 "line": 1961,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1961"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1961"
               },
               "comment": {
                 "description": "The behavior when encountering errors.",
@@ -7044,7 +7044,7 @@
                 "line": 1949,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1949"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1949"
               },
               "comment": {
                 "description": "The middleware to use.",
@@ -7088,7 +7088,7 @@
                 "line": 1937,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1937"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1937"
               },
               "comment": {
                 "description": "The name for the Josh instance.",
@@ -7114,7 +7114,7 @@
                 "line": 1943,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1943"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1943"
               },
               "comment": {
                 "description": "The provider instance.",
@@ -7154,7 +7154,7 @@
             "line": 2073,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2073"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2073"
           },
           "comment": {
             "description": null,
@@ -7171,7 +7171,7 @@
                 "line": 2078,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2078"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2078"
               },
               "comment": {
                 "description": "The amount of values to get.",
@@ -7197,7 +7197,7 @@
                 "line": 2084,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2084"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2084"
               },
               "comment": {
                 "description": "Whether to allow duplicates.",
@@ -7226,7 +7226,7 @@
             "line": 2065,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2065"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2065"
           },
           "comment": {
             "description": null,
@@ -7298,7 +7298,7 @@
                 "line": 2070,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L2070"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L2070"
               },
               "comment": {
                 "description": "The value to set.",
@@ -7330,7 +7330,7 @@
             "line": 1968,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1968"
+            "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1968"
           },
           "comment": {
             "description": "The options for the {@link use} method.",
@@ -7352,7 +7352,7 @@
                 "line": 1991,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1991"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1991"
               },
               "comment": {
                 "description": "The trigger for the middleware hook.",
@@ -7381,7 +7381,7 @@
                 "line": 1973,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1973"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1973"
               },
               "comment": {
                 "description": "The name for the middleware.",
@@ -7407,7 +7407,7 @@
                 "line": 1979,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1979"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1979"
               },
               "comment": {
                 "description": "The position for the middleware.",
@@ -7433,7 +7433,7 @@
                 "line": 1985,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/c7a97cc/src/lib/structures/Josh.ts#L1985"
+                "url": "https://github.com/josh-development/core/blob/df66705/src/lib/structures/Josh.ts#L1985"
               },
               "comment": {
                 "description": "The trigger for the middleware hook.",
