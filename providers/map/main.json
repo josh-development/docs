@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "7.2.0",
+  "typeDocJsonParserVersion": "7.3.1",
   "id": 0,
   "name": "@joshdb/map",
   "version": "1.0.0",
@@ -13,8 +13,9 @@
         "line": 31,
         "file": "MapProvider.ts",
         "path": "packages/map/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L31"
+        "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L31"
       },
+      "namespaceParentId": null,
       "comment": {
         "description": "A provider that uses the Node.js native [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) class.",
         "blockTags": [
@@ -35,7 +36,7 @@
         "typeArguments": [
           {
             "kind": "reference",
-            "id": null,
+            "id": -1,
             "name": "StoredValue",
             "packageName": null,
             "typeArguments": []
@@ -99,7 +100,7 @@
             "line": 50,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L50"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L50"
           },
           "comment": {
             "description": "A simple cache for the autoKey method.",
@@ -129,7 +130,7 @@
             "line": 38,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L38"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L38"
           },
           "comment": {
             "description": "The [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) cache to store data.",
@@ -159,7 +160,7 @@
               },
               {
                 "kind": "reference",
-                "id": null,
+                "id": -1,
                 "name": "StoredValue",
                 "packageName": null,
                 "typeArguments": []
@@ -174,7 +175,7 @@
             "line": 44,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L44"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L44"
           },
           "comment": {
             "description": "The metadata for this provider.",
@@ -216,7 +217,7 @@
             "line": 32,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L32"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L32"
           },
           "comment": {
             "description": null,
@@ -310,7 +311,7 @@
             "line": 52,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L52"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L52"
           },
           "comment": {
             "description": null,
@@ -340,7 +341,7 @@
             "line": 68,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L68"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L68"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -393,7 +394,7 @@
             "line": 75,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L75"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L75"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -446,7 +447,7 @@
             "line": 82,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L82"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L82"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -499,7 +500,7 @@
             "line": 105,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L105"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L105"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -552,7 +553,7 @@
             "line": 114,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L114"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L114"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -605,7 +606,7 @@
             "line": 56,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L56"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L56"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -652,7 +653,7 @@
             "line": 122,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L122"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L122"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -687,7 +688,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -710,7 +711,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -729,7 +730,7 @@
             "line": 130,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L130"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L130"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -764,7 +765,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -781,7 +782,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": null,
+                    "id": -1,
                     "name": "StoredValue",
                     "packageName": null,
                     "typeArguments": []
@@ -798,7 +799,7 @@
             "line": 141,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L141"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L141"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -833,7 +834,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -850,7 +851,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": null,
+                    "id": -1,
                     "name": "StoredValue",
                     "packageName": null,
                     "typeArguments": []
@@ -977,7 +978,7 @@
             "line": 147,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L147"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L147"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1012,7 +1013,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -1035,7 +1036,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -1099,7 +1100,7 @@
             "line": 703,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L703"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L703"
           },
           "parentId": 1,
           "accessibility": "protected",
@@ -1133,7 +1134,7 @@
             "line": 192,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L192"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L192"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1168,7 +1169,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -1191,7 +1192,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -1229,7 +1230,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -1252,7 +1253,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -1271,7 +1272,7 @@
             "line": 228,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L228"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L228"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1306,7 +1307,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -1329,7 +1330,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -1367,7 +1368,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -1390,7 +1391,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -1409,7 +1410,7 @@
             "line": 284,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L284"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L284"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1431,7 +1432,7 @@
                   "constraint": null,
                   "default": {
                     "kind": "reference",
-                    "id": null,
+                    "id": -1,
                     "name": "StoredValue",
                     "packageName": null,
                     "typeArguments": []
@@ -1457,7 +1458,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -1474,7 +1475,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": null,
+                    "id": -1,
                     "name": "Value",
                     "packageName": null,
                     "typeArguments": []
@@ -1491,7 +1492,7 @@
             "line": 298,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L298"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L298"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1526,7 +1527,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -1543,7 +1544,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": null,
+                    "id": -1,
                     "name": "StoredValue",
                     "packageName": null,
                     "typeArguments": []
@@ -1560,7 +1561,7 @@
             "line": 60,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L60"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L60"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1607,7 +1608,7 @@
             "line": 306,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L306"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L306"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1660,7 +1661,7 @@
             "line": 314,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L314"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L314"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1787,7 +1788,7 @@
             "line": 337,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L337"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L337"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1840,7 +1841,7 @@
             "line": 343,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L343"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L343"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1862,7 +1863,7 @@
                   "constraint": null,
                   "default": {
                     "kind": "reference",
-                    "id": null,
+                    "id": -1,
                     "name": "StoredValue",
                     "packageName": null,
                     "typeArguments": []
@@ -1888,14 +1889,14 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
                       },
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -1918,14 +1919,14 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
                       },
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -1950,7 +1951,7 @@
                   "constraint": null,
                   "default": {
                     "kind": "reference",
-                    "id": null,
+                    "id": -1,
                     "name": "StoredValue",
                     "packageName": null,
                     "typeArguments": []
@@ -1976,7 +1977,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -1999,7 +2000,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -2018,7 +2019,7 @@
             "line": 367,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L367"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L367"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2071,7 +2072,7 @@
             "line": 422,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L422"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L422"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2106,7 +2107,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -2129,7 +2130,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -2167,7 +2168,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -2190,7 +2191,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -2209,7 +2210,7 @@
             "line": 466,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L466"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L466"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2231,7 +2232,7 @@
                   "constraint": null,
                   "default": {
                     "kind": "reference",
-                    "id": null,
+                    "id": -1,
                     "name": "StoredValue",
                     "packageName": null,
                     "typeArguments": []
@@ -2257,7 +2258,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -2274,7 +2275,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": null,
+                    "id": -1,
                     "name": "Value",
                     "packageName": null,
                     "typeArguments": []
@@ -2291,7 +2292,7 @@
             "line": 490,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L490"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L490"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2326,7 +2327,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -2343,7 +2344,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": null,
+                    "id": -1,
                     "name": "StoredValue",
                     "packageName": null,
                     "typeArguments": []
@@ -2360,7 +2361,7 @@
             "line": 522,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L522"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L522"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2413,7 +2414,7 @@
             "line": 550,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L550"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L550"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2435,7 +2436,7 @@
                   "constraint": null,
                   "default": {
                     "kind": "reference",
-                    "id": null,
+                    "id": -1,
                     "name": "StoredValue",
                     "packageName": null,
                     "typeArguments": []
@@ -2461,7 +2462,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -2484,7 +2485,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -2631,7 +2632,7 @@
             "line": 600,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L600"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L600"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2653,7 +2654,7 @@
                   "constraint": null,
                   "default": {
                     "kind": "reference",
-                    "id": null,
+                    "id": -1,
                     "name": "StoredValue",
                     "packageName": null,
                     "typeArguments": []
@@ -2679,7 +2680,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -2696,7 +2697,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": null,
+                    "id": -1,
                     "name": "Value",
                     "packageName": null,
                     "typeArguments": []
@@ -2713,7 +2714,7 @@
             "line": 613,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L613"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L613"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2766,7 +2767,7 @@
             "line": 64,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L64"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L64"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2828,7 +2829,7 @@
             "line": 626,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L626"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L626"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2881,7 +2882,7 @@
             "line": 632,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L632"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L632"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2916,7 +2917,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -2939,7 +2940,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -3003,7 +3004,7 @@
             "line": 680,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L680"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L680"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3025,7 +3026,7 @@
                   "constraint": null,
                   "default": {
                     "kind": "reference",
-                    "id": null,
+                    "id": -1,
                     "name": "StoredValue",
                     "packageName": null,
                     "typeArguments": []
@@ -3051,14 +3052,14 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
                       },
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -3081,14 +3082,14 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
                       },
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "Value",
                         "packageName": null,
                         "typeArguments": []
@@ -3107,7 +3108,7 @@
             "line": 697,
             "file": "MapProvider.ts",
             "path": "packages/map/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/b51aede/packages/map/src/lib/MapProvider.ts#L697"
+            "url": "https://github.com/josh-development/providers/blob/9a96289/packages/map/src/lib/MapProvider.ts#L697"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3142,7 +3143,7 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": null,
+                        "id": -1,
                         "name": "StoredValue",
                         "packageName": null,
                         "typeArguments": []
@@ -3159,7 +3160,7 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": null,
+                    "id": -1,
                     "name": "StoredValue",
                     "packageName": null,
                     "typeArguments": []
