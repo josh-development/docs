@@ -17,7 +17,7 @@
         "line": 3,
         "file": "Serialize.ts",
         "path": "lib",
-        "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L3"
+        "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L3"
       },
       "namespaceParentId": null,
       "comment": {
@@ -32,10 +32,10 @@
           "id": 8,
           "name": "Keying",
           "source": {
-            "line": 139,
+            "line": 169,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L139"
+            "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L169"
           },
           "namespaceParentId": 1,
           "comment": {
@@ -49,10 +49,10 @@
               "id": 12,
               "name": "Flags",
               "source": {
-                "line": 146,
+                "line": 176,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L146"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L176"
               },
               "comment": {
                 "description": null,
@@ -66,10 +66,10 @@
               "id": 11,
               "name": "Source",
               "source": {
-                "line": 144,
+                "line": 174,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L144"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L174"
               },
               "comment": {
                 "description": null,
@@ -83,10 +83,10 @@
               "id": 9,
               "name": "Type",
               "source": {
-                "line": 140,
+                "line": 170,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L140"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L170"
               },
               "comment": {
                 "description": null,
@@ -100,10 +100,10 @@
               "id": 10,
               "name": "Value",
               "source": {
-                "line": 142,
+                "line": 172,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L142"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L172"
               },
               "comment": {
                 "description": null,
@@ -119,10 +119,10 @@
           "id": 19,
           "name": "Type",
           "source": {
-            "line": 175,
+            "line": 205,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L175"
+            "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L205"
           },
           "namespaceParentId": 1,
           "comment": {
@@ -141,10 +141,10 @@
               "id": 20,
               "name": "Array",
               "source": {
-                "line": 176,
+                "line": 206,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L176"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L206"
               },
               "comment": {
                 "description": null,
@@ -158,10 +158,10 @@
               "id": 21,
               "name": "BigInt",
               "source": {
-                "line": 178,
+                "line": 208,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L178"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L208"
               },
               "comment": {
                 "description": null,
@@ -175,10 +175,10 @@
               "id": 22,
               "name": "Boolean",
               "source": {
-                "line": 180,
+                "line": 210,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L180"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L210"
               },
               "comment": {
                 "description": null,
@@ -192,10 +192,10 @@
               "id": 23,
               "name": "Date",
               "source": {
-                "line": 182,
+                "line": 212,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L182"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L212"
               },
               "comment": {
                 "description": null,
@@ -209,10 +209,10 @@
               "id": 24,
               "name": "Map",
               "source": {
-                "line": 184,
+                "line": 214,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L184"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L214"
               },
               "comment": {
                 "description": null,
@@ -226,10 +226,10 @@
               "id": 25,
               "name": "Null",
               "source": {
-                "line": 186,
+                "line": 216,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L186"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L216"
               },
               "comment": {
                 "description": null,
@@ -243,10 +243,10 @@
               "id": 26,
               "name": "Number",
               "source": {
-                "line": 188,
+                "line": 218,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L188"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L218"
               },
               "comment": {
                 "description": null,
@@ -260,10 +260,10 @@
               "id": 27,
               "name": "Object",
               "source": {
-                "line": 190,
+                "line": 220,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L190"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L220"
               },
               "comment": {
                 "description": null,
@@ -277,10 +277,10 @@
               "id": 28,
               "name": "RegExp",
               "source": {
-                "line": 192,
+                "line": 222,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L192"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L222"
               },
               "comment": {
                 "description": null,
@@ -294,10 +294,10 @@
               "id": 29,
               "name": "Set",
               "source": {
-                "line": 194,
+                "line": 224,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L194"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L224"
               },
               "comment": {
                 "description": null,
@@ -311,10 +311,10 @@
               "id": 30,
               "name": "String",
               "source": {
-                "line": 196,
+                "line": 226,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L196"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L226"
               },
               "comment": {
                 "description": null,
@@ -328,10 +328,10 @@
               "id": 31,
               "name": "Undefined",
               "source": {
-                "line": 198,
+                "line": 228,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L198"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L228"
               },
               "comment": {
                 "description": null,
@@ -349,10 +349,10 @@
           "id": 5,
           "name": "fromJSON",
           "source": {
-            "line": 66,
+            "line": 88,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L66"
+            "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L88"
           },
           "namespaceParentId": 1,
           "comment": {
@@ -414,7 +414,7 @@
             "line": 10,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L10"
+            "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L10"
           },
           "namespaceParentId": 1,
           "comment": {
@@ -475,10 +475,10 @@
           "id": 16,
           "name": "JSON",
           "source": {
-            "line": 157,
+            "line": 187,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L157"
+            "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L187"
           },
           "namespaceParentId": 1,
           "comment": {
@@ -498,10 +498,10 @@
               "id": 17,
               "name": "t",
               "source": {
-                "line": 162,
+                "line": 192,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L162"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L192"
               },
               "comment": {
                 "description": "The type of {@link JSON.v}",
@@ -528,10 +528,10 @@
               "id": 18,
               "name": "v",
               "source": {
-                "line": 168,
+                "line": 198,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L168"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L198"
               },
               "comment": {
                 "description": "The value for this json.",
@@ -636,10 +636,10 @@
           "id": 13,
           "name": "Regex",
           "source": {
-            "line": 148,
+            "line": 178,
             "file": "Serialize.ts",
             "path": "lib",
-            "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L148"
+            "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L178"
           },
           "namespaceParentId": 1,
           "comment": {
@@ -654,10 +654,10 @@
               "id": 15,
               "name": "f",
               "source": {
-                "line": 151,
+                "line": 181,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L151"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L181"
               },
               "comment": {
                 "description": null,
@@ -676,10 +676,10 @@
               "id": 14,
               "name": "s",
               "source": {
-                "line": 149,
+                "line": 179,
                 "file": "Serialize.ts",
                 "path": "lib",
-                "url": "https://github.com/josh-development/utilities/blob/aed75a8/packages/serialize/src/lib/Serialize.ts#L149"
+                "url": "https://github.com/josh-development/utilities/blob/d818cab/packages/serialize/src/lib/Serialize.ts#L179"
               },
               "comment": {
                 "description": null,
