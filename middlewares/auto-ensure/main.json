@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "8.2.0",
+  "typeDocJsonParserVersion": "9.0.0",
   "id": 0,
   "name": "@joshdb/auto-ensure",
   "version": "1.0.0",
@@ -13,7 +13,7 @@
         "line": 15,
         "file": "AutoEnsureMiddleware.ts",
         "path": "packages/auto-ensure/src/lib",
-        "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L15"
+        "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L15"
       },
       "namespaceParentId": null,
       "comment": {
@@ -374,7 +374,7 @@
             "line": 16,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L16"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L16"
           },
           "comment": {
             "description": null,
@@ -526,7 +526,7 @@
             "line": 21,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L21"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L21"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1244,10 +1244,10 @@
           "id": 9,
           "name": "fetchVersion",
           "source": {
-            "line": 240,
+            "line": 260,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L240"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L260"
           },
           "parentId": 1,
           "accessibility": "protected",
@@ -1676,10 +1676,10 @@
           "id": 14,
           "name": "get",
           "source": {
-            "line": 43,
+            "line": 45,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L43"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L45"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1766,10 +1766,10 @@
           "id": 18,
           "name": "getMany",
           "source": {
-            "line": 57,
+            "line": 61,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L57"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L61"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1904,10 +1904,10 @@
           "id": 21,
           "name": "inc",
           "source": {
-            "line": 74,
+            "line": 80,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L74"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L80"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2372,10 +2372,10 @@
           "id": 28,
           "name": "math",
           "source": {
-            "line": 118,
+            "line": 128,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L118"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L128"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2632,10 +2632,10 @@
           "id": 24,
           "name": "push",
           "source": {
-            "line": 96,
+            "line": 104,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L96"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L104"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2854,10 +2854,10 @@
           "id": 31,
           "name": "remove",
           "source": {
-            "line": 139,
+            "line": 151,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L139"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L151"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3146,10 +3146,10 @@
           "id": 37,
           "name": "set",
           "source": {
-            "line": 165,
+            "line": 179,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L165"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L179"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3236,10 +3236,10 @@
           "id": 41,
           "name": "setMany",
           "source": {
-            "line": 187,
+            "line": 203,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L187"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L203"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3605,10 +3605,10 @@
           "id": 44,
           "name": "update",
           "source": {
-            "line": 217,
+            "line": 235,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L217"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L235"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3796,7 +3796,7 @@
         "line": 15,
         "file": "AutoEnsureMiddleware.ts",
         "path": "packages/auto-ensure/src/lib",
-        "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L15"
+        "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L15"
       },
       "namespaceParentId": null,
       "comment": {
@@ -3813,10 +3813,10 @@
           "id": 163,
           "name": "ContextData",
           "source": {
-            "line": 246,
+            "line": 266,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L246"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L266"
           },
           "namespaceParentId": 162,
           "comment": {
@@ -3863,10 +3863,10 @@
               "id": 164,
               "name": "defaultValue",
               "source": {
-                "line": 251,
+                "line": 271,
                 "file": "AutoEnsureMiddleware.ts",
                 "path": "packages/auto-ensure/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L251"
+                "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L271"
               },
               "comment": {
                 "description": "The default value to set if the key does not exist.",
@@ -3893,13 +3893,13 @@
               "id": 165,
               "name": "ensureProperties",
               "source": {
-                "line": 257,
+                "line": 277,
                 "file": "AutoEnsureMiddleware.ts",
                 "path": "packages/auto-ensure/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L257"
+                "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L277"
               },
               "comment": {
-                "description": "Whether to merge the {@link defaultValue} with existing values.",
+                "description": "Whether to merge the {@link ContextData.defaultValue} with existing values.",
                 "blockTags": [
                   {
                     "name": "since",
