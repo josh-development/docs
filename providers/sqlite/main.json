@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "8.2.0",
+  "typeDocJsonParserVersion": "9.0.0",
   "id": 0,
   "name": "@joshdb/sqlite",
   "version": "2.0.0",
@@ -13,7 +13,7 @@
         "line": 4,
         "file": "QueryHandler.ts",
         "path": "packages/sqlite/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L4"
+        "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L4"
       },
       "namespaceParentId": null,
       "comment": {
@@ -43,7 +43,7 @@
           "line": 9,
           "file": "QueryHandler.ts",
           "path": "packages/sqlite/src/lib",
-          "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L9"
+          "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L9"
         },
         "comment": {
           "description": null,
@@ -81,7 +81,7 @@
             "line": 7,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L7"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L7"
           },
           "comment": {
             "description": null,
@@ -109,7 +109,7 @@
             "line": 5,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L5"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L5"
           },
           "comment": {
             "description": null,
@@ -136,10 +136,10 @@
           "id": 18,
           "name": "autoKey",
           "source": {
-            "line": 129,
+            "line": 136,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L129"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L136"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -167,10 +167,10 @@
           "id": 20,
           "name": "clear",
           "source": {
-            "line": 146,
+            "line": 153,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L146"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L153"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -198,10 +198,10 @@
           "id": 22,
           "name": "delete",
           "source": {
-            "line": 164,
+            "line": 171,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L164"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L171"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -245,10 +245,10 @@
           "id": 25,
           "name": "deleteMany",
           "source": {
-            "line": 170,
+            "line": 177,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L170"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L177"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -295,10 +295,10 @@
           "id": 8,
           "name": "deleteMetadata",
           "source": {
-            "line": 82,
+            "line": 89,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L82"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L89"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -342,10 +342,10 @@
           "id": 28,
           "name": "entries",
           "source": {
-            "line": 176,
+            "line": 183,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L176"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L183"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -388,10 +388,10 @@
           "id": 35,
           "name": "get",
           "source": {
-            "line": 200,
+            "line": 207,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L200"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L207"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -447,10 +447,10 @@
           "id": 38,
           "name": "getMany",
           "source": {
-            "line": 212,
+            "line": 221,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L212"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L221"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -521,10 +521,10 @@
           "id": 11,
           "name": "getMetadata",
           "source": {
-            "line": 99,
+            "line": 106,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L99"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L106"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -568,10 +568,10 @@
           "id": 30,
           "name": "has",
           "source": {
-            "line": 185,
+            "line": 192,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L185"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L192"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -615,10 +615,10 @@
           "id": 33,
           "name": "keys",
           "source": {
-            "line": 192,
+            "line": 199,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L192"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L199"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -649,10 +649,10 @@
           "id": 41,
           "name": "set",
           "source": {
-            "line": 223,
+            "line": 232,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L223"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L232"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -727,10 +727,10 @@
           "id": 46,
           "name": "setMany",
           "source": {
-            "line": 252,
+            "line": 261,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L252"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L261"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -804,10 +804,10 @@
           "id": 14,
           "name": "setMetadata",
           "source": {
-            "line": 112,
+            "line": 119,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L112"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L119"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -866,10 +866,10 @@
           "id": 50,
           "name": "size",
           "source": {
-            "line": 294,
+            "line": 303,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L294"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L303"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -897,10 +897,10 @@
           "id": 52,
           "name": "values",
           "source": {
-            "line": 301,
+            "line": 310,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L301"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L310"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -939,7 +939,7 @@
         "line": 33,
         "file": "SQLiteProvider.ts",
         "path": "packages/sqlite/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L33"
+        "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L33"
       },
       "namespaceParentId": null,
       "comment": {
@@ -983,7 +983,7 @@
           "line": 97,
           "file": "SQLiteProvider.ts",
           "path": "packages/sqlite/src/lib",
-          "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L97"
+          "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L97"
         },
         "comment": {
           "description": null,
@@ -1029,7 +1029,7 @@
             "line": 95,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L95"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L95"
           },
           "comment": {
             "description": null,
@@ -1065,7 +1065,7 @@
             "line": 36,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L36"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L36"
           },
           "comment": {
             "description": null,
@@ -1126,7 +1126,7 @@
             "line": 34,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L34"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L34"
           },
           "comment": {
             "description": null,
@@ -1154,7 +1154,7 @@
             "line": 115,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L115"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L115"
           },
           "comment": {
             "description": null,
@@ -1190,7 +1190,7 @@
             "line": 111,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L111"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L111"
           },
           "comment": {
             "description": null,
@@ -1217,10 +1217,10 @@
           "id": 103,
           "name": "autoKey",
           "source": {
-            "line": 150,
+            "line": 154,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L150"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L154"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -1270,10 +1270,10 @@
           "id": 106,
           "name": "clear",
           "source": {
-            "line": 156,
+            "line": 160,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L156"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L160"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -1323,10 +1323,10 @@
           "id": 109,
           "name": "dec",
           "source": {
-            "line": 162,
+            "line": 166,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L162"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L166"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -1376,10 +1376,10 @@
           "id": 112,
           "name": "delete",
           "source": {
-            "line": 185,
+            "line": 189,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L185"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L189"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -1429,10 +1429,10 @@
           "id": 115,
           "name": "deleteMany",
           "source": {
-            "line": 199,
+            "line": 204,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L199"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L204"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -1482,10 +1482,10 @@
           "id": 86,
           "name": "deleteMetadata",
           "source": {
-            "line": 138,
+            "line": 142,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L138"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L142"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -1529,10 +1529,10 @@
           "id": 118,
           "name": "each",
           "source": {
-            "line": 207,
+            "line": 212,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L207"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L212"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -1606,10 +1606,10 @@
           "id": 121,
           "name": "ensure",
           "source": {
-            "line": 215,
+            "line": 222,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L215"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L222"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -1675,10 +1675,10 @@
           "id": 124,
           "name": "entries",
           "source": {
-            "line": 226,
+            "line": 236,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L226"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L236"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -1854,10 +1854,10 @@
           "id": 127,
           "name": "every",
           "source": {
-            "line": 232,
+            "line": 242,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L232"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L242"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -1976,10 +1976,10 @@
           "id": 100,
           "name": "fetchVersion",
           "source": {
-            "line": 806,
+            "line": 865,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L806"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L865"
           },
           "parentId": 71,
           "accessibility": "protected",
@@ -2029,10 +2029,10 @@
           "id": 132,
           "name": "filter",
           "source": {
-            "line": 277,
+            "line": 294,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L277"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L294"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -2167,10 +2167,10 @@
           "id": 137,
           "name": "find",
           "source": {
-            "line": 313,
+            "line": 336,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L313"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L336"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -2305,10 +2305,10 @@
           "id": 142,
           "name": "get",
           "source": {
-            "line": 369,
+            "line": 398,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L369"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L398"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -2387,10 +2387,10 @@
           "id": 146,
           "name": "getMany",
           "source": {
-            "line": 383,
+            "line": 416,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L383"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L416"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -2456,10 +2456,10 @@
           "id": 89,
           "name": "getMetadata",
           "source": {
-            "line": 142,
+            "line": 146,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L142"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L146"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -2503,10 +2503,10 @@
           "id": 149,
           "name": "has",
           "source": {
-            "line": 391,
+            "line": 424,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L391"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L424"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -2556,10 +2556,10 @@
           "id": 152,
           "name": "inc",
           "source": {
-            "line": 397,
+            "line": 430,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L397"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L430"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -2609,10 +2609,10 @@
           "id": 83,
           "name": "init",
           "source": {
-            "line": 121,
+            "line": 123,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L121"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L123"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -2670,10 +2670,10 @@
           "id": 155,
           "name": "keys",
           "source": {
-            "line": 420,
+            "line": 453,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L420"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L453"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -2723,10 +2723,10 @@
           "id": 158,
           "name": "map",
           "source": {
-            "line": 426,
+            "line": 459,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L426"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L459"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -2901,10 +2901,10 @@
           "id": 165,
           "name": "math",
           "source": {
-            "line": 450,
+            "line": 487,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L450"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L487"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -2954,10 +2954,10 @@
           "id": 168,
           "name": "partition",
           "source": {
-            "line": 505,
+            "line": 542,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L505"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L542"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -3092,10 +3092,10 @@
           "id": 173,
           "name": "push",
           "source": {
-            "line": 547,
+            "line": 584,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L547"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L584"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -3174,10 +3174,10 @@
           "id": 177,
           "name": "random",
           "source": {
-            "line": 571,
+            "line": 608,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L571"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L608"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -3243,10 +3243,10 @@
           "id": 180,
           "name": "randomKey",
           "source": {
-            "line": 603,
+            "line": 647,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L603"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L647"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -3296,10 +3296,10 @@
           "id": 183,
           "name": "remove",
           "source": {
-            "line": 631,
+            "line": 684,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L631"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L684"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -3431,10 +3431,10 @@
           "id": 96,
           "name": "resolveIdentifier",
           "source": {
-            "line": 793,
+            "line": 852,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L793"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L852"
           },
           "parentId": 71,
           "accessibility": "protected",
@@ -3505,10 +3505,10 @@
           "id": 189,
           "name": "set",
           "source": {
-            "line": 681,
+            "line": 734,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L681"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L734"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -3587,10 +3587,10 @@
           "id": 193,
           "name": "setMany",
           "source": {
-            "line": 694,
+            "line": 748,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L694"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L748"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -3640,10 +3640,10 @@
           "id": 92,
           "name": "setMetadata",
           "source": {
-            "line": 146,
+            "line": 150,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L146"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L150"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -3702,10 +3702,10 @@
           "id": 196,
           "name": "size",
           "source": {
-            "line": 716,
+            "line": 771,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L716"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L771"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -3755,10 +3755,10 @@
           "id": 199,
           "name": "some",
           "source": {
-            "line": 722,
+            "line": 777,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L722"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L777"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -3877,10 +3877,10 @@
           "id": 204,
           "name": "update",
           "source": {
-            "line": 770,
+            "line": 829,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L770"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L829"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -3981,10 +3981,10 @@
           "id": 208,
           "name": "values",
           "source": {
-            "line": 787,
+            "line": 846,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L787"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L846"
           },
           "parentId": 71,
           "accessibility": "public",
@@ -4060,7 +4060,7 @@
         "line": 4,
         "file": "QueryHandler.ts",
         "path": "packages/sqlite/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L4"
+        "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L4"
       },
       "namespaceParentId": null,
       "comment": {
@@ -4077,10 +4077,10 @@
           "id": 65,
           "name": "MetadataRow",
           "source": {
-            "line": 329,
+            "line": 338,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L329"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L338"
           },
           "namespaceParentId": 55,
           "comment": {
@@ -4095,10 +4095,10 @@
               "id": 68,
               "name": "autoKeyCount",
               "source": {
-                "line": 334,
+                "line": 343,
                 "file": "QueryHandler.ts",
                 "path": "packages/sqlite/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L334"
+                "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L343"
               },
               "comment": {
                 "description": null,
@@ -4117,10 +4117,10 @@
               "id": 70,
               "name": "metadata",
               "source": {
-                "line": 338,
+                "line": 347,
                 "file": "QueryHandler.ts",
                 "path": "packages/sqlite/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L338"
+                "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L347"
               },
               "comment": {
                 "description": null,
@@ -4139,10 +4139,10 @@
               "id": 66,
               "name": "name",
               "source": {
-                "line": 330,
+                "line": 339,
                 "file": "QueryHandler.ts",
                 "path": "packages/sqlite/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L330"
+                "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L339"
               },
               "comment": {
                 "description": null,
@@ -4161,10 +4161,10 @@
               "id": 69,
               "name": "serializedKeys",
               "source": {
-                "line": 336,
+                "line": 345,
                 "file": "QueryHandler.ts",
                 "path": "packages/sqlite/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L336"
+                "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L345"
               },
               "comment": {
                 "description": null,
@@ -4183,10 +4183,10 @@
               "id": 67,
               "name": "version",
               "source": {
-                "line": 332,
+                "line": 341,
                 "file": "QueryHandler.ts",
                 "path": "packages/sqlite/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L332"
+                "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L341"
               },
               "comment": {
                 "description": null,
@@ -4208,10 +4208,10 @@
           "id": 56,
           "name": "Options",
           "source": {
-            "line": 311,
+            "line": 320,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L311"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L320"
           },
           "namespaceParentId": 55,
           "comment": {
@@ -4226,10 +4226,10 @@
               "id": 57,
               "name": "database",
               "source": {
-                "line": 312,
+                "line": 321,
                 "file": "QueryHandler.ts",
                 "path": "packages/sqlite/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L312"
+                "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L321"
               },
               "comment": {
                 "description": null,
@@ -4251,10 +4251,10 @@
               "id": 60,
               "name": "disableSerialization",
               "source": {
-                "line": 318,
+                "line": 327,
                 "file": "QueryHandler.ts",
                 "path": "packages/sqlite/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L318"
+                "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L327"
               },
               "comment": {
                 "description": null,
@@ -4273,10 +4273,10 @@
               "id": 58,
               "name": "tableName",
               "source": {
-                "line": 314,
+                "line": 323,
                 "file": "QueryHandler.ts",
                 "path": "packages/sqlite/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L314"
+                "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L323"
               },
               "comment": {
                 "description": null,
@@ -4295,10 +4295,10 @@
               "id": 61,
               "name": "version",
               "source": {
-                "line": 320,
+                "line": 329,
                 "file": "QueryHandler.ts",
                 "path": "packages/sqlite/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L320"
+                "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L329"
               },
               "comment": {
                 "description": null,
@@ -4317,10 +4317,10 @@
               "id": 59,
               "name": "wal",
               "source": {
-                "line": 316,
+                "line": 325,
                 "file": "QueryHandler.ts",
                 "path": "packages/sqlite/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L316"
+                "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L325"
               },
               "comment": {
                 "description": null,
@@ -4342,10 +4342,10 @@
           "id": 62,
           "name": "Row",
           "source": {
-            "line": 323,
+            "line": 332,
             "file": "QueryHandler.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L323"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L332"
           },
           "namespaceParentId": 55,
           "comment": {
@@ -4360,10 +4360,10 @@
               "id": 63,
               "name": "key",
               "source": {
-                "line": 324,
+                "line": 333,
                 "file": "QueryHandler.ts",
                 "path": "packages/sqlite/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L324"
+                "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L333"
               },
               "comment": {
                 "description": null,
@@ -4382,10 +4382,10 @@
               "id": 64,
               "name": "value",
               "source": {
-                "line": 326,
+                "line": 335,
                 "file": "QueryHandler.ts",
                 "path": "packages/sqlite/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/QueryHandler.ts#L326"
+                "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/QueryHandler.ts#L335"
               },
               "comment": {
                 "description": null,
@@ -4415,7 +4415,7 @@
         "line": 33,
         "file": "SQLiteProvider.ts",
         "path": "packages/sqlite/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L33"
+        "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L33"
       },
       "namespaceParentId": null,
       "comment": {
@@ -4430,10 +4430,10 @@
           "id": 226,
           "name": "Identifiers",
           "source": {
-            "line": 849,
+            "line": 917,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L849"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L917"
           },
           "namespaceParentId": 217,
           "comment": {
@@ -4447,10 +4447,10 @@
               "id": 227,
               "name": "HandlerNotFound",
               "source": {
-                "line": 850,
+                "line": 918,
                 "file": "SQLiteProvider.ts",
                 "path": "packages/sqlite/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L850"
+                "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L918"
               },
               "comment": {
                 "description": null,
@@ -4469,10 +4469,10 @@
           "id": 218,
           "name": "Options",
           "source": {
-            "line": 835,
+            "line": 903,
             "file": "SQLiteProvider.ts",
             "path": "packages/sqlite/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L835"
+            "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L903"
           },
           "namespaceParentId": 217,
           "comment": {
@@ -4514,10 +4514,10 @@
               "id": 221,
               "name": "dataDirectory",
               "source": {
-                "line": 840,
+                "line": 908,
                 "file": "SQLiteProvider.ts",
                 "path": "packages/sqlite/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L840"
+                "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L908"
               },
               "comment": {
                 "description": null,
@@ -4536,10 +4536,10 @@
               "id": 224,
               "name": "disableSerialization",
               "source": {
-                "line": 846,
+                "line": 914,
                 "file": "SQLiteProvider.ts",
                 "path": "packages/sqlite/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L846"
+                "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L914"
               },
               "comment": {
                 "description": null,
@@ -4558,10 +4558,10 @@
               "id": 223,
               "name": "persistent",
               "source": {
-                "line": 844,
+                "line": 912,
                 "file": "SQLiteProvider.ts",
                 "path": "packages/sqlite/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L844"
+                "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L912"
               },
               "comment": {
                 "description": null,
@@ -4580,10 +4580,10 @@
               "id": 219,
               "name": "tableName",
               "source": {
-                "line": 836,
+                "line": 904,
                 "file": "SQLiteProvider.ts",
                 "path": "packages/sqlite/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L836"
+                "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L904"
               },
               "comment": {
                 "description": null,
@@ -4602,10 +4602,10 @@
               "id": 220,
               "name": "useAbsolutePath",
               "source": {
-                "line": 838,
+                "line": 906,
                 "file": "SQLiteProvider.ts",
                 "path": "packages/sqlite/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L838"
+                "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L906"
               },
               "comment": {
                 "description": null,
@@ -4624,10 +4624,10 @@
               "id": 222,
               "name": "wal",
               "source": {
-                "line": 842,
+                "line": 910,
                 "file": "SQLiteProvider.ts",
                 "path": "packages/sqlite/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/de5b093/packages/sqlite/src/lib/SQLiteProvider.ts#L842"
+                "url": "https://github.com/josh-development/providers/blob/5bf85c6/packages/sqlite/src/lib/SQLiteProvider.ts#L910"
               },
               "comment": {
                 "description": null,
