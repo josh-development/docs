@@ -1,5 +1,5 @@
 {
-  "typeDocJsonParserVersion": "8.2.0",
+  "typeDocJsonParserVersion": "9.0.0",
   "id": 0,
   "name": "@joshdb/schema",
   "version": "1.0.0",
@@ -13,7 +13,7 @@
         "line": 16,
         "file": "SchemaMiddleware.ts",
         "path": "packages/schema/src/lib",
-        "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/schema/src/lib/SchemaMiddleware.ts#L16"
+        "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/schema/src/lib/SchemaMiddleware.ts#L16"
       },
       "namespaceParentId": null,
       "comment": {
@@ -374,7 +374,7 @@
             "line": 17,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/schema/src/lib/SchemaMiddleware.ts#L17"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/schema/src/lib/SchemaMiddleware.ts#L17"
           },
           "comment": {
             "description": null,
@@ -526,7 +526,7 @@
             "line": 22,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/schema/src/lib/SchemaMiddleware.ts#L22"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/schema/src/lib/SchemaMiddleware.ts#L22"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1244,10 +1244,10 @@
           "id": 9,
           "name": "fetchVersion",
           "source": {
-            "line": 258,
+            "line": 278,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/schema/src/lib/SchemaMiddleware.ts#L258"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/schema/src/lib/SchemaMiddleware.ts#L278"
           },
           "parentId": 1,
           "accessibility": "protected",
@@ -1676,10 +1676,10 @@
           "id": 14,
           "name": "get",
           "source": {
-            "line": 42,
+            "line": 44,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/schema/src/lib/SchemaMiddleware.ts#L42"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/schema/src/lib/SchemaMiddleware.ts#L44"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1758,10 +1758,10 @@
           "id": 18,
           "name": "getMany",
           "source": {
-            "line": 59,
+            "line": 63,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/schema/src/lib/SchemaMiddleware.ts#L59"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/schema/src/lib/SchemaMiddleware.ts#L63"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1888,10 +1888,10 @@
           "id": 21,
           "name": "inc",
           "source": {
-            "line": 85,
+            "line": 91,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/schema/src/lib/SchemaMiddleware.ts#L85"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/schema/src/lib/SchemaMiddleware.ts#L91"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2356,10 +2356,10 @@
           "id": 28,
           "name": "math",
           "source": {
-            "line": 125,
+            "line": 135,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/schema/src/lib/SchemaMiddleware.ts#L125"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/schema/src/lib/SchemaMiddleware.ts#L135"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2616,10 +2616,10 @@
           "id": 24,
           "name": "push",
           "source": {
-            "line": 105,
+            "line": 113,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/schema/src/lib/SchemaMiddleware.ts#L105"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/schema/src/lib/SchemaMiddleware.ts#L113"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2838,10 +2838,10 @@
           "id": 31,
           "name": "remove",
           "source": {
-            "line": 144,
+            "line": 156,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/schema/src/lib/SchemaMiddleware.ts#L144"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/schema/src/lib/SchemaMiddleware.ts#L156"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3130,10 +3130,10 @@
           "id": 37,
           "name": "set",
           "source": {
-            "line": 168,
+            "line": 182,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/schema/src/lib/SchemaMiddleware.ts#L168"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/schema/src/lib/SchemaMiddleware.ts#L182"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3220,10 +3220,10 @@
           "id": 41,
           "name": "setMany",
           "source": {
-            "line": 198,
+            "line": 214,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/schema/src/lib/SchemaMiddleware.ts#L198"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/schema/src/lib/SchemaMiddleware.ts#L214"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3589,10 +3589,10 @@
           "id": 44,
           "name": "update",
           "source": {
-            "line": 237,
+            "line": 255,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/schema/src/lib/SchemaMiddleware.ts#L237"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/schema/src/lib/SchemaMiddleware.ts#L255"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3780,7 +3780,7 @@
         "line": 16,
         "file": "SchemaMiddleware.ts",
         "path": "packages/schema/src/lib",
-        "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/schema/src/lib/SchemaMiddleware.ts#L16"
+        "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/schema/src/lib/SchemaMiddleware.ts#L16"
       },
       "namespaceParentId": null,
       "comment": {
@@ -3795,10 +3795,10 @@
           "id": 167,
           "name": "Identifiers",
           "source": {
-            "line": 272,
+            "line": 292,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/schema/src/lib/SchemaMiddleware.ts#L272"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/schema/src/lib/SchemaMiddleware.ts#L292"
           },
           "namespaceParentId": 162,
           "comment": {
@@ -3812,10 +3812,10 @@
               "id": 168,
               "name": "InvalidData",
               "source": {
-                "line": 273,
+                "line": 293,
                 "file": "SchemaMiddleware.ts",
                 "path": "packages/schema/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/schema/src/lib/SchemaMiddleware.ts#L273"
+                "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/schema/src/lib/SchemaMiddleware.ts#L293"
               },
               "comment": {
                 "description": null,
@@ -3829,10 +3829,10 @@
               "id": 169,
               "name": "InvalidValue",
               "source": {
-                "line": 275,
+                "line": 295,
                 "file": "SchemaMiddleware.ts",
                 "path": "packages/schema/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/schema/src/lib/SchemaMiddleware.ts#L275"
+                "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/schema/src/lib/SchemaMiddleware.ts#L295"
               },
               "comment": {
                 "description": null,
@@ -3851,10 +3851,10 @@
           "id": 163,
           "name": "ContextData",
           "source": {
-            "line": 264,
+            "line": 284,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/schema/src/lib/SchemaMiddleware.ts#L264"
+            "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/schema/src/lib/SchemaMiddleware.ts#L284"
           },
           "namespaceParentId": 162,
           "comment": {
@@ -3901,10 +3901,10 @@
               "id": 164,
               "name": "schema",
               "source": {
-                "line": 269,
+                "line": 289,
                 "file": "SchemaMiddleware.ts",
                 "path": "packages/schema/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/0755f5d/packages/schema/src/lib/SchemaMiddleware.ts#L269"
+                "url": "https://github.com/josh-development/middlewares/blob/0eb9a0f/packages/schema/src/lib/SchemaMiddleware.ts#L289"
               },
               "comment": {
                 "description": "The schema used to parse and validate data.",
