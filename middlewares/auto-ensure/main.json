@@ -13,7 +13,7 @@
         "line": 15,
         "file": "AutoEnsureMiddleware.ts",
         "path": "packages/auto-ensure/src/lib",
-        "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L15"
+        "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L15"
       },
       "namespaceParentId": null,
       "comment": {
@@ -37,18 +37,18 @@
             "typeArguments": [
               {
                 "kind": "reference",
-                "id": -1,
-                "name": "StoredValue",
-                "packageName": null,
+                "id": 4,
+                "name": "AutoEnsureMiddleware.StoredValue",
+                "packageName": "@joshdb/auto-ensure",
                 "typeArguments": []
               }
             ]
           },
           {
             "kind": "reference",
-            "id": -1,
-            "name": "StoredValue",
-            "packageName": null,
+            "id": 4,
+            "name": "AutoEnsureMiddleware.StoredValue",
+            "packageName": "@joshdb/auto-ensure",
             "typeArguments": []
           }
         ]
@@ -100,9 +100,9 @@
               "typeArguments": [
                 {
                   "kind": "reference",
-                  "id": -1,
-                  "name": "StoredValue",
-                  "packageName": null,
+                  "id": 4,
+                  "name": "AutoEnsureMiddleware.StoredValue",
+                  "packageName": "@joshdb/auto-ensure",
                   "typeArguments": []
                 }
               ]
@@ -203,9 +203,9 @@
             "typeArguments": [
               {
                 "kind": "reference",
-                "id": -1,
-                "name": "StoredValue",
-                "packageName": null,
+                "id": 4,
+                "name": "AutoEnsureMiddleware.StoredValue",
+                "packageName": "@joshdb/auto-ensure",
                 "typeArguments": []
               }
             ]
@@ -246,9 +246,9 @@
               "typeArguments": [
                 {
                   "kind": "reference",
-                  "id": -1,
-                  "name": "StoredValue",
-                  "packageName": null,
+                  "id": 4,
+                  "name": "AutoEnsureMiddleware.StoredValue",
+                  "packageName": "@joshdb/auto-ensure",
                   "typeArguments": []
                 }
               ]
@@ -318,9 +318,9 @@
             "typeArguments": [
               {
                 "kind": "reference",
-                "id": -1,
-                "name": "StoredValue",
-                "packageName": null,
+                "id": 4,
+                "name": "AutoEnsureMiddleware.StoredValue",
+                "packageName": "@joshdb/auto-ensure",
                 "typeArguments": []
               }
             ]
@@ -359,9 +359,9 @@
             "typeArguments": [
               {
                 "kind": "reference",
-                "id": -1,
-                "name": "StoredValue",
-                "packageName": null,
+                "id": null,
+                "name": "JoshMiddleware.StoredValue",
+                "packageName": "@joshdb/provider",
                 "typeArguments": []
               }
             ]
@@ -374,7 +374,7 @@
             "line": 16,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L16"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L16"
           },
           "comment": {
             "description": null,
@@ -526,7 +526,7 @@
             "line": 21,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L21"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L21"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -744,9 +744,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -767,9 +767,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -821,9 +821,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -844,9 +844,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -898,9 +898,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -921,9 +921,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -1092,9 +1092,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 95,
                         "name": "StoredValue",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -1115,9 +1115,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 95,
                         "name": "StoredValue",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -1205,9 +1205,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 100,
                         "name": "StoredValue",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -1228,9 +1228,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 100,
                         "name": "StoredValue",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -1247,7 +1247,7 @@
             "line": 260,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L260"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L260"
           },
           "parentId": 1,
           "accessibility": "protected",
@@ -1316,9 +1316,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -1339,9 +1339,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -1377,9 +1377,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -1400,9 +1400,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -1438,9 +1438,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -1461,9 +1461,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -1515,9 +1515,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -1538,9 +1538,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -1576,9 +1576,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -1599,9 +1599,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -1637,9 +1637,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -1660,9 +1660,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -1679,7 +1679,7 @@
             "line": 45,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L45"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L45"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1701,9 +1701,9 @@
                   "constraint": null,
                   "default": {
                     "kind": "reference",
-                    "id": -1,
-                    "name": "StoredValue",
-                    "packageName": null,
+                    "id": 4,
+                    "name": "AutoEnsureMiddleware.StoredValue",
+                    "packageName": "@joshdb/auto-ensure",
                     "typeArguments": []
                   }
                 }
@@ -1727,9 +1727,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 16,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -1750,9 +1750,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 16,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -1769,7 +1769,7 @@
             "line": 61,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L61"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L61"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1804,9 +1804,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -1827,9 +1827,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -1907,7 +1907,7 @@
             "line": 80,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L80"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L80"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2012,9 +2012,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -2035,9 +2035,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -2137,9 +2137,9 @@
                   "constraint": null,
                   "default": {
                     "kind": "reference",
-                    "id": -1,
-                    "name": "StoredValue",
-                    "packageName": null,
+                    "id": 4,
+                    "name": "AutoEnsureMiddleware.StoredValue",
+                    "packageName": "@joshdb/auto-ensure",
                     "typeArguments": []
                   }
                 }
@@ -2163,16 +2163,16 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       },
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 124,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -2193,16 +2193,16 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       },
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 124,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -2245,9 +2245,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 127,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -2268,9 +2268,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 127,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -2293,9 +2293,9 @@
                   "constraint": null,
                   "default": {
                     "kind": "reference",
-                    "id": -1,
-                    "name": "StoredValue",
-                    "packageName": null,
+                    "id": 4,
+                    "name": "AutoEnsureMiddleware.StoredValue",
+                    "packageName": "@joshdb/auto-ensure",
                     "typeArguments": []
                   }
                 }
@@ -2319,16 +2319,16 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       },
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 130,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -2349,16 +2349,16 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       },
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 130,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -2375,7 +2375,7 @@
             "line": 128,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L128"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L128"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2471,9 +2471,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -2494,9 +2494,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -2532,9 +2532,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -2555,9 +2555,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -2593,9 +2593,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -2616,9 +2616,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -2635,7 +2635,7 @@
             "line": 104,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L104"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L104"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2677,9 +2677,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 26,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -2700,9 +2700,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 26,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -2754,9 +2754,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -2777,9 +2777,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -2857,7 +2857,7 @@
             "line": 151,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L151"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L151"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2879,9 +2879,9 @@
                   "constraint": null,
                   "default": {
                     "kind": "reference",
-                    "id": -1,
-                    "name": "StoredValue",
-                    "packageName": null,
+                    "id": 4,
+                    "name": "AutoEnsureMiddleware.StoredValue",
+                    "packageName": "@joshdb/auto-ensure",
                     "typeArguments": []
                   }
                 }
@@ -2905,9 +2905,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 33,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -2928,9 +2928,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 33,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -3117,9 +3117,9 @@
                   "optional": false,
                   "type": {
                     "kind": "reference",
-                    "id": -1,
+                    "id": 60,
                     "name": "P",
-                    "packageName": null,
+                    "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
                 }
@@ -3132,9 +3132,9 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": -1,
+                    "id": 60,
                     "name": "P",
-                    "packageName": null,
+                    "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
                 ]
@@ -3149,7 +3149,7 @@
             "line": 179,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L179"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L179"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3171,9 +3171,9 @@
                   "constraint": null,
                   "default": {
                     "kind": "reference",
-                    "id": -1,
-                    "name": "StoredValue",
-                    "packageName": null,
+                    "id": 4,
+                    "name": "AutoEnsureMiddleware.StoredValue",
+                    "packageName": "@joshdb/auto-ensure",
                     "typeArguments": []
                   }
                 }
@@ -3197,9 +3197,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 39,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -3220,9 +3220,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 39,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -3239,7 +3239,7 @@
             "line": 203,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L203"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L203"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3403,9 +3403,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 150,
                         "name": "StoredValue",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -3426,9 +3426,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 150,
                         "name": "StoredValue",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -3523,9 +3523,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 156,
                         "name": "StoredValue",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -3546,9 +3546,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 156,
                         "name": "StoredValue",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -3608,7 +3608,7 @@
             "line": 235,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L235"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L235"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3630,9 +3630,9 @@
                   "constraint": null,
                   "default": {
                     "kind": "reference",
-                    "id": -1,
-                    "name": "StoredValue",
-                    "packageName": null,
+                    "id": 4,
+                    "name": "AutoEnsureMiddleware.StoredValue",
+                    "packageName": "@joshdb/auto-ensure",
                     "typeArguments": []
                   }
                 }
@@ -3656,16 +3656,16 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       },
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 46,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -3686,16 +3686,16 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       },
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 46,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -3747,9 +3747,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -3770,9 +3770,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "AutoEnsureMiddleware.StoredValue",
+                        "packageName": "@joshdb/auto-ensure",
                         "typeArguments": []
                       }
                     ]
@@ -3796,7 +3796,7 @@
         "line": 15,
         "file": "AutoEnsureMiddleware.ts",
         "path": "packages/auto-ensure/src/lib",
-        "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L15"
+        "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L15"
       },
       "namespaceParentId": null,
       "comment": {
@@ -3816,7 +3816,7 @@
             "line": 266,
             "file": "AutoEnsureMiddleware.ts",
             "path": "packages/auto-ensure/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L266"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L266"
           },
           "namespaceParentId": 162,
           "comment": {
@@ -3866,7 +3866,7 @@
                 "line": 271,
                 "file": "AutoEnsureMiddleware.ts",
                 "path": "packages/auto-ensure/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L271"
+                "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L271"
               },
               "comment": {
                 "description": "The default value to set if the key does not exist.",
@@ -3883,9 +3883,9 @@
               "optional": false,
               "type": {
                 "kind": "reference",
-                "id": -1,
-                "name": "StoredValue",
-                "packageName": null,
+                "id": 167,
+                "name": "AutoEnsureMiddleware.ContextData.StoredValue",
+                "packageName": "@joshdb/auto-ensure",
                 "typeArguments": []
               }
             },
@@ -3896,7 +3896,7 @@
                 "line": 277,
                 "file": "AutoEnsureMiddleware.ts",
                 "path": "packages/auto-ensure/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L277"
+                "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/auto-ensure/src/lib/AutoEnsureMiddleware.ts#L277"
               },
               "comment": {
                 "description": "Whether to merge the {@link ContextData.defaultValue} with existing values.",
