@@ -13,7 +13,7 @@
         "line": 16,
         "file": "SchemaMiddleware.ts",
         "path": "packages/schema/src/lib",
-        "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/schema/src/lib/SchemaMiddleware.ts#L16"
+        "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/schema/src/lib/SchemaMiddleware.ts#L16"
       },
       "namespaceParentId": null,
       "comment": {
@@ -37,18 +37,18 @@
             "typeArguments": [
               {
                 "kind": "reference",
-                "id": -1,
-                "name": "StoredValue",
-                "packageName": null,
+                "id": 4,
+                "name": "SchemaMiddleware.StoredValue",
+                "packageName": "@joshdb/schema",
                 "typeArguments": []
               }
             ]
           },
           {
             "kind": "reference",
-            "id": -1,
-            "name": "StoredValue",
-            "packageName": null,
+            "id": 4,
+            "name": "SchemaMiddleware.StoredValue",
+            "packageName": "@joshdb/schema",
             "typeArguments": []
           }
         ]
@@ -100,9 +100,9 @@
               "typeArguments": [
                 {
                   "kind": "reference",
-                  "id": -1,
-                  "name": "StoredValue",
-                  "packageName": null,
+                  "id": 4,
+                  "name": "SchemaMiddleware.StoredValue",
+                  "packageName": "@joshdb/schema",
                   "typeArguments": []
                 }
               ]
@@ -203,9 +203,9 @@
             "typeArguments": [
               {
                 "kind": "reference",
-                "id": -1,
-                "name": "StoredValue",
-                "packageName": null,
+                "id": 4,
+                "name": "SchemaMiddleware.StoredValue",
+                "packageName": "@joshdb/schema",
                 "typeArguments": []
               }
             ]
@@ -246,9 +246,9 @@
               "typeArguments": [
                 {
                   "kind": "reference",
-                  "id": -1,
-                  "name": "StoredValue",
-                  "packageName": null,
+                  "id": 4,
+                  "name": "SchemaMiddleware.StoredValue",
+                  "packageName": "@joshdb/schema",
                   "typeArguments": []
                 }
               ]
@@ -318,9 +318,9 @@
             "typeArguments": [
               {
                 "kind": "reference",
-                "id": -1,
-                "name": "StoredValue",
-                "packageName": null,
+                "id": 4,
+                "name": "SchemaMiddleware.StoredValue",
+                "packageName": "@joshdb/schema",
                 "typeArguments": []
               }
             ]
@@ -359,9 +359,9 @@
             "typeArguments": [
               {
                 "kind": "reference",
-                "id": -1,
-                "name": "StoredValue",
-                "packageName": null,
+                "id": null,
+                "name": "JoshMiddleware.StoredValue",
+                "packageName": "@joshdb/provider",
                 "typeArguments": []
               }
             ]
@@ -374,7 +374,7 @@
             "line": 17,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/schema/src/lib/SchemaMiddleware.ts#L17"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/schema/src/lib/SchemaMiddleware.ts#L17"
           },
           "comment": {
             "description": null,
@@ -526,7 +526,7 @@
             "line": 22,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/schema/src/lib/SchemaMiddleware.ts#L22"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/schema/src/lib/SchemaMiddleware.ts#L22"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -744,9 +744,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -767,9 +767,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -821,9 +821,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -844,9 +844,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -898,9 +898,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -921,9 +921,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -1092,9 +1092,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 95,
                         "name": "StoredValue",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -1115,9 +1115,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 95,
                         "name": "StoredValue",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -1205,9 +1205,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 100,
                         "name": "StoredValue",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -1228,9 +1228,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 100,
                         "name": "StoredValue",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -1247,7 +1247,7 @@
             "line": 278,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/schema/src/lib/SchemaMiddleware.ts#L278"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/schema/src/lib/SchemaMiddleware.ts#L278"
           },
           "parentId": 1,
           "accessibility": "protected",
@@ -1316,9 +1316,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -1339,9 +1339,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -1377,9 +1377,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -1400,9 +1400,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -1438,9 +1438,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -1461,9 +1461,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -1515,9 +1515,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -1538,9 +1538,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -1576,9 +1576,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -1599,9 +1599,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -1637,9 +1637,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -1660,9 +1660,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -1679,7 +1679,7 @@
             "line": 44,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/schema/src/lib/SchemaMiddleware.ts#L44"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/schema/src/lib/SchemaMiddleware.ts#L44"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1701,9 +1701,9 @@
                   "constraint": null,
                   "default": {
                     "kind": "reference",
-                    "id": -1,
-                    "name": "StoredValue",
-                    "packageName": null,
+                    "id": 4,
+                    "name": "SchemaMiddleware.StoredValue",
+                    "packageName": "@joshdb/schema",
                     "typeArguments": []
                   }
                 }
@@ -1727,9 +1727,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 16,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -1744,9 +1744,9 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": -1,
+                    "id": 16,
                     "name": "Value",
-                    "packageName": null,
+                    "packageName": "@joshdb/schema",
                     "typeArguments": []
                   }
                 ]
@@ -1761,7 +1761,7 @@
             "line": 63,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/schema/src/lib/SchemaMiddleware.ts#L63"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/schema/src/lib/SchemaMiddleware.ts#L63"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1796,9 +1796,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -1813,9 +1813,9 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": -1,
-                    "name": "StoredValue",
-                    "packageName": null,
+                    "id": 4,
+                    "name": "SchemaMiddleware.StoredValue",
+                    "packageName": "@joshdb/schema",
                     "typeArguments": []
                   }
                 ]
@@ -1891,7 +1891,7 @@
             "line": 91,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/schema/src/lib/SchemaMiddleware.ts#L91"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/schema/src/lib/SchemaMiddleware.ts#L91"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1996,9 +1996,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -2019,9 +2019,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -2121,9 +2121,9 @@
                   "constraint": null,
                   "default": {
                     "kind": "reference",
-                    "id": -1,
-                    "name": "StoredValue",
-                    "packageName": null,
+                    "id": 4,
+                    "name": "SchemaMiddleware.StoredValue",
+                    "packageName": "@joshdb/schema",
                     "typeArguments": []
                   }
                 }
@@ -2147,16 +2147,16 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       },
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 124,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -2177,16 +2177,16 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       },
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 124,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -2229,9 +2229,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 127,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -2252,9 +2252,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 127,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -2277,9 +2277,9 @@
                   "constraint": null,
                   "default": {
                     "kind": "reference",
-                    "id": -1,
-                    "name": "StoredValue",
-                    "packageName": null,
+                    "id": 4,
+                    "name": "SchemaMiddleware.StoredValue",
+                    "packageName": "@joshdb/schema",
                     "typeArguments": []
                   }
                 }
@@ -2303,16 +2303,16 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       },
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 130,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -2333,16 +2333,16 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       },
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 130,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -2359,7 +2359,7 @@
             "line": 135,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/schema/src/lib/SchemaMiddleware.ts#L135"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/schema/src/lib/SchemaMiddleware.ts#L135"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2455,9 +2455,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -2478,9 +2478,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -2516,9 +2516,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -2539,9 +2539,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -2577,9 +2577,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -2600,9 +2600,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -2619,7 +2619,7 @@
             "line": 113,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/schema/src/lib/SchemaMiddleware.ts#L113"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/schema/src/lib/SchemaMiddleware.ts#L113"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2661,9 +2661,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 26,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -2684,9 +2684,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 26,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -2738,9 +2738,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -2761,9 +2761,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -2841,7 +2841,7 @@
             "line": 156,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/schema/src/lib/SchemaMiddleware.ts#L156"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/schema/src/lib/SchemaMiddleware.ts#L156"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2863,9 +2863,9 @@
                   "constraint": null,
                   "default": {
                     "kind": "reference",
-                    "id": -1,
-                    "name": "StoredValue",
-                    "packageName": null,
+                    "id": 4,
+                    "name": "SchemaMiddleware.StoredValue",
+                    "packageName": "@joshdb/schema",
                     "typeArguments": []
                   }
                 }
@@ -2889,9 +2889,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 33,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -2912,9 +2912,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 33,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -3101,9 +3101,9 @@
                   "optional": false,
                   "type": {
                     "kind": "reference",
-                    "id": -1,
+                    "id": 60,
                     "name": "P",
-                    "packageName": null,
+                    "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
                 }
@@ -3116,9 +3116,9 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": -1,
+                    "id": 60,
                     "name": "P",
-                    "packageName": null,
+                    "packageName": "@joshdb/provider",
                     "typeArguments": []
                   }
                 ]
@@ -3133,7 +3133,7 @@
             "line": 182,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/schema/src/lib/SchemaMiddleware.ts#L182"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/schema/src/lib/SchemaMiddleware.ts#L182"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3155,9 +3155,9 @@
                   "constraint": null,
                   "default": {
                     "kind": "reference",
-                    "id": -1,
-                    "name": "StoredValue",
-                    "packageName": null,
+                    "id": 4,
+                    "name": "SchemaMiddleware.StoredValue",
+                    "packageName": "@joshdb/schema",
                     "typeArguments": []
                   }
                 }
@@ -3181,9 +3181,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 39,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -3204,9 +3204,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 39,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -3223,7 +3223,7 @@
             "line": 214,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/schema/src/lib/SchemaMiddleware.ts#L214"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/schema/src/lib/SchemaMiddleware.ts#L214"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3387,9 +3387,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 150,
                         "name": "StoredValue",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -3410,9 +3410,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 150,
                         "name": "StoredValue",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -3507,9 +3507,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 156,
                         "name": "StoredValue",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -3530,9 +3530,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 156,
                         "name": "StoredValue",
-                        "packageName": null,
+                        "packageName": "@joshdb/provider",
                         "typeArguments": []
                       }
                     ]
@@ -3592,7 +3592,7 @@
             "line": 255,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/schema/src/lib/SchemaMiddleware.ts#L255"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/schema/src/lib/SchemaMiddleware.ts#L255"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3614,9 +3614,9 @@
                   "constraint": null,
                   "default": {
                     "kind": "reference",
-                    "id": -1,
-                    "name": "StoredValue",
-                    "packageName": null,
+                    "id": 4,
+                    "name": "SchemaMiddleware.StoredValue",
+                    "packageName": "@joshdb/schema",
                     "typeArguments": []
                   }
                 }
@@ -3640,16 +3640,16 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       },
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 46,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -3670,16 +3670,16 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       },
                       {
                         "kind": "reference",
-                        "id": -1,
+                        "id": 46,
                         "name": "Value",
-                        "packageName": null,
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -3731,9 +3731,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -3754,9 +3754,9 @@
                     "typeArguments": [
                       {
                         "kind": "reference",
-                        "id": -1,
-                        "name": "StoredValue",
-                        "packageName": null,
+                        "id": 4,
+                        "name": "SchemaMiddleware.StoredValue",
+                        "packageName": "@joshdb/schema",
                         "typeArguments": []
                       }
                     ]
@@ -3780,7 +3780,7 @@
         "line": 16,
         "file": "SchemaMiddleware.ts",
         "path": "packages/schema/src/lib",
-        "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/schema/src/lib/SchemaMiddleware.ts#L16"
+        "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/schema/src/lib/SchemaMiddleware.ts#L16"
       },
       "namespaceParentId": null,
       "comment": {
@@ -3798,7 +3798,7 @@
             "line": 292,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/schema/src/lib/SchemaMiddleware.ts#L292"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/schema/src/lib/SchemaMiddleware.ts#L292"
           },
           "namespaceParentId": 162,
           "comment": {
@@ -3815,7 +3815,7 @@
                 "line": 293,
                 "file": "SchemaMiddleware.ts",
                 "path": "packages/schema/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/schema/src/lib/SchemaMiddleware.ts#L293"
+                "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/schema/src/lib/SchemaMiddleware.ts#L293"
               },
               "comment": {
                 "description": null,
@@ -3832,7 +3832,7 @@
                 "line": 295,
                 "file": "SchemaMiddleware.ts",
                 "path": "packages/schema/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/schema/src/lib/SchemaMiddleware.ts#L295"
+                "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/schema/src/lib/SchemaMiddleware.ts#L295"
               },
               "comment": {
                 "description": null,
@@ -3854,7 +3854,7 @@
             "line": 284,
             "file": "SchemaMiddleware.ts",
             "path": "packages/schema/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/schema/src/lib/SchemaMiddleware.ts#L284"
+            "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/schema/src/lib/SchemaMiddleware.ts#L284"
           },
           "namespaceParentId": 162,
           "comment": {
@@ -3904,7 +3904,7 @@
                 "line": 289,
                 "file": "SchemaMiddleware.ts",
                 "path": "packages/schema/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/3056525/packages/schema/src/lib/SchemaMiddleware.ts#L289"
+                "url": "https://github.com/josh-development/middlewares/blob/3389aa36f8d8e896d1b9990f09373209855e1d03/packages/schema/src/lib/SchemaMiddleware.ts#L289"
               },
               "comment": {
                 "description": "The schema used to parse and validate data.",
@@ -3927,9 +3927,9 @@
                 "typeArguments": [
                   {
                     "kind": "reference",
-                    "id": -1,
-                    "name": "StoredValue",
-                    "packageName": null,
+                    "id": 166,
+                    "name": "SchemaMiddleware.ContextData.StoredValue",
+                    "packageName": "@joshdb/schema",
                     "typeArguments": []
                   }
                 ]
