@@ -1,0 +1,14 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Documentation for the Josh project.",
+  "author": "Hezekiah Hendry <hezekiah.hendry@gmail.com>",
+  "scripts": {
+    "migrate": "typedoc-json-parser -v --migrate docs"
+  },
+  "dependencies": {
+    "typedoc-json-parser": "^10.0.0"
+  },
+  "packageManager": "yarn@4.1.1"
+}
