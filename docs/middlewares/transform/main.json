@@ -13,7 +13,7 @@
         "line": 21,
         "file": "TransformMiddleware.ts",
         "path": "packages/transform/src/lib",
-        "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L21"
+        "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L21"
       },
       "namespaceParentId": null,
       "comment": {
@@ -86,7 +86,7 @@
         "name": "constructor",
         "source": {
           "line": 1292,
-          "file": "index.d.ts",
+          "file": "index.d.mts",
           "path": "node_modules/@joshdb/provider/dist",
           "url": null
         },
@@ -165,7 +165,7 @@
           "name": "conditions",
           "source": {
             "line": 1281,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -198,7 +198,7 @@
           "name": "context",
           "source": {
             "line": 1291,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -246,7 +246,7 @@
           "name": "migrations",
           "source": {
             "line": 1286,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -290,7 +290,7 @@
           "name": "name",
           "source": {
             "line": 1276,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -320,7 +320,7 @@
           "name": "store",
           "source": {
             "line": 1271,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -361,7 +361,7 @@
           "name": "provider",
           "source": {
             "line": 1302,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -404,7 +404,7 @@
             "line": 25,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L25"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L25"
           },
           "comment": {
             "description": null,
@@ -432,7 +432,7 @@
           "name": "autoKey",
           "source": {
             "line": 1310,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -493,7 +493,7 @@
           "name": "clear",
           "source": {
             "line": 1311,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -556,7 +556,7 @@
             "line": 222,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L222"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L222"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -615,7 +615,7 @@
           "name": "delete",
           "source": {
             "line": 1313,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -676,7 +676,7 @@
           "name": "deleteMany",
           "source": {
             "line": 1314,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -739,7 +739,7 @@
             "line": 30,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L30"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L30"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -829,7 +829,7 @@
             "line": 59,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L59"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L59"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -931,7 +931,7 @@
             "line": 90,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L90"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L90"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1031,7 +1031,7 @@
           "name": "error",
           "source": {
             "line": 1366,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -1143,7 +1143,7 @@
             "line": 252,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L252"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L252"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1278,7 +1278,7 @@
             "line": 487,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L487"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L487"
           },
           "parentId": 1,
           "accessibility": "protected",
@@ -1310,7 +1310,7 @@
           "name": "filter",
           "source": {
             "line": 1321,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -1509,7 +1509,7 @@
           "name": "find",
           "source": {
             "line": 1324,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -1710,7 +1710,7 @@
             "line": 299,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L299"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L299"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1812,7 +1812,7 @@
             "line": 504,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L504"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L504"
           },
           "parentId": 1,
           "accessibility": "private",
@@ -1889,7 +1889,7 @@
             "line": 334,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L334"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L334"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1989,7 +1989,7 @@
           "name": "has",
           "source": {
             "line": 1329,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -2052,7 +2052,7 @@
             "line": 356,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L356"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L356"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2111,7 +2111,7 @@
           "name": "init",
           "source": {
             "line": 1309,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -2206,7 +2206,7 @@
             "line": 512,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L512"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L512"
           },
           "parentId": 1,
           "accessibility": "private",
@@ -2277,7 +2277,7 @@
           "name": "keys",
           "source": {
             "line": 1331,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -2340,7 +2340,7 @@
             "line": 105,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L105"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L105"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2530,7 +2530,7 @@
             "line": 387,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L387"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L387"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2591,7 +2591,7 @@
             "line": 530,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L530"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L530"
           },
           "parentId": 1,
           "accessibility": "private",
@@ -2698,7 +2698,7 @@
             "line": 491,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L491"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L491"
           },
           "parentId": 1,
           "accessibility": "private",
@@ -2758,7 +2758,7 @@
           "name": "partition",
           "source": {
             "line": 1336,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -2959,7 +2959,7 @@
             "line": 139,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L139"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L139"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3049,7 +3049,7 @@
             "line": 415,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L415"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L415"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3137,7 +3137,7 @@
           "name": "randomKey",
           "source": {
             "line": 1341,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -3198,7 +3198,7 @@
           "name": "remove",
           "source": {
             "line": 1342,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -3395,7 +3395,7 @@
           "name": "resolveIdentifier",
           "source": {
             "line": 1374,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -3478,7 +3478,7 @@
           "name": "run",
           "source": {
             "line": 1353,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -3554,7 +3554,7 @@
             "line": 154,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L154"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L154"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3644,7 +3644,7 @@
             "line": 176,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L176"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L176"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3703,7 +3703,7 @@
           "name": "size",
           "source": {
             "line": 1347,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -3766,7 +3766,7 @@
             "line": 430,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L430"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L430"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3899,7 +3899,7 @@
           "name": "toJSON",
           "source": {
             "line": 1359,
-            "file": "index.d.ts",
+            "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
           },
@@ -3944,7 +3944,7 @@
             "line": 196,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L196"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L196"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -4060,7 +4060,7 @@
             "line": 551,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L551"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L551"
           },
           "parentId": 1,
           "accessibility": "private",
@@ -4145,7 +4145,7 @@
             "line": 472,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L472"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L472"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -4242,7 +4242,7 @@
         "line": 21,
         "file": "TransformMiddleware.ts",
         "path": "packages/transform/src/lib",
-        "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L21"
+        "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L21"
       },
       "namespaceParentId": null,
       "comment": {
@@ -4262,7 +4262,7 @@
             "line": 575,
             "file": "TransformMiddleware.ts",
             "path": "packages/transform/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L575"
+            "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L575"
           },
           "namespaceParentId": 188,
           "comment": {
@@ -4299,7 +4299,7 @@
                 "line": 586,
                 "file": "TransformMiddleware.ts",
                 "path": "packages/transform/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L586"
+                "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L586"
               },
               "comment": {
                 "description": "Normalizes the data after it is retrieved from the provider.",
@@ -4422,7 +4422,7 @@
               "name": "allowMigrations",
               "source": {
                 "line": 1407,
-                "file": "index.d.ts",
+                "file": "index.d.mts",
                 "path": "node_modules/@joshdb/provider/dist",
                 "url": null
               },
@@ -4446,7 +4446,7 @@
                 "line": 593,
                 "file": "TransformMiddleware.ts",
                 "path": "packages/transform/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L593"
+                "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L593"
               },
               "comment": {
                 "description": "Manipulates any existing data to the appropriate format.",
@@ -4477,7 +4477,7 @@
                 "line": 580,
                 "file": "TransformMiddleware.ts",
                 "path": "packages/transform/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/d64b3aff9f8cfd4c5318544dd53a0aef4cb888e7/packages/transform/src/lib/TransformMiddleware.ts#L580"
+                "url": "https://github.com/josh-development/middlewares/blob/0256c44d1b135c3bc62731811087afaca6543042/packages/transform/src/lib/TransformMiddleware.ts#L580"
               },
               "comment": {
                 "description": "Manipulates the data before it is stored by the provider.",
