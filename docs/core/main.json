@@ -1,8 +1,14 @@
 {
-  "typeDocJsonParserVersion": "10.0.0",
+  "typeDocJsonParserVersion": "10.1.0",
   "id": 0,
   "name": "@joshdb/core",
   "version": "2.0.0",
+  "dependencies": {
+    "@joshdb/auto-ensure": "2.0.0-next.e20aea6.0",
+    "@joshdb/map": "2.0.0-next.d8f6dae.0",
+    "@joshdb/provider": "2.0.0-next.b88aca0.0",
+    "@sapphire/utilities": "^3.16.2"
+  },
   "readme": "<div align=\"center\">\n\n![Josh Logo](https://evie.codes/josh-light.png)\n\n# @joshdb/core\n\n**JavaScript Object Storage Helper**\n\n[![GitHub](https://img.shields.io/github/license/josh-development/core)](https://github.com/josh-development/core/blob/main/LICENSE.md)\n[![npm](https://img.shields.io/npm/v/@joshdb/core?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@joshdb/core)\n[![codecov](https://codecov.io/gh/josh-development/core/branch/main/graph/badge.svg?token=JnJcjxqT3k)](https://codecov.io/gh/josh-development/core)\n\n[![Support Server](https://discord.com/api/guilds/298508738623438848/embed.png?style=banner2)](https://discord.gg/N7ZKH3P)\n\n</div>\n\n---\n\n## Description\n\nA simple, effective, and efficient database wrapper.\n\n## Features\n\n- Written in TypeScript\n- Offers CommonJS, ESM and UMD bundles\n- Fully tested\n\n## Installation\n\nYou can use the following command to install this package, or replace `npm install` with your package manager of choice.\n\n```sh\nnpm install @joshdb/core@next\n```\n\n## Documentation\n\nUnfortunately, the website to host the documentation is not yet ready, but you can check on it's progress [here](https://github.com/josh-development/website)\n\n## FAQ\n\n### What is Josh?\n\nJosh is quite simply the easiest storage system you'll ever encounter. Josh makes it simple to store any JSON-based data effectively into any popular database back-end using providers.\n\n### Why use Josh?\n\nJosh makes it extremely easy and simple to get a project up and running as quickly as possible with very little effort when it comes to the database interaction layer. It does this by removed the complexity of setting up and ORM or learning a database language, while still giving you all the power.\n\n### When NOT to use Josh?\n\nIf you think you can do better, if you already know database interactions or ORMs, or you don't trust database wrappers made by other people... Well, in any of those cases I don't even know why you're on this page, go on now, `git out --of:here` and go make some good applications, you don't need this!\n",
   "changelog": "# Changelog\n\nAll notable changes to this project will be documented in this file.\n",
   "classes": [
@@ -13,7 +19,7 @@
         "line": 50,
         "file": "Josh.ts",
         "path": "src/lib/structures",
-        "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L50"
+        "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L50"
       },
       "namespaceParentId": null,
       "comment": {
@@ -64,7 +70,7 @@
           "line": 78,
           "file": "Josh.ts",
           "path": "src/lib/structures",
-          "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L78"
+          "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L78"
         },
         "comment": {
           "description": null,
@@ -89,12 +95,14 @@
               "id": 206,
               "name": "Josh.Options",
               "packageName": "@joshdb/core",
+              "packageVersion": null,
               "typeArguments": [
                 {
                   "kind": "reference",
                   "id": 10,
                   "name": "Josh.StoredValue",
                   "packageName": "@joshdb/core",
+                  "packageVersion": null,
                   "typeArguments": []
                 }
               ]
@@ -110,7 +118,7 @@
             "line": 69,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L69"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L69"
           },
           "comment": {
             "description": "This Josh's middleware store.\n\nNOTE: Do not use this unless you know what your doing.",
@@ -133,12 +141,14 @@
             "id": null,
             "name": "JoshMiddlewareStore",
             "packageName": "@joshdb/provider",
+            "packageVersion": null,
             "typeArguments": [
               {
                 "kind": "reference",
                 "id": 10,
                 "name": "Josh.StoredValue",
                 "packageName": "@joshdb/core",
+                "packageVersion": null,
                 "typeArguments": []
               }
             ]
@@ -151,7 +161,7 @@
             "line": 55,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L55"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L55"
           },
           "comment": {
             "description": "This Josh's name. Used for middleware and/or provider information.",
@@ -181,7 +191,7 @@
             "line": 61,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L61"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L61"
           },
           "comment": {
             "description": "This Josh's options. Used throughout the instance.",
@@ -204,12 +214,14 @@
             "id": 206,
             "name": "Josh.Options",
             "packageName": "@joshdb/core",
+            "packageVersion": null,
             "typeArguments": [
               {
                 "kind": "reference",
                 "id": 10,
                 "name": "Josh.StoredValue",
                 "packageName": "@joshdb/core",
+                "packageVersion": null,
                 "typeArguments": []
               }
             ]
@@ -222,7 +234,7 @@
             "line": 76,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L76"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L76"
           },
           "comment": {
             "description": "This Josh's provider instance.\n\nNOTE: Do not use this unless you know what your doing.",
@@ -240,12 +252,14 @@
             "id": null,
             "name": "JoshProvider",
             "packageName": "@joshdb/provider",
+            "packageVersion": null,
             "typeArguments": [
               {
                 "kind": "reference",
                 "id": 10,
                 "name": "Josh.StoredValue",
                 "packageName": "@joshdb/core",
+                "packageVersion": null,
                 "typeArguments": []
               }
             ]
@@ -258,7 +272,7 @@
             "line": 2334,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2334"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2334"
           },
           "comment": {
             "description": "The current version of {@link Josh}",
@@ -280,34 +294,6 @@
             "kind": "intrinsic",
             "type": "string"
           }
-        },
-        {
-          "id": 17,
-          "name": "providerDataFailedError",
-          "source": {
-            "line": 115,
-            "file": "Josh.ts",
-            "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L115"
-          },
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "parentId": 1,
-          "accessibility": "public",
-          "abstract": false,
-          "static": false,
-          "readonly": false,
-          "optional": false,
-          "type": {
-            "kind": "reference",
-            "id": 272,
-            "name": "JoshError",
-            "packageName": "@joshdb/core",
-            "typeArguments": []
-          }
         }
       ],
       "methods": [
@@ -318,7 +304,7 @@
             "line": 208,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L208"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L208"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -353,6 +339,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "intrinsic",
@@ -370,7 +357,7 @@
             "line": 258,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L258"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L258"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -405,255 +392,24 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 1,
                     "name": "Josh",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "id": 173,
-          "name": "convertBulkData",
-          "source": {
-            "line": 2182,
-            "file": "Josh.ts",
-            "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2182"
-          },
-          "parentId": 1,
-          "accessibility": "private",
-          "abstract": false,
-          "static": false,
-          "signatures": [
-            {
-              "id": 174,
-              "name": "convertBulkData",
-              "comment": {
-                "description": "Convert bulk data.",
-                "blockTags": [
-                  {
-                    "name": "since",
-                    "text": "2.0.0"
-                  },
-                  {
-                    "name": "returns",
-                    "text": "The bulk data."
-                  }
-                ],
-                "modifierTags": []
-              },
-              "typeParameters": [
-                {
-                  "id": 175,
-                  "name": "Value",
-                  "constraint": null,
-                  "default": {
-                    "kind": "reference",
-                    "id": 10,
-                    "name": "Josh.StoredValue",
-                    "packageName": "@joshdb/core",
-                    "typeArguments": []
-                  }
-                },
-                {
-                  "id": 176,
-                  "name": "K",
-                  "constraint": {
-                    "kind": "typeOperator",
-                    "operator": "keyof",
-                    "type": {
-                      "kind": "reference",
-                      "id": 264,
-                      "name": "ReturnBulk",
-                      "packageName": "@joshdb/core",
-                      "typeArguments": [
-                        {
-                          "kind": "reference",
-                          "id": 175,
-                          "name": "Value",
-                          "packageName": "@joshdb/core",
-                          "typeArguments": []
-                        }
-                      ]
-                    }
-                  },
-                  "default": {
-                    "kind": "reference",
-                    "id": 260,
-                    "name": "Bulk.Object",
-                    "packageName": "@joshdb/core",
-                    "typeArguments": []
-                  }
-                }
-              ],
-              "parameters": [
-                {
-                  "id": 177,
-                  "name": "data",
-                  "comment": {
-                    "description": "The data to convert.",
-                    "blockTags": [],
-                    "modifierTags": []
-                  },
-                  "rest": false,
-                  "optional": false,
-                  "type": {
-                    "kind": "reference",
-                    "id": null,
-                    "name": "Record",
-                    "packageName": "typescript",
-                    "typeArguments": [
-                      {
-                        "kind": "intrinsic",
-                        "type": "string"
-                      },
-                      {
-                        "kind": "reference",
-                        "id": 175,
-                        "name": "Value",
-                        "packageName": "@joshdb/core",
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                },
-                {
-                  "id": 178,
-                  "name": "returnBulkType",
-                  "comment": {
-                    "description": "The return bulk type. Defaults to {@link Josh.Options.defaultBulkType} or {@link Bulk.Object}",
-                    "blockTags": [],
-                    "modifierTags": []
-                  },
-                  "rest": false,
-                  "optional": true,
-                  "type": {
-                    "kind": "reference",
-                    "id": 176,
-                    "name": "K",
-                    "packageName": "@joshdb/core",
-                    "typeArguments": []
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "indexedAccess",
-                "objectType": {
-                  "kind": "reference",
-                  "id": 264,
-                  "name": "ReturnBulk",
-                  "packageName": "@joshdb/core",
-                  "typeArguments": [
-                    {
-                      "kind": "reference",
-                      "id": 175,
-                      "name": "Value",
-                      "packageName": "@joshdb/core",
-                      "typeArguments": []
-                    }
-                  ]
-                },
-                "indexType": {
-                  "kind": "reference",
-                  "id": 176,
-                  "name": "K",
-                  "packageName": "@joshdb/core",
-                  "typeArguments": []
-                }
-              }
-            }
-          ]
-        },
-        {
-          "id": 186,
-          "name": "convertLegacyExportJSON",
-          "source": {
-            "line": 2250,
-            "file": "Josh.ts",
-            "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2250"
-          },
-          "parentId": 1,
-          "accessibility": "private",
-          "abstract": false,
-          "static": false,
-          "signatures": [
-            {
-              "id": 187,
-              "name": "convertLegacyExportJSON",
-              "comment": {
-                "description": "Convert a legacy export json object to a new export json object.",
-                "blockTags": [
-                  {
-                    "name": "returns",
-                    "text": ""
-                  }
-                ],
-                "modifierTags": []
-              },
-              "typeParameters": [
-                {
-                  "id": 188,
-                  "name": "StoredValue",
-                  "constraint": null,
-                  "default": null
-                }
-              ],
-              "parameters": [
-                {
-                  "id": 189,
-                  "name": "json",
-                  "comment": {
-                    "description": null,
-                    "blockTags": [],
-                    "modifierTags": []
-                  },
-                  "rest": false,
-                  "optional": false,
-                  "type": {
-                    "kind": "reference",
-                    "id": 225,
-                    "name": "Josh.LegacyExportJSON",
-                    "packageName": "@joshdb/core",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 188,
-                        "name": "StoredValue",
-                        "packageName": "@joshdb/core",
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": 219,
-                "name": "Josh.ExportJSON",
-                "packageName": "@joshdb/core",
-                "typeArguments": [
-                  {
-                    "kind": "reference",
-                    "id": 188,
-                    "name": "StoredValue",
-                    "packageName": "@joshdb/core",
-                    "typeArguments": []
                   }
                 ]
               }
@@ -667,7 +423,7 @@
             "line": 319,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L319"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L319"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -735,6 +491,7 @@
                     "id": null,
                     "name": "Path",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -744,18 +501,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 1,
                     "name": "Josh",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -772,7 +532,7 @@
             "line": 382,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L382"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L382"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -840,6 +600,7 @@
                     "id": null,
                     "name": "Path",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -849,18 +610,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 1,
                     "name": "Josh",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -877,7 +641,7 @@
             "line": 426,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L426"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L426"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -931,18 +695,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 1,
                     "name": "Josh",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -959,7 +726,7 @@
             "line": 466,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L466"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L466"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1004,12 +771,14 @@
                     "id": null,
                     "name": "Payload.Hook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       },
                       {
@@ -1025,18 +794,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 1,
                     "name": "Josh",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -1053,7 +825,7 @@
             "line": 515,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L515"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L515"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1117,6 +889,7 @@
                     "id": 10,
                     "name": "Josh.StoredValue",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -1126,12 +899,14 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 10,
                     "name": "Josh.StoredValue",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -1146,7 +921,7 @@
             "line": 564,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L564"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L564"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1186,12 +961,14 @@
                       "id": 264,
                       "name": "ReturnBulk",
                       "packageName": "@joshdb/core",
+                      "packageVersion": null,
                       "typeArguments": [
                         {
                           "kind": "reference",
                           "id": 10,
                           "name": "Josh.StoredValue",
                           "packageName": "@joshdb/core",
+                          "packageVersion": null,
                           "typeArguments": []
                         }
                       ]
@@ -1202,6 +979,7 @@
                     "id": 260,
                     "name": "Bulk.Object",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -1222,6 +1000,7 @@
                     "id": 54,
                     "name": "BulkType",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -1231,6 +1010,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "indexedAccess",
@@ -1239,12 +1019,14 @@
                       "id": 264,
                       "name": "ReturnBulk",
                       "packageName": "@joshdb/core",
+                      "packageVersion": null,
                       "typeArguments": [
                         {
                           "kind": "reference",
                           "id": 10,
                           "name": "Josh.StoredValue",
                           "packageName": "@joshdb/core",
+                          "packageVersion": null,
                           "typeArguments": []
                         }
                       ]
@@ -1254,108 +1036,11 @@
                       "id": 54,
                       "name": "BulkType",
                       "packageName": "@joshdb/core",
+                      "packageVersion": null,
                       "typeArguments": []
                     }
                   }
                 ]
-              }
-            }
-          ]
-        },
-        {
-          "id": 182,
-          "name": "error",
-          "source": {
-            "line": 2233,
-            "file": "Josh.ts",
-            "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2233"
-          },
-          "parentId": 1,
-          "accessibility": "private",
-          "abstract": false,
-          "static": false,
-          "signatures": [
-            {
-              "id": 183,
-              "name": "error",
-              "comment": {
-                "description": "Resolves an identifier or options to an error.",
-                "blockTags": [
-                  {
-                    "name": "since",
-                    "text": "2.0.0"
-                  },
-                  {
-                    "name": "returns",
-                    "text": "The resolved error."
-                  }
-                ],
-                "modifierTags": []
-              },
-              "typeParameters": [],
-              "parameters": [
-                {
-                  "id": 184,
-                  "name": "options",
-                  "comment": {
-                    "description": "The options for resolving the error.",
-                    "blockTags": [],
-                    "modifierTags": []
-                  },
-                  "rest": false,
-                  "optional": false,
-                  "type": {
-                    "kind": "union",
-                    "types": [
-                      {
-                        "kind": "intrinsic",
-                        "type": "string"
-                      },
-                      {
-                        "kind": "reference",
-                        "id": 292,
-                        "name": "JoshErrorOptions",
-                        "packageName": "@joshdb/core",
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                },
-                {
-                  "id": 185,
-                  "name": "metadata",
-                  "comment": {
-                    "description": "The metadata for the error.",
-                    "blockTags": [],
-                    "modifierTags": []
-                  },
-                  "rest": false,
-                  "optional": false,
-                  "type": {
-                    "kind": "reference",
-                    "id": null,
-                    "name": "Record",
-                    "packageName": "typescript",
-                    "typeArguments": [
-                      {
-                        "kind": "intrinsic",
-                        "type": "string"
-                      },
-                      {
-                        "kind": "intrinsic",
-                        "type": "unknown"
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": 272,
-                "name": "JoshError",
-                "packageName": "@joshdb/core",
-                "typeArguments": []
               }
             }
           ]
@@ -1367,7 +1052,7 @@
             "line": 631,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L631"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L631"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1420,6 +1105,7 @@
                     "id": null,
                     "name": "Path",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 },
@@ -1438,6 +1124,7 @@
                     "id": null,
                     "name": "Primitive",
                     "packageName": "@sapphire/utilities",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -1447,6 +1134,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "intrinsic",
@@ -1501,12 +1189,14 @@
                     "id": null,
                     "name": "Payload.Hook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       },
                       {
@@ -1522,6 +1212,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "intrinsic",
@@ -1539,7 +1230,7 @@
             "line": 2165,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2165"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2165"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1574,18 +1265,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 219,
                     "name": "Josh.ExportJSON",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -1602,7 +1296,7 @@
             "line": 740,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L740"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L740"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1642,12 +1336,14 @@
                       "id": 264,
                       "name": "ReturnBulk",
                       "packageName": "@joshdb/core",
+                      "packageVersion": null,
                       "typeArguments": [
                         {
                           "kind": "reference",
                           "id": 10,
                           "name": "Josh.StoredValue",
                           "packageName": "@joshdb/core",
+                          "packageVersion": null,
                           "typeArguments": []
                         }
                       ]
@@ -1672,6 +1368,7 @@
                     "id": null,
                     "name": "Path",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 },
@@ -1690,6 +1387,7 @@
                     "id": null,
                     "name": "Primitive",
                     "packageName": "@sapphire/utilities",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 },
@@ -1708,6 +1406,7 @@
                     "id": 64,
                     "name": "BulkType",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -1717,6 +1416,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "indexedAccess",
@@ -1725,12 +1425,14 @@
                       "id": 264,
                       "name": "ReturnBulk",
                       "packageName": "@joshdb/core",
+                      "packageVersion": null,
                       "typeArguments": [
                         {
                           "kind": "reference",
                           "id": 10,
                           "name": "Josh.StoredValue",
                           "packageName": "@joshdb/core",
+                          "packageVersion": null,
                           "typeArguments": []
                         }
                       ]
@@ -1740,6 +1442,7 @@
                       "id": 64,
                       "name": "BulkType",
                       "packageName": "@joshdb/core",
+                      "packageVersion": null,
                       "typeArguments": []
                     }
                   }
@@ -1779,12 +1482,14 @@
                       "id": 264,
                       "name": "ReturnBulk",
                       "packageName": "@joshdb/core",
+                      "packageVersion": null,
                       "typeArguments": [
                         {
                           "kind": "reference",
                           "id": 10,
                           "name": "Josh.StoredValue",
                           "packageName": "@joshdb/core",
+                          "packageVersion": null,
                           "typeArguments": []
                         }
                       ]
@@ -1809,12 +1514,14 @@
                     "id": null,
                     "name": "Payload.Hook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       },
                       {
@@ -1839,6 +1546,7 @@
                     "id": 69,
                     "name": "BulkType",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -1848,6 +1556,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "indexedAccess",
@@ -1856,12 +1565,14 @@
                       "id": 264,
                       "name": "ReturnBulk",
                       "packageName": "@joshdb/core",
+                      "packageVersion": null,
                       "typeArguments": [
                         {
                           "kind": "reference",
                           "id": 10,
                           "name": "Josh.StoredValue",
                           "packageName": "@joshdb/core",
+                          "packageVersion": null,
                           "typeArguments": []
                         }
                       ]
@@ -1871,6 +1582,7 @@
                       "id": 69,
                       "name": "BulkType",
                       "packageName": "@joshdb/core",
+                      "packageVersion": null,
                       "typeArguments": []
                     }
                   }
@@ -1886,7 +1598,7 @@
             "line": 852,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L852"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L852"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1935,6 +1647,7 @@
                     "id": null,
                     "name": "Path",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 },
@@ -1953,6 +1666,7 @@
                     "id": null,
                     "name": "Primitive",
                     "packageName": "@sapphire/utilities",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -1962,6 +1676,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "union",
@@ -1991,6 +1706,7 @@
                             "id": 10,
                             "name": "Josh.StoredValue",
                             "packageName": "@joshdb/core",
+                            "packageVersion": null,
                             "typeArguments": []
                           }
                         ]
@@ -2042,12 +1758,14 @@
                     "id": null,
                     "name": "Payload.Hook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       },
                       {
@@ -2063,6 +1781,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "union",
@@ -2092,6 +1811,7 @@
                             "id": 10,
                             "name": "Josh.StoredValue",
                             "packageName": "@joshdb/core",
+                            "packageVersion": null,
                             "typeArguments": []
                           }
                         ]
@@ -2110,7 +1830,7 @@
             "line": 950,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L950"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L950"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2161,6 +1881,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "union",
@@ -2174,6 +1895,7 @@
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2216,6 +1938,7 @@
                     "id": 10,
                     "name": "Josh.StoredValue",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -2251,6 +1974,7 @@
                     "id": null,
                     "name": "Path",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -2260,6 +1984,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "union",
@@ -2273,6 +1998,7 @@
                         "id": 82,
                         "name": "Value",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2289,7 +2015,7 @@
             "line": 1026,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L1026"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L1026"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2329,6 +2055,7 @@
                       "id": 264,
                       "name": "ReturnBulk",
                       "packageName": "@joshdb/core",
+                      "packageVersion": null,
                       "typeArguments": [
                         {
                           "kind": "union",
@@ -2342,6 +2069,7 @@
                               "id": 10,
                               "name": "Josh.StoredValue",
                               "packageName": "@joshdb/core",
+                              "packageVersion": null,
                               "typeArguments": []
                             }
                           ]
@@ -2386,6 +2114,7 @@
                     "id": 87,
                     "name": "BulkType",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -2395,6 +2124,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "indexedAccess",
@@ -2403,6 +2133,7 @@
                       "id": 264,
                       "name": "ReturnBulk",
                       "packageName": "@joshdb/core",
+                      "packageVersion": null,
                       "typeArguments": [
                         {
                           "kind": "union",
@@ -2416,6 +2147,7 @@
                               "id": 10,
                               "name": "Josh.StoredValue",
                               "packageName": "@joshdb/core",
+                              "packageVersion": null,
                               "typeArguments": []
                             }
                           ]
@@ -2427,6 +2159,7 @@
                       "id": 87,
                       "name": "BulkType",
                       "packageName": "@joshdb/core",
+                      "packageVersion": null,
                       "typeArguments": []
                     }
                   }
@@ -2442,7 +2175,7 @@
             "line": 1090,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L1090"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L1090"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2506,6 +2239,7 @@
                     "id": null,
                     "name": "Path",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -2515,6 +2249,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "intrinsic",
@@ -2532,7 +2267,7 @@
             "line": 2130,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2130"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2130"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2577,12 +2312,14 @@
                     "id": 234,
                     "name": "Josh.ImportOptions",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2594,18 +2331,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 1,
                     "name": "Josh",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2622,7 +2362,7 @@
             "line": 1160,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L1160"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L1160"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2690,6 +2430,7 @@
                     "id": null,
                     "name": "Path",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -2699,18 +2440,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 1,
                     "name": "Josh",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2727,7 +2471,7 @@
             "line": 133,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L133"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L133"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2766,129 +2510,26 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 1,
                     "name": "Josh",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
                   }
                 ]
-              }
-            }
-          ]
-        },
-        {
-          "id": 190,
-          "name": "isLegacyExportJSON",
-          "source": {
-            "line": 2261,
-            "file": "Josh.ts",
-            "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2261"
-          },
-          "parentId": 1,
-          "accessibility": "private",
-          "abstract": false,
-          "static": false,
-          "signatures": [
-            {
-              "id": 191,
-              "name": "isLegacyExportJSON",
-              "comment": {
-                "description": "Check if a json object is a legacy export json object.",
-                "blockTags": [
-                  {
-                    "name": "returns",
-                    "text": "Whether the json object is a legacy export json object."
-                  }
-                ],
-                "modifierTags": []
-              },
-              "typeParameters": [
-                {
-                  "id": 192,
-                  "name": "StoredValue",
-                  "constraint": null,
-                  "default": null
-                }
-              ],
-              "parameters": [
-                {
-                  "id": 193,
-                  "name": "json",
-                  "comment": {
-                    "description": "The json object to check.",
-                    "blockTags": [],
-                    "modifierTags": []
-                  },
-                  "rest": false,
-                  "optional": false,
-                  "type": {
-                    "kind": "union",
-                    "types": [
-                      {
-                        "kind": "reference",
-                        "id": 219,
-                        "name": "Josh.ExportJSON",
-                        "packageName": "@joshdb/core",
-                        "typeArguments": [
-                          {
-                            "kind": "reference",
-                            "id": 192,
-                            "name": "StoredValue",
-                            "packageName": "@joshdb/core",
-                            "typeArguments": []
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "reference",
-                        "id": 225,
-                        "name": "Josh.LegacyExportJSON",
-                        "packageName": "@joshdb/core",
-                        "typeArguments": [
-                          {
-                            "kind": "reference",
-                            "id": 192,
-                            "name": "StoredValue",
-                            "packageName": "@joshdb/core",
-                            "typeArguments": []
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "predicate",
-                "asserts": false,
-                "name": "json",
-                "type": {
-                  "kind": "reference",
-                  "id": 225,
-                  "name": "Josh.LegacyExportJSON",
-                  "packageName": "@joshdb/core",
-                  "typeArguments": [
-                    {
-                      "kind": "reference",
-                      "id": 192,
-                      "name": "StoredValue",
-                      "packageName": "@joshdb/core",
-                      "typeArguments": []
-                    }
-                  ]
-                }
               }
             }
           ]
@@ -2900,7 +2541,7 @@
             "line": 1201,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L1201"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L1201"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2935,6 +2576,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "array",
@@ -2955,7 +2597,7 @@
             "line": 1269,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L1269"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L1269"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3005,6 +2647,7 @@
                     "id": 10,
                     "name": "Josh.StoredValue",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -3028,6 +2671,7 @@
                         "id": null,
                         "name": "Path",
                         "packageName": "@joshdb/provider",
+                        "packageVersion": null,
                         "typeArguments": []
                       },
                       {
@@ -3035,12 +2679,14 @@
                         "id": null,
                         "name": "Payload.Hook",
                         "packageName": "@joshdb/provider",
+                        "packageVersion": null,
                         "typeArguments": [
                           {
                             "kind": "reference",
                             "id": 10,
                             "name": "Josh.StoredValue",
                             "packageName": "@joshdb/core",
+                            "packageVersion": null,
                             "typeArguments": []
                           },
                           {
@@ -3048,6 +2694,7 @@
                             "id": 102,
                             "name": "Value",
                             "packageName": "@joshdb/core",
+                            "packageVersion": null,
                             "typeArguments": []
                           }
                         ]
@@ -3061,6 +2708,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "array",
@@ -3069,6 +2717,7 @@
                       "id": 102,
                       "name": "Value",
                       "packageName": "@joshdb/core",
+                      "packageVersion": null,
                       "typeArguments": []
                     }
                   }
@@ -3084,7 +2733,7 @@
             "line": 1382,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L1382"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L1382"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3156,6 +2805,7 @@
                     "id": null,
                     "name": "MathOperator",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 },
@@ -3189,6 +2839,7 @@
                     "id": null,
                     "name": "Path",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -3198,18 +2849,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 1,
                     "name": "Josh",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -3226,7 +2880,7 @@
             "line": 1427,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L1427"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L1427"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3266,12 +2920,14 @@
                       "id": 264,
                       "name": "ReturnBulk",
                       "packageName": "@joshdb/core",
+                      "packageVersion": null,
                       "typeArguments": [
                         {
                           "kind": "reference",
                           "id": 10,
                           "name": "Josh.StoredValue",
                           "packageName": "@joshdb/core",
+                          "packageVersion": null,
                           "typeArguments": []
                         }
                       ]
@@ -3296,12 +2952,14 @@
                     "id": null,
                     "name": "Payload.Hook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       },
                       {
@@ -3341,6 +2999,7 @@
                     "id": 112,
                     "name": "BulkType",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -3350,6 +3009,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "tuple",
@@ -3361,12 +3021,14 @@
                           "id": 264,
                           "name": "ReturnBulk",
                           "packageName": "@joshdb/core",
+                          "packageVersion": null,
                           "typeArguments": [
                             {
                               "kind": "reference",
                               "id": 10,
                               "name": "Josh.StoredValue",
                               "packageName": "@joshdb/core",
+                              "packageVersion": null,
                               "typeArguments": []
                             }
                           ]
@@ -3376,6 +3038,7 @@
                           "id": 112,
                           "name": "BulkType",
                           "packageName": "@joshdb/core",
+                          "packageVersion": null,
                           "typeArguments": []
                         }
                       },
@@ -3386,12 +3049,14 @@
                           "id": 264,
                           "name": "ReturnBulk",
                           "packageName": "@joshdb/core",
+                          "packageVersion": null,
                           "typeArguments": [
                             {
                               "kind": "reference",
                               "id": 10,
                               "name": "Josh.StoredValue",
                               "packageName": "@joshdb/core",
+                              "packageVersion": null,
                               "typeArguments": []
                             }
                           ]
@@ -3401,6 +3066,7 @@
                           "id": 112,
                           "name": "BulkType",
                           "packageName": "@joshdb/core",
+                          "packageVersion": null,
                           "typeArguments": []
                         }
                       }
@@ -3442,12 +3108,14 @@
                       "id": 264,
                       "name": "ReturnBulk",
                       "packageName": "@joshdb/core",
+                      "packageVersion": null,
                       "typeArguments": [
                         {
                           "kind": "reference",
                           "id": 10,
                           "name": "Josh.StoredValue",
                           "packageName": "@joshdb/core",
+                          "packageVersion": null,
                           "typeArguments": []
                         }
                       ]
@@ -3472,6 +3140,7 @@
                     "id": null,
                     "name": "Path",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 },
@@ -3490,6 +3159,7 @@
                     "id": null,
                     "name": "Primitive",
                     "packageName": "@sapphire/utilities",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 },
@@ -3508,6 +3178,7 @@
                     "id": 117,
                     "name": "BulkType",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -3517,6 +3188,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "tuple",
@@ -3528,12 +3200,14 @@
                           "id": 264,
                           "name": "ReturnBulk",
                           "packageName": "@joshdb/core",
+                          "packageVersion": null,
                           "typeArguments": [
                             {
                               "kind": "reference",
                               "id": 10,
                               "name": "Josh.StoredValue",
                               "packageName": "@joshdb/core",
+                              "packageVersion": null,
                               "typeArguments": []
                             }
                           ]
@@ -3543,6 +3217,7 @@
                           "id": 117,
                           "name": "BulkType",
                           "packageName": "@joshdb/core",
+                          "packageVersion": null,
                           "typeArguments": []
                         }
                       },
@@ -3553,12 +3228,14 @@
                           "id": 264,
                           "name": "ReturnBulk",
                           "packageName": "@joshdb/core",
+                          "packageVersion": null,
                           "typeArguments": [
                             {
                               "kind": "reference",
                               "id": 10,
                               "name": "Josh.StoredValue",
                               "packageName": "@joshdb/core",
+                              "packageVersion": null,
                               "typeArguments": []
                             }
                           ]
@@ -3568,6 +3245,7 @@
                           "id": 117,
                           "name": "BulkType",
                           "packageName": "@joshdb/core",
+                          "packageVersion": null,
                           "typeArguments": []
                         }
                       }
@@ -3585,7 +3263,7 @@
             "line": 1551,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L1551"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L1551"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3627,6 +3305,7 @@
                     "id": 10,
                     "name": "Josh.StoredValue",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -3662,6 +3341,7 @@
                     "id": 123,
                     "name": "Value",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 },
@@ -3680,6 +3360,7 @@
                     "id": null,
                     "name": "Path",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -3689,18 +3370,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 1,
                     "name": "Josh",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -3717,7 +3401,7 @@
             "line": 1597,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L1597"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L1597"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3762,6 +3446,7 @@
                     "id": 244,
                     "name": "Josh.RandomOptions",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -3771,6 +3456,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "union",
@@ -3786,6 +3472,7 @@
                           "id": 10,
                           "name": "Josh.StoredValue",
                           "packageName": "@joshdb/core",
+                          "packageVersion": null,
                           "typeArguments": []
                         }
                       }
@@ -3803,7 +3490,7 @@
             "line": 1651,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L1651"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L1651"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3852,6 +3539,7 @@
                     "id": 244,
                     "name": "Josh.RandomOptions",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -3861,6 +3549,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "union",
@@ -3890,7 +3579,7 @@
             "line": 1702,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L1702"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L1702"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3950,6 +3639,7 @@
                     "id": null,
                     "name": "Primitive",
                     "packageName": "@sapphire/utilities",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 },
@@ -3968,6 +3658,7 @@
                     "id": null,
                     "name": "Path",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -3977,18 +3668,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 1,
                     "name": "Josh",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -4027,6 +3721,7 @@
                     "id": 10,
                     "name": "Josh.StoredValue",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -4062,12 +3757,14 @@
                     "id": null,
                     "name": "Payload.Hook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 139,
                         "name": "Value",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       },
                       {
@@ -4092,6 +3789,7 @@
                     "id": null,
                     "name": "Path",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -4101,277 +3799,26 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 1,
                     "name": "Josh",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
                   }
                 ]
-              }
-            }
-          ]
-        },
-        {
-          "id": 194,
-          "name": "resolveIdentifier",
-          "source": {
-            "line": 2273,
-            "file": "Josh.ts",
-            "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2273"
-          },
-          "parentId": 1,
-          "accessibility": "private",
-          "abstract": false,
-          "static": false,
-          "signatures": [
-            {
-              "id": 195,
-              "name": "resolveIdentifier",
-              "comment": {
-                "description": "Resolve an identifier.",
-                "blockTags": [
-                  {
-                    "name": "returns",
-                    "text": "The resolved identifier."
-                  }
-                ],
-                "modifierTags": []
-              },
-              "typeParameters": [],
-              "parameters": [
-                {
-                  "id": 196,
-                  "name": "identifier",
-                  "comment": {
-                    "description": "The identifier to resolve.",
-                    "blockTags": [],
-                    "modifierTags": []
-                  },
-                  "rest": false,
-                  "optional": false,
-                  "type": {
-                    "kind": "intrinsic",
-                    "type": "string"
-                  }
-                },
-                {
-                  "id": 197,
-                  "name": "metadata",
-                  "comment": {
-                    "description": "The metadata for the identifier.",
-                    "blockTags": [],
-                    "modifierTags": []
-                  },
-                  "rest": false,
-                  "optional": false,
-                  "type": {
-                    "kind": "reference",
-                    "id": null,
-                    "name": "Record",
-                    "packageName": "typescript",
-                    "typeArguments": [
-                      {
-                        "kind": "intrinsic",
-                        "type": "string"
-                      },
-                      {
-                        "kind": "intrinsic",
-                        "type": "unknown"
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "intrinsic",
-                "type": "string"
-              }
-            }
-          ]
-        },
-        {
-          "id": 198,
-          "name": "resolveKeyPath",
-          "source": {
-            "line": 2311,
-            "file": "Josh.ts",
-            "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2311"
-          },
-          "parentId": 1,
-          "accessibility": "private",
-          "abstract": false,
-          "static": false,
-          "signatures": [
-            {
-              "id": 199,
-              "name": "resolveKeyPath",
-              "comment": {
-                "description": "Resolves a key and/or path for universal use.",
-                "blockTags": [
-                  {
-                    "name": "returns",
-                    "text": "The resolved key and path."
-                  }
-                ],
-                "modifierTags": []
-              },
-              "typeParameters": [],
-              "parameters": [
-                {
-                  "id": 200,
-                  "name": "keyPath",
-                  "comment": {
-                    "description": "The key or path to resolve.",
-                    "blockTags": [],
-                    "modifierTags": []
-                  },
-                  "rest": false,
-                  "optional": false,
-                  "type": {
-                    "kind": "reference",
-                    "id": null,
-                    "name": "KeyPath",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": []
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "tuple",
-                "types": [
-                  {
-                    "kind": "intrinsic",
-                    "type": "string"
-                  },
-                  {
-                    "kind": "array",
-                    "type": {
-                      "kind": "intrinsic",
-                      "type": "string"
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "id": 201,
-          "name": "resolvePath",
-          "source": {
-            "line": 2326,
-            "file": "Josh.ts",
-            "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2326"
-          },
-          "parentId": 1,
-          "accessibility": "private",
-          "abstract": false,
-          "static": false,
-          "signatures": [
-            {
-              "id": 202,
-              "name": "resolvePath",
-              "comment": {
-                "description": "Resolves a path for universal use.",
-                "blockTags": [
-                  {
-                    "name": "returns",
-                    "text": "The resolved path."
-                  }
-                ],
-                "modifierTags": []
-              },
-              "typeParameters": [],
-              "parameters": [
-                {
-                  "id": 203,
-                  "name": "path",
-                  "comment": {
-                    "description": "The path to resolve.",
-                    "blockTags": [],
-                    "modifierTags": []
-                  },
-                  "rest": false,
-                  "optional": false,
-                  "type": {
-                    "kind": "reference",
-                    "id": null,
-                    "name": "Path",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": []
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "array",
-                "type": {
-                  "kind": "intrinsic",
-                  "type": "string"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "id": 179,
-          "name": "runBehaviorOnPayloadError",
-          "source": {
-            "line": 2206,
-            "file": "Josh.ts",
-            "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2206"
-          },
-          "parentId": 1,
-          "accessibility": "private",
-          "abstract": false,
-          "static": false,
-          "signatures": [
-            {
-              "id": 180,
-              "name": "runBehaviorOnPayloadError",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [],
-              "parameters": [
-                {
-                  "id": 181,
-                  "name": "payload",
-                  "comment": {
-                    "description": null,
-                    "blockTags": [],
-                    "modifierTags": []
-                  },
-                  "rest": false,
-                  "optional": false,
-                  "type": {
-                    "kind": "reference",
-                    "id": null,
-                    "name": "Payload",
-                    "packageName": "@joshdb/provider",
-                    "typeArguments": []
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "intrinsic",
-                "type": "void"
               }
             }
           ]
@@ -4383,7 +3830,7 @@
             "line": 1796,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L1796"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L1796"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -4425,6 +3872,7 @@
                     "id": 10,
                     "name": "Josh.StoredValue",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -4460,6 +3908,7 @@
                     "id": 145,
                     "name": "Value",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 },
@@ -4478,6 +3927,7 @@
                     "id": null,
                     "name": "Path",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -4487,18 +3937,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 1,
                     "name": "Josh",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -4515,7 +3968,7 @@
             "line": 1845,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L1845"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L1845"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -4565,6 +4018,7 @@
                           "id": null,
                           "name": "KeyPath",
                           "packageName": "@joshdb/provider",
+                          "packageVersion": null,
                           "typeArguments": []
                         },
                         {
@@ -4596,18 +4050,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 1,
                     "name": "Josh",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -4624,7 +4081,7 @@
             "line": 1892,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L1892"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L1892"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -4659,6 +4116,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "intrinsic",
@@ -4676,7 +4134,7 @@
             "line": 1945,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L1945"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L1945"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -4721,6 +4179,7 @@
                     "id": null,
                     "name": "Path",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 },
@@ -4739,6 +4198,7 @@
                     "id": null,
                     "name": "Primitive",
                     "packageName": "@sapphire/utilities",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -4748,6 +4208,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "intrinsic",
@@ -4794,12 +4255,14 @@
                     "id": null,
                     "name": "Payload.Hook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       },
                       {
@@ -4815,6 +4278,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "intrinsic",
@@ -4832,7 +4296,7 @@
             "line": 2042,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2042"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2042"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -4870,6 +4334,7 @@
                     "id": 10,
                     "name": "Josh.StoredValue",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -4905,12 +4370,14 @@
                     "id": null,
                     "name": "Payload.Hook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       },
                       {
@@ -4918,6 +4385,7 @@
                         "id": 163,
                         "name": "Value",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -4929,18 +4397,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 1,
                     "name": "Josh",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -4957,7 +4428,7 @@
             "line": 155,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L155"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L155"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -4994,6 +4465,7 @@
                     "id": null,
                     "name": "Payload",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   },
                   "default": null
@@ -5015,6 +4487,7 @@
                     "id": 214,
                     "name": "Josh.UseMiddlewareOptions",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 },
@@ -5057,6 +4530,7 @@
                               "id": 22,
                               "name": "P",
                               "packageName": "@joshdb/core",
+                              "packageVersion": null,
                               "typeArguments": []
                             }
                           }
@@ -5066,12 +4540,14 @@
                           "id": null,
                           "name": "Awaitable",
                           "packageName": "@sapphire/utilities",
+                          "packageVersion": null,
                           "typeArguments": [
                             {
                               "kind": "reference",
                               "id": 22,
                               "name": "P",
                               "packageName": "@joshdb/core",
+                              "packageVersion": null,
                               "typeArguments": []
                             }
                           ]
@@ -5125,6 +4601,7 @@
                     "id": null,
                     "name": "JoshMiddleware",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "intrinsic",
@@ -5135,6 +4612,7 @@
                         "id": 10,
                         "name": "Josh.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -5155,7 +4633,7 @@
             "line": 2082,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2082"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2082"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -5190,6 +4668,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "array",
@@ -5198,6 +4677,7 @@
                       "id": 10,
                       "name": "Josh.StoredValue",
                       "packageName": "@joshdb/core",
+                      "packageVersion": null,
                       "typeArguments": []
                     }
                   }
@@ -5213,7 +4693,7 @@
             "line": 2343,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2343"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2343"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -5246,6 +4726,7 @@
                     "id": null,
                     "name": "Record",
                     "packageName": "typescript",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "intrinsic",
@@ -5256,6 +4737,7 @@
                         "id": 1,
                         "name": "Josh",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": [
                           {
                             "kind": "intrinsic",
@@ -5270,6 +4752,7 @@
                     "id": null,
                     "name": "Record",
                     "packageName": "typescript",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "intrinsic",
@@ -5280,6 +4763,7 @@
                         "id": 1,
                         "name": "Josh",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": [
                           {
                             "kind": "intrinsic",
@@ -5325,12 +4809,14 @@
                     "id": null,
                     "name": "Omit",
                     "packageName": "typescript",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 206,
                         "name": "Josh.Options",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": [
                           {
                             "kind": "intrinsic",
@@ -5351,6 +4837,7 @@
                 "id": 5,
                 "name": "Instances",
                 "packageName": "@joshdb/core",
+                "packageVersion": null,
                 "typeArguments": []
               }
             }
@@ -5365,7 +4852,7 @@
         "line": 7,
         "file": "JoshError.ts",
         "path": "src/lib/structures",
-        "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/JoshError.ts#L7"
+        "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/JoshError.ts#L7"
       },
       "namespaceParentId": null,
       "comment": {
@@ -5385,6 +4872,7 @@
         "id": null,
         "name": "Error",
         "packageName": "typescript",
+        "packageVersion": null,
         "typeArguments": []
       },
       "implementsType": [],
@@ -5396,7 +4884,7 @@
           "line": 20,
           "file": "JoshError.ts",
           "path": "src/lib/structures",
-          "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/JoshError.ts#L20"
+          "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/JoshError.ts#L20"
         },
         "comment": {
           "description": null,
@@ -5421,6 +4909,7 @@
               "id": 292,
               "name": "JoshErrorOptions",
               "packageName": "@joshdb/core",
+              "packageVersion": null,
               "typeArguments": []
             }
           }
@@ -5459,7 +4948,7 @@
             "line": 18,
             "file": "JoshError.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/JoshError.ts#L18"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/JoshError.ts#L18"
           },
           "comment": {
             "description": "The errors for this error.",
@@ -5484,6 +4973,7 @@
               "id": null,
               "name": "JoshProviderError",
               "packageName": "@joshdb/provider",
+              "packageVersion": null,
               "typeArguments": []
             }
           }
@@ -5495,7 +4985,7 @@
             "line": 12,
             "file": "JoshError.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/JoshError.ts#L12"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/JoshError.ts#L12"
           },
           "comment": {
             "description": "The identifier for this error.",
@@ -5647,6 +5137,7 @@
                       "id": null,
                       "name": "Error",
                       "packageName": "typescript",
+                      "packageVersion": null,
                       "typeArguments": []
                     }
                   },
@@ -5667,6 +5158,7 @@
                         "id": null,
                         "name": "__global.NodeJS.CallSite",
                         "packageName": "@types/node",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     }
@@ -5762,6 +5254,7 @@
                     "id": null,
                     "name": "Function",
                     "packageName": "typescript",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -5784,7 +5277,7 @@
         "line": 2543,
         "file": "Josh.ts",
         "path": "src/lib/structures",
-        "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2543"
+        "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2543"
       },
       "namespaceParentId": null,
       "comment": {
@@ -5801,7 +5294,7 @@
             "line": 2546,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2546"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2546"
           },
           "comment": {
             "description": null,
@@ -5818,7 +5311,7 @@
             "line": 2544,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2544"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2544"
           },
           "comment": {
             "description": null,
@@ -5835,7 +5328,7 @@
             "line": 2548,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2548"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2548"
           },
           "comment": {
             "description": null,
@@ -5852,7 +5345,7 @@
             "line": 2550,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2550"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2550"
           },
           "comment": {
             "description": null,
@@ -5874,7 +5367,7 @@
         "line": 34,
         "file": "JoshError.ts",
         "path": "src/lib/structures",
-        "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/JoshError.ts#L34"
+        "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/JoshError.ts#L34"
       },
       "namespaceParentId": null,
       "comment": {
@@ -5897,7 +5390,7 @@
             "line": 51,
             "file": "JoshError.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/JoshError.ts#L51"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/JoshError.ts#L51"
           },
           "comment": {
             "description": "The errors for this error.",
@@ -5919,6 +5412,7 @@
               "id": null,
               "name": "JoshProviderError",
               "packageName": "@joshdb/provider",
+              "packageVersion": null,
               "typeArguments": []
             }
           }
@@ -5930,7 +5424,7 @@
             "line": 45,
             "file": "JoshError.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/JoshError.ts#L45"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/JoshError.ts#L45"
           },
           "comment": {
             "description": "The identifier for this error.",
@@ -5957,7 +5451,7 @@
             "line": 57,
             "file": "JoshError.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/JoshError.ts#L57"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/JoshError.ts#L57"
           },
           "comment": {
             "description": "The message for this error.",
@@ -5984,7 +5478,7 @@
             "line": 39,
             "file": "JoshError.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/JoshError.ts#L39"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/JoshError.ts#L39"
           },
           "comment": {
             "description": "The name for this error.",
@@ -6014,7 +5508,7 @@
         "line": 2553,
         "file": "Josh.ts",
         "path": "src/lib/structures",
-        "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2553"
+        "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2553"
       },
       "namespaceParentId": null,
       "comment": {
@@ -6042,7 +5536,7 @@
             "line": 2554,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2554"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2554"
           },
           "comment": {
             "description": null,
@@ -6057,6 +5551,7 @@
             "id": null,
             "name": "Record",
             "packageName": "typescript",
+            "packageVersion": null,
             "typeArguments": [
               {
                 "kind": "intrinsic",
@@ -6067,6 +5562,7 @@
                 "id": 269,
                 "name": "ReturnBulk.Value",
                 "packageName": "@joshdb/core",
+                "packageVersion": null,
                 "typeArguments": []
               }
             ]
@@ -6079,7 +5575,7 @@
             "line": 2556,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2556"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2556"
           },
           "comment": {
             "description": null,
@@ -6094,6 +5590,7 @@
             "id": null,
             "name": "Map",
             "packageName": "typescript",
+            "packageVersion": null,
             "typeArguments": [
               {
                 "kind": "intrinsic",
@@ -6104,6 +5601,7 @@
                 "id": 269,
                 "name": "ReturnBulk.Value",
                 "packageName": "@joshdb/core",
+                "packageVersion": null,
                 "typeArguments": []
               }
             ]
@@ -6116,7 +5614,7 @@
             "line": 2558,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2558"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2558"
           },
           "comment": {
             "description": null,
@@ -6133,6 +5631,7 @@
               "id": 269,
               "name": "ReturnBulk.Value",
               "packageName": "@joshdb/core",
+              "packageVersion": null,
               "typeArguments": []
             }
           }
@@ -6144,7 +5643,7 @@
             "line": 2560,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2560"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2560"
           },
           "comment": {
             "description": null,
@@ -6168,6 +5667,7 @@
                   "id": 269,
                   "name": "ReturnBulk.Value",
                   "packageName": "@joshdb/core",
+                  "packageVersion": null,
                   "typeArguments": []
                 }
               ]
@@ -6186,7 +5686,7 @@
         "line": 50,
         "file": "Josh.ts",
         "path": "src/lib/structures",
-        "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L50"
+        "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L50"
       },
       "namespaceParentId": null,
       "comment": {
@@ -6204,7 +5704,7 @@
             "line": 2518,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2518"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2518"
           },
           "namespaceParentId": 205,
           "comment": {
@@ -6221,7 +5721,7 @@
                 "line": 2521,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2521"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2521"
               },
               "comment": {
                 "description": null,
@@ -6238,7 +5738,7 @@
                 "line": 2519,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2519"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2519"
               },
               "comment": {
                 "description": null,
@@ -6255,7 +5755,7 @@
                 "line": 2523,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2523"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2523"
               },
               "comment": {
                 "description": null,
@@ -6274,7 +5774,7 @@
             "line": 2526,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2526"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2526"
           },
           "namespaceParentId": 205,
           "comment": {
@@ -6291,7 +5791,7 @@
                 "line": 2527,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2527"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2527"
               },
               "comment": {
                 "description": null,
@@ -6308,7 +5808,7 @@
                 "line": 2529,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2529"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2529"
               },
               "comment": {
                 "description": null,
@@ -6325,7 +5825,7 @@
                 "line": 2531,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2531"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2531"
               },
               "comment": {
                 "description": null,
@@ -6342,7 +5842,7 @@
                 "line": 2533,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2533"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2533"
               },
               "comment": {
                 "description": null,
@@ -6359,7 +5859,7 @@
                 "line": 2535,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2535"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2535"
               },
               "comment": {
                 "description": null,
@@ -6376,7 +5876,7 @@
                 "line": 2537,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2537"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2537"
               },
               "comment": {
                 "description": null,
@@ -6393,7 +5893,7 @@
                 "line": 2539,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2539"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2539"
               },
               "comment": {
                 "description": null,
@@ -6415,7 +5915,7 @@
             "line": 2425,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2425"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2425"
           },
           "namespaceParentId": 205,
           "comment": {
@@ -6443,7 +5943,7 @@
                 "line": 2448,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2448"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2448"
               },
               "comment": {
                 "description": "The exported data entries.",
@@ -6472,6 +5972,7 @@
                       "id": 224,
                       "name": "Josh.ExportJSON.StoredValue",
                       "packageName": "@joshdb/core",
+                      "packageVersion": null,
                       "typeArguments": []
                     }
                   ]
@@ -6485,7 +5986,7 @@
                 "line": 2442,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2442"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2442"
               },
               "comment": {
                 "description": "The timestamp of when the data was exported.",
@@ -6512,7 +6013,7 @@
                 "line": 2430,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2430"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2430"
               },
               "comment": {
                 "description": "The name of exported data.",
@@ -6539,7 +6040,7 @@
                 "line": 2436,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2436"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2436"
               },
               "comment": {
                 "description": "The version of Josh used to export the data.",
@@ -6569,7 +6070,7 @@
             "line": 2477,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2477"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2477"
           },
           "namespaceParentId": 205,
           "comment": {
@@ -6597,7 +6098,7 @@
                 "line": 2494,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2494"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2494"
               },
               "comment": {
                 "description": "Whether to clear all data before importing.",
@@ -6624,7 +6125,7 @@
                 "line": 2482,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2482"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2482"
               },
               "comment": {
                 "description": "The data to import.",
@@ -6647,12 +6148,14 @@
                     "id": 219,
                     "name": "Josh.ExportJSON",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 238,
                         "name": "Josh.ImportOptions.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -6662,12 +6165,14 @@
                     "id": 225,
                     "name": "Josh.LegacyExportJSON",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 238,
                         "name": "Josh.ImportOptions.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -6682,7 +6187,7 @@
                 "line": 2488,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2488"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2488"
               },
               "comment": {
                 "description": "Whether to overwrite existing data.",
@@ -6712,7 +6217,7 @@
             "line": 2451,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2451"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2451"
           },
           "namespaceParentId": 205,
           "comment": {
@@ -6740,7 +6245,7 @@
                 "line": 2468,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2468"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2468"
               },
               "comment": {
                 "description": "The timestamp of when the data was exported.",
@@ -6767,7 +6272,7 @@
                 "line": 2474,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2474"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2474"
               },
               "comment": {
                 "description": "The exported data.",
@@ -6817,6 +6322,7 @@
                         "id": 233,
                         "name": "Josh.LegacyExportJSON.StoredValue",
                         "packageName": "@joshdb/core",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     }
@@ -6833,7 +6339,7 @@
                 "line": 2456,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2456"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2456"
               },
               "comment": {
                 "description": "The name of exported data.",
@@ -6860,7 +6366,7 @@
                 "line": 2462,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2462"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2462"
               },
               "comment": {
                 "description": "The version of Josh or Enmap used to export the data.",
@@ -6890,7 +6396,7 @@
             "line": 2357,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2357"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2357"
           },
           "namespaceParentId": 205,
           "comment": {
@@ -6923,7 +6429,7 @@
                 "line": 2380,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2380"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2380"
               },
               "comment": {
                 "description": "The context data for the auto-ensure middleware",
@@ -6943,12 +6449,14 @@
                 "id": null,
                 "name": "AutoEnsureMiddleware.ContextData",
                 "packageName": "@joshdb/auto-ensure",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 213,
                     "name": "Josh.Options.StoredValue",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -6961,7 +6469,7 @@
                 "line": 2386,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2386"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2386"
               },
               "comment": {
                 "description": "The behavior when encountering errors.",
@@ -6981,6 +6489,7 @@
                 "id": 247,
                 "name": "Josh.ErrorBehavior",
                 "packageName": "@joshdb/core",
+                "packageVersion": null,
                 "typeArguments": []
               }
             },
@@ -6991,7 +6500,7 @@
                 "line": 2392,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2392"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2392"
               },
               "comment": {
                 "description": "The default bulk type to return in bulk supported methods.",
@@ -7011,6 +6520,7 @@
                 "id": 259,
                 "name": "Bulk",
                 "packageName": "@joshdb/core",
+                "packageVersion": null,
                 "typeArguments": []
               }
             },
@@ -7021,7 +6531,7 @@
                 "line": 2374,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2374"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2374"
               },
               "comment": {
                 "description": "The middleware to use.",
@@ -7043,6 +6553,7 @@
                   "id": null,
                   "name": "JoshMiddleware",
                   "packageName": "@joshdb/provider",
+                  "packageVersion": null,
                   "typeArguments": [
                     {
                       "kind": "intrinsic",
@@ -7053,6 +6564,7 @@
                       "id": 213,
                       "name": "Josh.Options.StoredValue",
                       "packageName": "@joshdb/core",
+                      "packageVersion": null,
                       "typeArguments": []
                     }
                   ]
@@ -7066,7 +6578,7 @@
                 "line": 2362,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2362"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2362"
               },
               "comment": {
                 "description": "The name for the Josh instance.",
@@ -7093,7 +6605,7 @@
                 "line": 2368,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2368"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2368"
               },
               "comment": {
                 "description": "The provider instance.",
@@ -7113,12 +6625,14 @@
                 "id": null,
                 "name": "JoshProvider",
                 "packageName": "@joshdb/provider",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 213,
                     "name": "Josh.Options.StoredValue",
                     "packageName": "@joshdb/core",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -7134,7 +6648,7 @@
             "line": 2504,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2504"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2504"
           },
           "namespaceParentId": 205,
           "comment": {
@@ -7152,7 +6666,7 @@
                 "line": 2509,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2509"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2509"
               },
               "comment": {
                 "description": "The amount of values to get.",
@@ -7179,7 +6693,7 @@
                 "line": 2515,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2515"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2515"
               },
               "comment": {
                 "description": "Whether the values should be unique.",
@@ -7209,7 +6723,7 @@
             "line": 2496,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2496"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2496"
           },
           "namespaceParentId": 205,
           "comment": {
@@ -7274,6 +6788,7 @@
                 "id": null,
                 "name": "Path",
                 "packageName": "@joshdb/provider",
+                "packageVersion": null,
                 "typeArguments": []
               }
             },
@@ -7284,7 +6799,7 @@
                 "line": 2501,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2501"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2501"
               },
               "comment": {
                 "description": "The value to set.",
@@ -7304,6 +6819,7 @@
                 "id": 243,
                 "name": "Josh.SetManyOptions.Value",
                 "packageName": "@joshdb/core",
+                "packageVersion": null,
                 "typeArguments": []
               }
             }
@@ -7317,7 +6833,7 @@
             "line": 2399,
             "file": "Josh.ts",
             "path": "src/lib/structures",
-            "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2399"
+            "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2399"
           },
           "namespaceParentId": 205,
           "comment": {
@@ -7340,7 +6856,7 @@
                 "line": 2422,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2422"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2422"
               },
               "comment": {
                 "description": "The trigger for the middleware hook.",
@@ -7360,6 +6876,7 @@
                 "id": null,
                 "name": "Method",
                 "packageName": "@joshdb/provider",
+                "packageVersion": null,
                 "typeArguments": []
               }
             },
@@ -7370,7 +6887,7 @@
                 "line": 2404,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2404"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2404"
               },
               "comment": {
                 "description": "The name for the middleware.",
@@ -7397,7 +6914,7 @@
                 "line": 2410,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2410"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2410"
               },
               "comment": {
                 "description": "The position for the middleware.",
@@ -7424,7 +6941,7 @@
                 "line": 2416,
                 "file": "Josh.ts",
                 "path": "src/lib/structures",
-                "url": "https://github.com/josh-development/core/blob/f92ea97467e81b7a478e60611d258d3663e79625/src/lib/structures/Josh.ts#L2416"
+                "url": "https://github.com/josh-development/core/blob/d0ebd67356a39b5c6d95403f17f4cd4de9412272/src/lib/structures/Josh.ts#L2416"
               },
               "comment": {
                 "description": "The trigger for the middleware hook.",
@@ -7444,6 +6961,7 @@
                 "id": null,
                 "name": "Trigger",
                 "packageName": "@joshdb/provider",
+                "packageVersion": null,
                 "typeArguments": []
               }
             }
