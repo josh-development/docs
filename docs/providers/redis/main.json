@@ -1,8 +1,14 @@
 {
-  "typeDocJsonParserVersion": "10.0.0",
+  "typeDocJsonParserVersion": "10.1.0",
   "id": 0,
   "name": "@joshdb/redis",
   "version": "1.0.0",
+  "dependencies": {
+    "@joshdb/provider": "2.0.0-next.cd2b620.0",
+    "better-serialize": "^2.0.0",
+    "redis": "^4.6.14",
+    "uuid": "^9.0.1"
+  },
   "readme": "<div align=\"center\">\n\n![Josh Logo](https://evie.codes/josh-light.png)\n\n# @joshdb/redis\n\n**A provider for `@joshdb/core`**\n\n[![GitHub](https://img.shields.io/github/license/josh-development/providers)](https://github.com/josh-development/providers/blob/main/LICENSE.md)\n[![codecov](https://codecov.io/gh/josh-development/providers/branch/main/graph/badge.svg?token=JnJcjxqT3k)](https://codecov.io/gh/josh-development/providers)\n[![npm](https://img.shields.io/npm/v/@joshdb/redis?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@joshdb/redis)\n\n[![Support Server](https://discord.com/api/guilds/298508738623438848/embed.png?style=banner2)](https://discord.gg/N7ZKH3P)\n\n</div>\n\n## Description\n\nWant to safely store your data in a redis database? This is the package for you.\n\n## Features\n\n- Written in TypeScript\n- Offers CommonJS and ESM bundles\n- Fully tested\n\n## Installation\n\nYou can use the following command to install this package, or replace `npm install` with your package manager of choice.\n\n```sh\nnpm install @joshdb/redis\n```\n\n## Provider Options\n\n```typescript\ninterface Options {\n  /**\n   * Redis connection options\n   * @see https://github.com/redis/node-redis/blob/master/docs/client-configuration.md#createclient-configuration\n   * @since 1.0.0\n   */\n  connectOptions?: RedisClientOptions;\n\n  /**\n   * Expiration time for document entries (seconds)\n   * @since 1.0.0\n   */\n  expiry?: number;\n\n  /**\n   * Disable using `better-serialize` for document serialization\n   * This can be faster in some cases, but may cause issues with complex data types\n   * @since 1.0.0\n   */\n  disableSerialization?: boolean;\n}\n```\n",
   "changelog": "# Changelog\n\nAll notable changes to this project will be documented in this file.\n",
   "classes": [
@@ -13,7 +19,7 @@
         "line": 31,
         "file": "RedisProvider.ts",
         "path": "packages/redis/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L31"
+        "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L31"
       },
       "namespaceParentId": null,
       "comment": {
@@ -28,12 +34,14 @@
         "id": null,
         "name": "JoshProvider",
         "packageName": "@joshdb/provider",
+        "packageVersion": null,
         "typeArguments": [
           {
             "kind": "reference",
             "id": 5,
             "name": "RedisProvider.StoredValue",
             "packageName": "@joshdb/redis",
+            "packageVersion": null,
             "typeArguments": []
           }
         ]
@@ -57,7 +65,7 @@
           "line": 38,
           "file": "RedisProvider.ts",
           "path": "packages/redis/src/lib",
-          "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L38"
+          "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L38"
         },
         "comment": {
           "description": null,
@@ -71,8 +79,13 @@
             "id": 6,
             "name": "options",
             "comment": {
-              "description": null,
-              "blockTags": [],
+              "description": "The options for this provider.",
+              "blockTags": [
+                {
+                  "name": "since",
+                  "text": "1.0.0"
+                }
+              ],
               "modifierTags": []
             },
             "rest": false,
@@ -82,6 +95,7 @@
               "id": 160,
               "name": "RedisProvider.Options",
               "packageName": "@joshdb/redis",
+              "packageVersion": null,
               "typeArguments": []
             }
           }
@@ -89,45 +103,22 @@
       },
       "properties": [
         {
-          "id": 9,
-          "name": "_client",
-          "source": {
-            "line": 36,
-            "file": "RedisProvider.ts",
-            "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L36"
-          },
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "parentId": 2,
-          "accessibility": "private",
-          "abstract": false,
-          "static": false,
-          "readonly": false,
-          "optional": true,
-          "type": {
-            "kind": "reference",
-            "id": null,
-            "name": "RedisClientType",
-            "packageName": "redis",
-            "typeArguments": []
-          }
-        },
-        {
           "id": 8,
           "name": "migrations",
           "source": {
             "line": 34,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L34"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L34"
           },
           "comment": {
-            "description": null,
-            "blockTags": [],
+            "description": "Data migrations for this provider.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              }
+            ],
             "modifierTags": []
           },
           "parentId": 2,
@@ -143,6 +134,7 @@
               "id": null,
               "name": "JoshProvider.Migration",
               "packageName": "@joshdb/provider",
+              "packageVersion": null,
               "typeArguments": []
             }
           }
@@ -184,11 +176,16 @@
             "line": 32,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L32"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L32"
           },
           "comment": {
-            "description": null,
-            "blockTags": [],
+            "description": "The options for this provider.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              }
+            ],
             "modifierTags": []
           },
           "parentId": 2,
@@ -202,34 +199,7 @@
             "id": 160,
             "name": "RedisProvider.Options",
             "packageName": "@joshdb/redis",
-            "typeArguments": []
-          }
-        },
-        {
-          "id": 13,
-          "name": "client",
-          "source": {
-            "line": 46,
-            "file": "RedisProvider.ts",
-            "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L46"
-          },
-          "comment": {
-            "description": null,
-            "blockTags": [],
-            "modifierTags": []
-          },
-          "parentId": 2,
-          "accessibility": "public",
-          "abstract": false,
-          "static": false,
-          "readonly": false,
-          "optional": false,
-          "type": {
-            "kind": "reference",
-            "id": null,
-            "name": "RedisClientType",
-            "packageName": "redis",
+            "packageVersion": null,
             "typeArguments": []
           }
         },
@@ -240,11 +210,16 @@
             "line": 42,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L42"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L42"
           },
           "comment": {
-            "description": null,
-            "blockTags": [],
+            "description": "The semver version of this provider.",
+            "blockTags": [
+              {
+                "name": "since",
+                "text": "1.0.0"
+              }
+            ],
             "modifierTags": []
           },
           "parentId": 2,
@@ -258,6 +233,7 @@
             "id": null,
             "name": "Semver",
             "packageName": "@joshdb/provider",
+            "packageVersion": null,
             "typeArguments": []
           }
         }
@@ -270,7 +246,7 @@
             "line": 68,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L68"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L68"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -302,6 +278,7 @@
                     "id": null,
                     "name": "Payload.AutoKey",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -311,6 +288,7 @@
                 "id": null,
                 "name": "Payload.AutoKey",
                 "packageName": "@joshdb/provider",
+                "packageVersion": null,
                 "typeArguments": []
               }
             }
@@ -323,7 +301,7 @@
             "line": 74,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L74"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L74"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -355,6 +333,7 @@
                     "id": null,
                     "name": "Payload.Clear",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -364,12 +343,14 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Clear",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -384,7 +365,7 @@
             "line": 64,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L64"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L64"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -406,6 +387,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "intrinsic",
@@ -423,7 +405,7 @@
             "line": 79,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L79"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L79"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -455,6 +437,7 @@
                     "id": null,
                     "name": "Payload.Dec",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -464,12 +447,14 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Dec",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -484,7 +469,7 @@
             "line": 102,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L102"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L102"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -516,6 +501,7 @@
                     "id": null,
                     "name": "Payload.Delete",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -525,12 +511,14 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Delete",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -545,7 +533,7 @@
             "line": 123,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L123"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L123"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -577,6 +565,7 @@
                     "id": null,
                     "name": "Payload.DeleteMany",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -586,12 +575,14 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.DeleteMany",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -606,7 +597,7 @@
             "line": 831,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L831"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L831"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -644,6 +635,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "intrinsic",
@@ -655,78 +647,13 @@
           ]
         },
         {
-          "id": 34,
-          "name": "deserialize",
-          "source": {
-            "line": 884,
-            "file": "RedisProvider.ts",
-            "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L884"
-          },
-          "parentId": 2,
-          "accessibility": "private",
-          "abstract": false,
-          "static": false,
-          "signatures": [
-            {
-              "id": 35,
-              "name": "deserialize",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [],
-              "parameters": [
-                {
-                  "id": 36,
-                  "name": "value",
-                  "comment": {
-                    "description": null,
-                    "blockTags": [],
-                    "modifierTags": []
-                  },
-                  "rest": false,
-                  "optional": false,
-                  "type": {
-                    "kind": "union",
-                    "types": [
-                      {
-                        "kind": "reference",
-                        "id": null,
-                        "name": "Serialize.JsonCompatible",
-                        "packageName": "better-serialize",
-                        "typeArguments": []
-                      },
-                      {
-                        "kind": "reference",
-                        "id": 5,
-                        "name": "RedisProvider.StoredValue",
-                        "packageName": "@joshdb/redis",
-                        "typeArguments": []
-                      }
-                    ]
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "reference",
-                "id": 5,
-                "name": "RedisProvider.StoredValue",
-                "packageName": "@joshdb/redis",
-                "typeArguments": []
-              }
-            }
-          ]
-        },
-        {
           "id": 56,
           "name": "each",
           "source": {
             "line": 133,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L133"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L133"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -758,12 +685,14 @@
                     "id": null,
                     "name": "Payload.Each",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -775,18 +704,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Each",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -803,7 +735,7 @@
             "line": 143,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L143"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L143"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -835,12 +767,14 @@
                     "id": null,
                     "name": "Payload.Ensure",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -852,18 +786,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Ensure",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -880,7 +817,7 @@
             "line": 155,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L155"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L155"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -912,12 +849,14 @@
                     "id": null,
                     "name": "Payload.Entries",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -929,18 +868,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Entries",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -1005,12 +947,14 @@
                         "id": null,
                         "name": "PartialRequired",
                         "packageName": "@sapphire/utilities",
+                        "packageVersion": null,
                         "typeArguments": [
                           {
                             "kind": "reference",
                             "id": null,
                             "name": "JoshProviderError.Options",
                             "packageName": "@joshdb/provider",
+                            "packageVersion": null,
                             "typeArguments": []
                           },
                           {
@@ -1037,6 +981,7 @@
                     "id": null,
                     "name": "Record",
                     "packageName": "typescript",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "intrinsic",
@@ -1055,6 +1000,7 @@
                 "id": null,
                 "name": "JoshProviderError",
                 "packageName": "@joshdb/provider",
+                "packageVersion": null,
                 "typeArguments": []
               }
             }
@@ -1067,7 +1013,7 @@
             "line": 175,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L175"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L175"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1099,12 +1045,14 @@
                     "id": null,
                     "name": "Payload.Every.ByHook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -1116,18 +1064,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Every.ByHook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -1160,6 +1111,7 @@
                     "id": null,
                     "name": "Payload.Every.ByValue",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -1169,12 +1121,14 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Every.ByValue",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -1189,7 +1143,7 @@
             "line": 854,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L854"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L854"
           },
           "parentId": 2,
           "accessibility": "protected",
@@ -1211,12 +1165,14 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Semver",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -1231,7 +1187,7 @@
             "line": 227,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L227"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L227"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1263,12 +1219,14 @@
                     "id": null,
                     "name": "Payload.Filter.ByHook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -1280,18 +1238,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Filter.ByHook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -1324,12 +1285,14 @@
                     "id": null,
                     "name": "Payload.Filter.ByValue",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -1341,18 +1304,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Filter.ByValue",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -1369,7 +1335,7 @@
             "line": 273,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L273"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L273"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1401,12 +1367,14 @@
                     "id": null,
                     "name": "Payload.Find.ByHook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -1418,18 +1386,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Find.ByHook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -1462,12 +1433,14 @@
                     "id": null,
                     "name": "Payload.Find.ByValue",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -1479,18 +1452,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Find.ByValue",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -1507,7 +1483,7 @@
             "line": 329,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L329"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L329"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1532,6 +1508,7 @@
                     "id": 5,
                     "name": "RedisProvider.StoredValue",
                     "packageName": "@joshdb/redis",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -1552,12 +1529,14 @@
                     "id": null,
                     "name": "Payload.Get",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 82,
                         "name": "Value",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -1569,18 +1548,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Get",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 82,
                         "name": "Value",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -1597,7 +1579,7 @@
             "line": 352,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L352"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L352"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1629,12 +1611,14 @@
                     "id": null,
                     "name": "Payload.GetMany",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -1646,18 +1630,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.GetMany",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -1674,7 +1661,7 @@
             "line": 847,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L847"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L847"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1722,12 +1709,14 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": 28,
                     "name": "Value",
                     "packageName": "@joshdb/redis",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -1742,7 +1731,7 @@
             "line": 372,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L372"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L372"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1774,6 +1763,7 @@
                     "id": null,
                     "name": "Payload.Has",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -1783,12 +1773,14 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Has",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -1803,7 +1795,7 @@
             "line": 392,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L392"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L392"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1835,6 +1827,7 @@
                     "id": null,
                     "name": "Payload.Inc",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -1844,12 +1837,14 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Inc",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -1864,7 +1859,7 @@
             "line": 57,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L57"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L57"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1875,8 +1870,21 @@
               "id": 15,
               "name": "init",
               "comment": {
-                "description": null,
-                "blockTags": [],
+                "description": "Initialize the provider.",
+                "blockTags": [
+                  {
+                    "name": "since",
+                    "text": "1.0.0"
+                  },
+                  {
+                    "name": "returns",
+                    "text": "The provider's context."
+                  },
+                  {
+                    "name": "example",
+                    "text": "```typescript\npublic async init(context: JoshProvider.Context): Promise<JoshProvider.Context> {\n  // Initialize provider...\n  context = await super.init(context);\n  // Initialize provider...\n  return context;\n}\n```"
+                  }
+                ],
                 "modifierTags": []
               },
               "typeParameters": [],
@@ -1885,7 +1893,7 @@
                   "id": 16,
                   "name": "context",
                   "comment": {
-                    "description": null,
+                    "description": "The provider's context sent by this provider's Josh instance.",
                     "blockTags": [],
                     "modifierTags": []
                   },
@@ -1896,6 +1904,7 @@
                     "id": null,
                     "name": "JoshProvider.Context",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -1905,63 +1914,15 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "JoshProvider.Context",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "id": 32,
-          "name": "iterate",
-          "source": {
-            "line": 870,
-            "file": "RedisProvider.ts",
-            "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L870"
-          },
-          "parentId": 2,
-          "accessibility": "private",
-          "abstract": false,
-          "static": false,
-          "signatures": [
-            {
-              "id": 33,
-              "name": "iterate",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [],
-              "parameters": [],
-              "returnType": {
-                "kind": "reference",
-                "id": null,
-                "name": "AsyncIterableIterator",
-                "packageName": "typescript",
-                "typeArguments": [
-                  {
-                    "kind": "reference",
-                    "id": 169,
-                    "name": "RedisProvider.IterateReturn",
-                    "packageName": "@joshdb/redis",
-                    "typeArguments": [
-                      {
-                        "kind": "reference",
-                        "id": 5,
-                        "name": "RedisProvider.StoredValue",
-                        "packageName": "@joshdb/redis",
-                        "typeArguments": []
-                      }
-                    ]
                   }
                 ]
               }
@@ -1975,7 +1936,7 @@
             "line": 415,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L415"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L415"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2007,6 +1968,7 @@
                     "id": null,
                     "name": "Payload.Keys",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -2016,12 +1978,14 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Keys",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -2036,7 +2000,7 @@
             "line": 421,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L421"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L421"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2061,6 +2025,7 @@
                     "id": 5,
                     "name": "RedisProvider.StoredValue",
                     "packageName": "@joshdb/redis",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -2081,12 +2046,14 @@
                     "id": null,
                     "name": "Payload.Map.ByHook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       },
                       {
@@ -2094,6 +2061,7 @@
                         "id": 98,
                         "name": "Value",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2105,18 +2073,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Map.ByHook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       },
                       {
@@ -2124,6 +2095,7 @@
                         "id": 98,
                         "name": "Value",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2149,6 +2121,7 @@
                     "id": 5,
                     "name": "RedisProvider.StoredValue",
                     "packageName": "@joshdb/redis",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -2169,12 +2142,14 @@
                     "id": null,
                     "name": "Payload.Map.ByPath",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 101,
                         "name": "Value",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2186,18 +2161,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Map.ByPath",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 101,
                         "name": "Value",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2214,7 +2192,7 @@
             "line": 449,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L449"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L449"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2246,6 +2224,7 @@
                     "id": null,
                     "name": "Payload.Math",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -2255,12 +2234,14 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Math",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -2275,7 +2256,7 @@
             "line": 504,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L504"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L504"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2307,12 +2288,14 @@
                     "id": null,
                     "name": "Payload.Partition.ByHook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2324,18 +2307,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Partition.ByHook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2368,12 +2354,14 @@
                     "id": null,
                     "name": "Payload.Partition.ByValue",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2385,18 +2373,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Partition.ByValue",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2413,7 +2404,7 @@
             "line": 554,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L554"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L554"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2438,6 +2429,7 @@
                     "id": 5,
                     "name": "RedisProvider.StoredValue",
                     "packageName": "@joshdb/redis",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -2458,12 +2450,14 @@
                     "id": null,
                     "name": "Payload.Push",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 113,
                         "name": "Value",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2475,18 +2469,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Push",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 113,
                         "name": "Value",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2503,7 +2500,7 @@
             "line": 578,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L578"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L578"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2535,12 +2532,14 @@
                     "id": null,
                     "name": "Payload.Random",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2552,18 +2551,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Random",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2580,7 +2582,7 @@
             "line": 618,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L618"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L618"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2612,6 +2614,7 @@
                     "id": null,
                     "name": "Payload.RandomKey",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -2621,12 +2624,14 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.RandomKey",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -2641,7 +2646,7 @@
             "line": 656,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L656"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L656"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2666,6 +2671,7 @@
                     "id": 5,
                     "name": "RedisProvider.StoredValue",
                     "packageName": "@joshdb/redis",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -2686,12 +2692,14 @@
                     "id": null,
                     "name": "Payload.Remove.ByHook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 123,
                         "name": "HookValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2703,18 +2711,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Remove.ByHook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 123,
                         "name": "HookValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2747,6 +2758,7 @@
                     "id": null,
                     "name": "Payload.Remove.ByValue",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -2756,12 +2768,14 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Remove.ByValue",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -2832,6 +2846,7 @@
                     "id": null,
                     "name": "Record",
                     "packageName": "typescript",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "intrinsic",
@@ -2853,85 +2868,13 @@
           ]
         },
         {
-          "id": 37,
-          "name": "serialize",
-          "source": {
-            "line": 892,
-            "file": "RedisProvider.ts",
-            "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L892"
-          },
-          "parentId": 2,
-          "accessibility": "private",
-          "abstract": false,
-          "static": false,
-          "signatures": [
-            {
-              "id": 38,
-              "name": "serialize",
-              "comment": {
-                "description": null,
-                "blockTags": [],
-                "modifierTags": []
-              },
-              "typeParameters": [
-                {
-                  "id": 39,
-                  "name": "StoredValue",
-                  "constraint": null,
-                  "default": null
-                }
-              ],
-              "parameters": [
-                {
-                  "id": 40,
-                  "name": "value",
-                  "comment": {
-                    "description": null,
-                    "blockTags": [],
-                    "modifierTags": []
-                  },
-                  "rest": false,
-                  "optional": false,
-                  "type": {
-                    "kind": "reference",
-                    "id": 39,
-                    "name": "StoredValue",
-                    "packageName": "@joshdb/redis",
-                    "typeArguments": []
-                  }
-                }
-              ],
-              "returnType": {
-                "kind": "union",
-                "types": [
-                  {
-                    "kind": "reference",
-                    "id": null,
-                    "name": "Serialize.JsonCompatible",
-                    "packageName": "better-serialize",
-                    "typeArguments": []
-                  },
-                  {
-                    "kind": "reference",
-                    "id": 39,
-                    "name": "StoredValue",
-                    "packageName": "@joshdb/redis",
-                    "typeArguments": []
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
           "id": 127,
           "name": "set",
           "source": {
             "line": 706,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L706"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L706"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2956,6 +2899,7 @@
                     "id": 5,
                     "name": "RedisProvider.StoredValue",
                     "packageName": "@joshdb/redis",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -2976,12 +2920,14 @@
                     "id": null,
                     "name": "Payload.Set",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 129,
                         "name": "Value",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -2993,18 +2939,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Set",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 129,
                         "name": "Value",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -3021,7 +2970,7 @@
             "line": 721,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L721"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L721"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3053,6 +3002,7 @@
                     "id": null,
                     "name": "Payload.SetMany",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -3062,12 +3012,14 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.SetMany",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -3082,7 +3034,7 @@
             "line": 839,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L839"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L839"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3135,6 +3087,7 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "intrinsic",
@@ -3152,7 +3105,7 @@
             "line": 745,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L745"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L745"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3184,6 +3137,7 @@
                     "id": null,
                     "name": "Payload.Size",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -3193,12 +3147,14 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Size",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -3213,7 +3169,7 @@
             "line": 751,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L751"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L751"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3245,12 +3201,14 @@
                     "id": null,
                     "name": "Payload.Some.ByHook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -3262,18 +3220,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Some.ByHook",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -3306,6 +3267,7 @@
                     "id": null,
                     "name": "Payload.Some.ByValue",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -3315,12 +3277,14 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Some.ByValue",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -3335,7 +3299,7 @@
             "line": 802,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L802"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L802"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3360,6 +3324,7 @@
                     "id": 5,
                     "name": "RedisProvider.StoredValue",
                     "packageName": "@joshdb/redis",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 }
@@ -3380,12 +3345,14 @@
                     "id": null,
                     "name": "Payload.Update",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       },
                       {
@@ -3393,6 +3360,7 @@
                         "id": 144,
                         "name": "Value",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -3404,18 +3372,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Update",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       },
                       {
@@ -3423,6 +3394,7 @@
                         "id": 144,
                         "name": "Value",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -3439,7 +3411,7 @@
             "line": 819,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L819"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L819"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3471,12 +3443,14 @@
                     "id": null,
                     "name": "Payload.Values",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -3488,18 +3462,21 @@
                 "id": null,
                 "name": "Promise",
                 "packageName": "typescript",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "Payload.Values",
                     "packageName": "@joshdb/provider",
+                    "packageVersion": null,
                     "typeArguments": [
                       {
                         "kind": "reference",
                         "id": 5,
                         "name": "RedisProvider.StoredValue",
                         "packageName": "@joshdb/redis",
+                        "packageVersion": null,
                         "typeArguments": []
                       }
                     ]
@@ -3523,7 +3500,7 @@
         "line": 31,
         "file": "RedisProvider.ts",
         "path": "packages/redis/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L31"
+        "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L31"
       },
       "namespaceParentId": null,
       "comment": {
@@ -3541,7 +3518,7 @@
             "line": 922,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L922"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L922"
           },
           "namespaceParentId": 159,
           "comment": {
@@ -3558,7 +3535,7 @@
                 "line": 923,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L923"
+                "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L923"
               },
               "comment": {
                 "description": null,
@@ -3580,7 +3557,7 @@
             "line": 916,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L916"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L916"
           },
           "namespaceParentId": 159,
           "comment": {
@@ -3608,7 +3585,7 @@
                 "line": 917,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L917"
+                "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L917"
               },
               "comment": {
                 "description": null,
@@ -3630,7 +3607,7 @@
                 "line": 919,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L919"
+                "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L919"
               },
               "comment": {
                 "description": null,
@@ -3645,6 +3622,7 @@
                 "id": 172,
                 "name": "RedisProvider.IterateReturn.StoredValue",
                 "packageName": "@joshdb/redis",
+                "packageVersion": null,
                 "typeArguments": []
               }
             }
@@ -3658,7 +3636,7 @@
             "line": 902,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L902"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L902"
           },
           "namespaceParentId": 159,
           "comment": {
@@ -3703,7 +3681,7 @@
                 "line": 903,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L903"
+                "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L903"
               },
               "comment": {
                 "description": null,
@@ -3718,12 +3696,14 @@
                 "id": null,
                 "name": "RedisClientOptions",
                 "packageName": "@redis/client",
+                "packageVersion": null,
                 "typeArguments": [
                   {
                     "kind": "reference",
                     "id": null,
                     "name": "RedisModules",
                     "packageName": "@redis/client",
+                    "packageVersion": null,
                     "typeArguments": []
                   },
                   {
@@ -3731,6 +3711,7 @@
                     "id": null,
                     "name": "RedisFunctions",
                     "packageName": "@redis/client",
+                    "packageVersion": null,
                     "typeArguments": []
                   },
                   {
@@ -3738,6 +3719,7 @@
                     "id": null,
                     "name": "RedisScripts",
                     "packageName": "@redis/client",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -3750,7 +3732,7 @@
                 "line": 907,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L907"
+                "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L907"
               },
               "comment": {
                 "description": null,
@@ -3772,7 +3754,7 @@
                 "line": 905,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L905"
+                "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L905"
               },
               "comment": {
                 "description": null,
@@ -3797,7 +3779,7 @@
             "line": 910,
             "file": "RedisProvider.ts",
             "path": "packages/redis/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L910"
+            "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L910"
           },
           "namespaceParentId": 159,
           "comment": {
@@ -3822,7 +3804,7 @@
                 "line": 911,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L911"
+                "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L911"
               },
               "comment": {
                 "description": null,
@@ -3840,6 +3822,7 @@
                     "id": null,
                     "name": "Serialize.JsonCompatible",
                     "packageName": "better-serialize",
+                    "packageVersion": null,
                     "typeArguments": []
                   },
                   {
@@ -3847,6 +3830,7 @@
                     "id": 168,
                     "name": "RedisProvider.Row.StoredValue",
                     "packageName": "@joshdb/redis",
+                    "packageVersion": null,
                     "typeArguments": []
                   }
                 ]
@@ -3859,7 +3843,7 @@
                 "line": 913,
                 "file": "RedisProvider.ts",
                 "path": "packages/redis/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/lib/RedisProvider.ts#L913"
+                "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/lib/RedisProvider.ts#L913"
               },
               "comment": {
                 "description": null,
@@ -3874,6 +3858,7 @@
                 "id": null,
                 "name": "Semver",
                 "packageName": "@joshdb/provider",
+                "packageVersion": null,
                 "typeArguments": []
               }
             }
@@ -3895,7 +3880,7 @@
         "line": 3,
         "file": "index.ts",
         "path": "packages/redis/src",
-        "url": "https://github.com/josh-development/providers/blob/a6301004b649f574f5e2f8c989ccfaeeab7e3842/packages/redis/src/index.ts#L3"
+        "url": "https://github.com/josh-development/providers/blob/abc0cad56ea8ae6061f51546eebe854894575967/packages/redis/src/index.ts#L3"
       },
       "namespaceParentId": null,
       "comment": {
