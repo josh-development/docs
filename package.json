@@ -8,7 +8,7 @@
     "migrate": "typedoc-json-parser -v --migrate docs"
   },
   "dependencies": {
-    "typedoc-json-parser": "^10.0.0"
+    "typedoc-json-parser": "^10.1.0"
   },
   "packageManager": "yarn@4.3.1"
 }
