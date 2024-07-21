@@ -13,7 +13,7 @@
         "line": 28,
         "file": "CacheMiddleware.ts",
         "path": "packages/cache/src/lib",
-        "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L28"
+        "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L28"
       },
       "namespaceParentId": null,
       "comment": {
@@ -69,7 +69,7 @@
         "id": 2,
         "name": "constructor",
         "source": {
-          "line": 1292,
+          "line": 1349,
           "file": "index.d.mts",
           "path": "node_modules/@joshdb/provider/dist",
           "url": null
@@ -141,7 +141,7 @@
           "id": 110,
           "name": "conditions",
           "source": {
-            "line": 1281,
+            "line": 1338,
             "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -174,7 +174,7 @@
           "id": 112,
           "name": "context",
           "source": {
-            "line": 1291,
+            "line": 1348,
             "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -215,7 +215,7 @@
           "id": 111,
           "name": "migrations",
           "source": {
-            "line": 1286,
+            "line": 1343,
             "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -259,7 +259,7 @@
           "id": 109,
           "name": "name",
           "source": {
-            "line": 1276,
+            "line": 1333,
             "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -292,7 +292,7 @@
             "line": 29,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L29"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L29"
           },
           "comment": {
             "description": null,
@@ -317,7 +317,7 @@
           "id": 108,
           "name": "store",
           "source": {
-            "line": 1271,
+            "line": 1328,
             "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -358,7 +358,7 @@
           "id": 114,
           "name": "provider",
           "source": {
-            "line": 1302,
+            "line": 1359,
             "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -402,7 +402,7 @@
             "line": 31,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L31"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L31"
           },
           "comment": {
             "description": null,
@@ -429,7 +429,7 @@
           "id": 129,
           "name": "autoKey",
           "source": {
-            "line": 1310,
+            "line": 1367,
             "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -493,7 +493,7 @@
             "line": 486,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L486"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L486"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -554,7 +554,7 @@
             "line": 547,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L547"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L547"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -615,7 +615,7 @@
             "line": 558,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L558"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L558"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -676,7 +676,7 @@
             "line": 569,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L569"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L569"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -737,7 +737,7 @@
             "line": 77,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L77"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L77"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -811,7 +811,7 @@
           "id": 132,
           "name": "ensure",
           "source": {
-            "line": 1316,
+            "line": 1373,
             "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -891,7 +891,7 @@
             "line": 122,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L122"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L122"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -965,7 +965,7 @@
           "id": 121,
           "name": "error",
           "source": {
-            "line": 1366,
+            "line": 1423,
             "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -1078,7 +1078,7 @@
             "line": 151,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L151"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L151"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1200,7 +1200,7 @@
             "line": 690,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L690"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L690"
           },
           "parentId": 1,
           "accessibility": "private",
@@ -1239,7 +1239,7 @@
             "line": 42,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L42"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L42"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1281,7 +1281,7 @@
             "line": 205,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L205"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L205"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1419,7 +1419,7 @@
             "line": 278,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L278"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L278"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1557,7 +1557,7 @@
             "line": 58,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L58"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L58"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1647,7 +1647,7 @@
             "line": 458,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L458"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L458"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1724,7 +1724,7 @@
             "line": 106,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L106"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L106"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1785,7 +1785,7 @@
             "line": 536,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L536"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L536"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1846,7 +1846,7 @@
             "line": 35,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L35"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L35"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1923,7 +1923,7 @@
             "line": 655,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L655"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L655"
           },
           "parentId": 1,
           "accessibility": "private",
@@ -2001,7 +2001,7 @@
             "line": 346,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L346"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L346"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2062,7 +2062,7 @@
             "line": 387,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L387"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L387"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2240,7 +2240,7 @@
             "line": 597,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L597"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L597"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2298,7 +2298,7 @@
           "id": 135,
           "name": "partition",
           "source": {
-            "line": 1336,
+            "line": 1393,
             "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -2500,7 +2500,7 @@
             "line": 671,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L671"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L671"
           },
           "parentId": 1,
           "accessibility": "private",
@@ -2539,7 +2539,7 @@
             "line": 580,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L580"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L580"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2620,7 +2620,7 @@
           "id": 142,
           "name": "random",
           "source": {
-            "line": 1340,
+            "line": 1397,
             "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -2697,7 +2697,7 @@
           "id": 145,
           "name": "randomKey",
           "source": {
-            "line": 1341,
+            "line": 1398,
             "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -2761,7 +2761,7 @@
             "line": 607,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L607"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L607"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2893,7 +2893,7 @@
           "id": 125,
           "name": "resolveIdentifier",
           "source": {
-            "line": 1374,
+            "line": 1431,
             "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -2976,7 +2976,7 @@
           "id": 115,
           "name": "run",
           "source": {
-            "line": 1353,
+            "line": 1410,
             "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -3053,7 +3053,7 @@
             "line": 496,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L496"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L496"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3143,7 +3143,7 @@
             "line": 513,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L513"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L513"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3201,7 +3201,7 @@
           "id": 148,
           "name": "size",
           "source": {
-            "line": 1347,
+            "line": 1404,
             "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -3262,7 +3262,7 @@
           "id": 151,
           "name": "some",
           "source": {
-            "line": 1348,
+            "line": 1405,
             "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -3469,7 +3469,7 @@
             "line": 700,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L700"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L700"
           },
           "parentId": 1,
           "accessibility": "private",
@@ -3497,7 +3497,7 @@
           "id": 119,
           "name": "toJSON",
           "source": {
-            "line": 1359,
+            "line": 1416,
             "file": "index.d.mts",
             "path": "node_modules/@joshdb/provider/dist",
             "url": null
@@ -3529,7 +3529,7 @@
               "returnType": {
                 "kind": "reference",
                 "id": null,
-                "name": "JoshMiddleware.JSON",
+                "name": "JoshMiddleware.Json",
                 "packageName": "@joshdb/provider",
                 "typeArguments": []
               }
@@ -3543,7 +3543,7 @@
             "line": 636,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L636"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L636"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3647,7 +3647,7 @@
             "line": 367,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L367"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L367"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3731,7 +3731,7 @@
         "line": 28,
         "file": "CacheMiddleware.ts",
         "path": "packages/cache/src/lib",
-        "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L28"
+        "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L28"
       },
       "namespaceParentId": null,
       "comment": {
@@ -3751,7 +3751,7 @@
             "line": 747,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L747"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L747"
           },
           "namespaceParentId": 162,
           "comment": {
@@ -3773,7 +3773,7 @@
               "id": 177,
               "name": "allowMigrations",
               "source": {
-                "line": 1407,
+                "line": 1464,
                 "file": "index.d.mts",
                 "path": "node_modules/@joshdb/provider/dist",
                 "url": null
@@ -3798,7 +3798,7 @@
                 "line": 759,
                 "file": "CacheMiddleware.ts",
                 "path": "packages/cache/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L759"
+                "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L759"
               },
               "comment": {
                 "description": "When true, fetches all entries from the provider on startup",
@@ -3829,7 +3829,7 @@
                 "line": 765,
                 "file": "CacheMiddleware.ts",
                 "path": "packages/cache/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L765"
+                "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L765"
               },
               "comment": {
                 "description": "When enabled fetches from the cache provider on a set interval",
@@ -3859,7 +3859,7 @@
                 "line": 752,
                 "file": "CacheMiddleware.ts",
                 "path": "packages/cache/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L752"
+                "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L752"
               },
               "comment": {
                 "description": "The JoshProvider to use for cache",
@@ -3905,7 +3905,7 @@
                 "line": 771,
                 "file": "CacheMiddleware.ts",
                 "path": "packages/cache/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L771"
+                "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L771"
               },
               "comment": {
                 "description": "When enabled invalidates entries from the cache provider when they expire",
@@ -3938,7 +3938,7 @@
             "line": 728,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L728"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L728"
           },
           "namespaceParentId": 162,
           "comment": {
@@ -3963,7 +3963,7 @@
                 "line": 739,
                 "file": "CacheMiddleware.ts",
                 "path": "packages/cache/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L739"
+                "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L739"
               },
               "comment": {
                 "description": "The serialized time the document was stored in cache",
@@ -3990,7 +3990,7 @@
                 "line": 733,
                 "file": "CacheMiddleware.ts",
                 "path": "packages/cache/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L733"
+                "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L733"
               },
               "comment": {
                 "description": "The type of value stored in the cache",
@@ -4020,7 +4020,7 @@
                 "line": 744,
                 "file": "CacheMiddleware.ts",
                 "path": "packages/cache/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L744"
+                "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L744"
               },
               "comment": {
                 "description": "The version of @joshdb/cache that made the document",
@@ -4048,7 +4048,7 @@
             "line": 710,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L710"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L710"
           },
           "namespaceParentId": 162,
           "comment": {
@@ -4066,7 +4066,7 @@
                 "line": 716,
                 "file": "CacheMiddleware.ts",
                 "path": "packages/cache/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L716"
+                "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L716"
               },
               "comment": {
                 "description": "At what time interval to fetch all data from the provider",
@@ -4100,7 +4100,7 @@
             "line": 719,
             "file": "CacheMiddleware.ts",
             "path": "packages/cache/src/lib",
-            "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L719"
+            "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L719"
           },
           "namespaceParentId": 162,
           "comment": {
@@ -4118,7 +4118,7 @@
                 "line": 725,
                 "file": "CacheMiddleware.ts",
                 "path": "packages/cache/src/lib",
-                "url": "https://github.com/josh-development/middlewares/blob/1a5114648409eff9bc3508b164c7836a0e11b431/packages/cache/src/lib/CacheMiddleware.ts#L725"
+                "url": "https://github.com/josh-development/middlewares/blob/dda124af4401db2a00de1d501350e8cdfbb31c21/packages/cache/src/lib/CacheMiddleware.ts#L725"
               },
               "comment": {
                 "description": "At what time interval to fetch all data from the provider",
