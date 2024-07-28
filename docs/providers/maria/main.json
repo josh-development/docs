@@ -19,7 +19,7 @@
         "line": 34,
         "file": "MariaProvider.ts",
         "path": "packages/maria/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L34"
+        "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L34"
       },
       "namespaceParentId": null,
       "comment": {
@@ -70,7 +70,7 @@
           "line": 43,
           "file": "MariaProvider.ts",
           "path": "packages/maria/src/lib",
-          "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L43"
+          "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L43"
         },
         "comment": {
           "description": null,
@@ -114,7 +114,7 @@
             "line": 37,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L37"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L37"
           },
           "comment": {
             "description": "Data migrations for this provider.",
@@ -181,7 +181,7 @@
             "line": 35,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L35"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L35"
           },
           "comment": {
             "description": "The options for this provider.",
@@ -215,7 +215,7 @@
             "line": 800,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L800"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L800"
           },
           "comment": {
             "description": "The default connection configuration for this provider.",
@@ -249,7 +249,7 @@
             "line": 66,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L66"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L66"
           },
           "comment": {
             "description": "The semver version of this provider.",
@@ -285,7 +285,7 @@
             "line": 94,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L94"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L94"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -340,7 +340,7 @@
             "line": 100,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L100"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L100"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -404,7 +404,7 @@
             "line": 78,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L78"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L78"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -444,7 +444,7 @@
             "line": 106,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L106"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L106"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -508,7 +508,7 @@
             "line": 129,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L129"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L129"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -572,7 +572,7 @@
             "line": 144,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L144"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L144"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -636,7 +636,7 @@
             "line": 82,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L82"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L82"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -692,7 +692,7 @@
             "line": 152,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L152"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L152"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -774,7 +774,7 @@
             "line": 162,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L162"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L162"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -856,7 +856,7 @@
             "line": 174,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L174"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L174"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1052,7 +1052,7 @@
             "line": 184,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L184"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L184"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1182,7 +1182,7 @@
             "line": 790,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L790"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L790"
           },
           "parentId": 1,
           "accessibility": "protected",
@@ -1226,7 +1226,7 @@
             "line": 236,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L236"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L236"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1374,7 +1374,7 @@
             "line": 282,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L282"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L282"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1522,7 +1522,7 @@
             "line": 338,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L338"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L338"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1618,7 +1618,7 @@
             "line": 356,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L356"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L356"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1700,7 +1700,7 @@
             "line": 86,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L86"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L86"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1756,7 +1756,7 @@
             "line": 364,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L364"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L364"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1820,7 +1820,7 @@
             "line": 370,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L370"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L370"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1884,7 +1884,7 @@
             "line": 70,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L70"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L70"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -1961,7 +1961,7 @@
             "line": 393,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L393"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L393"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2025,7 +2025,7 @@
             "line": 399,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L399"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L399"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2217,7 +2217,7 @@
             "line": 427,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L427"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L427"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2281,7 +2281,7 @@
             "line": 482,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L482"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L482"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2429,7 +2429,7 @@
             "line": 524,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L524"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L524"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2525,7 +2525,7 @@
             "line": 547,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L547"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L547"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2607,7 +2607,7 @@
             "line": 586,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L586"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L586"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2671,7 +2671,7 @@
             "line": 623,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L623"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L623"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2899,7 +2899,7 @@
             "line": 673,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L673"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L673"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -2995,7 +2995,7 @@
             "line": 687,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L687"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L687"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3059,7 +3059,7 @@
             "line": 90,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L90"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L90"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3130,7 +3130,7 @@
             "line": 710,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L710"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L710"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3194,7 +3194,7 @@
             "line": 716,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L716"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L716"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3324,7 +3324,7 @@
             "line": 767,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L767"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L767"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3436,7 +3436,7 @@
             "line": 784,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L784"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L784"
           },
           "parentId": 1,
           "accessibility": "public",
@@ -3520,7 +3520,7 @@
         "line": 5,
         "file": "QueryHandler.ts",
         "path": "packages/maria/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L5"
+        "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L5"
       },
       "namespaceParentId": null,
       "comment": {
@@ -3550,7 +3550,7 @@
           "line": 10,
           "file": "QueryHandler.ts",
           "path": "packages/maria/src/lib",
-          "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L10"
+          "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L10"
         },
         "comment": {
           "description": null,
@@ -3589,7 +3589,7 @@
             "line": 6,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L6"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L6"
           },
           "comment": {
             "description": null,
@@ -3618,7 +3618,7 @@
             "line": 14,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L14"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L14"
           },
           "comment": {
             "description": null,
@@ -3649,7 +3649,7 @@
             "line": 72,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L72"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L72"
           },
           "parentId": 155,
           "accessibility": "public",
@@ -3689,7 +3689,7 @@
             "line": 32,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L32"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L32"
           },
           "parentId": 155,
           "accessibility": "public",
@@ -3729,7 +3729,7 @@
             "line": 78,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L78"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L78"
           },
           "parentId": 155,
           "accessibility": "public",
@@ -3785,7 +3785,7 @@
             "line": 82,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L82"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L82"
           },
           "parentId": 155,
           "accessibility": "public",
@@ -3844,7 +3844,7 @@
             "line": 38,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L38"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L38"
           },
           "parentId": 155,
           "accessibility": "public",
@@ -3900,7 +3900,7 @@
             "line": 92,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L92"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L92"
           },
           "parentId": 155,
           "accessibility": "public",
@@ -3956,7 +3956,7 @@
             "line": 240,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L240"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L240"
           },
           "parentId": 155,
           "accessibility": "public",
@@ -4000,7 +4000,7 @@
             "line": 123,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L123"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L123"
           },
           "parentId": 155,
           "accessibility": "public",
@@ -4069,7 +4069,7 @@
             "line": 142,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L142"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L142"
           },
           "parentId": 155,
           "accessibility": "public",
@@ -4154,7 +4154,7 @@
             "line": 52,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L52"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L52"
           },
           "parentId": 155,
           "accessibility": "public",
@@ -4210,7 +4210,7 @@
             "line": 101,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L101"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L101"
           },
           "parentId": 155,
           "accessibility": "public",
@@ -4266,7 +4266,7 @@
             "line": 22,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L22"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L22"
           },
           "parentId": 155,
           "accessibility": "public",
@@ -4306,7 +4306,7 @@
             "line": 114,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L114"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L114"
           },
           "parentId": 155,
           "accessibility": "public",
@@ -4349,7 +4349,7 @@
             "line": 169,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L169"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L169"
           },
           "parentId": 155,
           "accessibility": "public",
@@ -4438,7 +4438,7 @@
             "line": 185,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L185"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L185"
           },
           "parentId": 155,
           "accessibility": "public",
@@ -4525,7 +4525,7 @@
             "line": 58,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L58"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L58"
           },
           "parentId": 155,
           "accessibility": "public",
@@ -4596,7 +4596,7 @@
             "line": 221,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L221"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L221"
           },
           "parentId": 155,
           "accessibility": "public",
@@ -4636,7 +4636,7 @@
             "line": 230,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L230"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L230"
           },
           "parentId": 155,
           "accessibility": "public",
@@ -4690,7 +4690,7 @@
         "line": 34,
         "file": "MariaProvider.ts",
         "path": "packages/maria/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L34"
+        "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L34"
       },
       "namespaceParentId": null,
       "comment": {
@@ -4710,7 +4710,7 @@
             "line": 808,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L808"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L808"
           },
           "namespaceParentId": 148,
           "comment": {
@@ -4755,7 +4755,7 @@
                 "line": 813,
                 "file": "MariaProvider.ts",
                 "path": "packages/maria/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L813"
+                "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L813"
               },
               "comment": {
                 "description": "The connection config for the MariaDB connection",
@@ -4795,7 +4795,7 @@
                 "line": 819,
                 "file": "MariaProvider.ts",
                 "path": "packages/maria/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L819"
+                "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L819"
               },
               "comment": {
                 "description": "Whether to disable automatic data serialization with `better-serialize`.",
@@ -4822,7 +4822,7 @@
                 "line": 825,
                 "file": "MariaProvider.ts",
                 "path": "packages/maria/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L825"
+                "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L825"
               },
               "comment": {
                 "description": "The epoch used for `@sapphire/snowflake`.",
@@ -4872,7 +4872,7 @@
             "line": 828,
             "file": "MariaProvider.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/MariaProvider.ts#L828"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/MariaProvider.ts#L828"
           },
           "namespaceParentId": 148,
           "comment": {
@@ -4901,7 +4901,7 @@
         "line": 5,
         "file": "QueryHandler.ts",
         "path": "packages/maria/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L5"
+        "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L5"
       },
       "namespaceParentId": null,
       "comment": {
@@ -4921,7 +4921,7 @@
             "line": 298,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L298"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L298"
           },
           "namespaceParentId": 217,
           "comment": {
@@ -4939,7 +4939,7 @@
                 "line": 305,
                 "file": "QueryHandler.ts",
                 "path": "packages/maria/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L305"
+                "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L305"
               },
               "comment": {
                 "description": null,
@@ -4961,7 +4961,7 @@
                 "line": 299,
                 "file": "QueryHandler.ts",
                 "path": "packages/maria/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L299"
+                "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L299"
               },
               "comment": {
                 "description": null,
@@ -4983,7 +4983,7 @@
                 "line": 303,
                 "file": "QueryHandler.ts",
                 "path": "packages/maria/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L303"
+                "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L303"
               },
               "comment": {
                 "description": null,
@@ -5005,7 +5005,7 @@
                 "line": 301,
                 "file": "QueryHandler.ts",
                 "path": "packages/maria/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L301"
+                "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L301"
               },
               "comment": {
                 "description": null,
@@ -5030,7 +5030,7 @@
             "line": 278,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L278"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L278"
           },
           "namespaceParentId": 217,
           "comment": {
@@ -5048,7 +5048,7 @@
                 "line": 279,
                 "file": "QueryHandler.ts",
                 "path": "packages/maria/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L279"
+                "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L279"
               },
               "comment": {
                 "description": null,
@@ -5083,7 +5083,7 @@
                 "line": 283,
                 "file": "QueryHandler.ts",
                 "path": "packages/maria/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L283"
+                "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L283"
               },
               "comment": {
                 "description": null,
@@ -5105,7 +5105,7 @@
                 "line": 281,
                 "file": "QueryHandler.ts",
                 "path": "packages/maria/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L281"
+                "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L281"
               },
               "comment": {
                 "description": null,
@@ -5127,7 +5127,7 @@
                 "line": 285,
                 "file": "QueryHandler.ts",
                 "path": "packages/maria/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L285"
+                "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L285"
               },
               "comment": {
                 "description": null,
@@ -5152,7 +5152,7 @@
             "line": 294,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L294"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L294"
           },
           "namespaceParentId": 217,
           "comment": {
@@ -5170,7 +5170,7 @@
                 "line": 295,
                 "file": "QueryHandler.ts",
                 "path": "packages/maria/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L295"
+                "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L295"
               },
               "comment": {
                 "description": null,
@@ -5195,7 +5195,7 @@
             "line": 288,
             "file": "QueryHandler.ts",
             "path": "packages/maria/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L288"
+            "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L288"
           },
           "namespaceParentId": 217,
           "comment": {
@@ -5213,7 +5213,7 @@
                 "line": 289,
                 "file": "QueryHandler.ts",
                 "path": "packages/maria/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L289"
+                "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L289"
               },
               "comment": {
                 "description": null,
@@ -5235,7 +5235,7 @@
                 "line": 291,
                 "file": "QueryHandler.ts",
                 "path": "packages/maria/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/8e0b66e4dd836c4a41456788f6d8659163712e50/packages/maria/src/lib/QueryHandler.ts#L291"
+                "url": "https://github.com/josh-development/providers/blob/cafa77fbf3d4c3262f1f22bdf01cf1f25119f6f1/packages/maria/src/lib/QueryHandler.ts#L291"
               },
               "comment": {
                 "description": null,
