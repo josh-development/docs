@@ -190,7 +190,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "docs@workspace:."
   dependencies:
-    typedoc-json-parser: "npm:^10.1.6"
+    typedoc-json-parser: "npm:^10.2.0"
   languageName: unknown
   linkType: soft
 
@@ -429,9 +429,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typedoc-json-parser@npm:^10.1.6":
-  version: 10.1.6
-  resolution: "typedoc-json-parser@npm:10.1.6"
+"typedoc-json-parser@npm:^10.2.0":
+  version: 10.2.0
+  resolution: "typedoc-json-parser@npm:10.2.0"
   dependencies:
     "@favware/colorette-spinner": "npm:^1.0.1"
     "@sapphire/node-utilities": "npm:^1.0.2"
@@ -443,7 +443,7 @@ __metadata:
     typescript: "npm:^5.5.3"
   bin:
     typedoc-json-parser: ./dist/bin/index.js
-  checksum: 10c0/4ddd1f5ca90a75722c29fe1e5f4ee9eb6b2a444d42b6d6d3abda4180cdc42db600717c86a06b1a1ed0f326732e04e8835b8d11f3b3b5a28f33bc72d9dcaa11a3
+  checksum: 10c0/a914f766237efc66953371e0884b74ed94309657c85abae6b872dec2324999bf3bdcdc45b0280e0270324a7c928063de04194199790d9e3c1594cb7b21aefe1a
   languageName: node
   linkType: hard
 
