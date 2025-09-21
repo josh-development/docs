@@ -7,7 +7,7 @@
     "@joshdb/provider": "2.0.0-next.df53d54.0",
     "@sapphire/utilities": "^3.18.2",
     "better-serialize": "^2.0.0",
-    "mongodb": "^6.19.0",
+    "mongodb": "^6.20.0",
     "property-helpers": "^2.0.0"
   },
   "readme": "<div align=\"center\">\n\n![Josh Logo](https://evie.codes/josh-light.png)\n\n# @joshdb/mongo\n\n**A provider for `@joshdb/core`**\n\n[![GitHub](https://img.shields.io/github/license/josh-development/providers)](https://github.com/josh-development/providers/blob/main/LICENSE.md)\n[![codecov](https://codecov.io/gh/josh-development/providers/branch/main/graph/badge.svg?token=JnJcjxqT3k)](https://codecov.io/gh/josh-development/providers)\n[![npm](https://img.shields.io/npm/v/@joshdb/map?color=crimson&logo=npm&style=flat-square)](https://www.npmjs.com/package/@joshdb/mongo)\n\n[![Support Server](https://discord.com/api/guilds/298508738623438848/embed.png?style=banner2)](https://discord.gg/N7ZKH3P)\n\n</div>\n\n## Description\n\nWant to safely store your data in a mongo database? This is the package for you.\n\n## Features\n\n- Written in TypeScript\n- Offers CommonJS and ESM bundles\n- Fully tested\n\n## Installation\n\nYou can use the following command to install this package, or replace `npm install` with your package manager of choice.\n\n```sh\nnpm install @joshdb/mongo\n```\n\n## Provider Options\n\n```typescript\ninterface Options {\n  /**\n   * The name of the mongoose collection to use\n   * @since 2.0.0\n   */\n  collectionName?: string;\n\n  /**\n   * Mongoose connection options\n   * @see https://mongodb.github.io/node-mongodb-native/4.5/interfaces/MongoClientOptions.html\n   * @since 2.0.0\n   */\n  connectOptions?: Mongodb.ConnectOptions;\n\n  /**\n   * Sanitize collection name\n   * @since 2.0.0\n   */\n  enforceCollectionName?: boolean;\n\n  /**\n   * Authentication for the database in string or object\n   * @since 2.0.0\n   */\n  authentication?: Partial<Authentication> | string;\n\n  /**\n   * Disable using ``better-serialize`` for document serialization\n   * This can be faster in some cases, but may cause issues with complex data types\n   * @since 2.0.0\n   */\n  disableSerialization?: boolean;\n}\n\ninterface Authentication {\n  /**\n   * The username for authentication.\n   * @since 2.0.0\n   */\n  user?: string;\n\n  /**\n   * The password for authentication.\n   * @since 2.0.0\n   */\n  password?: string;\n\n  /**\n   * The database name for authentication.\n   * @since 2.0.0\n   */\n  dbName: string;\n\n  /**\n   * The database port for authentication.\n   * @since 2.0.0\n   */\n  port: number;\n\n  /**\n   * The database host for authentication.\n   * @since 2.0.0\n   */\n  host: string;\n}\n```\n",
@@ -20,7 +20,7 @@
         "line": 34,
         "file": "MongoProvider.ts",
         "path": "packages/mongo/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L34"
+        "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L34"
       },
       "namespaceParentId": null,
       "comment": {
@@ -71,7 +71,7 @@
           "line": 65,
           "file": "MongoProvider.ts",
           "path": "packages/mongo/src/lib",
-          "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L65"
+          "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L65"
         },
         "comment": {
           "description": null,
@@ -110,7 +110,7 @@
             "line": 37,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L37"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L37"
           },
           "comment": {
             "description": "Data migrations for this provider.",
@@ -177,7 +177,7 @@
             "line": 35,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L35"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L35"
           },
           "comment": {
             "description": "The options for this provider.",
@@ -211,7 +211,7 @@
             "line": 989,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L989"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L989"
           },
           "comment": {
             "description": null,
@@ -240,7 +240,7 @@
             "line": 69,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L69"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L69"
           },
           "comment": {
             "description": "The semver version of this provider.",
@@ -276,7 +276,7 @@
             "line": 137,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L137"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L137"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -331,7 +331,7 @@
             "line": 143,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L143"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L143"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -395,7 +395,7 @@
             "line": 133,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L133"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L133"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -435,7 +435,7 @@
             "line": 148,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L148"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L148"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -499,7 +499,7 @@
             "line": 171,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L171"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L171"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -563,7 +563,7 @@
             "line": 192,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L192"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L192"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -627,7 +627,7 @@
             "line": 893,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L893"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L893"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -683,7 +683,7 @@
             "line": 200,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L200"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L200"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -765,7 +765,7 @@
             "line": 210,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L210"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L210"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -847,7 +847,7 @@
             "line": 222,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L222"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L222"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1043,7 +1043,7 @@
             "line": 234,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L234"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L234"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1173,7 +1173,7 @@
             "line": 921,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L921"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L921"
           },
           "parentId": 2,
           "accessibility": "protected",
@@ -1217,7 +1217,7 @@
             "line": 288,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L288"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L288"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1365,7 +1365,7 @@
             "line": 336,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L336"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L336"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1513,7 +1513,7 @@
             "line": 395,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L395"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L395"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1602,7 +1602,7 @@
             "line": 416,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L416"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L416"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1684,7 +1684,7 @@
             "line": 897,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L897"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L897"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1763,7 +1763,7 @@
             "line": 429,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L429"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L429"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1827,7 +1827,7 @@
             "line": 444,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L444"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L444"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1891,7 +1891,7 @@
             "line": 106,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L106"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L106"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -1968,7 +1968,7 @@
             "line": 467,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L467"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L467"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2032,7 +2032,7 @@
             "line": 475,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L475"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L475"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2224,7 +2224,7 @@
             "line": 504,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L504"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L504"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2288,7 +2288,7 @@
             "line": 559,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L559"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L559"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2436,7 +2436,7 @@
             "line": 611,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L611"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L611"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2532,7 +2532,7 @@
             "line": 634,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L634"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L634"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2614,7 +2614,7 @@
             "line": 668,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L668"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L668"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2678,7 +2678,7 @@
             "line": 702,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L702"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L702"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -2906,7 +2906,7 @@
             "line": 752,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L752"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L752"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3002,7 +3002,7 @@
             "line": 771,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L771"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L771"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3066,7 +3066,7 @@
             "line": 907,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L907"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L907"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3137,7 +3137,7 @@
             "line": 809,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L809"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L809"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3201,7 +3201,7 @@
             "line": 815,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L815"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L815"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3331,7 +3331,7 @@
             "line": 868,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L868"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L868"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3443,7 +3443,7 @@
             "line": 885,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L885"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L885"
           },
           "parentId": 2,
           "accessibility": "public",
@@ -3532,7 +3532,7 @@
         "line": 34,
         "file": "MongoProvider.ts",
         "path": "packages/mongo/src/lib",
-        "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L34"
+        "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L34"
       },
       "namespaceParentId": null,
       "comment": {
@@ -3550,7 +3550,7 @@
             "line": 1055,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1055"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1055"
           },
           "namespaceParentId": 185,
           "comment": {
@@ -3567,7 +3567,7 @@
                 "line": 1056,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1056"
+                "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1056"
               },
               "comment": {
                 "description": null,
@@ -3584,7 +3584,7 @@
                 "line": 1058,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1058"
+                "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1058"
               },
               "comment": {
                 "description": null,
@@ -3606,7 +3606,7 @@
             "line": 1025,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1025"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1025"
           },
           "namespaceParentId": 185,
           "comment": {
@@ -3624,7 +3624,7 @@
                 "line": 1030,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1030"
+                "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1030"
               },
               "comment": {
                 "description": null,
@@ -3646,7 +3646,7 @@
                 "line": 1034,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1034"
+                "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1034"
               },
               "comment": {
                 "description": null,
@@ -3668,7 +3668,7 @@
                 "line": 1028,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1028"
+                "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1028"
               },
               "comment": {
                 "description": null,
@@ -3690,7 +3690,7 @@
                 "line": 1032,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1032"
+                "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1032"
               },
               "comment": {
                 "description": null,
@@ -3712,7 +3712,7 @@
                 "line": 1026,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1026"
+                "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1026"
               },
               "comment": {
                 "description": null,
@@ -3737,7 +3737,7 @@
             "line": 1037,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1037"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1037"
           },
           "namespaceParentId": 185,
           "comment": {
@@ -3762,7 +3762,7 @@
                 "line": 1038,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1038"
+                "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1038"
               },
               "comment": {
                 "description": null,
@@ -3784,7 +3784,7 @@
                 "line": 1040,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1040"
+                "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1040"
               },
               "comment": {
                 "description": null,
@@ -3826,7 +3826,7 @@
             "line": 1049,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1049"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1049"
           },
           "namespaceParentId": 185,
           "comment": {
@@ -3854,7 +3854,7 @@
                 "line": 1050,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1050"
+                "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1050"
               },
               "comment": {
                 "description": null,
@@ -3898,7 +3898,7 @@
                 "line": 1052,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1052"
+                "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1052"
               },
               "comment": {
                 "description": null,
@@ -3967,7 +3967,7 @@
             "line": 1043,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1043"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1043"
           },
           "namespaceParentId": 185,
           "comment": {
@@ -3985,7 +3985,7 @@
                 "line": 1044,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1044"
+                "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1044"
               },
               "comment": {
                 "description": null,
@@ -4007,7 +4007,7 @@
                 "line": 1046,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1046"
+                "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1046"
               },
               "comment": {
                 "description": null,
@@ -4032,7 +4032,7 @@
             "line": 993,
             "file": "MongoProvider.ts",
             "path": "packages/mongo/src/lib",
-            "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L993"
+            "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L993"
           },
           "namespaceParentId": 185,
           "comment": {
@@ -4077,7 +4077,7 @@
                 "line": 1016,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1016"
+                "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1016"
               },
               "comment": {
                 "description": "The authentication to use.",
@@ -4126,7 +4126,7 @@
                 "line": 998,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L998"
+                "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L998"
               },
               "comment": {
                 "description": "The collection name to use.",
@@ -4153,7 +4153,7 @@
                 "line": 1004,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1004"
+                "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1004"
               },
               "comment": {
                 "description": "The connection options to use.",
@@ -4184,7 +4184,7 @@
                 "line": 1022,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1022"
+                "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1022"
               },
               "comment": {
                 "description": "Whether to disable serialization.",
@@ -4211,7 +4211,7 @@
                 "line": 1010,
                 "file": "MongoProvider.ts",
                 "path": "packages/mongo/src/lib",
-                "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/lib/MongoProvider.ts#L1010"
+                "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/lib/MongoProvider.ts#L1010"
               },
               "comment": {
                 "description": "Whether to enforce the collection name for compatibility with MongoDB.",
@@ -4249,7 +4249,7 @@
         "line": 3,
         "file": "index.ts",
         "path": "packages/mongo/src",
-        "url": "https://github.com/josh-development/providers/blob/c7510e4c00e5e82e5f0bcdad2455677e35203ecb/packages/mongo/src/index.ts#L3"
+        "url": "https://github.com/josh-development/providers/blob/01d225e2bfdda30e931995d52c145371912c61c7/packages/mongo/src/index.ts#L3"
       },
       "namespaceParentId": null,
       "comment": {
